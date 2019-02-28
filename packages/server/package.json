@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@jumpto365/office-graph": "0.0.1",
+    "hapi": "^18.1.0"
+  },
   "author": "",
   "license": "ISC"
 }
