@@ -1,5 +1,5 @@
 {
-  "name": "@jumpto365/server",
+  "name": "@intra365/server",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@jumpto365/office-graph": "0.0.1",
+    "@intra365/office-graph": "0.0.1",
     "hapi": "^18.1.0"
   },
   "author": "",

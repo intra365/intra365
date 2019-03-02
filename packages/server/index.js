@@ -1,2 +1,2 @@
-var graph = require("@jumpto365/office-graph")
+var graph = require("@intra365/office-graph")
 console.log(graph.hello)
