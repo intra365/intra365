@@ -1,0 +1,42 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/site-design-script-actions.schema.json",
+    "actions": [
+      {
+        "verb": "applyTheme",
+        "themeName": "Contoso Explorers"
+      },
+      {
+        "verb": "createSPList",
+        "listName": "Navigation",
+        "templateType": 100,
+        "subactions": [
+          {
+            "verb": "SetDescription",
+            "description": "List of local navigation"
+          },
+          {
+            "verb": "addSPField",
+            "fieldType": "Text",
+            "displayName": "Title",
+            "isRequired": false,
+            "addToDefaultView": true
+          },
+          {
+            "verb": "addSPField",
+            "fieldType": "Text",
+            "displayName": "Link",
+            "isRequired": false,
+            "addToDefaultView": true
+          },
+          
+          {
+            "verb": "addSPField",
+            "fieldType": "Note",
+            "displayName": "Description",
+            "isRequired": false
+          }
+        ]
+      }
+    ],
+    "version": 1
+  }

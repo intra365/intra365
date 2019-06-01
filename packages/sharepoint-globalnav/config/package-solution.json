@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "GlobalToolbar",
+    "id": "158250b5-e0df-4a41-ba9d-8999099a5877",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Global Toolbar",
+        "description": "SharePoint Online Global Toolbar by jumpto365, Inc.",
+        "id": "23514a12-55b3-47e2-9057-8b49651a602f",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pto-365-sharepoint-toolbar.sppkg"
+  }
+}

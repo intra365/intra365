@@ -1,0 +1,42 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('58d02ee5-af80-4f81-b144-1734b77c02c9')/drive/root/$entity",
+  "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_jumpto365_com/_layouts/15/download.aspx?UniqueId=50872b4e-7e4f-4a9c-963c-181a693fa7e6&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NTg0NjA0NTEiLCJleHAiOiIxNTU4NDY0MDUxIiwiZW5kcG9pbnR1cmwiOiJEUVYvell3TmU3TmZHVUg4aWZ2MHR2ZTdOWUI3ajBibWRSNTl6WHpyWElBPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJNRGd3WlRWa1ltSXRZamhsTkMwME9UZG1MV0kxWlRrdFkyVmtaV05oT0dKaU1EZzIiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiU2hhcmVQb2ludCBPbmxpbmUgQ2xpZW50IEV4dGVuc2liaWxpdHkgV2ViIEFwcGxpY2F0aW9uIFByaW5jaXBhbCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJhcHBpZCI6Ijg1ZTdiNzBhLTJkZWQtNDU3OC1iMjI2LTVmZWQ5ZTE4MjhhMSIsInRpZCI6ImRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsInVwbiI6Im5pZWxzQGp1bXB0bzM2NS5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDNiZmZkOWNlYjc2NjVAbGl2ZS5jb20iLCJzY3AiOiJncm91cC5yZWFkIGFsbHNpdGVzLm1hbmFnZSBhbGxwcm9maWxlcy5yZWFkIGFsbHByb2ZpbGVzLnJlYWQiLCJ0dCI6IjIiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.d0h4YnRDQTB0TzZlOSt6Q29uWlRzNVBrcFAxRzZ3WTVvd0Q0ejlSUm9hYz0&ApiVersion=2.0",
+  "createdDateTime": "2018-09-20T11:11:59Z",
+  "eTag": "\"{50872B4E-7E4F-4A9C-963C-181A693FA7E6},709\"",
+  "id": "01QDKNWQ2OFODVAT36TRFJMPAYDJUT7J7G",
+  "lastModifiedDateTime": "2019-02-19T10:34:44Z",
+  "name": "index.docx",
+  "webUrl": "https://365adm-my.sharepoint.com/personal/niels_jumpto365_com/_layouts/15/Doc.aspx?sourcedoc=%7B50872B4E-7E4F-4A9C-963C-181A693FA7E6%7D&file=index.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{50872B4E-7E4F-4A9C-963C-181A693FA7E6},413\"",
+  "size": 1503071,
+  "createdBy": {
+    "user": {
+      "email": "niels@jumpto365.com",
+      "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+      "displayName": "Niels Johansen"
+    }
+  },
+  "lastModifiedBy": {
+    "user": {
+      "email": "niels@jumpto365.com",
+      "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+      "displayName": "Niels Johansen"
+    }
+  },
+  "parentReference": {
+    "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+    "driveType": "business",
+    "id": "01QDKNWQ5LMF5ILSGNSZF3OXFIOQGS6XDZ",
+    "path": "/drive/root:/jumpto365"
+  },
+  "file": {
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "hashes": {
+      "quickXorHash": "ppB9sv0/GpWKzxOpZ96slVa4KlY="
+    }
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2018-09-20T11:11:59Z",
+    "lastModifiedDateTime": "2019-02-19T10:34:44Z"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "@intra365/word-navigation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "core-js": "^2.6.1",
+    "es6-promise": "^4.2.6",
+    "office-ui-fabric-react": "^6.187.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "office-addin-debugging": "^2.1.13",
+    "office-addin-dev-certs": "^1.0.1",
+    "office-toolbox": "^0.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "debug": "office-addin-debugging start manifest.xml",
+    "sideload": "office-toolbox sideload -m manifest.xml -a word",
+    "start:desktop": "office-addin-debugging start manifest.xml desktop",
+    "start:web": "office-addin-debugging start manifest.xml web",
+    "stop": "office-addin-debugging stop manifest.xml",
+    "unload": "office-toolbox remove -m manifest.xml -a word",
+    "validate": "office-toolbox validate -m manifest.xml"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": false,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://365adm.sharepoint.com/sites/Jumpto365Templates/SitePages/Test-Extentention.aspx",
+      "customActions": {
+        "be234521-c9cf-43d6-80aa-3ac3f7452af3": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "toolBar": {
+      "pageUrl": "https://365adm.sharepoint.com/sites/Jumpto365Templates/SitePages/Test-Extentention.aspx",
+      "customActions": {
+        "be234521-c9cf-43d6-80aa-3ac3f7452af3": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
