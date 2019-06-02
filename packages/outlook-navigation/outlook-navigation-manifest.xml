@@ -25,6 +25,8 @@
   <SupportUrl DefaultValue="https://jumpto365.zendesk.com/hc/en-us"/>
   <AppDomains>
     <AppDomain>intra365.com</AppDomain>
+        <AppDomain>jumpto365.com</AppDomain>
+    <AppDomain>blob.jumpto365.com</AppDomain>
   </AppDomains>
   <!--End Basic Settings. -->
 

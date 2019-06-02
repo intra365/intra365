@@ -2,10 +2,10 @@
  * Configuration settings
  * @param url Host url
  */
-export function readSharePointConfig(url: string): any {
+export function readSharePointConfig(url)  {
     return new Promise((resolve, reject) => {
-      var l1: string[] = url.split("//");
-      var l2: string[] = l1[1].split(".");
+      var l1 = url.split("//");
+      var l2 = l1[1].split(".");
 
       var domain = l2[0];
       function getChar(s, p) {
