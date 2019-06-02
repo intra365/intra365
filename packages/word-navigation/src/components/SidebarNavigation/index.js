@@ -22,6 +22,7 @@ export default class SidebarNavigation extends Component {
 
     return (
       <div>     
+        <div onClick={()=>window.Office.context.ui.displayDialogAsync("https://localhost:3001",{height:500,width:800})}>Dialog </div>
         <MegaMenu width={this.state.width}  navigation={this.props.navigation}/>
       </div>
     );
