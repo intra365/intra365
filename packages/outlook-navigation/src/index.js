@@ -21,11 +21,20 @@ const render = officeLoaded => {
     document.getElementById("root")
   );
 };
-var w = window;
-if (w && w.Office) {
-  w.Office.initialize = () => {
+
+
+if (window && window.Office) {
+  window.Office.onReady()
+  .then(function() {
+    var Office =  window.Office ? window.Office : {}
+    var ctx = Office.context
+    if (ctx.diagnostics){
+       console.log("Office ready")
+   // debugger
     render(true);
-  };
+
+  }
+  });
 }
 render(false);
 // If you want your app to work offline and load faster, you can change

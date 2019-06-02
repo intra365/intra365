@@ -1,5 +1,5 @@
 {
-  "name": "@intra365/word-navigation",
+  "name": "@intra365/outlook-navigation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,17 +18,17 @@
     "office-toolbox": "^0.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "debug": "office-addin-debugging start word-navigation-manifest.xml",
-    "sideload": "office-toolbox sideload -m word-navigation-manifest.xml -a word",
-    "start:desktop": "office-addin-debugging start word-navigation-manifest.xml desktop",
-    "start:web": "office-addin-debugging start word-navigation-manifest.xml web",
-    "stop": "office-addin-debugging stop word-navigation-manifest.xml",
-    "unload": "office-toolbox remove -m word-navigation-manifest.xml -a word",
-    "validate": "office-toolbox validate -m word-navigation-manifest.xml"
+    "debug": "office-addin-debugging start outlook-navigation-manifest.xml",
+    "sideload": "office-toolbox sideload -m outlook-navigation-manifest.xml -a outlook",
+    "start:desktop": "office-addin-debugging start outlook-navigation-manifest.xml desktop",
+    "start:web": "office-addin-debugging start outlook-navigation-manifest.xml web",
+    "stop": "office-addin-debugging stop outlook-navigation-manifest.xml",
+    "unload": "office-toolbox remove -m outlook-navigation-manifest.xml -a outlook",
+    "validate": "office-toolbox validate -m outlook-navigation-manifest.xml"
   },
   "eslintConfig": {
     "extends": "react-app"
