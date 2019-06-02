@@ -1,9 +1,29 @@
 import React, { Component } from "react";
-import { renderMegaMenu,MegaMenu } from "@intra365/navigation-components";
-
+import { renderMegaMenu, MegaMenu } from "@intra365/navigation-components";
+import "./toolbar.css";
+import $ from "jquery";
 export default class SidebarNavigation extends Component {
+  state = {};
+  componentDidMount() {
+    window.addEventListener("resize", this.updateDimensions);
+    this.updateDimensions()
+  }
+  componentWillUnmount = () => {
+    window.removeEventListener("resize", this.updateDimensions);
+  };
+  updateDimensions = () => {
+    var win = $(window);
+    var width = win.width();
+
+    this.setState({ width });
+  };
+
   render() {
-      var navigation = this.props.navigation
-    return <div><MegaMenu /></div>;
+
+    return (
+      <div>     
+        <MegaMenu width={this.state.width} />
+      </div>
+    );
   }
 }

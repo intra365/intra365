@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import ping from "@intra365/models";
 import { readSharePointConfig } from "@intra365/config";
 import SidebarNavigation from "../../components/SidebarNavigation";
+import {loadNavigation} from "@intra365/navigation"
 
-var loadNavigation = require("@intra365/navigation").load
 export default class Root extends Component {
   state = {};
   componentDidMount() {
@@ -25,15 +25,32 @@ export default class Root extends Component {
   //  config.navigation
   }
   render() {
-    var tree = this.state && this.state.nav ? this.state.nav.tree : []
+    
 
-  
+    var loaded = this.props.officeLoaded ? "yes":"no"
 
     return (
+      
       <div>
-        Root {ping.hello} office loaded ? {this.props.officeLoaded}
+       <h1 onClick={()=>{
+    var Office =  window.Office ? window.Office : {}
+    
+    var ctx = Office.context
+    if (ctx.auth){
+      ctx.auth.getAccessTokenAsync(function(result) {
+      
+      if (result.status === "succeeded") {
+          var token = result.value;
+          // ...
+      } else {
+          console.log("Error obtaining token", result.error);
+      }
+  })}
+
+
+       }}> Root {ping.hello} office loaded ? {loaded}</h1>
         <SidebarNavigation navigation={this.state.navigation}/>
-        {JSON.stringify(tree)}
+
       </div>
     );
   }

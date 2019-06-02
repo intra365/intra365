@@ -1,6 +1,7 @@
 {
   "name": "@intra365/word-navigation",
   "version": "0.1.0",
+  "homepage": "https://docs.jumpto365.com/addin-word",
   "private": true,
   "dependencies": {
     "@intra365/models": "^1.0.0",
@@ -13,16 +14,21 @@
     "office-ui-fabric-react": "^6.187.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-app-polyfill":"^1.0.1",
+    "react-scripts": "3.0.1",
+    "@uifabric/fluent-theme": "^0.16.10",
+    "jquery":"^3.4.1"
   },
   "devDependencies": {
     "office-addin-debugging": "^2.1.13",
     "office-addin-dev-certs": "^1.0.1",
-    "office-toolbox": "^0.1.1"
+    "office-toolbox": "^0.1.1",
+    "gh-pages":"^2.0.1"
   },
   "scripts": {
     "start": "PORT=3001 react-scripts start",
-    "build": "react-scripts build",
+    "deploy": "gh-pages -b master -d build -r https://github.com/jumpto365/addin-word",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "debug": "office-addin-debugging start word-navigation-manifest.xml",
