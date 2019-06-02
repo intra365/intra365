@@ -1,0 +1,221 @@
+.megamenuLevel0 {
+    border: 0px solid green;
+    
+    display: flex;
+   
+    flex-wrap: wrap;
+   
+}
+.megamenuLevel1 {
+    padding:8px;
+    border: 0px solid red;
+    font-weight: 600;
+    font-size:16px;
+    display: flex;
+    min-width: 300px;
+    max-width: 30px;
+    flex-wrap: wrap;
+    line-height: 20px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    border-right:1px solid #eeeeee;
+}
+.megamenuLevel2 {
+    padding:6px;
+    line-height: 18px;
+    font-size:14px;
+    border: 0px solid yellow;
+    font-weight: 300;
+    min-width: 180px;
+    margin-bottom: 0px;
+    
+}
+.megamenuLevel1 a,
+.megamenuLevel2 a,
+.megamenuLevel3 a {
+    color:black
+}
+
+.megamenuLevel1 a:hover,
+.megamenuLevel2 a:hover,
+.megamenuLevel3 a:hover {
+text-decoration: underline
+}
+.megamenuLevel3 {
+    padding:4px;
+    line-height: 14px;
+    font-size:12px;
+
+    border: 0px solid green;
+    
+    display: flex;
+    min-width: 180px;
+}
+
+.contextOption{
+    min-width: 200px;
+}
+.itemOption{
+    cursor: pointer;
+    margin:4px;
+    padding:4px
+
+}
+
+.itemOption:hover{
+    background-color: #444444;
+    color: #ffffff
+}
+  .rightEditor{
+    
+    border-left:2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+   
+}
+
+.leftEditor{
+   
+
+    border-right:2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    
+}
+
+.centerEditor {
+    background-color: eeeeee;
+    border-bottom: 2px solid #dddddd;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.editorCanvas {
+   
+ 
+}
+.onTop{
+    z-index: 1;
+}
+.ToolbarOuter {
+   xbackground-color: orange
+}
+
+.ToolbarInner {
+    xbackground-color: aqua;
+}
+
+.GridContainer{
+    xbackground-color: orange
+}
+.PipeContainer {
+    xbackground-color: greenyellow
+}
+.ContentContainer {
+    xbackground-color: red
+}
+.ActionContainer {
+    xbackground-color: aqua
+}
+.cell {
+    cursor: pointer;
+    border: 1px solid #e0181800
+}
+.cell:hover {
+    border: 1px solid red
+}
+.cellEditMode {
+    cursor: pointer;
+    border: 1px dashed #bbbbbb
+}
+
+.cellEditMode:hover {
+    border: 1px solid red;
+    background-color: red
+}
+
+.HeaderActionButton{
+   
+}
+
+.HeaderActionButtonIcon :hover{
+   
+    color: #000000;
+
+   
+}
+
+.HeaderActionButtonIcon {
+     margin:4px;
+    height:24px;
+    width:24px;
+    
+
+    color:#888888;
+
+
+    
+}
+
+
+.GridConnector{
+    cursor: pointer;
+}
+
+.GridConnector:hover{
+    background-color: #888888
+}
+
+
+.GridConnectorVertical{
+    border-left: 1px dotted #777777;
+    border-right: 1px dotted #777777
+}
+
+
+.GridConnectorHorisontal{
+    border-top: 1px dotted #777777;
+    border-bottom: 1px dotted #777777
+}
+
+
+.HeaderContainer {
+    border:0px solid grey;
+    width:368px;
+    height:184px;
+}
+
+.HeaderImage {
+    margin-top:20px;
+    width:368px;
+    height:auto;
+   
+}
+.HeaderlogoContainer{
+    display: flex;
+    width:368px;
+}
+.HeaderLogo {
+    align-self:center;
+   
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    height:24px;
+   
+}
+
+.iphoneApp{
+
+}
+
+
+img.blur {
+    -webkit-filter: blur(3px); -moz-filter: blur(3px);
+    -o-filter: blur(3px); -ms-filter: blur(3px); 
+    filter: url(#blur); filter: blur(3px);  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+    -webkit-transition: 2s -webkit-filter linear;
+    -o-transition: 2s -o-filter linear;
+    
+    }
+
+
+  

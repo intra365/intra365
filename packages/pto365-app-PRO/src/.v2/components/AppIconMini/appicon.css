@@ -1,0 +1,12 @@
+/* fits into x320 schema */
+.AppIconMini{
+    width:28px;
+    height:28px;
+    overflow: hidden
+}
+
+.AppIconMiniImage {
+    height:20px;
+    width:auto;
+    margin:4px;
+}

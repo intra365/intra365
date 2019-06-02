@@ -22,7 +22,7 @@ export default class SidebarNavigation extends Component {
 
     return (
       <div>     
-        <MegaMenu width={this.state.width} />
+        <MegaMenu width={this.state.width}  navigation={this.props.navigation}/>
       </div>
     );
   }

@@ -1,0 +1,44 @@
+.toolbody img {
+    max-width: 100%;
+    height: auto;
+  }
+  .errorCenter {
+    font-size: large;
+    text-align: center;
+  }
+  .errorCenterHeader {
+    font-size: xx-large;
+    justify-self: center;
+    margin: 24px;
+    text-align: center;
+  }
+  
+  .errorHeadingBody{
+    min-width: 300px;
+  
+    xbackground-color: red
+  }
+  .errorCenterBody {
+      font-size: large;
+      justify-self: center;
+      margin: 24px;
+      text-align: center;
+    }
+    .errorCenterBodyError {
+      font-size: large;
+      justify-self: center;
+      margin: 24px;
+      text-align: center;
+      color: red
+    }
+    
+  .pageBody{
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto
+  }  
+  .errorCenterText {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto
+    }

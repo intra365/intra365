@@ -1,0 +1,1817 @@
+{
+    "props": {
+        "isMobile": false,
+        "path": "/beta/me",
+        "context": {
+            "user": {
+                "displayableId": "niels@hexatown.com",
+                "name": "Niels Gregers Johansen - jumpto365.com",
+                "identityProvider": "https://login.microsoftonline.com/df96b8c9-51a1-40cf-b8b1-4514be8e9668/v2.0",
+                "userIdentifier": "NThkMDJlZTUtYWY4MC00ZjgxLWIxNDQtMTczNGI3N2MwMmM5.ZGY5NmI4YzktNTFhMS00MGNmLWI4YjEtNDUxNGJlOGU5NjY4",
+                "idToken": {
+                    "aud": "5a473557-a9d3-4378-90f1-e9cd3a38006f",
+                    "iss": "https://login.microsoftonline.com/df96b8c9-51a1-40cf-b8b1-4514be8e9668/v2.0",
+                    "iat": 1538575702,
+                    "nbf": 1538575702,
+                    "exp": 1538579602,
+                    "aio": "AWQAm/8IAAAAtmwJSbRVxXp7UiJoqdfKkFX/K6pFrJqBzQ2383Q4OoGYnr9KxDGeTD6YPrdWqEwH6YrpIwHiL2hPm1B0+gx0pctzNwGF7EjwUUtHq2X+KMaY6GVP0DNmgWG6T4daLvuM",
+                    "name": "Niels Gregers Johansen - jumpto365.com",
+                    "nonce": "8c22ea9c-eb6c-43ea-806c-484696d30486",
+                    "oid": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "preferred_username": "niels@hexatown.com",
+                    "sub": "ow-ky4ext19ARO89TIHeg9bLvjIl6kbvaHPFcUcfu5w",
+                    "tid": "df96b8c9-51a1-40cf-b8b1-4514be8e9668",
+                    "uti": "haRsRSCKJ0uB04uo-MJwAQ",
+                    "ver": "2.0"
+                }
+            },
+            "language": "en",
+            "stage": 99,
+            "destStage": -1,
+            "userName": "Niels Gregers Johansen - jumpto365.com",
+            "userId": "niels@hexatown.com",
+            "tenant": {
+                "title": "global",
+                "properties": {}
+            },
+            "isAuthenticated": true,
+            "translations": [{
+                    "id": "0",
+                    "en": "Key",
+                    "de": "Symbole",
+                    "da": "Symbol",
+                    "es": "Key",
+                    "fr": "Légende",
+                    "ja": "凡例",
+                    "secen": "Key",
+                    "nl": "Symbool",
+                    "no": "Nøkkel",
+                    "goven": "Key",
+                    "hu": "Jelölések",
+                    "pt": "Legenda",
+                    "is": "Skýring",
+                    "he": "מפתח",
+                    "sv": "Symbol",
+                    "cs": "Legenda"
+                },
+                {
+                    "id": "1",
+                    "en": "External access is supported",
+                    "de": "Externer Zugriff möglich",
+                    "da": "Ekstern deling er supporteret",
+                    "es": "External access is supported",
+                    "fr": "Accès externe autorisé ",
+                    "ja": "外部アクセスが可能です",
+                    "secen": "External access is supported",
+                    "nl": "Externe toegang is mogelijk",
+                    "no": "Ekstern tilgang er støttet",
+                    "goven": "External access is supported",
+                    "hu": "Külső elérés támogatott",
+                    "pt": "Acesso externo é suportado",
+                    "is": "Hægt að deila utan fyrirtækis",
+                    "he": "גישה חיצונית נתמכת",
+                    "fi": "Tukee ulkoista jakamista",
+                    "sv": "Stöd för extern åtkomst",
+                    "cs": "Externí přístup je povolen"
+                },
+                {
+                    "id": "2",
+                    "en": "External access is limited",
+                    "de": "Externer Zugriff beschränkt",
+                    "da": "Ekstern deling er delvis supporteret",
+                    "es": "External access is limited",
+                    "fr": "Accès externe limité",
+                    "ja": "外部アクセスが一部可能です",
+                    "secen": "External access is limited",
+                    "nl": "Externe toegang is beperkt",
+                    "no": "Ekstern tilgang er begrenset",
+                    "goven": "External access is limited",
+                    "hu": "Külső elérés korlátozott",
+                    "pt": "Acesso externo é limitado",
+                    "is": "Deilimöguleikar takmarkaðir",
+                    "he": "הגישה החיצונית מוגבלת",
+                    "fi": "Rajoitettu ulkoinen jakaminen",
+                    "sv": "Extern åtkomst begränsad",
+                    "cs": "Externí přístup je omezen"
+                },
+                {
+                    "id": "3",
+                    "en": "Premium license fee required",
+                    "de": "Premium-Lizenz erforderlich ",
+                    "da": "Premium licens krævet",
+                    "es": "Premium license fee required",
+                    "fr": "Licence premium requise",
+                    "ja": "別途個別のライセンスが必要です",
+                    "secen": "Premium license fee required",
+                    "nl": "Premium licentie nodig",
+                    "no": "Premium lisens påkrevet",
+                    "goven": "Premium license fee required",
+                    "hu": "Prémium licenc szükséges",
+                    "pt": "Requer Licença Premium com custo",
+                    "is": "Sér leyfisgjöld",
+                    "he": "דמי רשיון פרמיום  נדרשים",
+                    "fi": "Vaatii Premium-lisenssin",
+                    "sv": "Kräver Premium licens",
+                    "cs": "Nutno zakoupit verzi Premium"
+                },
+                {
+                    "id": "4",
+                    "en": "Similar consumer products provided for context",
+                    "de": "Beispiel für vergleichbares Consumer-Produkt ",
+                    "da": "Sammenlignligt produkt, for at forstå kontekst ",
+                    "es": "Similar consumer products provided for context",
+                    "fr": "Produits similaires cités pour clarifier le contexte",
+                    "ja": "例としての同類の製品名",
+                    "secen": "Similar consumer products provided for context",
+                    "nl": "Vergelijkbare consumenten producten beschikbaar voor context",
+                    "no": "Tilsvarende konsumentprodukter listet for sammenheng",
+                    "goven": "Similar consumer products provided for context",
+                    "hu": "Hasonló végfelhasználói termék vagy megoldás",
+                    "pt": "Produtos de consumo para contexto",
+                    "is": "Sambærileg verkfæri",
+                    "he": "מוצרי צרכן דומים למען ההקשר",
+                    "fi": "Vastaava kuluttajapalvelu mainittu esimerkkinä",
+                    "cs": "Podobné spotřební produkty poskytnuté pro srovnání"
+                },
+                {
+                    "id": "5",
+                    "en": "Language",
+                    "de": "Sprachen ",
+                    "da": "Sprog",
+                    "es": "Languages ",
+                    "fr": "Langues",
+                    "ja": "言語",
+                    "secen": "Languages ",
+                    "nl": "Taal",
+                    "no": "Språk",
+                    "goven": "Languages ",
+                    "hu": "Nyelvek",
+                    "pt": "Línguas",
+                    "is": "Tungumál",
+                    "he": "שפות",
+                    "fi": "Kielet",
+                    "sv": "Språk",
+                    "cs": "Jazyky"
+                },
+                {
+                    "id": "6",
+                    "en": "Credits ",
+                    "de": "Mitwirkende ",
+                    "da": "Bidragsydere",
+                    "es": "Credits ",
+                    "fr": "Remerciements",
+                    "ja": "協力者",
+                    "secen": "Credits ",
+                    "nl": "Mogelijk gemaakt",
+                    "no": "Bidragsytere",
+                    "goven": "Credits ",
+                    "hu": "Készítették",
+                    "pt": "Créditos",
+                    "is": "Höfundar",
+                    "he": "Credits ",
+                    "sv": "Credits ",
+                    "cs": "Kredity"
+                },
+                {
+                    "id": "7",
+                    "en": "Original Design",
+                    "de": "Ursprüngliche Entwicklung ",
+                    "da": "Originalt design",
+                    "es": "Original Design",
+                    "fr": "Conception originale",
+                    "ja": "オリジナルデザイン",
+                    "secen": "Original Design",
+                    "nl": "Orgineel design",
+                    "no": "Original design",
+                    "goven": "Original Design",
+                    "hu": "Eredeti tervek",
+                    "pt": "Design Original",
+                    "is": "Höfundur",
+                    "he": "עיצוב מקורי",
+                    "fi": "Alkuperäinen",
+                    "sv": "Original Design",
+                    "cs": "Návrh "
+                },
+                {
+                    "id": "8",
+                    "en": "Web Development",
+                    "de": "Web-Entwicklung ",
+                    "da": "Web Development",
+                    "es": "Web Development",
+                    "fr": "Développement Web",
+                    "ja": "ウェブデザイン",
+                    "secen": "Web Development",
+                    "nl": "Web ontwikkeling",
+                    "no": "Webutvikling",
+                    "goven": "Web Development",
+                    "hu": "Webfejlesztés",
+                    "pt": "Desenvolvimento Web",
+                    "is": "Vefhönnun",
+                    "he": "פיתוח Web",
+                    "fi": "Tekninen toteutus",
+                    "sv": "Web Development",
+                    "cs": "Tvorba stránek "
+                },
+                {
+                    "id": "9",
+                    "en": "German",
+                    "de": "Deutsch ",
+                    "da": "Tysk oversættelse",
+                    "es": "German Translation",
+                    "fr": "Traduction Allemande",
+                    "ja": "ドイツ語訳",
+                    "secen": "German Translation",
+                    "nl": "Duitse vertaling",
+                    "no": "Tysk oversettelse",
+                    "goven": "German Translation",
+                    "pt": "Tradução Alemã",
+                    "is": "Þýska",
+                    "he": "גרמנית",
+                    "sv": "Tyska",
+                    "cs": "Němčina"
+                },
+                {
+                    "id": "10",
+                    "en": "Spanish",
+                    "de": "Spanisch ",
+                    "da": "Spansk oversættelse",
+                    "es": "Español",
+                    "fr": "Traduction Espagnole",
+                    "ja": "スペイン語訳",
+                    "secen": "Spanish Translation",
+                    "nl": "Spaanse vertaling",
+                    "no": "Spansk oversettelse",
+                    "goven": "Spanish Translation",
+                    "pt": "Tradução Espanhol",
+                    "is": "Spænska",
+                    "he": "ספרדית",
+                    "sv": "Spanska",
+                    "cs": "Španělština"
+                },
+                {
+                    "id": "11",
+                    "en": "Japanese",
+                    "de": "Japanisch  ",
+                    "da": "Japansk oversættelse",
+                    "es": "Japanese Translation",
+                    "fr": "Traduction Japonaise",
+                    "ja": "日本語",
+                    "secen": "Japanese Translation",
+                    "nl": "Japanse vertaling",
+                    "no": "Japansk oversettelse",
+                    "goven": "Japanese Translation",
+                    "pt": "Tradução Japones",
+                    "is": "Japanska",
+                    "he": "יפנית",
+                    "sv": "Japanska",
+                    "cs": "Japonština"
+                },
+                {
+                    "id": "12",
+                    "en": "French",
+                    "de": "Französisch ",
+                    "da": "Fransk oversættelse",
+                    "es": "French Translation",
+                    "fr": "Traduction Française",
+                    "ja": "日本語訳",
+                    "secen": "French Translation",
+                    "nl": "Franse vertaling",
+                    "no": "Fransk oversettelse",
+                    "goven": "French Translation",
+                    "pt": "Tradução Francês",
+                    "is": "Franska",
+                    "he": "צרפתית",
+                    "sv": "Franska",
+                    "cs": "Francouzština"
+                },
+                {
+                    "id": "13",
+                    "en": "Danish",
+                    "de": "Dänisch  ",
+                    "da": "Dansk",
+                    "es": "Danish Translation",
+                    "fr": "Traduction Danoise",
+                    "ja": "フランス語訳",
+                    "secen": "Danish Translation",
+                    "nl": "Deense vertaling",
+                    "no": "Dansk oversettelse",
+                    "goven": "Danish Translation",
+                    "pt": "Tradução Dinamarquês",
+                    "is": "Danska",
+                    "he": "דנית",
+                    "sv": "Danska",
+                    "cs": "Dánština"
+                },
+                {
+                    "id": "14",
+                    "en": "Embed",
+                    "de": "Einbetten ",
+                    "da": "Indlejring",
+                    "es": "Embed",
+                    "fr": "Incorporer",
+                    "ja": "埋め込みコード",
+                    "secen": "Embed",
+                    "nl": "Invoegen",
+                    "no": "Innbygging",
+                    "goven": "Embed",
+                    "hu": "Beágyazás",
+                    "pt": "Incorporar",
+                    "is": "Innfellingarkóði",
+                    "he": "הטמע",
+                    "fi": "Upota",
+                    "sv": "Bädda in",
+                    "cs": "Vložit"
+                },
+                {
+                    "id": "15",
+                    "en": "Dutch",
+                    "de": "Niederländisch ",
+                    "da": "Hollandsk oversættelse",
+                    "es": "Dutch Translation",
+                    "fr": "Traduction Néerlandaise",
+                    "ja": "オランダの語訳",
+                    "secen": "Dutch Translation",
+                    "nl": "Nederlandse",
+                    "no": "Hollandsk oversettelse",
+                    "goven": "Dutch Translation",
+                    "pt": "Tradução Alemã",
+                    "is": "Hollenska",
+                    "he": "תרגום הולנדי",
+                    "sv": "Holländska",
+                    "cs": "Holandština"
+                },
+                {
+                    "id": "16",
+                    "en": "Norwegian",
+                    "de": "Norwegische  ",
+                    "da": "Norsk oversættelse",
+                    "es": "Traducción noruega",
+                    "fr": "Traduction Norvégienne",
+                    "ja": "ノルウェー語翻訳",
+                    "secen": "Norwegian Translation",
+                    "nl": "Noorse vertaling",
+                    "no": "Norsk",
+                    "goven": "Norwegian Translation",
+                    "pt": "Tradução Norueguês",
+                    "is": "Norska",
+                    "he": "תרגום נורבגי",
+                    "sv": "Norska",
+                    "cs": "Norština"
+                },
+                {
+                    "id": "17",
+                    "en": "Hungarian",
+                    "de": "Ungarisch ",
+                    "da": "Hungarian Translation",
+                    "es": "Hungarian Translation",
+                    "fr": "Traduction Hongroise",
+                    "ja": "Hungarian Translation",
+                    "secen": "Hungarian Translation",
+                    "nl": "Hungarian Translation",
+                    "no": "Hungarian Translation",
+                    "goven": "Hungarian Translation",
+                    "hu": "Magyar",
+                    "pt": "Tradução Hungaro",
+                    "is": "Ungverska",
+                    "he": "הונגרית",
+                    "sv": "Ungerska",
+                    "cs": "Maďarština"
+                },
+                {
+                    "id": "18",
+                    "en": "Version",
+                    "de": "Version ",
+                    "da": "Version",
+                    "es": "Versión",
+                    "fr": "Version",
+                    "ja": "バージョン",
+                    "secen": "Version",
+                    "nl": "Versie",
+                    "no": "Versjon",
+                    "goven": "Version",
+                    "hu": "Verzió ",
+                    "pt": "Versão",
+                    "is": "Útgáfa",
+                    "he": "גרסה",
+                    "fi": "Versio",
+                    "sv": "Version",
+                    "cs": "Verze"
+                },
+                {
+                    "id": "19",
+                    "en": "About",
+                    "de": "Über ",
+                    "da": "Om",
+                    "es": "Sobre",
+                    "fr": "A propos de",
+                    "ja": "約",
+                    "secen": "about",
+                    "nl": "Over",
+                    "no": "Om",
+                    "goven": "Preview",
+                    "hu": "Névjegy",
+                    "pt": "Sobre esta Visualização",
+                    "is": "Um síðuna",
+                    "he": "אודות",
+                    "fi": "Tietoja",
+                    "sv": "Om",
+                    "cs": "O službě"
+                },
+                {
+                    "id": "20",
+                    "en": "Portuguese",
+                    "de": "Portugiesisch  ",
+                    "da": "Portuguese Translation",
+                    "es": "Portuguese Translation",
+                    "fr": "Traduction Portugaise",
+                    "ja": "Portuguese Translation",
+                    "secen": "Portuguese Translation",
+                    "nl": "Portuguese Translation",
+                    "no": "Portuguese Translation",
+                    "goven": "Portuguese Translation",
+                    "hu": "Portuguese Translation",
+                    "pt": "Português",
+                    "is": "Portúgalska",
+                    "he": "פורטוגזית",
+                    "sv": "Portugisiska",
+                    "cs": "Portugalština"
+                },
+                {
+                    "id": "21",
+                    "en": "Icelandic",
+                    "de": "Isländisch ",
+                    "da": "Icelandic Translation",
+                    "es": "Icelandic Translation",
+                    "fr": "Traduction Islandaise",
+                    "ja": "Icelandic Translation",
+                    "secen": "Icelandic Translation",
+                    "nl": "Icelandic Translation",
+                    "no": "Icelandic Translation",
+                    "goven": "Icelandic Translation",
+                    "hu": "Icelandic Translation",
+                    "pt": "Tradução Islândia",
+                    "is": "Íslensk",
+                    "he": "איסלנדית",
+                    "sv": "Isländska",
+                    "cs": "Isladština"
+                },
+                {
+                    "id": "22",
+                    "en": "Hebrew",
+                    "de": "Hebräisch  ",
+                    "da": "Hebrew Translation",
+                    "es": "Hebrew Translation",
+                    "fr": "Traduction Hébraïque",
+                    "ja": "Hebrew Translation",
+                    "secen": "Hebrew Translation",
+                    "nl": "Hebrew Translation",
+                    "no": "Hebrew Translation",
+                    "goven": "Hebrew Translation",
+                    "hu": "Hebrew Translation",
+                    "pt": "Tradução Hebreu",
+                    "is": "Hebreska",
+                    "he": "עִברִית",
+                    "sv": "Hebreiska",
+                    "cs": "Hebrejština"
+                },
+                {
+                    "id": "23",
+                    "hu": "Baranyi Dániel"
+                },
+                {
+                    "id": "24",
+                    "en": "Periodic Table of Office 365",
+                    "de": "Periodensystem von Office 365",
+                    "da": "Periodiske system af Office 365",
+                    "es": "Tabla Periódica de Office 365",
+                    "fr": "Table Périodique d´Office 365",
+                    "ja": "オフィス365の定期表",
+                    "secen": "the PERIODIC TABLE of Office 365",
+                    "nl": "Periodieke Tabel van Office 365",
+                    "no": "Periodiske System av Office 365",
+                    "goven": "the PERIODIC TABLE of Office 365",
+                    "hu": "Office 365 Periódusos Rendszere",
+                    "pt": "Tabela Periódica do Office 365",
+                    "is": "Lotukerfi Office 365",
+                    "he": "טבלה משרדית 365",
+                    "fi": "Office 365 Jaksollinen järjestelmä",
+                    "sv": "Periodiska Systemet för O365",
+                    "cs": "Tabulka prvků Office 365"
+                },
+                {
+                    "id": "25",
+                    "en": "Login",
+                    "de": "Anmeldung",
+                    "da": "Login",
+                    "es": "Iniciar sesión",
+                    "fr": "Se connecter",
+                    "ja": "ログイン",
+                    "secen": "Login",
+                    "nl": "Log in",
+                    "no": "Logg Inn",
+                    "goven": "Login",
+                    "hu": "Belépés",
+                    "pt": "O login",
+                    "is": "Skrá inn",
+                    "he": "התחברות",
+                    "fi": "Kirjaudu sisään",
+                    "sv": "Logga in",
+                    "cs": "Přihlášení"
+                },
+                {
+                    "id": "26",
+                    "en": "English",
+                    "fr": "Anglais",
+                    "is": "Enska",
+                    "he": "אנגלית",
+                    "sv": "Engelska",
+                    "cs": "Angličtina"
+                },
+                {
+                    "id": "27",
+                    "en": "By license",
+                    "de": "Nach Lizenz",
+                    "da": "Per licens",
+                    "es": "Por licencia",
+                    "fr": "Par licence",
+                    "ja": "ライセンスで",
+                    "nl": "Op licentie",
+                    "no": "Etter lisens",
+                    "hu": "Licencek szerint",
+                    "pt": "Por licença",
+                    "is": "Með leyfi",
+                    "he": "לפי רישיון",
+                    "fi": "Lisenssit",
+                    "sv": "Genom licens",
+                    "cs": "Na základě licence"
+                },
+                {
+                    "id": "28"
+                },
+                {
+                    "id": "29",
+                    "en": "Finnish",
+                    "de": "Finnisch ",
+                    "fr": "Traduction Finoise",
+                    "nl": "Fins",
+                    "no": "Finsk",
+                    "hu": "Finn",
+                    "is": "Finnska",
+                    "he": "פינית",
+                    "fi": "Suomi",
+                    "sv": "Finska",
+                    "cs": "Finština"
+                },
+                {
+                    "id": "30",
+                    "en": "Swedish",
+                    "de": "Schwedisch ",
+                    "fr": "Traduction Suédoise",
+                    "nl": "Zweeds",
+                    "no": "Svensk",
+                    "hu": "Svéd",
+                    "is": "Sænska",
+                    "he": "שבדית",
+                    "sv": "Svenska",
+                    "cs": "Švédština"
+                },
+                {
+                    "en": "Arabic",
+                    "fr": "Traduction Arabe",
+                    "nl": "Arabisch",
+                    "no": "Arabisk",
+                    "hu": "Arab",
+                    "is": "Arabíska",
+                    "he": "ערבית",
+                    "sv": "Arabiska",
+                    "cs": "Arabština"
+                },
+                {
+                    "id": "31",
+                    "en": "Czech",
+                    "de": "Tschechisch ",
+                    "fr": "Traduction Tchèque",
+                    "nl": "Tsjechisch",
+                    "no": "Tsjekkisk",
+                    "hu": "Cseh",
+                    "is": "Tékkneska",
+                    "he": "צ 'כית",
+                    "sv": "Tjeckiska",
+                    "cs": "Čeština"
+                },
+                {
+                    "id": "32",
+                    "en": "Preview",
+                    "de": "Vorschau ",
+                    "da": "Preview",
+                    "es": "Vista Previa",
+                    "fr": "Préliminaire",
+                    "ja": "プレビュー版",
+                    "nl": "Preview",
+                    "no": "Forhåndsvisning",
+                    "hu": "Előzetes",
+                    "pt": "Pre-Visualização",
+                    "is": "Preview",
+                    "he": "תצוגה מקדימה",
+                    "fi": "Esikatselu",
+                    "sv": "Förhandsvisning",
+                    "cs": "Náhled"
+                },
+                {
+                    "id": "33",
+                    "en": "Which tool when?",
+                    "de": "Welches Werkzeug wann ",
+                    "da": "Find rette værktøj ",
+                    "fr": "Quel outil lorsque ?",
+                    "nl": "Welke tool wanneer?",
+                    "no": "Hvilket verktøy når?",
+                    "hu": "Mikor melyiket?",
+                    "pt": "Que ferramenta quando ?",
+                    "is": "Rétt verkfæri við rétta tilefnið",
+                    "he": "איזה כלי ומתי?",
+                    "fi": "Mikä työkalu milloin?",
+                    "sv": "Vilket verktyg vid vilket tillfälle?",
+                    "cs": "Kdy který nástroj?"
+                },
+                {
+                    "id": "34",
+                    "en": "Explore",
+                    "de": "erkunden ",
+                    "da": "Undersøg ",
+                    "fr": "Explorer",
+                    "nl": "Zoeken",
+                    "no": "Utforsk",
+                    "hu": "Felfedezés",
+                    "pt": "Explorar",
+                    "is": "Skoða",
+                    "he": "לבחון",
+                    "fi": "Tutustu",
+                    "sv": "Utforska",
+                    "cs": "Objevit"
+                },
+                {
+                    "id": "35",
+                    "en": "Share",
+                    "de": "Teilen ",
+                    "da": "Deling",
+                    "fr": "Partager",
+                    "nl": "Delen",
+                    "no": "Del",
+                    "hu": "Megosztás",
+                    "pt": "Partilhar",
+                    "is": "Deila",
+                    "he": "לשתף",
+                    "fi": "Jaa",
+                    "sv": "Dela",
+                    "cs": "Sdílet"
+                },
+                {
+                    "id": "36",
+                    "en": "Logout",
+                    "de": "Ausloggen ",
+                    "da": "Logaf",
+                    "fr": "Se déconnecter",
+                    "nl": "Uitloggen",
+                    "no": "Logg av",
+                    "hu": "Kilépés",
+                    "pt": "Sair",
+                    "is": "Skrá út",
+                    "he": "להתנתק",
+                    "fi": "Kirjaudu ulos",
+                    "sv": "Logg ut",
+                    "cs": "Odhlásit"
+                },
+                {
+                    "id": "37",
+                    "en": "Profile",
+                    "de": "Profil ",
+                    "da": "Profil",
+                    "fr": "Profil",
+                    "nl": "Profiel",
+                    "no": "Profil",
+                    "hu": "Profil",
+                    "pt": "Perfil",
+                    "is": "Upplýsingar",
+                    "he": "פרופיל",
+                    "fi": "Profiilisi",
+                    "sv": "Profil",
+                    "cs": "Profil"
+                },
+                {
+                    "id": "38",
+                    "en": "Your profile",
+                    "de": "Dein Profil ",
+                    "da": "Din profil",
+                    "fr": "Votre profil",
+                    "nl": "jouw profiel",
+                    "no": "Din profil",
+                    "hu": "Profilod",
+                    "pt": "Seu perfil",
+                    "is": "Þínar upplýsingar",
+                    "he": "פרופיל שלך",
+                    "fi": "Profiilisi",
+                    "sv": "Din profil",
+                    "cs": "Váš profil"
+                },
+                {
+                    "id": "39",
+                    "en": "Select file",
+                    "de": "Datei aussuchen ",
+                    "da": "Vælg fil",
+                    "fr": "Sélectionner fichier",
+                    "nl": "selecteer bestand",
+                    "no": "Velg fil",
+                    "hu": "Válassz egy fájlt",
+                    "pt": "Selecionar ficheiro",
+                    "is": "Skrá",
+                    "he": "בחר קובץ",
+                    "fi": "Valitse tiedosto",
+                    "sv": "Välj fil",
+                    "cs": "Vybrat soubor"
+                },
+                {
+                    "id": "40",
+                    "en": "No data",
+                    "de": "Keine Daten ",
+                    "da": "Ingen data",
+                    "fr": "Pas de données",
+                    "nl": "Geen data",
+                    "no": "Ingen data",
+                    "hu": "Nincs adat",
+                    "pt": "Sem dados",
+                    "is": "Engin gögn",
+                    "he": "אין מידע",
+                    "fi": "Ei tietoja",
+                    "sv": "Ingen data",
+                    "cs": "Žádná data"
+                },
+                {
+                    "id": "41",
+                    "en": "Cannot preview that",
+                    "de": "Vorschau kann nicht angezeigt werden ",
+                    "da": "Kan ikke vises",
+                    "fr": "Impossible de pré-visualiser cela",
+                    "nl": "Geen voorbeeld van dit",
+                    "no": "Kan ikke forhåndsvise",
+                    "hu": "Nincs előzetes nézet",
+                    "pt": "Não é possível pré visualizar",
+                    "is": "Ekki hægt að sýna",
+                    "he": "לא ניתן להציג זאת",
+                    "fi": "Esikatselu ei mahdollinen",
+                    "sv": "Ingen förhandsvisning tillgänglig",
+                    "cs": "Nelze zobrazit"
+                },
+                {
+                    "id": "42",
+                    "en": "Upload",
+                    "de": "Hochladen ",
+                    "da": "Upload",
+                    "fr": "Charger",
+                    "nl": "Upload",
+                    "no": "Last opp",
+                    "hu": "Feltöltés",
+                    "pt": "Carregar",
+                    "is": "Hlaða upp",
+                    "he": "העלה",
+                    "fi": "Lataa",
+                    "sv": "Ladda upp",
+                    "cs": "Nahrát"
+                },
+                {
+                    "id": "43",
+                    "en": "Format not support",
+                    "de": "Format nicht unterstützt ",
+                    "da": "Formattet er ikke understøttet",
+                    "fr": "Format non supporté",
+                    "nl": "Formaat niet gesupport",
+                    "no": "Format ikke støttet",
+                    "hu": "Nem támogatott formátum",
+                    "pt": "Formato não suportado",
+                    "is": "Snið ekki stutt",
+                    "he": "הפורמט אינו נתמך",
+                    "fi": "Tiedostomuoto ei tuettu",
+                    "sv": "Formatet inte supporterat",
+                    "cs": "Formát není podporován"
+                },
+                {
+                    "id": "44",
+                    "en": "The file you try to upload appears to be a ",
+                    "de": "Die Datei, die sie hochladen möchten, scheint eine  ",
+                    "da": "Den fil som du uploader ser ud til at være en ",
+                    "fr": "Le fichier que vous essayez de charger semble être un",
+                    "nl": "Het bestand wat je probeert te uploaden lijkt op een",
+                    "no": "Filen du forsøker å laste opp ser ut for å være",
+                    "hu": "A feltölteni próbált fájl",
+                    "pt": "O ficheiro que está a tentar carregar aparenta ser",
+                    "is": "Skrá sem þú reynir að hlaða upp virðist",
+                    "he": "הקובץ שאתה מנסה להעלות נראה כ",
+                    "fi": "Tiedosto, jota yrität ladata näyttää olevan",
+                    "sv": "Filen du försöker ladda upp verkar vara en",
+                    "cs": "Soubor, který se pokoušíte nahrát, je"
+                },
+                {
+                    "id": "45",
+                    "en": " - We currently only supports Excel files",
+                    "de": "- Wir unterstützen derzeit nur Excel-Dateien ",
+                    "da": "- Vi understøtter p.t. kun Excel filer",
+                    "fr": "- Nous supportons actuellement uniquement les fichiers Excel",
+                    "nl": "Op dit moment ondersteunen we alleen Excel bestanden",
+                    "no": "- Vi støtter for tiden kun Excel filer",
+                    "hu": " - Jelenleg csak Excel fájlokat támogatunk",
+                    "pt": "- Neste momento só são suportados ficheiros de Excel",
+                    "is": " Í augnablikinu styðjum við aðeins Excel skrár",
+                    "he": "Excel - כרגע אנחנו רק תומים בקבצי ",
+                    "fi": "- Tällä hetkellä tuemme vain Excel-tiedostoja",
+                    "cs": "Momentálně podporujeme pouze Excelové soubory"
+                },
+                {
+                    "id": "46",
+                    "en": "Select location in file",
+                    "de": "Wählen sie den Speicherort in der Datei aus ",
+                    "da": "Vælg sted i filen",
+                    "fr": "Choisissez l'emplacement dans le fichier",
+                    "nl": "Selecteer de locatie van het bestand",
+                    "no": "Velg sted i filen",
+                    "hu": "Válaszd ki a helyet a fájlban",
+                    "pt": "Selecionar localização no ficheiro",
+                    "is": "Velja staðsetingu í skjali",
+                    "he": "בחר מיקום בקובץ",
+                    "fi": "Valitse sijainti tiedostossa",
+                    "sv": "Välj plats i filen",
+                    "cs": "Vyberte umístění v souboru"
+                },
+                {
+                    "id": "47",
+                    "en": "Search",
+                    "de": "Suche  ",
+                    "da": "Søg",
+                    "fr": "Rechercher",
+                    "nl": "Zoeken",
+                    "no": "Søk",
+                    "hu": "Keresés",
+                    "pt": "Procurar",
+                    "is": "Leita",
+                    "he": "חפש",
+                    "fi": "Haku",
+                    "sv": "Sök",
+                    "cs": "Hledat"
+                },
+                {
+                    "id": "48",
+                    "en": "Filter",
+                    "de": "Filter ",
+                    "da": "Filtrer",
+                    "fr": "Filtrer",
+                    "nl": "Filteren",
+                    "no": "Filter",
+                    "hu": "Szűrés",
+                    "pt": "Filtro",
+                    "is": "Sía",
+                    "he": "מסנן",
+                    "fi": "Suodatin",
+                    "sv": "Filter",
+                    "cs": "Filtr"
+                },
+                {
+                    "id": "49",
+                    "en": "Area",
+                    "de": "Bereich ",
+                    "da": "Område",
+                    "fr": "Zone",
+                    "nl": "Gebied",
+                    "no": "Område",
+                    "hu": "Terület",
+                    "pt": "Área",
+                    "is": "Svæði",
+                    "he": "איזור",
+                    "fi": "Alue",
+                    "sv": "Område",
+                    "cs": "Oblast"
+                },
+                {
+                    "id": "50",
+                    "en": "Areas",
+                    "de": "Bereiche ",
+                    "da": "Områder",
+                    "fr": "Zones",
+                    "nl": "Gebieden",
+                    "no": "Områder",
+                    "hu": "Területek",
+                    "pt": "Áreas",
+                    "is": "Svæði",
+                    "he": "איזורים",
+                    "fi": "Alueet",
+                    "sv": "Områden",
+                    "cs": "Oblasti"
+                },
+                {
+                    "id": "51",
+                    "en": "Tool",
+                    "de": "Werkzeug ",
+                    "da": "Værktøj",
+                    "fr": "Outil",
+                    "nl": "Gereedschap",
+                    "no": "Verktøy",
+                    "hu": "Eszköz",
+                    "pt": "Ferramenta",
+                    "is": "Verkfæri",
+                    "he": "כלי",
+                    "fi": "Työkalu",
+                    "sv": "Verktyg",
+                    "cs": "Nástroj"
+                },
+                {
+                    "id": "52",
+                    "en": "Tools",
+                    "de": "Werkzeuge ",
+                    "da": "Værktøjer",
+                    "fr": "Outils",
+                    "nl": "Gereedschappen",
+                    "no": "Verktøy",
+                    "hu": "Eszközök",
+                    "pt": "Ferramentas",
+                    "is": "Verkfæri",
+                    "he": "כלים",
+                    "fi": "Työkalut",
+                    "sv": "Verktyg",
+                    "cs": "Nástroje"
+                },
+                {
+                    "id": "53",
+                    "en": "Task",
+                    "de": "Aufgabe ",
+                    "da": "Opgave",
+                    "fr": "Tâche",
+                    "nl": "Taken",
+                    "no": "Oppgave",
+                    "hu": "Feladat",
+                    "pt": "Tarefa",
+                    "is": "Verk ",
+                    "he": "מטלה",
+                    "fi": "Tehtävät",
+                    "sv": "Uppgift",
+                    "cs": "Úloha"
+                },
+                {
+                    "id": "54",
+                    "en": "Details",
+                    "de": "Einzelheiten ",
+                    "da": "Detaljer",
+                    "fr": "Détails",
+                    "nl": "Details",
+                    "no": "Detaljer",
+                    "hu": "Részletek",
+                    "pt": "Detalhes",
+                    "is": "Nánar",
+                    "he": "פרטים",
+                    "fi": "Yksityiskohdat",
+                    "sv": "Detaljer",
+                    "cs": "Podrobnosti"
+                },
+                {
+                    "id": "55",
+                    "en": "Select",
+                    "de": "Auswählen ",
+                    "da": "Vælg",
+                    "fr": "Sélectionner",
+                    "nl": "Selecteer",
+                    "no": "Velg",
+                    "hu": "Válassz",
+                    "pt": "Selecionar",
+                    "is": "Velja staðsetingu í sljali",
+                    "he": "בחר",
+                    "fi": "Valitse",
+                    "sv": "Välj",
+                    "cs": "Vybrat"
+                },
+                {
+                    "id": "56",
+                    "en": "Sorry, the content isn't available in your prefered language",
+                    "de": "Der Inhalt ist leider nicht in ihrer bevorzugten Sprache verfügbar ",
+                    "da": "Beklager, men vi har ikke en oversættelse af dette indhold på dit foretrukkende sprog",
+                    "fr": "Désolé, le contenu n'est pas disponible dans votre langue",
+                    "nl": "Sorrie, Deze content is niet beschikbaar in jouw taal",
+                    "no": "Beklager, innholdet er ikke tilgjengelig i ditt foretrukne språk",
+                    "hu": "Sajnáljuk, a tartalom nem áll rendelkezésre a preferált nyelven",
+                    "pt": "Desculpe, mas o conteúdo não está disponível na linguagem preferencial",
+                    "is": "Afsakið, efnið er ekki aðgengilegt á þínu tungumáli",
+                    "he": "מצטערים, התוכן אינו זמין בשפה המועדפת עליך",
+                    "fi": "Valitettavasti sisältö ei ole saatavilla valitsemallasi kielellä",
+                    "sv": "Tyvärr, innehållet är inte tillgängligt på ditt föredragna språk",
+                    "cs": "Omlouváme se, obsah není v preferovaném jazyce dostupný"
+                },
+                {
+                    "id": "57",
+                    "en": "Machine translated versions",
+                    "de": "Maschinell übersetzte Versionen ",
+                    "da": "Maskinoversatte udgaver",
+                    "fr": "Version traduites par un automate",
+                    "nl": "Machine vertaalde versie",
+                    "no": "Maskinoversatte versjoner",
+                    "hu": "Gépi fordítású verziók",
+                    "pt": "Versões traduzidas por computador",
+                    "is": "Tölvuþýdd útgáfa",
+                    "he": "גרסאות  מתורגמות ממוחשבות",
+                    "fi": "Konekäännetyt versiot",
+                    "sv": "Versioner översatta av maskin",
+                    "cs": "Strojově přeložená verze"
+                },
+                {
+                    "id": "58",
+                    "en": "Human translated versions",
+                    "de": "Menschen-übersetzte Versionen ",
+                    "da": "Oversættelser",
+                    "fr": "Version traduites par une personne",
+                    "nl": "Menselijke vertalling versie",
+                    "no": "Menneskelig oversatte versjoner",
+                    "hu": "Emberi fordítású verziók",
+                    "pt": "Versões traduzidas por humano",
+                    "is": "Þýdd útgáfa",
+                    "he": "גרסאות מתורגמות אנושיות",
+                    "fi": "Ihmisen kääntämät versiot",
+                    "sv": "Versioner översatta av människa",
+                    "cs": "Překladatelem přeložená verze"
+                },
+                {
+                    "id": "59",
+                    "en": "Options",
+                    "de": "Optionen ",
+                    "da": "Muligheder",
+                    "fr": "Options",
+                    "nl": "Opties",
+                    "no": "Muligheter",
+                    "hu": "Opciók",
+                    "pt": "Opções",
+                    "is": "Valmöguleikar",
+                    "he": "אפשרויות",
+                    "fi": "Vaihtoehdot",
+                    "sv": "Val",
+                    "cs": "Možnosti"
+                },
+                {
+                    "id": "60",
+                    "en": "User",
+                    "de": "Benutzer ",
+                    "da": "Bruger",
+                    "fr": "Utilisateur",
+                    "nl": "Gebruiker",
+                    "no": "Bruker",
+                    "hu": "Felhasználó",
+                    "pt": "Utilizador",
+                    "is": "Notandi",
+                    "he": "משתמש",
+                    "fi": "Käyttäjä",
+                    "sv": "Användare",
+                    "cs": "Uživatel"
+                },
+                {
+                    "id": "61",
+                    "en": "User id",
+                    "de": "Benutzer-ID ",
+                    "da": "Bruger id",
+                    "fr": "Identifiant",
+                    "nl": "Gebruiker ID",
+                    "no": "Brukerid",
+                    "hu": "Felhasználó azonosító",
+                    "pt": "Identidade de Utilizador",
+                    "is": "Notandanafn",
+                    "he": "זהות המשתמש",
+                    "fi": "Käyttäjätunnus",
+                    "sv": "Användar id",
+                    "cs": "ID uživatele"
+                },
+                {
+                    "id": "62",
+                    "en": "Loading",
+                    "de": "Wird geladen ",
+                    "da": "Indlæser",
+                    "fr": "Chargement",
+                    "nl": "Laden",
+                    "no": "Laster",
+                    "hu": "Betöltés",
+                    "pt": "Carregando",
+                    "is": "Hleð",
+                    "he": "טוען",
+                    "fi": "Lataa",
+                    "sv": "Laddar ",
+                    "cs": "Načítání"
+                },
+                {
+                    "id": "63",
+                    "en": "and",
+                    "de": "und ",
+                    "da": "og",
+                    "fr": "et",
+                    "nl": "en",
+                    "no": "og",
+                    "hu": "és",
+                    "pt": "e",
+                    "is": "og ",
+                    "he": "ו",
+                    "fi": "ja",
+                    "sv": "och",
+                    "cs": "a"
+                },
+                {
+                    "id": "64",
+                    "en": "Home",
+                    "da": "Hjem"
+                }
+            ],
+            "jumpto365API": {
+                "tenant": "stub"
+            }
+        },
+        "uri": "/beta/me",
+        "location": {
+            "href": "http://localhost:3000/beta/me",
+            "ancestorOrigins": {},
+            "origin": "http://localhost:3000",
+            "protocol": "http:",
+            "host": "localhost:3000",
+            "hostname": "localhost",
+            "port": "3000",
+            "pathname": "/beta/me",
+            "search": "",
+            "hash": "",
+            "state": {
+                "key": "1538668012240"
+            },
+            "key": "1538668012240"
+        }
+    },
+    "state": {
+        "me": {
+            "@odata.context": "https://graph.microsoft.com/beta/$metadata#users/$entity",
+            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+            "deletedDateTime": null,
+            "accountEnabled": true,
+            "ageGroup": null,
+            "businessPhones": [],
+            "city": null,
+            "createdDateTime": "2016-12-17T18:41:59Z",
+            "companyName": null,
+            "consentProvidedForMinor": null,
+            "country": "DK",
+            "department": null,
+            "displayName": "Niels Gregers Johansen - jumpto365.com",
+            "employeeId": null,
+            "faxNumber": null,
+            "givenName": "Niels Gregers",
+            "imAddresses": [
+                "niels@hexatown.com"
+            ],
+            "isResourceAccount": null,
+            "jobTitle": null,
+            "legalAgeGroupClassification": null,
+            "mail": "niels@jumpto365.com",
+            "mailNickname": "niels",
+            "mobilePhone": "+45 29487624",
+            "onPremisesDistinguishedName": null,
+            "officeLocation": null,
+            "onPremisesDomainName": null,
+            "onPremisesImmutableId": null,
+            "onPremisesLastSyncDateTime": null,
+            "onPremisesSecurityIdentifier": null,
+            "onPremisesSamAccountName": null,
+            "onPremisesSyncEnabled": null,
+            "onPremisesUserPrincipalName": null,
+            "otherMails": [
+                "niels@timeboxer.dk"
+            ],
+            "passwordPolicies": null,
+            "passwordProfile": null,
+            "postalCode": null,
+            "preferredDataLocation": null,
+            "preferredLanguage": "en-US",
+            "proxyAddresses": [
+                "smtp:admin@jumpto365.com",
+                "smtp:admin@pto365.com",
+                "smtp:webmaster@pto365.com",
+                "smtp:webmaster@jumpto365.com",
+                "smtp:niels@hexatown.com",
+                "SMTP:niels@jumpto365.com",
+                "smtp:niels@pto365.com",
+                "smtp:niels@codingxo.com",
+                "smtp:niels@365admin.net",
+                "smtp:niels@365adm.onmicrosoft.com"
+            ],
+            "refreshTokensValidFromDateTime": "2016-12-17T18:41:59Z",
+            "showInAddressList": null,
+            "state": null,
+            "streetAddress": null,
+            "surname": "Johansen",
+            "usageLocation": "DK",
+            "userPrincipalName": "niels@hexatown.com",
+            "externalUserState": null,
+            "externalUserStateChangeDateTime": null,
+            "userType": "Member",
+            "assignedLicenses": [{
+                    "disabledPlans": [],
+                    "skuId": "f30db892-07e9-47e9-837c-80727f46fd3d"
+                },
+                {
+                    "disabledPlans": [],
+                    "skuId": "90d8b3f8-712e-4f7b-aa1e-62e7ae6cbe96"
+                },
+                {
+                    "disabledPlans": [],
+                    "skuId": "47794cd0-f0e5-45c5-9033-2eb6b5fc84e0"
+                },
+                {
+                    "disabledPlans": [],
+                    "skuId": "84a661c4-e949-4bd2-a560-ed7766fcaf2b"
+                },
+                {
+                    "disabledPlans": [],
+                    "skuId": "b05e124f-c7cc-45a0-a6aa-8cf78c946968"
+                },
+                {
+                    "disabledPlans": [],
+                    "skuId": "c7df2760-2c81-4ef7-b578-5b5392b571df"
+                }
+            ],
+            "assignedPlans": [{
+                    "assignedDateTime": "2018-07-13T08:50:12Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "CRM",
+                    "servicePlanId": "17ab22cd-a0b3-4536-910a-cb6eb12696c0"
+                },
+                {
+                    "assignedDateTime": "2018-07-13T08:50:12Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "ProcessSimple",
+                    "servicePlanId": "50e68c76-46c6-4674-81f9-75456511b170"
+                },
+                {
+                    "assignedDateTime": "2018-07-05T23:52:37Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "SharePoint",
+                    "servicePlanId": "e95bec33-7c88-4a70-8e19-b10bd9d0c014"
+                },
+                {
+                    "assignedDateTime": "2018-07-05T23:52:37Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "SharePoint",
+                    "servicePlanId": "5dbe027f-2339-4123-9542-606e4d348a72"
+                },
+                {
+                    "assignedDateTime": "2018-06-07T08:23:05Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "exchange",
+                    "servicePlanId": "199a5c09-e0ca-4e37-8f7c-b05d533e1ea2"
+                },
+                {
+                    "assignedDateTime": "2018-06-07T08:23:05Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "To-Do",
+                    "servicePlanId": "3fb82609-8c27-4f7b-bd51-30634711ee67"
+                },
+                {
+                    "assignedDateTime": "2018-06-07T08:23:05Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "AzureAdvancedThreatAnalytics",
+                    "servicePlanId": "14ab5db5-e6c4-4b20-b4bc-13e36fd2227f"
+                },
+                {
+                    "assignedDateTime": "2018-06-07T08:23:05Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "Adallom",
+                    "servicePlanId": "932ad362-64a8-4783-9106-97849a1a30b9"
+                },
+                {
+                    "assignedDateTime": "2017-11-16T19:24:29Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "MicrosoftCommunicationsOnline",
+                    "servicePlanId": "505e180f-f7e0-4b65-91d4-00d670bbd18c"
+                },
+                {
+                    "assignedDateTime": "2017-07-05T13:33:45Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "MicrosoftStream",
+                    "servicePlanId": "6c6042f5-6f01-4d67-b8c1-eb99d36eed3e"
+                },
+                {
+                    "assignedDateTime": "2017-07-05T13:33:45Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "OfficeForms",
+                    "servicePlanId": "e212cbc7-0961-4c40-9825-01117710dcb1"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "Adallom",
+                    "servicePlanId": "8c098270-9dd4-4350-9b30-ba4703f3b36b"
+                },
+                {
+                    "assignedDateTime": "2016-12-18T08:22:19Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "Adallom",
+                    "servicePlanId": "2e2ddb96-6af9-4b1d-a3f0-d6ecfd22edb2"
+                },
+                {
+                    "assignedDateTime": "2017-05-16T13:29:13Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "exchange",
+                    "servicePlanId": "8e0c0a52-6a6c-4d40-8370-dd62790dcd70"
+                },
+                {
+                    "assignedDateTime": "2017-05-16T13:29:13Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "Deskless",
+                    "servicePlanId": "8c7d2df8-86f0-4902-b2ed-a0458298f3b3"
+                },
+                {
+                    "assignedDateTime": "2016-12-18T08:22:19Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "AADPremiumService",
+                    "servicePlanId": "41781fb2-bc02-4b7c-bd55-b576c07bb09d"
+                },
+                {
+                    "assignedDateTime": "2016-12-18T08:22:19Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "MultiFactorService",
+                    "servicePlanId": "8a256a2b-b617-496d-b51b-e76466e88db0"
+                },
+                {
+                    "assignedDateTime": "2016-12-18T08:22:19Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "AADPremiumService",
+                    "servicePlanId": "eec0eb4f-6444-4f95-aba0-50c24d67f998"
+                },
+                {
+                    "assignedDateTime": "2016-12-18T08:22:19Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "SCO",
+                    "servicePlanId": "c1ec4a95-1f05-45b3-a911-aa3fa01094f5"
+                },
+                {
+                    "assignedDateTime": "2016-12-18T08:22:19Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "RMSOnline",
+                    "servicePlanId": "6c57d4b6-3b23-47a5-9bc9-69f17b4947b3"
+                },
+                {
+                    "assignedDateTime": "2016-12-18T08:22:19Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "RMSOnline",
+                    "servicePlanId": "5689bec4-755d-4753-8b61-40975025187c"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "exchange",
+                    "servicePlanId": "efb87545-963c-4e0d-99df-69c6916d9eb0"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "MicrosoftCommunicationsOnline",
+                    "servicePlanId": "0feaeb32-d00e-4d66-bd5a-43b5b83db82c"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "MicrosoftOffice",
+                    "servicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "YammerEnterprise",
+                    "servicePlanId": "7547a3fe-08ee-4ccb-b430-5077c5041653"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "RMSOnline",
+                    "servicePlanId": "bea4c11e-220a-4e6d-8eb8-8ea15d019f90"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "ProjectWorkManagement",
+                    "servicePlanId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "PowerBI",
+                    "servicePlanId": "70d33638-9c74-4d01-bfd3-562de28bd4ba"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "MicrosoftCommunicationsOnline",
+                    "servicePlanId": "3e26ee1f-8a5f-4d52-aee2-b81ce45c8f40"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "MicrosoftCommunicationsOnline",
+                    "servicePlanId": "4828c8ec-dc2e-4779-b502-87ac9ce28ab7"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "Sway",
+                    "servicePlanId": "a23b959c-7ce8-4e57-9140-b90eb88a9e97"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "exchange",
+                    "servicePlanId": "34c0d7a0-a70f-4668-9238-47f9fc208882"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "exchange",
+                    "servicePlanId": "9f431833-0334-42de-a7dc-70aa40db46db"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "exchange",
+                    "servicePlanId": "4de31727-a228-4ec3-a5bf-8e45b5ca48cc"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "TeamspaceAPI",
+                    "servicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "PowerAppsService",
+                    "servicePlanId": "9c0dab89-a30c-4117-86e7-97bda240acd2"
+                },
+                {
+                    "assignedDateTime": "2016-12-17T18:42:31Z",
+                    "capabilityStatus": "Enabled",
+                    "service": "ProcessSimple",
+                    "servicePlanId": "07699545-9485-468e-95b6-2fca3738be01"
+                }
+            ],
+            "deviceKeys": [],
+            "onPremisesExtensionAttributes": {
+                "extensionAttribute1": null,
+                "extensionAttribute2": null,
+                "extensionAttribute3": null,
+                "extensionAttribute4": null,
+                "extensionAttribute5": null,
+                "extensionAttribute6": null,
+                "extensionAttribute7": null,
+                "extensionAttribute8": null,
+                "extensionAttribute9": null,
+                "extensionAttribute10": null,
+                "extensionAttribute11": null,
+                "extensionAttribute12": null,
+                "extensionAttribute13": null,
+                "extensionAttribute14": null,
+                "extensionAttribute15": null
+            },
+            "onPremisesProvisioningErrors": [],
+            "provisionedPlans": [{
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "CRM"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "SharePoint"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "SharePoint"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "exchange"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "MicrosoftCommunicationsOnline"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "exchange"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "MicrosoftCommunicationsOnline"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "MicrosoftCommunicationsOnline"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "MicrosoftCommunicationsOnline"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "exchange"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "exchange"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "exchange"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "exchange"
+                },
+                {
+                    "capabilityStatus": "Enabled",
+                    "provisioningStatus": "Success",
+                    "service": "exchange"
+                }
+            ]
+        },
+        "me_photo": {
+            "@odata.context": "https://graph.microsoft.com/beta/$metadata#users('58d02ee5-af80-4f81-b144-1734b77c02c9')/photo/$entity",
+            "@odata.mediaContentType": "image/jpeg",
+            "@odata.mediaEtag": "\"8C07F0D0\"",
+            "id": "240X240",
+            "height": 240,
+            "width": 240
+        },
+        "files": [{
+                "key": 0,
+                "title": "Guides",
+                "file": {
+                    "createdDateTime": "2018-09-15T05:25:54Z",
+                    "eTag": "\"{EBA690F7-09DB-4470-B024-EFD572705812},1\"",
+                    "id": "01QDKNWQ7XSCTOXWYJOBCLAJHP2VZHAWAS",
+                    "lastModifiedDateTime": "2018-09-15T05:25:54Z",
+                    "name": "Guides",
+                    "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/jumpto365/Guides",
+                    "cTag": "\"c:{EBA690F7-09DB-4470-B024-EFD572705812},0\"",
+                    "size": 8152335,
+                    "createdBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "lastModifiedBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "parentReference": {
+                        "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                        "driveType": "business",
+                        "id": "01QDKNWQ5LMF5ILSGNSZF3OXFIOQGS6XDZ",
+                        "path": "/drive/root:/jumpto365"
+                    },
+                    "fileSystemInfo": {
+                        "createdDateTime": "2018-09-15T05:25:54Z",
+                        "lastModifiedDateTime": "2018-09-15T05:25:54Z"
+                    },
+                    "folder": {
+                        "childCount": 8
+                    }
+                }
+            },
+            {
+                "key": 1,
+                "title": "My Roles",
+                "file": {
+                    "createdDateTime": "2018-09-23T15:28:23Z",
+                    "eTag": "\"{823E1C05-3A15-4B3A-BC59-7FE47BE7BA90},1\"",
+                    "id": "01QDKNWQYFDQ7IEFJ2HJF3YWL74R56POUQ",
+                    "lastModifiedDateTime": "2018-09-23T15:28:23Z",
+                    "name": "My Roles",
+                    "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/jumpto365/My%20Roles",
+                    "cTag": "\"c:{823E1C05-3A15-4B3A-BC59-7FE47BE7BA90},0\"",
+                    "size": 0,
+                    "createdBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "lastModifiedBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "parentReference": {
+                        "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                        "driveType": "business",
+                        "id": "01QDKNWQ5LMF5ILSGNSZF3OXFIOQGS6XDZ",
+                        "path": "/drive/root:/jumpto365"
+                    },
+                    "fileSystemInfo": {
+                        "createdDateTime": "2018-09-23T15:28:23Z",
+                        "lastModifiedDateTime": "2018-09-23T15:28:23Z"
+                    },
+                    "folder": {
+                        "childCount": 0
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "title": "Settings",
+                "file": {
+                    "createdDateTime": "2018-09-15T15:16:40Z",
+                    "eTag": "\"{E6A1EC23-BF0F-4816-B80B-6499FFCAC1CF},1\"",
+                    "id": "01QDKNWQZD5SQ6MD57CZELQC3ETH74VQOP",
+                    "lastModifiedDateTime": "2018-09-15T15:16:40Z",
+                    "name": "Settings",
+                    "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/jumpto365/Settings",
+                    "cTag": "\"c:{E6A1EC23-BF0F-4816-B80B-6499FFCAC1CF},0\"",
+                    "size": 38682,
+                    "createdBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "lastModifiedBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "parentReference": {
+                        "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                        "driveType": "business",
+                        "id": "01QDKNWQ5LMF5ILSGNSZF3OXFIOQGS6XDZ",
+                        "path": "/drive/root:/jumpto365"
+                    },
+                    "fileSystemInfo": {
+                        "createdDateTime": "2018-09-15T15:16:40Z",
+                        "lastModifiedDateTime": "2018-09-15T15:16:40Z"
+                    },
+                    "folder": {
+                        "childCount": 3
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "title": "Temp",
+                "file": {
+                    "createdDateTime": "2018-09-15T09:31:48Z",
+                    "eTag": "\"{A14185FC-6C0A-465D-B1A0-9634A183A54E},1\"",
+                    "id": "01QDKNWQ74QVA2CCTMLVDLDIEWGSQYHJKO",
+                    "lastModifiedDateTime": "2018-09-15T09:31:48Z",
+                    "name": "Temp",
+                    "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/jumpto365/Temp",
+                    "cTag": "\"c:{A14185FC-6C0A-465D-B1A0-9634A183A54E},0\"",
+                    "size": 88763,
+                    "createdBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "lastModifiedBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "parentReference": {
+                        "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                        "driveType": "business",
+                        "id": "01QDKNWQ5LMF5ILSGNSZF3OXFIOQGS6XDZ",
+                        "path": "/drive/root:/jumpto365"
+                    },
+                    "fileSystemInfo": {
+                        "createdDateTime": "2018-09-15T09:31:48Z",
+                        "lastModifiedDateTime": "2018-09-15T09:31:48Z"
+                    },
+                    "folder": {
+                        "childCount": 3
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "title": "index.docx",
+                "file": {
+                    "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/download.aspx?UniqueId=50872b4e-7e4f-4a9c-963c-181a693fa7e6&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1Mzg2NjgwMTIiLCJleHAiOiIxNTM4NjcxNjEyIiwiZW5kcG9pbnR1cmwiOiJ2TEFGRTllZWcwd05jY0pLR1NXWEc2SjhPb0FlSkJVMTB4dmhvRWlDM3hnPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ4IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJOakF3T0RjMVkySXROMlkzT1MwME5qZGpMVGsxTVdJdE1XWTVOMk0xTURkaE1qVTUiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiSnVtcHRvMzY1IiwiYXBwaWQiOiI1YTQ3MzU1Ny1hOWQzLTQzNzgtOTBmMS1lOWNkM2EzODAwNmYiLCJ0aWQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1cG4iOiJuaWVsc0BoZXhhdG93bi5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsInNjcCI6Im15ZmlsZXMucmVhZCBteWZpbGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHNpdGVzLm1hbmFnZSBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.Q1gvNkw4OUV1cFdMS2FjR1VQUVNlK2tlSiswM3ZhbFdiN0ludEFWNWd0cz0&ApiVersion=2.0",
+                    "createdDateTime": "2018-09-20T11:11:59Z",
+                    "eTag": "\"{50872B4E-7E4F-4A9C-963C-181A693FA7E6},363\"",
+                    "id": "01QDKNWQ2OFODVAT36TRFJMPAYDJUT7J7G",
+                    "lastModifiedDateTime": "2018-10-04T12:49:48Z",
+                    "name": "index.docx",
+                    "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/Doc.aspx?sourcedoc=%7B50872B4E-7E4F-4A9C-963C-181A693FA7E6%7D&file=index.docx&action=default&mobileredirect=true",
+                    "cTag": "\"c:{50872B4E-7E4F-4A9C-963C-181A693FA7E6},222\"",
+                    "size": 894202,
+                    "createdBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "lastModifiedBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "parentReference": {
+                        "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                        "driveType": "business",
+                        "id": "01QDKNWQ5LMF5ILSGNSZF3OXFIOQGS6XDZ",
+                        "path": "/drive/root:/jumpto365"
+                    },
+                    "file": {
+                        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        "hashes": {
+                            "quickXorHash": "udMDTNqqOEkqHNpKXDLB64GWpKo="
+                        }
+                    },
+                    "fileSystemInfo": {
+                        "createdDateTime": "2018-09-20T11:11:59Z",
+                        "lastModifiedDateTime": "2018-10-04T12:49:48Z"
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "title": "Sample settings.docx",
+                "file": {
+                    "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/download.aspx?UniqueId=dd151871-8e0c-4a3f-8a32-96e32afd87ed&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1Mzg2NjgwMTIiLCJleHAiOiIxNTM4NjcxNjEyIiwiZW5kcG9pbnR1cmwiOiJZRzNPdHhKQk1UdzdtT0JUVm1TcTlBWWlkSE9BbXVRajV4SVgvVnN4bjhJPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ4IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJOakF3T0RjMVkySXROMlkzT1MwME5qZGpMVGsxTVdJdE1XWTVOMk0xTURkaE1qVTUiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiSnVtcHRvMzY1IiwiYXBwaWQiOiI1YTQ3MzU1Ny1hOWQzLTQzNzgtOTBmMS1lOWNkM2EzODAwNmYiLCJ0aWQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1cG4iOiJuaWVsc0BoZXhhdG93bi5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsInNjcCI6Im15ZmlsZXMucmVhZCBteWZpbGVzLndyaXRlIGFsbGZpbGVzLndyaXRlIGFsbHNpdGVzLm1hbmFnZSBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.T1dxSEhKOHhWNXIrZEUxWGxhMndtMk9rREQ4cEtTcEpQSlJnZnd5MFk5cz0&ApiVersion=2.0",
+                    "createdDateTime": "2018-09-23T13:50:45Z",
+                    "eTag": "\"{DD151871-8E0C-4A3F-8A32-96E32AFD87ED},13\"",
+                    "id": "01QDKNWQ3RDAK52DEOH5FIUMUW4MVP3B7N",
+                    "lastModifiedDateTime": "2018-09-23T18:35:46Z",
+                    "name": "Sample settings.docx",
+                    "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/Doc.aspx?sourcedoc=%7BDD151871-8E0C-4A3F-8A32-96E32AFD87ED%7D&file=Sample%20settings.docx&action=default&mobileredirect=true",
+                    "cTag": "\"c:{DD151871-8E0C-4A3F-8A32-96E32AFD87ED},6\"",
+                    "size": 13541,
+                    "createdBy": {
+                        "application": {
+                            "id": "67e3df25-268a-4324-a550-0de1c7f97287",
+                            "displayName": "Microsoft Office Web Apps Service"
+                        },
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "lastModifiedBy": {
+                        "user": {
+                            "email": "niels@jumpto365.com",
+                            "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                            "displayName": "Niels Gregers Johansen - jumpto365.com"
+                        }
+                    },
+                    "parentReference": {
+                        "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                        "driveType": "business",
+                        "id": "01QDKNWQ5LMF5ILSGNSZF3OXFIOQGS6XDZ",
+                        "path": "/drive/root:/jumpto365"
+                    },
+                    "file": {
+                        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        "hashes": {
+                            "quickXorHash": "Y3S8XSzIxsfwe74SpaNAh7iPcFg="
+                        }
+                    },
+                    "fileSystemInfo": {
+                        "createdDateTime": "2018-09-23T13:50:45Z",
+                        "lastModifiedDateTime": "2018-09-23T18:35:46Z"
+                    }
+                }
+            }
+        ],
+        "selection": []
+    }
+}

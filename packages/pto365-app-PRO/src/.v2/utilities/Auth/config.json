@@ -1,0 +1,35 @@
+{
+    "clientID": "5a473557-a9d3-4378-90f1-e9cd3a38006f",
+    "redirectUri":"https://localhost:3000/#/login",
+    "b2cScopes": ["user.read"],
+    "webApi": "https://graph.microsoft.com/beta/me",
+    "webApi2": "https://graph.microsoft.com/beta/me/createdObjects",
+    "environments": [
+      {
+        "url": "https://preview.app.jumpto365.com",
+        "clientID": "244b7568-9548-44ed-8ed2-e71f7a78915c"
+      },
+      {
+        "url": "https://localhost:3000",
+        "clientID": "f8597887-fa86-4249-8255-e23fc652899d"
+      },
+      {
+        "url": "https://beta.jumpto365.com",
+        "clientID": "f8597887-fa86-4249-8255-e23fc652899d"
+      }
+      ,
+      {
+        "url": "https://pro.jumpto365.com",
+        "clientID": "15fc1443-e363-4adb-a6e4-e1a31946d742"
+      },
+      {
+        "url": "https://pro-test.jumpto365.com",
+        "clientID": "15fc1443-e363-4adb-a6e4-e1a31946d742"
+      }
+      ,
+      {
+        "url": "https://pro-pre.jumpto365.com",
+        "clientID": "15fc1443-e363-4adb-a6e4-e1a31946d742"
+      }
+    ]
+  }

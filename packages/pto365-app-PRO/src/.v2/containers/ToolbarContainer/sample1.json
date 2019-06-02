@@ -1,0 +1,350 @@
+{
+  "tree": [
+    {
+      "title": "Logo",
+      "key": "0",
+      "children": []
+    },
+    {
+      "title": "1-label",
+      "key": "1-key",
+      "children": [
+        {
+          "title": "11-label",
+          "key": "11-key",
+          "children": [
+            {
+              "title": "21-label",
+              "key": "21-key",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "12-label",
+          "key": "12-key",
+          "children": [
+            {
+              "title": "13-label",
+              "key": "13-key"
+            }
+          ]
+        },
+        {
+          "title": "15-label",
+          "key": "15-key",
+          "children": [
+            {
+              "title": "14-label",
+              "key": "14-key",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "6-label",
+          "key": "6-key",
+          "children": [
+            {
+              "title": "7-label",
+              "key": "7-key",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "8-label",
+          "key": "8-key",
+          "children": [
+            {
+              "title": "19-label",
+              "key": "19-key",
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "9-label",
+          "key": "9-key",
+          "children": [
+            {
+              "title": "28-label",
+              "key": "28-key"
+            }
+          ]
+        },
+        {
+          "title": "29-label",
+          "key": "29-key",
+          "children": [
+            {
+              "title": "31-label",
+              "key": "31-key"
+            }
+          ]
+        },
+        {
+          "title": "27-label",
+          "key": "27-key",
+          "children": [
+            {
+              "title": "32-label",
+              "key": "32-key"
+            }
+          ]
+        },
+        {
+          "title": "26-label",
+          "key": "26-key",
+          "children": [
+            {
+              "title": "33-label",
+              "key": "33-key"
+            }
+          ]
+        },
+        {
+          "title": "30-label",
+          "key": "30-key",
+          "children": [
+            {
+              "title": "20-label",
+              "key": "20-key"
+            }
+          ]
+        },
+        {
+          "title": "16-label",
+          "key": "16-key",
+          "children": [
+            {
+              "title": "18-label",
+              "key": "18-key"
+            }
+          ]
+        },
+        {
+          "title": "17-label",
+          "key": "17-key",
+          "children": [
+            {
+              "title": "10-label",
+              "key": "10-key"
+            }
+          ]
+        },
+        {
+          "title": "23-label",
+          "key": "23-key",
+          "children": [
+            {
+              "title": "34-label",
+              "key": "34-key"
+            }
+          ]
+        },
+        {
+          "title": "22-label",
+          "key": "22-key",
+          "children": [
+            {
+              "title": "35-label",
+              "key": "35-key"
+            }
+          ]
+        },
+        {
+          "title": "4-label",
+          "key": "4-key",
+          "children": [
+            {
+              "title": "24-label",
+              "key": "24-key"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2-label",
+      "key": "2-key",
+      "children": [
+        {
+          "title": "25-label",
+          "key": "25-key",
+          "children": [
+            {
+              "title": "3-label",
+              "key": "3-key"
+            }
+          ]
+        },
+        {
+          "title": "5-label",
+          "key": "5-key"
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "3-key": {
+      "icon": "12PointStar",
+      "type": "iframe",
+      "href": "https://ems.jumpto365.com",
+      "title": "https://ems.jumpto365.com"
+    },
+    "1-key": {
+      "icon": "LocaleLanguage",
+      "title": "Translated version",
+      "type": "heading"
+    },
+    "11-key": {
+      "title": "🇨🇿 Čeština"
+    },
+    "21-key": {
+      "href": "https://app.jumpto365.com/periodictable/cs",
+      "type": "iframe",
+      "title": "/periodictable/cs"
+    },
+    "12-key": {
+      "title": "🇩🇰 Dansk",
+      "type": "heading"
+    },
+    "13-key": {
+      "href": "https://app.jumpto365.com/periodictable/da",
+      "title": "/periodictable/da",
+      "type": "iframe"
+    },
+    "15-key": {
+      "title": "🇩🇪 Deutsche",
+      "type": "heading"
+    },
+    "14-key": {
+      "href": "https://app.jumpto365.com/periodictable/de",
+      "type": "iframe",
+      "title": "/periodictable/de"
+    },
+    "6-key": {
+      "title": "🇺🇸 English",
+      "type": "heading"
+    },
+    "7-key": {
+      "type": "iframe",
+      "href": "https://app.jumpto365.com/periodictable/en",
+      "title": "/periodictable/en"
+    },
+    "8-key": {
+      "title": "🇪🇸 Español",
+      "type": "heading"
+    },
+    "19-key": {
+      "href": "https://app.jumpto365.com/periodictable/es",
+      "title": "/periodictable/es",
+      "type": "iframe"
+    },
+    "9-key": {
+      "title": "🇫🇮 Suomi",
+      "type": "heading"
+    },
+    "28-key": {
+      "href": "https://app.jumpto365.com/periodictable/fi",
+      "type": "iframe",
+      "title": "/periodictable/fi"
+    },
+    "22-key": {
+      "type": "heading",
+      "title": "🇵🇹 Português"
+    },
+    "29-key": {
+      "title": "🇫🇷 Française"
+    },
+    "31-key": {
+      "type": "iframe",
+      "href": "https://app.jumpto365.com/periodictable/fr",
+      "title": "/periodictable/fr"
+    },
+    "27-key": {
+      "title": "🇮🇱 עִברִית",
+      "type": "heading"
+    },
+    "32-key": {
+      "href": "https://app.jumpto365.com/periodictable/he",
+      "type": "iframe",
+      "title": "/periodictable/he"
+    },
+    "26-key": {
+      "title": "🇭🇺 Magyar",
+      "type": "heading"
+    },
+    "33-key": {
+      "href": "https://app.jumpto365.com/periodictable/hu",
+      "type": "iframe",
+      "title": "/periodictable/hu"
+    },
+    "30-key": {
+      "title": "🇮🇸 Íslensk",
+      "type": "heading"
+    },
+    "20-key": {
+      "type": "iframe",
+      "href": "https://app.jumpto365.com/periodictable/is",
+      "title": "/periodictable/is"
+    },
+    "16-key": {
+      "title": "🇯🇵 日本語",
+      "type": "heading"
+    },
+    "18-key": {
+      "href": "https://app.jumpto365.com/periodictable/ja",
+      "type": "iframe",
+      "title": "/periodictable/ja"
+    },
+    "17-key": {
+      "title": "🇳🇱 Nederlandse",
+      "type": "heading"
+    },
+    "10-key": {
+      "href": "https://app.jumpto365.com/periodictable/nl",
+      "type": "iframe",
+      "title": "/periodictable/nl"
+    },
+    "23-key": {
+      "title": "🇳🇴 Norsk",
+      "type": "heading"
+    },
+    "34-key": {
+      "type": "iframe",
+      "href": "https://app.jumpto365.com/periodictable/no",
+      "title": "/periodictable/no"
+    },
+    "35-key": {
+      "href": "https://app.jumpto365.com/periodictable/pt",
+      "type": "iframe",
+      "title": "/periodictable/pt"
+    },
+    "4-key": {
+      "title": "🇸🇪 Svenska",
+      "type": "heading"
+    },
+    "24-key": {
+      "href": "https://app.jumpto365.com/periodictable/sv",
+      "type": "iframe",
+      "title": "/periodictable/sv"
+    },
+    "2-key": {
+      "title": "Specialized",
+      "type": "heading",
+      "icon": "Design"
+    },
+    "25-key": {
+      "type": "heading",
+      "title": "Security & Compliance",
+      "icon": "LaptopSecure"
+    },
+    "5-key": {
+      "title": "AI",
+      "type": "megamenu",
+      "icon": "AzureLogo"
+    }
+  }
+}

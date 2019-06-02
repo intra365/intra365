@@ -1,0 +1,38 @@
+.grid_6f5e8221 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+ol, ul {
+    padding: 0;
+    list-style: none;
+}
+
+.icons>ul>li>span{
+    text-align: center;
+    display: block;
+    font-size:12px;
+}
+
+.icons{
+   
+}
+
+.icons>ul>li{
+    text-align: center;
+    padding:16px;
+    font-size:32px;
+    line-height: 32px;
+}
+
+.icons>ul>li:hover{
+    cursor: pointer;
+   background-color: black;
+   color:white
+}

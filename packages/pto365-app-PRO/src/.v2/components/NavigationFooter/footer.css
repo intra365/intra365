@@ -1,0 +1,29 @@
+.NavigationFooter {
+    background-color: #2a7ab9bb;
+    color: #dddddd;
+    min-height: 200px;
+    
+}
+
+.NavigationFooterContent{
+ padding-top: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
+
+ padding-bottom: 20px;
+
+}
+
+
+.NavigationFooter a:visited,
+.NavigationFooter a{
+    
+    color: #dddddd;
+}
+
+.NavigationFooter a:hover{
+    
+    color: #dddddd;
+    font-weight: bolder
+}
+

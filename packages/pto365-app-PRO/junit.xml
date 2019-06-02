@@ -1,0 +1,188 @@
+<testsuites name="jest tests" tests="54" failures="0" time="9.728">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:16" time="1.898" tests="2">
+    <testcase classname=" Find production MSAL" name=" Find production MSAL" time="0.006">
+    </testcase>
+    <testcase classname=" Find preview  MSAL" name=" Find preview  MSAL" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:18" time="0.428" tests="2">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.01">
+    </testcase>
+    <testcase classname=" react on click" name=" react on click" time="0.037">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:16" time="2.97" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:16" time="3.245" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:16" time="3.452" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.227">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:16" time="3.597" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:18" time="1.318" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:19" time="0.673" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:16" time="4.182" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.046">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:19" time="0.838" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:19" time="0.715" tests="3">
+    <testcase classname=" Render the list with default view" name=" Render the list with default view" time="0.113">
+    </testcase>
+    <testcase classname=" Render the list with one column for tools" name=" Render the list with one column for tools" time="0.087">
+    </testcase>
+    <testcase classname=" Simulate a full render" name=" Simulate a full render" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:19" time="1.311" tests="1">
+    <testcase classname=" Check that it instansiate" name=" Check that it instansiate" time="0.471">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.5" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.366" tests="2">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.005">
+    </testcase>
+    <testcase classname=" react on click" name=" react on click" time="0.065">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:19" time="1.008" tests="1">
+    <testcase classname=" Find a filter item" name=" Find a filter item" time="0.43">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.558" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.347" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.576" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.59" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.369" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.356" tests="2">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.003">
+    </testcase>
+    <testcase classname=" react on click" name=" react on click" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.379" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:20" time="0.345" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.293" tests="6">
+    <testcase classname=" Copy an array" name=" Copy an array" time="0.002">
+    </testcase>
+    <testcase classname=" Filter without any terms" name=" Filter without any terms" time="0.003">
+    </testcase>
+    <testcase classname=" Filter on search" name=" Filter on search" time="0.002">
+    </testcase>
+    <testcase classname=" Filter on tool" name=" Filter on tool" time="0.005">
+    </testcase>
+    <testcase classname=" Filter on area" name=" Filter on area" time="0.002">
+    </testcase>
+    <testcase classname=" Copy name from subject" name=" Copy name from subject" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.293" tests="1">
+    <testcase classname=" Copy an array" name=" Copy an array" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.289" tests="2">
+    <testcase classname=" Can find Word" name=" Can find Word" time="0.001">
+    </testcase>
+    <testcase classname=" Should not be able to find Killroy" name=" Should not be able to find Killroy" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.297" tests="4">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.003">
+    </testcase>
+    <testcase classname=" Check that it looks ok" name=" Check that it looks ok" time="0.001">
+    </testcase>
+    <testcase classname=" Check that scenario looks ok" name=" Check that scenario looks ok" time="0.004">
+    </testcase>
+    <testcase classname=" Check that scenario panel mock is ok" name=" Check that scenario panel mock is ok" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.333" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.316" tests="1">
+    <testcase classname=" Check that it instansiate" name=" Check that it instansiate" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.325" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.313" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.319" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.361" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.26" tests="1">
+    <testcase classname=" Copy an array" name=" Copy an array" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.268" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.256" tests="1">
+    <testcase classname=" Get 1 column scenario view" name=" Get 1 column scenario view" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.274" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:16" time="6.263" tests="1">
+    <testcase classname=" Check that it renders" name=" Check that it renders" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-07-16T05:00:21" time="0.745" tests="1">
+    <testcase classname=" Check that it instansiate" name=" Check that it instansiate" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,35 @@
+.FontSegoeWhite{
+    font-family: "Segoe UI Web (West European)",Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    color: #ffffff;
+}
+
+.hashedtile:hover {
+    opacity:  1
+}
+.hashedtile:hover {
+    opacity:  0.2;
+    transition: opacity 0.5s;
+}
+
+.campaign{
+    display: none
+}
+.countDown{
+    
+}
+.HoverContainer{
+    background-color: #ffffffaa;
+}
+
+.HoverLink{
+    padding:8px;
+    cursor: pointer;
+    color:#000000;
+    border:1px solid #ffffff;
+}
+
+.HoverLink:hover{
+    color: #ffffff;
+    background-color:#000000;
+    border:1px solid #000000
+}

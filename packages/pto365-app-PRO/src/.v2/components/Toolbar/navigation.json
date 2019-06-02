@@ -1,0 +1,51 @@
+{
+  "@odata.context": "https://365adm.sharepoint.com/sites/Jumpto365Templates/_api/$metadata#SP.ListData.NavigationListItems",
+  "value": [
+    {
+      "@odata.type": "#SP.Data.NavigationListItem",
+      "@odata.id": "6972b0e9-b7c4-487d-8e22-4df830993805",
+      "@odata.etag": "\"1\"",
+      "@odata.editLink": "Web/Lists(guid'3aa7f82e-942a-4f1f-aa3b-fc35a3dcffc1')/Items(1)",
+      "FileSystemObjectType": 0,
+      "Id": 1,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x01001942946F9FD5544FA09415A6B18C302B",
+      "Title": "News",
+      "ComplianceAssetId": null,
+      "Link": "https://www.dr.dk",
+      "Description": "News from DR",
+      "ID": 1,
+      "Modified": "2019-05-15T18:28:20Z",
+      "Created": "2019-05-15T18:28:20Z",
+      "AuthorId": 6,
+      "EditorId": 6,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "b3a79a54-6c7a-4553-8a42-c380a6a7183a"
+    },
+    {
+      "@odata.type": "#SP.Data.NavigationListItem",
+      "@odata.id": "3d807c3e-94fe-4e5c-b4f9-c7017c7184d8",
+      "@odata.etag": "\"1\"",
+      "@odata.editLink": "Web/Lists(guid'3aa7f82e-942a-4f1f-aa3b-fc35a3dcffc1')/Items(2)",
+      "FileSystemObjectType": 0,
+      "Id": 2,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x01001942946F9FD5544FA09415A6B18C302B",
+      "Title": "jumpto",
+      "ComplianceAssetId": null,
+      "Link": "https://pro.jumpto365.com",
+      "Description": null,
+      "ID": 2,
+      "Modified": "2019-05-15T18:28:48Z",
+      "Created": "2019-05-15T18:28:48Z",
+      "AuthorId": 6,
+      "EditorId": 6,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "276c5132-cdc2-4c40-affa-49cf4eededd5"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+
+.TableOuter {
+   xbackground-color: orange
+}
+
+.TableInner {
+    xbackground-color: aqua;
+}
+
+.GridContainer{
+    xbackground-color: orange
+}
+.PipeContainer {
+    xbackground-color: greenyellow
+}
+.ContentContainer {
+    xbackground-color: red
+}
+.ActionContainer {
+    xbackground-color: aqua
+}
+.cell {
+    cursor: pointer;
+    border: 1px solid #e0181800
+}
+.cell:hover {
+    border: 1px solid red
+}
+.cellEditMode {
+    cursor: pointer;
+    border: 1px dashed #bbbbbb
+}
+
+.cellEditMode:hover {
+    border: 1px solid red;
+    background-color: red
+}
+
+.HeaderActionButton{
+   
+}
+
+.HeaderActionButtonIcon :hover{
+   
+    color: #000000;
+
+   
+}
+
+.HeaderActionButtonIcon {
+     margin:4px;
+    height:24px;
+    width:24px;
+    
+
+    color:#888888;
+
+
+    
+}
+
+
+.GridConnector{
+    cursor: pointer;
+}
+
+.GridConnector:hover{
+    background-color: #888888
+}
+
+
+.GridConnectorVertical{
+    border-left: 1px dotted #777777;
+    border-right: 1px dotted #777777
+}
+
+
+.GridConnectorHorisontal{
+    border-top: 1px dotted #777777;
+    border-bottom: 1px dotted #777777
+}
+
+
+.HeaderContainer {
+    border:0px solid grey;
+    width:368px;
+    height:184px;
+}
+
+.HeaderImage {
+    margin-top:20px;
+    width:368px;
+    height:auto;
+   
+}
+.HeaderlogoContainer{
+    display: flex;
+    width:368px;
+}
+.HeaderLogo {
+    align-self:center;
+   
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    height:24px;
+   
+}

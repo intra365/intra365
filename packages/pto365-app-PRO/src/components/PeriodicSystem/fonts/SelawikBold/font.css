@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Selawik-Bold';
+  src: url('Selawik-Bold.woff') format('woff'),
+       url('Selawik-Bold.ttf') format('truetype'),
+       url('Selawik-Bold.svg#Selawik-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SelawikBold';
+  src: url('SelawikBold.eot');
+  src: url('SelawikBold.woff2') format('woff2'),
+       url('SelawikBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

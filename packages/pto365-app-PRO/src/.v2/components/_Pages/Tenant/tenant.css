@@ -1,0 +1,9 @@
+.markdown img {
+    max-width: 100%;
+    height:auto
+}
+
+
+.megaMenuLevel1 {
+    border-bottom: 1px solid #333333; padding:8px;
+}

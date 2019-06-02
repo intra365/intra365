@@ -1,0 +1,929 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that it renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ScenarioPage
+    domain="dummy"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        <PageLayoutMain>
+          <PageHeader
+                    color="#2a7ab9"
+                    title=""
+          />
+          <div
+                    className="   "
+                    style={
+                              Object {
+                                        "height": NaN,
+                                      }
+                    }
+          >
+                    <ScenarioListWithFilter
+                              areas={
+                                        Array [
+                                                  "Communication & Media",
+                                                  "Communication & Media + Sales",
+                                                  "Education",
+                                                  "Finance",
+                                                  "Financial Services",
+                                                  "Financial Services + Finance",
+                                                  "Financial Services + Marketing",
+                                                  "Financial Services + Sales",
+                                                  "Healthcare",
+                                                  "Hospitality",
+                                                  "Hospitality+Retail ",
+                                                  "Human Resources",
+                                                  "Manufacturing",
+                                                  "Manufacturing + Operations",
+                                                  "Manufacturing + Sales",
+                                                  "Manufacturing + Sales",
+                                                  "Manufacturing + Sales",
+                                                  "Marketing",
+                                                  "Operations",
+                                                  "Operations+Sales ",
+                                                  "Professional Services ",
+                                                  "Professional Services + Sales",
+                                                  "Retail",
+                                                  "Retail + Marketing",
+                                                  "Retail + Sales",
+                                                  "Retail + Human Resources",
+                                                  "Retail + Sales",
+                                                  "Sales",
+                                                  "Generic",
+                                                ]
+                              }
+                              defaultView={undefined}
+                              globalContext={undefined}
+                              onFilter={[Function]}
+                              onSearch={[Function]}
+                              onSelection={[Function]}
+                              tasks={Array []}
+                              tools={
+                                        Array [
+                                                  "Excel",
+                                                  "Office 365",
+                                                  "OneDrive",
+                                                  "OneNote",
+                                                  "Outlook",
+                                                  "PowerPoint",
+                                                  "SharePoint",
+                                                  "Skype for Business",
+                                                  "Word",
+                                                  "Power BI",
+                                                  "Yammer",
+                                                  "Delve",
+                                                  "Enterprise Mobility + Security",
+                                                  "Microsoft Teams",
+                                                  "Flow",
+                                                  "PowerApps",
+                                                  "Planner",
+                                                  "Sway",
+                                                  "Windows 10",
+                                                  "Project",
+                                                  "StaffHub",
+                                                  "MyAnalytics",
+                                                  "Visio",
+                                                  "WINDOWS 10",
+                                                  "MICROSOFT TEAMS",
+                                                  " OFFICE 365",
+                                                  "OUTLOOK",
+                                                  "SHAREPOINT",
+                                                  "YAMMER",
+                                                  "OFFICE 365 BASICS",
+                                                  " SHAREPOINT",
+                                                  " OFFICE 365 BASICS",
+                                                  " PLANNER",
+                                                  " SKYPE FOR BUSINESS",
+                                                  "Office 365 Basics",
+                                                  " OneDrive",
+                                                  " POWER BI",
+                                                  " YAMMER",
+                                                  "MYANALYTICS",
+                                                  "DELVE",
+                                                  " Outlook",
+                                                  " Office 365 Basics",
+                                                ]
+                              }
+                    />
+          </div>
+          <div
+                    className="SidebarNoSelection"
+          />
+</PageLayoutMain>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <PageHeader
+              color="#2a7ab9"
+              title=""
+/>,
+            <div
+              className="   "
+              style={
+                            Object {
+                                          "height": NaN,
+                                        }
+              }
+>
+              <ScenarioListWithFilter
+                            areas={
+                                          Array [
+                                                        "Communication & Media",
+                                                        "Communication & Media + Sales",
+                                                        "Education",
+                                                        "Finance",
+                                                        "Financial Services",
+                                                        "Financial Services + Finance",
+                                                        "Financial Services + Marketing",
+                                                        "Financial Services + Sales",
+                                                        "Healthcare",
+                                                        "Hospitality",
+                                                        "Hospitality+Retail ",
+                                                        "Human Resources",
+                                                        "Manufacturing",
+                                                        "Manufacturing + Operations",
+                                                        "Manufacturing + Sales",
+                                                        "Manufacturing + Sales",
+                                                        "Manufacturing + Sales",
+                                                        "Marketing",
+                                                        "Operations",
+                                                        "Operations+Sales ",
+                                                        "Professional Services ",
+                                                        "Professional Services + Sales",
+                                                        "Retail",
+                                                        "Retail + Marketing",
+                                                        "Retail + Sales",
+                                                        "Retail + Human Resources",
+                                                        "Retail + Sales",
+                                                        "Sales",
+                                                        "Generic",
+                                                      ]
+                            }
+                            defaultView={undefined}
+                            globalContext={undefined}
+                            onFilter={[Function]}
+                            onSearch={[Function]}
+                            onSelection={[Function]}
+                            tasks={Array []}
+                            tools={
+                                          Array [
+                                                        "Excel",
+                                                        "Office 365",
+                                                        "OneDrive",
+                                                        "OneNote",
+                                                        "Outlook",
+                                                        "PowerPoint",
+                                                        "SharePoint",
+                                                        "Skype for Business",
+                                                        "Word",
+                                                        "Power BI",
+                                                        "Yammer",
+                                                        "Delve",
+                                                        "Enterprise Mobility + Security",
+                                                        "Microsoft Teams",
+                                                        "Flow",
+                                                        "PowerApps",
+                                                        "Planner",
+                                                        "Sway",
+                                                        "Windows 10",
+                                                        "Project",
+                                                        "StaffHub",
+                                                        "MyAnalytics",
+                                                        "Visio",
+                                                        "WINDOWS 10",
+                                                        "MICROSOFT TEAMS",
+                                                        " OFFICE 365",
+                                                        "OUTLOOK",
+                                                        "SHAREPOINT",
+                                                        "YAMMER",
+                                                        "OFFICE 365 BASICS",
+                                                        " SHAREPOINT",
+                                                        " OFFICE 365 BASICS",
+                                                        " PLANNER",
+                                                        " SKYPE FOR BUSINESS",
+                                                        "Office 365 Basics",
+                                                        " OneDrive",
+                                                        " POWER BI",
+                                                        " YAMMER",
+                                                        "MYANALYTICS",
+                                                        "DELVE",
+                                                        " Outlook",
+                                                        " Office 365 Basics",
+                                                      ]
+                            }
+              />
+</div>,
+            <div
+              className="SidebarNoSelection"
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#2a7ab9",
+              "title": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ScenarioListWithFilter
+                areas={
+                                Array [
+                                                "Communication & Media",
+                                                "Communication & Media + Sales",
+                                                "Education",
+                                                "Finance",
+                                                "Financial Services",
+                                                "Financial Services + Finance",
+                                                "Financial Services + Marketing",
+                                                "Financial Services + Sales",
+                                                "Healthcare",
+                                                "Hospitality",
+                                                "Hospitality+Retail ",
+                                                "Human Resources",
+                                                "Manufacturing",
+                                                "Manufacturing + Operations",
+                                                "Manufacturing + Sales",
+                                                "Manufacturing + Sales",
+                                                "Manufacturing + Sales",
+                                                "Marketing",
+                                                "Operations",
+                                                "Operations+Sales ",
+                                                "Professional Services ",
+                                                "Professional Services + Sales",
+                                                "Retail",
+                                                "Retail + Marketing",
+                                                "Retail + Sales",
+                                                "Retail + Human Resources",
+                                                "Retail + Sales",
+                                                "Sales",
+                                                "Generic",
+                                              ]
+                }
+                defaultView={undefined}
+                globalContext={undefined}
+                onFilter={[Function]}
+                onSearch={[Function]}
+                onSelection={[Function]}
+                tasks={Array []}
+                tools={
+                                Array [
+                                                "Excel",
+                                                "Office 365",
+                                                "OneDrive",
+                                                "OneNote",
+                                                "Outlook",
+                                                "PowerPoint",
+                                                "SharePoint",
+                                                "Skype for Business",
+                                                "Word",
+                                                "Power BI",
+                                                "Yammer",
+                                                "Delve",
+                                                "Enterprise Mobility + Security",
+                                                "Microsoft Teams",
+                                                "Flow",
+                                                "PowerApps",
+                                                "Planner",
+                                                "Sway",
+                                                "Windows 10",
+                                                "Project",
+                                                "StaffHub",
+                                                "MyAnalytics",
+                                                "Visio",
+                                                "WINDOWS 10",
+                                                "MICROSOFT TEAMS",
+                                                " OFFICE 365",
+                                                "OUTLOOK",
+                                                "SHAREPOINT",
+                                                "YAMMER",
+                                                "OFFICE 365 BASICS",
+                                                " SHAREPOINT",
+                                                " OFFICE 365 BASICS",
+                                                " PLANNER",
+                                                " SKYPE FOR BUSINESS",
+                                                "Office 365 Basics",
+                                                " OneDrive",
+                                                " POWER BI",
+                                                " YAMMER",
+                                                "MYANALYTICS",
+                                                "DELVE",
+                                                " Outlook",
+                                                " Office 365 Basics",
+                                              ]
+                }
+/>,
+              "className": "   ",
+              "style": Object {
+                "height": NaN,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "areas": Array [
+                  "Communication & Media",
+                  "Communication & Media + Sales",
+                  "Education",
+                  "Finance",
+                  "Financial Services",
+                  "Financial Services + Finance",
+                  "Financial Services + Marketing",
+                  "Financial Services + Sales",
+                  "Healthcare",
+                  "Hospitality",
+                  "Hospitality+Retail ",
+                  "Human Resources",
+                  "Manufacturing",
+                  "Manufacturing + Operations",
+                  "Manufacturing + Sales",
+                  "Manufacturing + Sales",
+                  "Manufacturing + Sales",
+                  "Marketing",
+                  "Operations",
+                  "Operations+Sales ",
+                  "Professional Services ",
+                  "Professional Services + Sales",
+                  "Retail",
+                  "Retail + Marketing",
+                  "Retail + Sales",
+                  "Retail + Human Resources",
+                  "Retail + Sales",
+                  "Sales",
+                  "Generic",
+                ],
+                "defaultView": undefined,
+                "globalContext": undefined,
+                "onFilter": [Function],
+                "onSearch": [Function],
+                "onSelection": [Function],
+                "tasks": Array [],
+                "tools": Array [
+                  "Excel",
+                  "Office 365",
+                  "OneDrive",
+                  "OneNote",
+                  "Outlook",
+                  "PowerPoint",
+                  "SharePoint",
+                  "Skype for Business",
+                  "Word",
+                  "Power BI",
+                  "Yammer",
+                  "Delve",
+                  "Enterprise Mobility + Security",
+                  "Microsoft Teams",
+                  "Flow",
+                  "PowerApps",
+                  "Planner",
+                  "Sway",
+                  "Windows 10",
+                  "Project",
+                  "StaffHub",
+                  "MyAnalytics",
+                  "Visio",
+                  "WINDOWS 10",
+                  "MICROSOFT TEAMS",
+                  " OFFICE 365",
+                  "OUTLOOK",
+                  "SHAREPOINT",
+                  "YAMMER",
+                  "OFFICE 365 BASICS",
+                  " SHAREPOINT",
+                  " OFFICE 365 BASICS",
+                  " PLANNER",
+                  " SKYPE FOR BUSINESS",
+                  "Office 365 Basics",
+                  " OneDrive",
+                  " POWER BI",
+                  " YAMMER",
+                  "MYANALYTICS",
+                  "DELVE",
+                  " Outlook",
+                  " Office 365 Basics",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": null,
+              "className": "SidebarNoSelection",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <PageLayoutMain>
+            <PageHeader
+                        color="#2a7ab9"
+                        title=""
+            />
+            <div
+                        className="   "
+                        style={
+                                    Object {
+                                                "height": NaN,
+                                              }
+                        }
+            >
+                        <ScenarioListWithFilter
+                                    areas={
+                                                Array [
+                                                            "Communication & Media",
+                                                            "Communication & Media + Sales",
+                                                            "Education",
+                                                            "Finance",
+                                                            "Financial Services",
+                                                            "Financial Services + Finance",
+                                                            "Financial Services + Marketing",
+                                                            "Financial Services + Sales",
+                                                            "Healthcare",
+                                                            "Hospitality",
+                                                            "Hospitality+Retail ",
+                                                            "Human Resources",
+                                                            "Manufacturing",
+                                                            "Manufacturing + Operations",
+                                                            "Manufacturing + Sales",
+                                                            "Manufacturing + Sales",
+                                                            "Manufacturing + Sales",
+                                                            "Marketing",
+                                                            "Operations",
+                                                            "Operations+Sales ",
+                                                            "Professional Services ",
+                                                            "Professional Services + Sales",
+                                                            "Retail",
+                                                            "Retail + Marketing",
+                                                            "Retail + Sales",
+                                                            "Retail + Human Resources",
+                                                            "Retail + Sales",
+                                                            "Sales",
+                                                            "Generic",
+                                                          ]
+                                    }
+                                    defaultView={undefined}
+                                    globalContext={undefined}
+                                    onFilter={[Function]}
+                                    onSearch={[Function]}
+                                    onSelection={[Function]}
+                                    tasks={Array []}
+                                    tools={
+                                                Array [
+                                                            "Excel",
+                                                            "Office 365",
+                                                            "OneDrive",
+                                                            "OneNote",
+                                                            "Outlook",
+                                                            "PowerPoint",
+                                                            "SharePoint",
+                                                            "Skype for Business",
+                                                            "Word",
+                                                            "Power BI",
+                                                            "Yammer",
+                                                            "Delve",
+                                                            "Enterprise Mobility + Security",
+                                                            "Microsoft Teams",
+                                                            "Flow",
+                                                            "PowerApps",
+                                                            "Planner",
+                                                            "Sway",
+                                                            "Windows 10",
+                                                            "Project",
+                                                            "StaffHub",
+                                                            "MyAnalytics",
+                                                            "Visio",
+                                                            "WINDOWS 10",
+                                                            "MICROSOFT TEAMS",
+                                                            " OFFICE 365",
+                                                            "OUTLOOK",
+                                                            "SHAREPOINT",
+                                                            "YAMMER",
+                                                            "OFFICE 365 BASICS",
+                                                            " SHAREPOINT",
+                                                            " OFFICE 365 BASICS",
+                                                            " PLANNER",
+                                                            " SKYPE FOR BUSINESS",
+                                                            "Office 365 Basics",
+                                                            " OneDrive",
+                                                            " POWER BI",
+                                                            " YAMMER",
+                                                            "MYANALYTICS",
+                                                            "DELVE",
+                                                            " Outlook",
+                                                            " Office 365 Basics",
+                                                          ]
+                                    }
+                        />
+            </div>
+            <div
+                        className="SidebarNoSelection"
+            />
+</PageLayoutMain>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <PageHeader
+                color="#2a7ab9"
+                title=""
+/>,
+              <div
+                className="   "
+                style={
+                                Object {
+                                                "height": NaN,
+                                              }
+                }
+>
+                <ScenarioListWithFilter
+                                areas={
+                                                Array [
+                                                                "Communication & Media",
+                                                                "Communication & Media + Sales",
+                                                                "Education",
+                                                                "Finance",
+                                                                "Financial Services",
+                                                                "Financial Services + Finance",
+                                                                "Financial Services + Marketing",
+                                                                "Financial Services + Sales",
+                                                                "Healthcare",
+                                                                "Hospitality",
+                                                                "Hospitality+Retail ",
+                                                                "Human Resources",
+                                                                "Manufacturing",
+                                                                "Manufacturing + Operations",
+                                                                "Manufacturing + Sales",
+                                                                "Manufacturing + Sales",
+                                                                "Manufacturing + Sales",
+                                                                "Marketing",
+                                                                "Operations",
+                                                                "Operations+Sales ",
+                                                                "Professional Services ",
+                                                                "Professional Services + Sales",
+                                                                "Retail",
+                                                                "Retail + Marketing",
+                                                                "Retail + Sales",
+                                                                "Retail + Human Resources",
+                                                                "Retail + Sales",
+                                                                "Sales",
+                                                                "Generic",
+                                                              ]
+                                }
+                                defaultView={undefined}
+                                globalContext={undefined}
+                                onFilter={[Function]}
+                                onSearch={[Function]}
+                                onSelection={[Function]}
+                                tasks={Array []}
+                                tools={
+                                                Array [
+                                                                "Excel",
+                                                                "Office 365",
+                                                                "OneDrive",
+                                                                "OneNote",
+                                                                "Outlook",
+                                                                "PowerPoint",
+                                                                "SharePoint",
+                                                                "Skype for Business",
+                                                                "Word",
+                                                                "Power BI",
+                                                                "Yammer",
+                                                                "Delve",
+                                                                "Enterprise Mobility + Security",
+                                                                "Microsoft Teams",
+                                                                "Flow",
+                                                                "PowerApps",
+                                                                "Planner",
+                                                                "Sway",
+                                                                "Windows 10",
+                                                                "Project",
+                                                                "StaffHub",
+                                                                "MyAnalytics",
+                                                                "Visio",
+                                                                "WINDOWS 10",
+                                                                "MICROSOFT TEAMS",
+                                                                " OFFICE 365",
+                                                                "OUTLOOK",
+                                                                "SHAREPOINT",
+                                                                "YAMMER",
+                                                                "OFFICE 365 BASICS",
+                                                                " SHAREPOINT",
+                                                                " OFFICE 365 BASICS",
+                                                                " PLANNER",
+                                                                " SKYPE FOR BUSINESS",
+                                                                "Office 365 Basics",
+                                                                " OneDrive",
+                                                                " POWER BI",
+                                                                " YAMMER",
+                                                                "MYANALYTICS",
+                                                                "DELVE",
+                                                                " Outlook",
+                                                                " Office 365 Basics",
+                                                              ]
+                                }
+                />
+</div>,
+              <div
+                className="SidebarNoSelection"
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "#2a7ab9",
+                "title": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ScenarioListWithFilter
+                  areas={
+                                    Array [
+                                                      "Communication & Media",
+                                                      "Communication & Media + Sales",
+                                                      "Education",
+                                                      "Finance",
+                                                      "Financial Services",
+                                                      "Financial Services + Finance",
+                                                      "Financial Services + Marketing",
+                                                      "Financial Services + Sales",
+                                                      "Healthcare",
+                                                      "Hospitality",
+                                                      "Hospitality+Retail ",
+                                                      "Human Resources",
+                                                      "Manufacturing",
+                                                      "Manufacturing + Operations",
+                                                      "Manufacturing + Sales",
+                                                      "Manufacturing + Sales",
+                                                      "Manufacturing + Sales",
+                                                      "Marketing",
+                                                      "Operations",
+                                                      "Operations+Sales ",
+                                                      "Professional Services ",
+                                                      "Professional Services + Sales",
+                                                      "Retail",
+                                                      "Retail + Marketing",
+                                                      "Retail + Sales",
+                                                      "Retail + Human Resources",
+                                                      "Retail + Sales",
+                                                      "Sales",
+                                                      "Generic",
+                                                    ]
+                  }
+                  defaultView={undefined}
+                  globalContext={undefined}
+                  onFilter={[Function]}
+                  onSearch={[Function]}
+                  onSelection={[Function]}
+                  tasks={Array []}
+                  tools={
+                                    Array [
+                                                      "Excel",
+                                                      "Office 365",
+                                                      "OneDrive",
+                                                      "OneNote",
+                                                      "Outlook",
+                                                      "PowerPoint",
+                                                      "SharePoint",
+                                                      "Skype for Business",
+                                                      "Word",
+                                                      "Power BI",
+                                                      "Yammer",
+                                                      "Delve",
+                                                      "Enterprise Mobility + Security",
+                                                      "Microsoft Teams",
+                                                      "Flow",
+                                                      "PowerApps",
+                                                      "Planner",
+                                                      "Sway",
+                                                      "Windows 10",
+                                                      "Project",
+                                                      "StaffHub",
+                                                      "MyAnalytics",
+                                                      "Visio",
+                                                      "WINDOWS 10",
+                                                      "MICROSOFT TEAMS",
+                                                      " OFFICE 365",
+                                                      "OUTLOOK",
+                                                      "SHAREPOINT",
+                                                      "YAMMER",
+                                                      "OFFICE 365 BASICS",
+                                                      " SHAREPOINT",
+                                                      " OFFICE 365 BASICS",
+                                                      " PLANNER",
+                                                      " SKYPE FOR BUSINESS",
+                                                      "Office 365 Basics",
+                                                      " OneDrive",
+                                                      " POWER BI",
+                                                      " YAMMER",
+                                                      "MYANALYTICS",
+                                                      "DELVE",
+                                                      " Outlook",
+                                                      " Office 365 Basics",
+                                                    ]
+                  }
+/>,
+                "className": "   ",
+                "style": Object {
+                  "height": NaN,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "areas": Array [
+                    "Communication & Media",
+                    "Communication & Media + Sales",
+                    "Education",
+                    "Finance",
+                    "Financial Services",
+                    "Financial Services + Finance",
+                    "Financial Services + Marketing",
+                    "Financial Services + Sales",
+                    "Healthcare",
+                    "Hospitality",
+                    "Hospitality+Retail ",
+                    "Human Resources",
+                    "Manufacturing",
+                    "Manufacturing + Operations",
+                    "Manufacturing + Sales",
+                    "Manufacturing + Sales",
+                    "Manufacturing + Sales",
+                    "Marketing",
+                    "Operations",
+                    "Operations+Sales ",
+                    "Professional Services ",
+                    "Professional Services + Sales",
+                    "Retail",
+                    "Retail + Marketing",
+                    "Retail + Sales",
+                    "Retail + Human Resources",
+                    "Retail + Sales",
+                    "Sales",
+                    "Generic",
+                  ],
+                  "defaultView": undefined,
+                  "globalContext": undefined,
+                  "onFilter": [Function],
+                  "onSearch": [Function],
+                  "onSelection": [Function],
+                  "tasks": Array [],
+                  "tools": Array [
+                    "Excel",
+                    "Office 365",
+                    "OneDrive",
+                    "OneNote",
+                    "Outlook",
+                    "PowerPoint",
+                    "SharePoint",
+                    "Skype for Business",
+                    "Word",
+                    "Power BI",
+                    "Yammer",
+                    "Delve",
+                    "Enterprise Mobility + Security",
+                    "Microsoft Teams",
+                    "Flow",
+                    "PowerApps",
+                    "Planner",
+                    "Sway",
+                    "Windows 10",
+                    "Project",
+                    "StaffHub",
+                    "MyAnalytics",
+                    "Visio",
+                    "WINDOWS 10",
+                    "MICROSOFT TEAMS",
+                    " OFFICE 365",
+                    "OUTLOOK",
+                    "SHAREPOINT",
+                    "YAMMER",
+                    "OFFICE 365 BASICS",
+                    " SHAREPOINT",
+                    " OFFICE 365 BASICS",
+                    " PLANNER",
+                    " SKYPE FOR BUSINESS",
+                    "Office 365 Basics",
+                    " OneDrive",
+                    " POWER BI",
+                    " YAMMER",
+                    "MYANALYTICS",
+                    "DELVE",
+                    " Outlook",
+                    " Office 365 Basics",
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": null,
+                "className": "SidebarNoSelection",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

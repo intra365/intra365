@@ -1,0 +1,25 @@
+.wtwTool {
+
+}
+.wtwToolBox {
+    
+    width:128px
+}
+.wtwToolText {
+    float:left;
+    line-height: 34x;
+    font-size: 16px
+}
+
+@media only screen and (max-width: 740px)  {
+    .wtwTool {
+
+    }
+    .wtwToolBox {
+        width:36px
+    }
+    .wtwToolText {
+        display: none        
+    }
+    
+}

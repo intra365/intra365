@@ -1,0 +1,17 @@
+.pivotItemEditor{
+    
+    
+    min-height: 450px;
+    max-height: 450px;
+}
+
+.pivotContent {
+height:400px;
+xwidth:500px;
+overflow:auto
+
+}
+
+.pivotContentTile{
+    
+}

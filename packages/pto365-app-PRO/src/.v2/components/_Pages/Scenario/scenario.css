@@ -1,0 +1,65 @@
+.ItemsSelected {
+
+    width: 60%;
+  
+    overflow:scroll;
+    float:left
+}
+.ItemsSelected-Mobile {
+
+    width: 100%;
+
+    overflow:scroll;
+    float:left
+}
+.ItemsNotSelected {
+
+}
+
+.SidebarNoSelection {
+
+}
+
+.SidebarSelection {
+    width:40%;
+    float:left;
+    height:100%
+}
+.SidebarSelection-Mobile {
+    width:100%;
+    float:left;
+    
+}
+
+.SidebarSingleSelection {
+}
+
+
+.SidebarMultiSelection {
+}
+
+.SidebarContent{
+    padding-left: 20px;
+    padding-right:10px;
+}
+.SidebarOuterBorder{
+ margin-top:-9px;
+ 
+}
+
+.SidebarInnerBorder {
+    border-left: 1px solid #aaaaaa;
+    margin-left:14px;
+    margin-right:20px;
+}
+
+.SidebarInnerBorder-Mobile {
+    xborder-left: 1px solid #aaaaaa;
+    xmargin-left:14px;
+    xmargin-right:20px;
+}
+
+.markdown img {
+    max-width: 100%;
+    height: auto;
+}

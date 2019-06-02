@@ -1,0 +1,753 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('58d02ee5-af80-4f81-b144-1734b77c02c9')/drive/root/children",
+    "value": [{
+            "createdDateTime": "2017-11-27T07:37:42Z",
+            "eTag": "\"{4CE86CC5-4E85-49CF-A2A8-4D8EB8FBD8EA},4\"",
+            "id": "01QDKNWQ6FNTUEZBKOZ5E2FKCNR24PXWHK",
+            "lastModifiedDateTime": "2017-11-27T07:37:40Z",
+            "name": "Articles",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Articles",
+            "cTag": "\"c:{4CE86CC5-4E85-49CF-A2A8-4D8EB8FBD8EA},0\"",
+            "size": 907188,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2017-11-27T07:37:42Z",
+                "lastModifiedDateTime": "2017-11-27T07:37:40Z"
+            },
+            "folder": {
+                "childCount": 2
+            }
+        },
+        {
+            "createdDateTime": "2017-03-22T06:13:38Z",
+            "eTag": "\"{B9BE2B9A-63B0-427E-A508-9CFD8CAAB527},1\"",
+            "id": "01QDKNWQ42FO7LTMDDPZBKKCE47WGKVNJH",
+            "lastModifiedDateTime": "2017-03-22T06:13:38Z",
+            "name": "Attachments",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Attachments",
+            "cTag": "\"c:{B9BE2B9A-63B0-427E-A508-9CFD8CAAB527},0\"",
+            "size": 0,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2017-03-22T06:13:38Z",
+                "lastModifiedDateTime": "2017-03-22T06:13:38Z"
+            },
+            "folder": {
+                "childCount": 0
+            },
+            "specialFolder": {
+                "name": "attachments"
+            }
+        },
+        {
+            "createdDateTime": "2018-07-07T09:29:00Z",
+            "eTag": "\"{395BFB0B-77B1-4023-9B16-9645BDE2B999},2\"",
+            "id": "01QDKNWQYL7NNTTMLXENAJWFUWIW66FOMZ",
+            "lastModifiedDateTime": "2018-07-07T09:23:25Z",
+            "name": "Audio",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Audio",
+            "cTag": "\"c:{395BFB0B-77B1-4023-9B16-9645BDE2B999},0\"",
+            "size": 40383243,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-07-07T09:29:00Z",
+                "lastModifiedDateTime": "2018-07-07T09:23:25Z"
+            },
+            "folder": {
+                "childCount": 10
+            }
+        },
+        {
+            "createdDateTime": "2018-03-01T10:47:52Z",
+            "eTag": "\"{5A8B38D9-ADF1-4B7F-A605-AE6E2B66B695},1\"",
+            "id": "01QDKNWQ6ZHCFVV4NNP5F2MBNONYVWNNUV",
+            "lastModifiedDateTime": "2018-03-01T10:47:52Z",
+            "name": "Documents",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Documents",
+            "cTag": "\"c:{5A8B38D9-ADF1-4B7F-A605-AE6E2B66B695},0\"",
+            "size": 0,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-03-01T10:47:52Z",
+                "lastModifiedDateTime": "2018-03-01T10:47:52Z"
+            },
+            "folder": {
+                "childCount": 0
+            },
+            "specialFolder": {
+                "name": "documents"
+            }
+        },
+        {
+            "createdDateTime": "2017-11-19T09:01:21Z",
+            "eTag": "\"{C92F6413-A023-4133-AF72-042C1FD94ED4},3\"",
+            "id": "01QDKNWQYTMQX4SI5AGNA264QEFQP5STWU",
+            "lastModifiedDateTime": "2017-11-19T09:01:21Z",
+            "name": "icansharepoint",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/icansharepoint",
+            "cTag": "\"c:{C92F6413-A023-4133-AF72-042C1FD94ED4},0\"",
+            "size": 59115,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2017-11-19T09:01:21Z",
+                "lastModifiedDateTime": "2017-11-19T09:01:21Z"
+            },
+            "folder": {
+                "childCount": 1
+            },
+            "shared": {
+                "scope": "users"
+            }
+        },
+        {
+            "createdDateTime": "2018-04-23T07:55:26Z",
+            "eTag": "\"{857A61AB-CDC8-4B96-B75C-A8740D2F5C79},2\"",
+            "id": "01QDKNWQ5LMF5ILSGNSZF3OXFIOQGS6XDZ",
+            "lastModifiedDateTime": "2018-04-23T07:53:53Z",
+            "name": "jumpto365",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/jumpto365",
+            "cTag": "\"c:{857A61AB-CDC8-4B96-B75C-A8740D2F5C79},0\"",
+            "size": 374658,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-04-23T07:55:26Z",
+                "lastModifiedDateTime": "2018-04-23T07:53:53Z"
+            },
+            "folder": {
+                "childCount": 1
+            }
+        },
+        {
+            "createdDateTime": "2018-02-08T08:33:03Z",
+            "eTag": "\"{6E793EFB-5F47-42FD-A9F7-3CE59E857556},1\"",
+            "id": "01QDKNWQ73HZ4W4R277VBKT5Z44WPIK5KW",
+            "lastModifiedDateTime": "2018-02-08T08:33:03Z",
+            "name": "Microsoft Teams Chat Files",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Microsoft%20Teams%20Chat%20Files",
+            "cTag": "\"c:{6E793EFB-5F47-42FD-A9F7-3CE59E857556},0\"",
+            "size": 1968271,
+            "createdBy": {
+                "application": {
+                    "id": "cc15fd57-2c6c-4117-a88c-83b1d56b4bbe",
+                    "displayName": "Microsoft Teams Services"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "application": {
+                    "id": "cc15fd57-2c6c-4117-a88c-83b1d56b4bbe",
+                    "displayName": "Microsoft Teams Services"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-02-08T08:33:03Z",
+                "lastModifiedDateTime": "2018-02-08T08:33:03Z"
+            },
+            "folder": {
+                "childCount": 2
+            }
+        },
+        {
+            "createdDateTime": "2018-06-25T13:57:06Z",
+            "eTag": "\"{80DDE78D-FE5F-4976-8456-5926C260A946},1\"",
+            "id": "01QDKNWQ4N47OYAX76OZEYIVSZE3BGBKKG",
+            "lastModifiedDateTime": "2018-06-25T13:57:06Z",
+            "name": "Microsoft Teams Data",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Microsoft%20Teams%20Data",
+            "cTag": "\"c:{80DDE78D-FE5F-4976-8456-5926C260A946},0\"",
+            "size": 1482,
+            "createdBy": {
+                "application": {
+                    "id": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+                    "displayName": "Microsoft Teams"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "application": {
+                    "id": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+                    "displayName": "Microsoft Teams"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-06-25T13:57:06Z",
+                "lastModifiedDateTime": "2018-06-25T13:57:06Z"
+            },
+            "folder": {
+                "childCount": 1
+            }
+        },
+        {
+            "createdDateTime": "2017-05-16T13:53:21Z",
+            "eTag": "\"{3286D37F-0297-41FF-8546-6084F73F4E31},1\"",
+            "id": "01QDKNWQ372ODDFFYC75AYKRTAQT3T6TRR",
+            "lastModifiedDateTime": "2017-05-16T13:53:21Z",
+            "name": "Notebooks",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Notebooks",
+            "cTag": "\"c:{3286D37F-0297-41FF-8546-6084F73F4E31},0\"",
+            "size": 0,
+            "createdBy": {
+                "application": {
+                    "id": "2d4d3d8e-2be3-4bef-9f87-7875a61c29de",
+                    "displayName": "OneNote"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "application": {
+                    "id": "2d4d3d8e-2be3-4bef-9f87-7875a61c29de",
+                    "displayName": "OneNote"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2017-05-16T13:53:21Z",
+                "lastModifiedDateTime": "2017-05-16T13:53:21Z"
+            },
+            "folder": {
+                "childCount": 1
+            }
+        },
+        {
+            "createdDateTime": "2018-09-04T08:31:41Z",
+            "eTag": "\"{2C8C3E3B-56F5-4936-91FF-0D15BB22C3B0},1\"",
+            "id": "01QDKNWQZ3H2GCZ5KWGZEZD7YNCW5SFQ5Q",
+            "lastModifiedDateTime": "2018-09-04T08:31:41Z",
+            "name": "PowerApps",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/PowerApps",
+            "cTag": "\"c:{2C8C3E3B-56F5-4936-91FF-0D15BB22C3B0},0\"",
+            "size": 29804,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-09-04T08:31:41Z",
+                "lastModifiedDateTime": "2018-09-04T08:31:41Z"
+            },
+            "folder": {
+                "childCount": 1
+            }
+        },
+        {
+            "createdDateTime": "2018-07-07T09:29:04Z",
+            "eTag": "\"{32197EAA-7EB3-4160-9BA7-17082389E38E},2\"",
+            "id": "01QDKNWQ5KPYMTFM36MBAZXJYXBARYTY4O",
+            "lastModifiedDateTime": "2018-07-07T09:15:28Z",
+            "name": "Taler",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Taler",
+            "cTag": "\"c:{32197EAA-7EB3-4160-9BA7-17082389E38E},0\"",
+            "size": 12588,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-07-07T09:29:04Z",
+                "lastModifiedDateTime": "2018-07-07T09:15:28Z"
+            },
+            "folder": {
+                "childCount": 1
+            }
+        },
+        {
+            "createdDateTime": "2018-05-20T17:41:36Z",
+            "eTag": "\"{9005A4FA-78DC-47AD-85F0-07F6DA7A5557},2\"",
+            "id": "01QDKNWQ72UQCZBXDYVVDYL4AH63NHUVKX",
+            "lastModifiedDateTime": "2018-05-20T17:41:32Z",
+            "name": "Video",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/Documents/Video",
+            "cTag": "\"c:{9005A4FA-78DC-47AD-85F0-07F6DA7A5557},0\"",
+            "size": 3864932236,
+            "createdBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-05-20T17:41:36Z",
+                "lastModifiedDateTime": "2018-05-20T17:41:32Z"
+            },
+            "folder": {
+                "childCount": 12
+            }
+        },
+        {
+            "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/download.aspx?UniqueId=7897c417-058b-4490-a569-f326720b5d04&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1MzYzMjk4MDEiLCJleHAiOiIxNTM2MzMzNDAxIiwiZW5kcG9pbnR1cmwiOiJWZzZ2STQzT3diN0NWZVhBZ2hQc0lmVUprRGZ4cmw0alAvckRsbzNhdlY0PSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ4IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZVEU1WlRWaFlXTXROemsyTnkwME5EQTRMVGhpT0dZdE1tTmpOelkzTXpBNU5tWmoiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiSnVtcHRvMzY1IiwiYXBwaWQiOiI1YTQ3MzU1Ny1hOWQzLTQzNzgtOTBmMS1lOWNkM2EzODAwNmYiLCJ0aWQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1cG4iOiJuaWVsc0BoZXhhdG93bi5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsInNjcCI6Im15ZmlsZXMucmVhZCBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.ZHdka3pvTUJlRVB3cUs4RmdHU3ByRXQ4ZjRxekNoU1NGeTJ6eVhxRmcwTT0&ApiVersion=2.0",
+            "createdDateTime": "2017-01-16T12:06:55Z",
+            "eTag": "\"{7897C417-058B-4490-A569-F326720B5D04},128\"",
+            "id": "01QDKNWQYXYSLXRCYFSBCKK2PTEZZAWXIE",
+            "lastModifiedDateTime": "2017-01-17T07:56:41Z",
+            "name": "365admin charter.pptx",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/Doc.aspx?sourcedoc=%7B7897C417-058B-4490-A569-F326720B5D04%7D&file=365admin%20charter.pptx&action=edit&mobileredirect=true",
+            "cTag": "\"c:{7897C417-058B-4490-A569-F326720B5D04},87\"",
+            "size": 1605417,
+            "createdBy": {
+                "application": {
+                    "id": "67e3df25-268a-4324-a550-0de1c7f97287",
+                    "displayName": "Microsoft Office Web Apps Service"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ngjoh@nets.eu",
+                    "displayName": "Niels Gregers Johansen"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "file": {
+                "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "hashes": {
+                    "quickXorHash": "bCaRS9zWSiUCtadh8D735AdVzIw="
+                }
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2017-01-16T12:06:55Z",
+                "lastModifiedDateTime": "2017-01-17T07:56:41Z"
+            },
+            "shared": {
+                "scope": "users"
+            }
+        },
+        {
+            "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/download.aspx?UniqueId=463ef9af-8d14-47f4-931a-8e0bf048f88e&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1MzYzMjk4MDEiLCJleHAiOiIxNTM2MzMzNDAxIiwiZW5kcG9pbnR1cmwiOiI5MEFxYWtOREZJZTJQOFF2QmQwRDVjeFVZbVVhZDFFcEMxc0kxRFBEQkhvPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ4IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZVEU1WlRWaFlXTXROemsyTnkwME5EQTRMVGhpT0dZdE1tTmpOelkzTXpBNU5tWmoiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiSnVtcHRvMzY1IiwiYXBwaWQiOiI1YTQ3MzU1Ny1hOWQzLTQzNzgtOTBmMS1lOWNkM2EzODAwNmYiLCJ0aWQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1cG4iOiJuaWVsc0BoZXhhdG93bi5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsInNjcCI6Im15ZmlsZXMucmVhZCBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.eVBPaE94aXZjd1ZXYXNLQkFQc0Z6UVJEaWZJUHZaV2RaZDUrZkpGbWpqYz0&ApiVersion=2.0",
+            "createdDateTime": "2017-05-16T13:54:05Z",
+            "eTag": "\"{463EF9AF-8D14-47F4-931A-8E0BF048F88E},14\"",
+            "id": "01QDKNWQ5P7E7EMFEN6RDZGGUOBPYER6EO",
+            "lastModifiedDateTime": "2017-05-16T13:54:53Z",
+            "name": "365admin Infrastructure.pptx",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/Doc.aspx?sourcedoc=%7B463EF9AF-8D14-47F4-931A-8E0BF048F88E%7D&file=365admin%20Infrastructure.pptx&action=edit&mobileredirect=true",
+            "cTag": "\"c:{463EF9AF-8D14-47F4-931A-8E0BF048F88E},5\"",
+            "size": 497396,
+            "createdBy": {
+                "application": {
+                    "id": "67e3df25-268a-4324-a550-0de1c7f97287",
+                    "displayName": "Microsoft Office Web Apps Service"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "file": {
+                "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "hashes": {
+                    "quickXorHash": "2a757nnpSEl9cs9XIQ9gQ7W/j1I="
+                }
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2017-05-16T13:54:05Z",
+                "lastModifiedDateTime": "2017-05-16T13:54:53Z"
+            }
+        },
+        {
+            "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/download.aspx?UniqueId=269eb6bb-2f4a-4298-9710-d60d404e6ff9&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1MzYzMjk4MDEiLCJleHAiOiIxNTM2MzMzNDAxIiwiZW5kcG9pbnR1cmwiOiJqUXhOU3hlWXlMajFXdnBCdGxUUlZLMUhha04rNnVyVWQ3eHBNQnlhVzBJPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ4IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZVEU1WlRWaFlXTXROemsyTnkwME5EQTRMVGhpT0dZdE1tTmpOelkzTXpBNU5tWmoiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiSnVtcHRvMzY1IiwiYXBwaWQiOiI1YTQ3MzU1Ny1hOWQzLTQzNzgtOTBmMS1lOWNkM2EzODAwNmYiLCJ0aWQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1cG4iOiJuaWVsc0BoZXhhdG93bi5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsInNjcCI6Im15ZmlsZXMucmVhZCBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.dFBQRFVlN2FuUHRWTjllV2ZxS1R6MmNBUktscHZGb0Q3a29EQ29Cc1ZyZz0&ApiVersion=2.0",
+            "createdDateTime": "2017-11-25T15:19:36Z",
+            "eTag": "\"{269EB6BB-2F4A-4298-9710-D60D404E6FF9},5\"",
+            "id": "01QDKNWQ53W2PCMSRPTBBJOEGWBVAE437Z",
+            "lastModifiedDateTime": "2017-11-25T15:20:10Z",
+            "name": "Book.xlsx",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/Doc.aspx?sourcedoc=%7B269EB6BB-2F4A-4298-9710-D60D404E6FF9%7D&file=Book.xlsx&action=default&mobileredirect=true",
+            "cTag": "\"c:{269EB6BB-2F4A-4298-9710-D60D404E6FF9},3\"",
+            "size": 7629,
+            "createdBy": {
+                "application": {
+                    "id": "67e3df25-268a-4324-a550-0de1c7f97287",
+                    "displayName": "Microsoft Office Web Apps Service"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "file": {
+                "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "hashes": {
+                    "quickXorHash": "/Wb15j1Y672nc+aeg6yNsNuttvg="
+                }
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2017-11-25T15:19:36Z",
+                "lastModifiedDateTime": "2017-11-25T15:20:10Z"
+            }
+        },
+        {
+            "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/download.aspx?UniqueId=29d4cadb-1fb5-4543-b43e-231cb7319f69&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1MzYzMjk4MDEiLCJleHAiOiIxNTM2MzMzNDAxIiwiZW5kcG9pbnR1cmwiOiIzd3Z0ZWo4SlZHWjFHWDlCUVpHTk9FU0sxMlRQWi9PWkxIaTdyQlJJUHJRPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ4IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZVEU1WlRWaFlXTXROemsyTnkwME5EQTRMVGhpT0dZdE1tTmpOelkzTXpBNU5tWmoiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiSnVtcHRvMzY1IiwiYXBwaWQiOiI1YTQ3MzU1Ny1hOWQzLTQzNzgtOTBmMS1lOWNkM2EzODAwNmYiLCJ0aWQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1cG4iOiJuaWVsc0BoZXhhdG93bi5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsInNjcCI6Im15ZmlsZXMucmVhZCBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.Q2M3bmxKNzNuNUdiQUJlQ0k0N3NIeGJzTFhlZGVGaThYclptWWpXK1pJWT0&ApiVersion=2.0",
+            "createdDateTime": "2018-05-03T11:48:58Z",
+            "eTag": "\"{29D4CADB-1FB5-4543-B43E-231CB7319F69},2\"",
+            "id": "01QDKNWQ63ZLKCTNI7INC3IPRDDS3TDH3J",
+            "lastModifiedDateTime": "2018-05-03T11:49:06Z",
+            "name": "Document.docx",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/Doc.aspx?sourcedoc=%7B29D4CADB-1FB5-4543-B43E-231CB7319F69%7D&file=Document.docx&action=default&mobileredirect=true",
+            "cTag": "\"c:{29D4CADB-1FB5-4543-B43E-231CB7319F69},2\"",
+            "size": 11023,
+            "createdBy": {
+                "application": {
+                    "id": "67e3df25-268a-4324-a550-0de1c7f97287",
+                    "displayName": "Microsoft Office Web Apps Service"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "file": {
+                "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "hashes": {
+                    "quickXorHash": "YEvIB1EUzwRw2bB5095JrvA6z1c="
+                }
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-05-03T11:48:58Z",
+                "lastModifiedDateTime": "2018-05-03T11:49:06Z"
+            }
+        },
+        {
+            "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/download.aspx?UniqueId=3d41aa35-4634-4887-b212-5e2b8728ece0&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1MzYzMjk4MDEiLCJleHAiOiIxNTM2MzMzNDAxIiwiZW5kcG9pbnR1cmwiOiJ0M2x2UHgwcTZBakJVcW02TCtWNXljK3VKK1J2ZGFTcVlLOFBucloyOHFRPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ4IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZVEU1WlRWaFlXTXROemsyTnkwME5EQTRMVGhpT0dZdE1tTmpOelkzTXpBNU5tWmoiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiSnVtcHRvMzY1IiwiYXBwaWQiOiI1YTQ3MzU1Ny1hOWQzLTQzNzgtOTBmMS1lOWNkM2EzODAwNmYiLCJ0aWQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1cG4iOiJuaWVsc0BoZXhhdG93bi5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsInNjcCI6Im15ZmlsZXMucmVhZCBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.WkxkUUl1M2hhMUQ4K0g4ekd1ODczODNwMWpIZEJWeFFtVXFsckxObEExdz0&ApiVersion=2.0",
+            "createdDateTime": "2018-05-04T06:23:53Z",
+            "eTag": "\"{3D41AA35-4634-4887-B212-5E2B8728ECE0},2\"",
+            "id": "01QDKNWQZVVJAT2NCGQ5ELEES6FODSR3HA",
+            "lastModifiedDateTime": "2018-05-04T06:23:56Z",
+            "name": "Document1.docx",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/Doc.aspx?sourcedoc=%7B3D41AA35-4634-4887-B212-5E2B8728ECE0%7D&file=Document1.docx&action=default&mobileredirect=true",
+            "cTag": "\"c:{3D41AA35-4634-4887-B212-5E2B8728ECE0},2\"",
+            "size": 421056,
+            "createdBy": {
+                "application": {
+                    "id": "67e3df25-268a-4324-a550-0de1c7f97287",
+                    "displayName": "Microsoft Office Web Apps Service"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "file": {
+                "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "hashes": {
+                    "quickXorHash": "uzX1Kvb4T8oi91xuJU6QLHjKUsU="
+                }
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-05-04T06:23:53Z",
+                "lastModifiedDateTime": "2018-05-04T06:23:56Z"
+            }
+        },
+        {
+            "@microsoft.graph.downloadUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/download.aspx?UniqueId=8d4821e8-8a96-4b82-81ab-165b368f1c3d&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvMzY1YWRtLW15LnNoYXJlcG9pbnQuY29tQGRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1MzYzMjk4MDEiLCJleHAiOiIxNTM2MzMzNDAxIiwiZW5kcG9pbnR1cmwiOiI3NTZFL1dNVTNDbHY5OTE1UWZWK21Nb0ExU0RpOGdiRTZnVE4rOXJjdldjPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTQ4IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZVEU1WlRWaFlXTXROemsyTnkwME5EQTRMVGhpT0dZdE1tTmpOelkzTXpBNU5tWmoiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWVRGaE0yUmpPVFV0T1RObFlTMDBaVGN3TFRnek5EY3RNakkxWWpRME1UYzVNV00zIiwiYXBwX2Rpc3BsYXluYW1lIjoiSnVtcHRvMzY1IiwiYXBwaWQiOiI1YTQ3MzU1Ny1hOWQzLTQzNzgtOTBmMS1lOWNkM2EzODAwNmYiLCJ0aWQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1cG4iOiJuaWVsc0BoZXhhdG93bi5jb20iLCJwdWlkIjoiMTAwM0JGRkQ5Q0VCNzY2NSIsInNjcCI6Im15ZmlsZXMucmVhZCBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.S3dzUWk1Z2FYTnFjZ21WbDZMd3hBcFZjOTdoc1FDaXlwaHIwempqRVUzVT0&ApiVersion=2.0",
+            "createdDateTime": "2018-09-02T15:53:11Z",
+            "eTag": "\"{8D4821E8-8A96-4B82-81AB-165B368F1C3D},3\"",
+            "id": "01QDKNWQ7IEFEI3FUKQJFYDKYWLM3I6HB5",
+            "lastModifiedDateTime": "2018-09-02T15:53:15Z",
+            "name": "Presentation.pptx",
+            "webUrl": "https://365adm-my.sharepoint.com/personal/niels_hexatown_com/_layouts/15/Doc.aspx?sourcedoc=%7B8D4821E8-8A96-4B82-81AB-165B368F1C3D%7D&file=Presentation.pptx&action=edit&mobileredirect=true",
+            "cTag": "\"c:{8D4821E8-8A96-4B82-81AB-165B368F1C3D},2\"",
+            "size": 27611,
+            "createdBy": {
+                "application": {
+                    "id": "4345a7b9-9a63-4910-a426-35363201d503",
+                    "displayName": "O365 Suite UX"
+                },
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "niels@jumpto365.com",
+                    "id": "58d02ee5-af80-4f81-b144-1734b77c02c9",
+                    "displayName": "Niels Gregers Johansen - jumpto365.com"
+                }
+            },
+            "parentReference": {
+                "driveId": "b!ldyjoeqTcE6DRyJbRBeRxw1ja56gK4VHpyiU93l7bsOd0kATIX32T6wjhiBXsjW9",
+                "driveType": "business",
+                "id": "01QDKNWQ56Y2GOVW7725BZO354PWSELRRZ",
+                "path": "/drive/root:"
+            },
+            "file": {
+                "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "hashes": {
+                    "quickXorHash": "lvEE1fyW/ROvcg1ZYjWoejgo39s="
+                }
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2018-09-02T15:53:11Z",
+                "lastModifiedDateTime": "2018-09-02T15:53:15Z"
+            }
+        }
+    ]
+}

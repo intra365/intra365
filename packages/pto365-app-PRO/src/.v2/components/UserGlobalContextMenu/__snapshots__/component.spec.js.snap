@@ -1,0 +1,679 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that it renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserGlobalContextMenu
+    about="🍕"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <CustomizedDefaultButton
+          aria-roledescription="split button"
+          data-automation-id="share"
+          iconProps={
+                    Object {
+                              "iconName": "Share",
+                            }
+          }
+          menuProps={
+                    Object {
+                              "items": Array [
+                                Object {
+                                  "disabled": false,
+                                  "icon": "Embed",
+                                  "key": "embed",
+                                  "name": "[[NOCONTEXT:14]]",
+                                  "onClick": [Function],
+                                },
+                              ],
+                            }
+          }
+          split={true}
+          splitButtonAriaLabel=""
+          style={
+                    Object {
+                              "backgroundColor": "#ffffff",
+                              "paddingLeft": "0px",
+                              "paddingRight": "0px",
+                            }
+          }
+          text="[[NOCONTEXT:35]]"
+/>,
+        <CustomizedDefaultButton
+          aria-roledescription="split button"
+          data-automation-id="language"
+          iconProps={
+                    Object {
+                              "iconName": "LocaleLanguage",
+                            }
+          }
+          menuProps={
+                    Object {
+                              "items": Array [
+                                Object {
+                                  "key": "cs",
+                                  "name": "Čeština",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "da",
+                                  "name": "Dansk",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "de",
+                                  "name": "Deutsche",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "en",
+                                  "name": "English",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "es",
+                                  "name": "Español",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "fi",
+                                  "name": "Suomi",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "fr",
+                                  "name": "Française",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "he",
+                                  "name": "עִברִית",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "hu",
+                                  "name": "Magyar",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "is",
+                                  "name": "Íslensk",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "ja",
+                                  "name": "日本語",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "nl",
+                                  "name": "Nederlandse",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "no",
+                                  "name": "Norsk",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "pt",
+                                  "name": "Português",
+                                  "onClick": [Function],
+                                },
+                                Object {
+                                  "key": "sv",
+                                  "name": "Svenska",
+                                  "onClick": [Function],
+                                },
+                              ],
+                            }
+          }
+          split={true}
+          splitButtonAriaLabel=""
+          style={
+                    Object {
+                              "backgroundColor": "#ffffff",
+                              "paddingLeft": "0px",
+                              "paddingRight": "0px",
+                            }
+          }
+          text="[[NOCONTEXT:5]]"
+/>,
+        <CustomizedDefaultButton
+          data-automation-id="explore"
+          iconProps={
+                    Object {
+                              "iconName": "ExploreData",
+                            }
+          }
+          onClick={[Function]}
+          primary={true}
+          style={
+                    Object {
+                              "backgroundColor": "orange",
+                              "paddingLeft": "0px",
+                              "paddingRight": "0px",
+                            }
+          }
+          text="[[NOCONTEXT:34]] -  Preview 11"
+/>,
+        null,
+      ],
+      "style": Object {
+        "marginTop": "4px",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "aria-roledescription": "split button",
+          "data-automation-id": "share",
+          "iconProps": Object {
+            "iconName": "Share",
+          },
+          "menuProps": Object {
+            "items": Array [
+              Object {
+                "disabled": false,
+                "icon": "Embed",
+                "key": "embed",
+                "name": "[[NOCONTEXT:14]]",
+                "onClick": [Function],
+              },
+            ],
+          },
+          "split": true,
+          "splitButtonAriaLabel": "",
+          "style": Object {
+            "backgroundColor": "#ffffff",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+          },
+          "text": "[[NOCONTEXT:35]]",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "aria-roledescription": "split button",
+          "data-automation-id": "language",
+          "iconProps": Object {
+            "iconName": "LocaleLanguage",
+          },
+          "menuProps": Object {
+            "items": Array [
+              Object {
+                "key": "cs",
+                "name": "Čeština",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "da",
+                "name": "Dansk",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "de",
+                "name": "Deutsche",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "en",
+                "name": "English",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "es",
+                "name": "Español",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "fi",
+                "name": "Suomi",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "fr",
+                "name": "Française",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "he",
+                "name": "עִברִית",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "hu",
+                "name": "Magyar",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "is",
+                "name": "Íslensk",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "ja",
+                "name": "日本語",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "nl",
+                "name": "Nederlandse",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "no",
+                "name": "Norsk",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "pt",
+                "name": "Português",
+                "onClick": [Function],
+              },
+              Object {
+                "key": "sv",
+                "name": "Svenska",
+                "onClick": [Function],
+              },
+            ],
+          },
+          "split": true,
+          "splitButtonAriaLabel": "",
+          "style": Object {
+            "backgroundColor": "#ffffff",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+          },
+          "text": "[[NOCONTEXT:5]]",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "data-automation-id": "explore",
+          "iconProps": Object {
+            "iconName": "ExploreData",
+          },
+          "onClick": [Function],
+          "primary": true,
+          "style": Object {
+            "backgroundColor": "orange",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+          },
+          "text": "[[NOCONTEXT:34]] -  Preview 11",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <CustomizedDefaultButton
+            aria-roledescription="split button"
+            data-automation-id="share"
+            iconProps={
+                        Object {
+                                    "iconName": "Share",
+                                  }
+            }
+            menuProps={
+                        Object {
+                                    "items": Array [
+                                      Object {
+                                        "disabled": false,
+                                        "icon": "Embed",
+                                        "key": "embed",
+                                        "name": "[[NOCONTEXT:14]]",
+                                        "onClick": [Function],
+                                      },
+                                    ],
+                                  }
+            }
+            split={true}
+            splitButtonAriaLabel=""
+            style={
+                        Object {
+                                    "backgroundColor": "#ffffff",
+                                    "paddingLeft": "0px",
+                                    "paddingRight": "0px",
+                                  }
+            }
+            text="[[NOCONTEXT:35]]"
+/>,
+          <CustomizedDefaultButton
+            aria-roledescription="split button"
+            data-automation-id="language"
+            iconProps={
+                        Object {
+                                    "iconName": "LocaleLanguage",
+                                  }
+            }
+            menuProps={
+                        Object {
+                                    "items": Array [
+                                      Object {
+                                        "key": "cs",
+                                        "name": "Čeština",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "da",
+                                        "name": "Dansk",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "de",
+                                        "name": "Deutsche",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "en",
+                                        "name": "English",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "es",
+                                        "name": "Español",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "fi",
+                                        "name": "Suomi",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "fr",
+                                        "name": "Française",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "he",
+                                        "name": "עִברִית",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "hu",
+                                        "name": "Magyar",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "is",
+                                        "name": "Íslensk",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "ja",
+                                        "name": "日本語",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "nl",
+                                        "name": "Nederlandse",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "no",
+                                        "name": "Norsk",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "pt",
+                                        "name": "Português",
+                                        "onClick": [Function],
+                                      },
+                                      Object {
+                                        "key": "sv",
+                                        "name": "Svenska",
+                                        "onClick": [Function],
+                                      },
+                                    ],
+                                  }
+            }
+            split={true}
+            splitButtonAriaLabel=""
+            style={
+                        Object {
+                                    "backgroundColor": "#ffffff",
+                                    "paddingLeft": "0px",
+                                    "paddingRight": "0px",
+                                  }
+            }
+            text="[[NOCONTEXT:5]]"
+/>,
+          <CustomizedDefaultButton
+            data-automation-id="explore"
+            iconProps={
+                        Object {
+                                    "iconName": "ExploreData",
+                                  }
+            }
+            onClick={[Function]}
+            primary={true}
+            style={
+                        Object {
+                                    "backgroundColor": "orange",
+                                    "paddingLeft": "0px",
+                                    "paddingRight": "0px",
+                                  }
+            }
+            text="[[NOCONTEXT:34]] -  Preview 11"
+/>,
+          null,
+        ],
+        "style": Object {
+          "marginTop": "4px",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-roledescription": "split button",
+            "data-automation-id": "share",
+            "iconProps": Object {
+              "iconName": "Share",
+            },
+            "menuProps": Object {
+              "items": Array [
+                Object {
+                  "disabled": false,
+                  "icon": "Embed",
+                  "key": "embed",
+                  "name": "[[NOCONTEXT:14]]",
+                  "onClick": [Function],
+                },
+              ],
+            },
+            "split": true,
+            "splitButtonAriaLabel": "",
+            "style": Object {
+              "backgroundColor": "#ffffff",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+            },
+            "text": "[[NOCONTEXT:35]]",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-roledescription": "split button",
+            "data-automation-id": "language",
+            "iconProps": Object {
+              "iconName": "LocaleLanguage",
+            },
+            "menuProps": Object {
+              "items": Array [
+                Object {
+                  "key": "cs",
+                  "name": "Čeština",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "da",
+                  "name": "Dansk",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "de",
+                  "name": "Deutsche",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "en",
+                  "name": "English",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "es",
+                  "name": "Español",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "fi",
+                  "name": "Suomi",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "fr",
+                  "name": "Française",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "he",
+                  "name": "עִברִית",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "hu",
+                  "name": "Magyar",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "is",
+                  "name": "Íslensk",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "ja",
+                  "name": "日本語",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "nl",
+                  "name": "Nederlandse",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "no",
+                  "name": "Norsk",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "pt",
+                  "name": "Português",
+                  "onClick": [Function],
+                },
+                Object {
+                  "key": "sv",
+                  "name": "Svenska",
+                  "onClick": [Function],
+                },
+              ],
+            },
+            "split": true,
+            "splitButtonAriaLabel": "",
+            "style": Object {
+              "backgroundColor": "#ffffff",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+            },
+            "text": "[[NOCONTEXT:5]]",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "data-automation-id": "explore",
+            "iconProps": Object {
+              "iconName": "ExploreData",
+            },
+            "onClick": [Function],
+            "primary": true,
+            "style": Object {
+              "backgroundColor": "orange",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+            },
+            "text": "[[NOCONTEXT:34]] -  Preview 11",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

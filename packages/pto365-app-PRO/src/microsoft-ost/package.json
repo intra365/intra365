@@ -1,0 +1,17 @@
+{
+  "name": "toolsOST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./builddatafile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "format-json": "^1.0.3",
+    "xlsx": "^0.11.5"
+  }
+}

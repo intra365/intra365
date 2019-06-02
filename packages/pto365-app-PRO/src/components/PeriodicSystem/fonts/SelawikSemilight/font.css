@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Selawik-Semilight';
+  src: url('Selawik-Semilight.woff') format('woff'),
+       url('Selawik-Semilight.ttf') format('truetype'),
+       url('Selawik-Semilight.svg#Selawik-Semilight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SelawikSemilight';
+  src: url('SelawikSemilight.eot');
+  src: url('SelawikSemilight.woff2') format('woff2'),
+       url('SelawikSemilight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

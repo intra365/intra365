@@ -1,0 +1,12 @@
+/* fits into x1920 schema */
+.AppIconLarge{
+    width:160px;
+    height:160px;
+    overflow: hidden
+}
+
+.AppIconLargeImage {
+    height:128px;
+    width:auto;
+    margin:16px;
+}

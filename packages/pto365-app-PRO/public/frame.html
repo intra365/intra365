@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <meta property="og:site_name" content="Periodic Table of Office365"/>
+    <meta property="og:title" content="Helps you and your colleagues understand O365 a little bit better"/>
+    <meta property="og:description" content="Like the Periodic Table of Elements’ way of organizing elements by similar chemical properties, the Periodic Table of Office 365 is organized by families of apps. It shows everything available in the O365 ecosystem, regardless of extra cost or license type, plus a little taste of what it does.."/>
+    <!-- <meta property="og:image" content="YOURIMAGEURLGOESHERE.JPG"> -->
+    <meta property="og:url" content="https://periodictableofoffice365.azurewebsites.net/">
+    <meta property="og:type" content="infographic"/>    
+
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Loader</title>
+    <script type="text/javascript">
+      var appInsights=window.appInsights||function(config){
+        function i(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s="AuthenticatedUserContext",h="start",c="stop",l="Track",a=l+"Event",v=l+"Page",y=u.createElement(o),r,f;y.src=config.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(y);try{t.cookie=u.cookie}catch(p){}for(t.queue=[],t.version="1.0",r=["Event","Exception","Metric","PageView","Trace","Dependency"];r.length;)i("track"+r.pop());return i("set"+s),i("clear"+s),i(h+a),i(c+a),i(h+v),i(c+v),i("flush"),config.disableExceptionTracking||(r="onerror",i("_"+r),f=e[r],e[r]=function(config,i,u,e,o){var s=f&&f(config,i,u,e,o);return s!==!0&&t["_"+r](config,i,u,e,o),s}),t
+        }({
+            instrumentationKey:"d5a02694-a210-4ba6-8271-042bebfacea2"
+        });
+           
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script>
+
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="debuginfo"></div>
+    <div id="root" >Loading ...</div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script >
+function scale()
+{
+  
+  $(".debuginfo").html("scaling<br/>") 
+  
+ $(".debuginfo").append("scalestart<br/>") 
+ var win = $(window); //this = window
+ var o365table = $(".PeriodicSystemFrame")
+ var creditaside = $(".creditaside")
+ var component= $(".component")
+ 
+ var o365tableFooter = $(".PeriodicSystemFooter")
+   
+ var h =  o365table.height()+o365tableFooter.height()+70;
+ var w =  o365table.width() +60;
+ var winH= win.height();
+ var winW= win.width();
+
+ if ($(creditaside).is(":visible") ){
+  w +=  $(creditaside).width();
+ }
+   
+ var factor = winW / w;
+ var debuginfo = "factor"
+if ((factor*h)>winH){
+  $(".debuginfo").append("Height to high<br/>") 
+  
+  factor = factor * (winH / (factor*h))
+}
+//  if ((factor*h)> winH)
+//  {
+//     factor = winH / h
+//  }
+ var scaleH = factor;
+ var scaleW = factor;
+ 
+
+ var ui = {value: scaleH +","+ scaleW}
+ $('.component').css({
+   '-webkit-transform' : 'scale(' + ui.value + ')',
+   '-moz-transform'    : 'scale(' + ui.value + ')',
+   '-ms-transform'     : 'scale(' + ui.value + ')',
+   '-o-transform'      : 'scale(' + ui.value + ')',
+   'transform'         : 'scale(' + ui.value + ')',
+   '-webkit-transform-origin' : ' 0 0 ',
+   '-moz-transform-origin'    : ' 0 0 ',
+   '-ms-transform-origin'     : ' 0 0 ',
+   '-o-transform-origin'      : ' 0 0 ',
+   'transform-origin'         : ' 0 0 ',
+ });      
+ 
+ console.log("scaled",factor)
+}
+
+$(window).on('resize', function(){
+ scale();
+});
+
+function inIframe () {
+  
+  try {
+      return window.self !== window.top;
+  } catch (e) {
+      return true;
+  }
+}  
+
+$( document ).ready(function() {
+  $(".debuginfo").append("document ready<br/>") 
+  
+  scale();
+  if (inIframe()){
+  $(".creditaside").hide()
+  
+  }
+
+ console.log( "ready!" );
+});
+
+$( window ).on( "load", function() {
+ location.href = 'https://hexatown.github.io/docs/microsoft/office365/word/';
+  $(".debuginfo").append("window loaded<br/>") 
+  //scale();
+  if (inIframe()){
+    $("#sb").hide()
+    $("#sb").css("background-color","red")
+  }
+
+  console.log( "window loaded" );
+});    
+    </script>
+  </body>
+</html>

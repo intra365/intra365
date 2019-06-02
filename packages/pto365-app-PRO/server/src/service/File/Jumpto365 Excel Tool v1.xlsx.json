@@ -1,0 +1,495 @@
+{
+  "sheets": [
+    {
+      "name": "About",
+      "data": []
+    },
+    {
+      "name": "of Template",
+      "data": [
+        {
+          "the PERIODIC TABLE of": "YOUR CONTEXT"
+        },
+        {
+          "__EMPTY_1": "Author",
+          "__EMPTY_5": "Niels Gregers Johansen"
+        },
+        {
+          "__EMPTY_1": "Email",
+          "__EMPTY_5": "niels@jumpto365.com"
+        },
+        {
+          "__EMPTY_1": "License",
+          "__EMPTY_5": "MIT"
+        },
+        {
+          "__EMPTY_1": "Revision",
+          "__EMPTY_5": "A1"
+        }
+      ]
+    },
+    {
+      "name": "for Meetings",
+      "data": [
+        {
+          "Which tool When": "MEETING PREPERATIONS",
+          "__EMPTY_7": "Author",
+          "__EMPTY_8": "Credits",
+          "__EMPTY_9": "License"
+        },
+        {
+          "__EMPTY_7": "Niels Gregers Johansen"
+        },
+        {
+          "Which tool When": "Area",
+          "__EMPTY": "Task",
+          "__EMPTY_1": "Best",
+          "__EMPTY_2": "Better ",
+          "__EMPTY_3": "Worse",
+          "__EMPTY_4": "Worst",
+          "__EMPTY_5": "No go",
+          "__EMPTY_6": "Tags",
+          "__EMPTY_7": "Preview",
+          "__EMPTY_8": "Url",
+          "__EMPTY_9": "en",
+          "__EMPTY_10": "da"
+        },
+        {
+          "Which tool When": "Prepare",
+          "__EMPTY_9": "Collaboration"
+        },
+        {
+          "__EMPTY": "Collaborate on creating a memo with someone else",
+          "__EMPTY_1": "OneDrive",
+          "__EMPTY_6": "File Storage & Collaboration",
+          "__EMPTY_7": "https://static.makeuseof.com/wp-content/uploads/2015/11/manage-shared-files-drive-670x335.jpg",
+          "__EMPTY_8": "https://www.dr.dk",
+          "__EMPTY_10": "Rediger et dokument samtidig med en anden inden publisering"
+        },
+        {
+          "__EMPTY": "Collaborate on creating a agenda with someone else",
+          "__EMPTY_1": "OneDrive",
+          "__EMPTY_6": "File Storage & Collaboration",
+          "__EMPTY_7": "https://st2.depositphotos.com/6741230/11510/v/950/depositphotos_115106712-stock-illustration-agenda-list-icon-vector-illustration.jpg",
+          "__EMPTY_8": "https://www.dr.dk",
+          "__EMPTY_10": "Rediger et dokument samtidig med en anden inden publisering"
+        },
+        {
+          "__EMPTY": "Save and Edit Personal document",
+          "__EMPTY_1": "OneDrive",
+          "__EMPTY_4": "Outlook",
+          "__EMPTY_7": "https://fthmb.tqn.com/2Mb91JHmRFuWlYNoKk0xy5IyrwE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/iStock-596780340-edit-word-free-58c8489c5f9b58af5c2ee4c1.jpg",
+          "__EMPTY_10": "Gem og rediger personlige dokumenter"
+        },
+        {
+          "__EMPTY": "Make an anonymous survey",
+          "__EMPTY_2": "Tavlen",
+          "__EMPTY_3": "skype",
+          "__EMPTY_4": "Outlook",
+          "__EMPTY_7": "http://www.sogosurvey.com/blog/wp-content/uploads/2016/02/When-to-Make-a-Survey-Anonymous-1024x638.jpg",
+          "__EMPTY_10": "Stil et spørgsmål uden at vide, hvem der har svaret"
+        },
+        {
+          "__EMPTY": "Setup a site for long lasting dialogue",
+          "__EMPTY_1": "Tavlen",
+          "__EMPTY_4": "Projekt,Outlook",
+          "__EMPTY_7": "https://www.procurious.com/blog-content/2015/12/Discussion-Forum.jpg",
+          "__EMPTY_10": "Opret en debat om et emne med forventet længere levetid"
+        },
+        {
+          "__EMPTY": "Make a poll for a specifc group of persons",
+          "__EMPTY_1": "Afstemning",
+          "__EMPTY_3": "Projekt",
+          "__EMPTY_7": "http://www.afd-techtalk.com/wp-content/uploads/2018/02/poll-time.jpg",
+          "__EMPTY_10": "Opret en afstemning eller undersøgelse for en bestemt gruppe"
+        },
+        {
+          "__EMPTY": "Send a document for proof reading",
+          "__EMPTY_1": "Projekt",
+          "__EMPTY_3": "onedrive",
+          "__EMPTY_7": "https://juliaproofreader.files.wordpress.com/2014/04/whizz.jpg",
+          "__EMPTY_10": "Send et dokument til korrektur"
+        },
+        {
+          "__EMPTY_3": "outlook"
+        },
+        {
+          "__EMPTY": "Invite a colleague for lunch",
+          "__EMPTY_1": "Skype",
+          "__EMPTY_3": "Outlook",
+          "__EMPTY_7": "http://st4.styapokupayu.ru/images/blog_posts/covers/000/157/712_large.jpg?1456488984",
+          "__EMPTY_10": "Inviter en kollega til frokost"
+        },
+        {
+          "__EMPTY": "Create an interactive and creative presentation",
+          "__EMPTY_1": "Sway",
+          "__EMPTY_7": "http://focusky.com/learning-center/wp-content/uploads/2017/04/creative-presentation-ideas-to-create-extraordinary-presentation-2.png",
+          "__EMPTY_10": "Skab en interaktiv og kreativ præsentation til et møde"
+        },
+        {
+          "__EMPTY": "Invite specific persons to a meeting",
+          "__EMPTY_1": "Outlook",
+          "__EMPTY_2": "Teams",
+          "__EMPTY_7": "http://1.bp.blogspot.com/-S3fbBqWwuPs/Th8R4MdzZZI/AAAAAAAABb8/nd1hr8Grto0/s1600/meeting.gif",
+          "__EMPTY_10": "Inviter udvalgte personer til et møde"
+        },
+        {
+          "__EMPTY": "Self serviced booking of you or your team",
+          "__EMPTY_1": "Booking",
+          "__EMPTY_2": "Outlook",
+          "__EMPTY_7": "https://blog.one.com/wp-content/uploads/2016/02/teambooking.png",
+          "__EMPTY_10": "Selvbetjent booking af dig eller dit team"
+        },
+        {
+          "Which tool When": "Meet",
+          "__EMPTY_9": "Communication"
+        },
+        {
+          "__EMPTY": "Deltag i en chat med en kollega/samarbejdspartner",
+          "__EMPTY_2": "Newsfeed",
+          "__EMPTY_4": "Outlook",
+          "__EMPTY_6": "Informal",
+          "__EMPTY_7": "https://img.freepik.com/free-vector/messenger-application-to-chat-in-flat-style_23-2147804300.jpg?size=338&ext=jpg",
+          "__EMPTY_10": "Deltag i en chat med en kollega/samarbejdspartner"
+        },
+        {
+          "__EMPTY": "Conduct an online-meeting with your team or a colleague",
+          "__EMPTY_1": "Skype",
+          "__EMPTY_7": "https://www.videonations.co.uk/wp-content/uploads/2015/01/Meeting-room-video-collaboration.jpg",
+          "__EMPTY_10": "Afhold et online-møde med dit team eller en kollega"
+        },
+        {
+          "__EMPTY": "Conduct an online-meeting with external",
+          "__EMPTY_1": "Skype",
+          "__EMPTY_2": "Teams",
+          "__EMPTY_3": "Skype (personal)",
+          "__EMPTY_7": "https://www.videonations.co.uk/wp-content/uploads/2015/01/Meeting-room-video-collaboration.jpg",
+          "__EMPTY_10": "Afhold et online-møde med eksterne"
+        },
+        {
+          "__EMPTY_2": "Goto Meeting",
+          "__EMPTY_7": "https://www.videonations.co.uk/wp-content/uploads/2015/01/Meeting-room-video-collaboration.jpg"
+        },
+        {
+          "__EMPTY": "Make notes (shareable as well as individual) from a meeting",
+          "__EMPTY_1": "OneNote",
+          "__EMPTY_4": "Outlook",
+          "__EMPTY_7": "https://cdn.lynda.com/course/373782/373782-636247511734821922-16x9.jpg",
+          "__EMPTY_10": "Tag noter (fælles såvel som individuelt) fra et møde"
+        },
+        {
+          "__EMPTY": "Assign task to specific persons",
+          "__EMPTY_1": "Planner",
+          "__EMPTY_3": "Kanban",
+          "__EMPTY_4": "Project",
+          "__EMPTY_7": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJC1JKuF6LNQcvq52GwxrfPiDxGHL9luGLiiLVsWls_2zRNOq",
+          "__EMPTY_10": "Tildel opgaver til specifikke personer "
+        },
+        {
+          "__EMPTY": "Assign task to general roles",
+          "__EMPTY_1": "Projekt",
+          "__EMPTY_7": "http://creativeskillset.org/assets/0002/1683/Art_Roles_VFX_large.png",
+          "__EMPTY_10": "Tildel opgaver til generelle roller"
+        },
+        {
+          "__EMPTY": "Vær kreativ",
+          "__EMPTY_2": "Tegne",
+          "__EMPTY_7": "http://www.kb.dk/export/sites/kb_dk/da/Billedgalleri/KULT/Udstillinger/winding_28_1000px.jpg"
+        }
+      ]
+    },
+    {
+      "name": "of Office365",
+      "data": [
+        {
+          "1": "dynamics365",
+          "8": "sway",
+          "__EMPTY": "1",
+          "__EMPTY_16": "Presentations"
+        },
+        {
+          "1": "stream",
+          "2": "visio",
+          "5": "word",
+          "6": "excel",
+          "7": "onenote",
+          "8": "powerpoint",
+          "__EMPTY": "2",
+          "__EMPTY_16": "Office Online"
+        },
+        {
+          "3": "Employee\\nProfiles"
+        },
+        {
+          "1": "sharepoint",
+          "2": "onedrive",
+          "3": "delve",
+          "5": "forms",
+          "6": "powerapps",
+          "7": "flow",
+          "8": "powerbi",
+          "__EMPTY": "3",
+          "__EMPTY_1": "File Storage & Collaboration",
+          "__EMPTY_9": "Forms",
+          "__EMPTY_16": "Business App Platform"
+        },
+        {
+          "1": "mail",
+          "2": "calendar",
+          "3": "people",
+          "4": "tasks",
+          "6": "todo",
+          "7": "planner",
+          "8": "project",
+          "__EMPTY": "4",
+          "__EMPTY_1": "Outlook",
+          "__EMPTY_2": "Outlook",
+          "__EMPTY_3": "Outlook",
+          "__EMPTY_4": "Outlook",
+          "__EMPTY_5": "Outlook",
+          "__EMPTY_6": "Outlook",
+          "__EMPTY_7": "Outlook",
+          "__EMPTY_11": "Task\\nManagement",
+          "__EMPTY_16": "Project Management"
+        },
+        {
+          "1": "skype",
+          "2": "teams",
+          "3": "ServiceNow",
+          "4": "yammer",
+          "7": "bookings",
+          "8": "staffhub",
+          "__EMPTY": "5",
+          "__EMPTY_1": "Chat & Conferencing",
+          "__EMPTY_11": "Social\\nNetworking",
+          "__EMPTY_16": "Small Business Applications"
+        },
+        {
+          "1": "Direct Communication"
+        }
+      ]
+    },
+    {
+      "name": "tags",
+      "data": [
+        {
+          "Tags": "red"
+        },
+        {
+          "Tags": "green"
+        },
+        {
+          "Tags": "yellow"
+        }
+      ]
+    },
+    {
+      "name": "tools",
+      "data": [
+        {
+          "Name": "bookings",
+          "color": "#25abb2",
+          "icon": "https://jumpto365.com/resources/images/app/Bookings.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Bookings"
+        },
+        {
+          "Name": "calendar",
+          "color": "#2072b9",
+          "icon": "https://jumpto365.com/resources/images/app/Calendar.png",
+          "Link": "https://outlook.office.com/owa/?path=/calendar/view/Day",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Calendar"
+        },
+        {
+          "Name": "delve",
+          "color": "#1c7bb9",
+          "icon": "https://jumpto365.com/resources/images/app/Delve.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Delve"
+        },
+        {
+          "Name": "dynamics365",
+          "color": "#15224e",
+          "icon": "https://jumpto365.com/resources/images/app/Dynamics.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Dynamics"
+        },
+        {
+          "Name": "excel",
+          "color": "#02723b",
+          "icon": "https://jumpto365.com/resources/images/app/Excel.png",
+          "Link": "https://office.live.com/start/Excel.aspx",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Excel"
+        },
+        {
+          "Name": "flow",
+          "color": "#0077ff",
+          "icon": "https://jumpto365.com/resources/images/app/Flow.png",
+          "Link": "https://flow.microsoft.com/en-us/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Flow"
+        },
+        {
+          "Name": "forms",
+          "color": "#008271",
+          "icon": "https://jumpto365.com/resources/images/app/Forms.png",
+          "Link": "https://forms.office.com/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Forms"
+        },
+        {
+          "Name": "mail",
+          "color": "#2072b9",
+          "icon": "https://jumpto365.com/resources/images/app/Mail.png",
+          "Link": "https://outlook.office.com/owa/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Mail"
+        },
+        {
+          "Name": "newsfeed",
+          "color": "#0072c6",
+          "icon": "https://jumpto365.com/resources/images/app/Newsfeed.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Newsfeed"
+        },
+        {
+          "Name": "onedrive",
+          "color": "#1174c3",
+          "icon": "https://jumpto365.com/resources/images/app/OneDrive.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/OneDrive"
+        },
+        {
+          "Name": "onenote",
+          "color": "#80397b",
+          "icon": "https://jumpto365.com/resources/images/app/OneNote.png",
+          "Link": "https://www.onenote.com/notebooks",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/OneNote"
+        },
+        {
+          "Name": "people",
+          "color": "#2072b9",
+          "icon": "https://jumpto365.com/resources/images/app/People.png",
+          "Link": "https://outlook.office.com/owa/?path=/people",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/People"
+        },
+        {
+          "Name": "planner",
+          "color": "#3c853c",
+          "icon": "https://jumpto365.com/resources/images/app/Planner.png",
+          "Link": "https://tasks.office.com/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Planner"
+        },
+        {
+          "Name": "powerapps",
+          "color": "#742774",
+          "icon": "https://jumpto365.com/resources/images/app/PowerApps.png",
+          "Link": "https://web.powerapps.com/home",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/PowerApps"
+        },
+        {
+          "Name": "powerbi",
+          "color": "#f2c811",
+          "icon": "https://jumpto365.com/resources/images/app/Power-BI.png",
+          "Link": "https://app.powerbi.com/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Power-BI"
+        },
+        {
+          "Name": "powerpoint",
+          "color": "#d24726",
+          "icon": "https://jumpto365.com/resources/images/app/PowerPoint.png",
+          "Link": "https://office.live.com/start/PowerPoint.aspx",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/PowerPoint"
+        },
+        {
+          "Name": "project",
+          "color": "#2f722d",
+          "icon": "https://jumpto365.com/resources/images/app/Project.png",
+          "Link": "http://www.microsoftproject-online.com/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Project"
+        },
+        {
+          "Name": "sharepoint",
+          "color": "#0072c6",
+          "icon": "https://jumpto365.com/resources/images/app/SharePoint.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/SharePoint"
+        },
+        {
+          "Name": "skype",
+          "color": "#00aff0",
+          "icon": "https://jumpto365.com/resources/images/app/Skype.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Skype"
+        },
+        {
+          "Name": "staffhub",
+          "color": "#25c8c2",
+          "icon": "https://jumpto365.com/resources/images/app/StaffHub.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/StaffHub"
+        },
+        {
+          "Name": "stream",
+          "color": "#c30052",
+          "icon": "https://jumpto365.com/resources/images/app/Stream.png",
+          "Link": "https://web.microsoftstream.com/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Stream"
+        },
+        {
+          "Name": "sway",
+          "color": "#008272",
+          "icon": "https://jumpto365.com/resources/images/app/Sway.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Sway"
+        },
+        {
+          "Name": "tasks",
+          "color": "#2072b9",
+          "icon": "https://jumpto365.com/resources/images/app/Tasks.png",
+          "Link": "https://outlook.office.com/owa/?path=/tasks",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Tasks"
+        },
+        {
+          "Name": "teams",
+          "color": "#3f418e",
+          "icon": "https://jumpto365.com/resources/images/app/Teams.png",
+          "Link": "https://teams.microsoft.com/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Teams"
+        },
+        {
+          "Name": "todo",
+          "color": "#3896f9",
+          "icon": "https://jumpto365.com/resources/images/app/To-Do.png",
+          "Link": "https://todo.microsoft.com/?app",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/To-Do"
+        },
+        {
+          "Name": "visio",
+          "color": "#4568c4",
+          "icon": "https://jumpto365.com/resources/images/app/Visio.png",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Visio"
+        },
+        {
+          "Name": "word",
+          "color": "#2b579a",
+          "icon": "https://jumpto365.com/resources/images/app/Word.png",
+          "Link": "https://office.live.com/start/Word.aspx",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Word"
+        },
+        {
+          "Name": "yammer",
+          "color": "#007dc6",
+          "icon": "https://jumpto365.com/resources/images/app/Yammer.png",
+          "Link": "https://www.yammer.com/",
+          "Content": "https://hexatown.github.io/docs/microsoft/office365/Yammer"
+        }
+      ]
+    },
+    {
+      "name": "groups",
+      "data": [
+        {
+          "Name": "File Storage & Collaboration"
+        },
+        {
+          "Name": "Outlook"
+        },
+        {
+          "Name": "Meet"
+        },
+        {
+          "Name": "Prepare"
+        }
+      ]
+    }
+  ]
+}

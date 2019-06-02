@@ -1,0 +1,87 @@
+.ms-CommandBarSearch-input  {
+
+    cursor: text !important;
+}
+
+.bluecommands {
+    background-color: #0B559F;
+    color: #ffffff;
+}
+
+
+.NavContext {
+    border-bottom: 1px solid #cccccc;
+    height: 41px;
+    width: 100%;
+}
+.NavLeft {
+    display:flex;
+    flex-direction: column;
+    background-color: #e7e7e7; 
+
+    padding:8px;
+   
+
+}
+
+.NavLeftGroup {
+    background-color: #e7e7e7
+}
+
+
+.NavLeftItem {
+    border-left: 3px solid #cfcfcf;    
+
+    padding-left:8px;
+    margin-left:-8px;
+}
+
+.NavLeftItem:hover {
+    
+    border-left: 3px solid blue;    
+
+    padding-left:8px;
+    margin-left:-8px;
+}
+
+
+.NavLeftItemActive {
+    color: #333333 !important;
+    background-color: #e7e7e7 
+    
+}
+
+.NavLeftExpanded{
+min-width: 280px;
+height:100%;
+background-color: #e7e7e7; 
+}
+
+.NavLeftCollapsed{
+    max-width: 93px;
+    background-color: #e7e7e7; 
+    height:100%;
+}
+
+.NavLeftSettings {
+    padding-top:10px;
+    border-top: 1px solid #cccccc;
+    background-color: #e7e7e7;
+    bottom:0px;
+    
+    position: absolute;
+}
+
+
+.NavTogglerExpanded{
+    margin-top:-25px;
+    margin-left:250px;
+    cursor: pointer;
+    float: left;
+}
+
+.NavTogglerCollapsed{
+margin-top:10px;
+    margin-left: 13px;
+    margin-bottom: 10px
+}

@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that it renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PageBody
+    about="🍕"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        <div
+          style={
+                    Object {
+                              "borderTop": "1px solid #cccccc",
+                              "clear": "both",
+                              "marginLeft": "-16px",
+                              "marginRight": "-16px",
+                              "marginTop": "8px",
+                              "padding": "8px",
+                              "textAlign": "center",
+                            }
+          }
+>
+          Copyright ©2017-2018 - jumpto365, Inc. - jumpto365.com™ - All rights reserved - 
+          <a
+                    href="https://jumpto365.com/eula/"
+                    target="_blank"
+          >
+                    Terms of Service and End User Licensing Agreement
+          </a>
+</div>,
+      ],
+      "style": Object {
+        "height": "100%",
+        "minHeight": "400px",
+        "overflowX": "hidden",
+        "overflowY": "auto",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Copyright ©2017-2018 - jumpto365, Inc. - jumpto365.com™ - All rights reserved - ",
+            <a
+              href="https://jumpto365.com/eula/"
+              target="_blank"
+>
+              Terms of Service and End User Licensing Agreement
+</a>,
+          ],
+          "style": Object {
+            "borderTop": "1px solid #cccccc",
+            "clear": "both",
+            "marginLeft": "-16px",
+            "marginRight": "-16px",
+            "marginTop": "8px",
+            "padding": "8px",
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          "Copyright ©2017-2018 - jumpto365, Inc. - jumpto365.com™ - All rights reserved - ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Terms of Service and End User Licensing Agreement",
+              "href": "https://jumpto365.com/eula/",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": "Terms of Service and End User Licensing Agreement",
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <div
+            style={
+                        Object {
+                                    "borderTop": "1px solid #cccccc",
+                                    "clear": "both",
+                                    "marginLeft": "-16px",
+                                    "marginRight": "-16px",
+                                    "marginTop": "8px",
+                                    "padding": "8px",
+                                    "textAlign": "center",
+                                  }
+            }
+>
+            Copyright ©2017-2018 - jumpto365, Inc. - jumpto365.com™ - All rights reserved - 
+            <a
+                        href="https://jumpto365.com/eula/"
+                        target="_blank"
+            >
+                        Terms of Service and End User Licensing Agreement
+            </a>
+</div>,
+        ],
+        "style": Object {
+          "height": "100%",
+          "minHeight": "400px",
+          "overflowX": "hidden",
+          "overflowY": "auto",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Copyright ©2017-2018 - jumpto365, Inc. - jumpto365.com™ - All rights reserved - ",
+              <a
+                href="https://jumpto365.com/eula/"
+                target="_blank"
+>
+                Terms of Service and End User Licensing Agreement
+</a>,
+            ],
+            "style": Object {
+              "borderTop": "1px solid #cccccc",
+              "clear": "both",
+              "marginLeft": "-16px",
+              "marginRight": "-16px",
+              "marginTop": "8px",
+              "padding": "8px",
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "Copyright ©2017-2018 - jumpto365, Inc. - jumpto365.com™ - All rights reserved - ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Terms of Service and End User Licensing Agreement",
+                "href": "https://jumpto365.com/eula/",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "Terms of Service and End User Licensing Agreement",
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

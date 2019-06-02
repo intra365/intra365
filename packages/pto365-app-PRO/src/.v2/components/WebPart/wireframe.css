@@ -1,0 +1,9 @@
+.wireframe {outline: 2px solid gray;
+    background:
+       linear-gradient(to top right,
+          transparent calc(50% - 1px), gray calc(50% - 1px),
+          gray calc(50% + 1px), transparent calc(50% + 1px)),
+       linear-gradient(to bottom right,
+          transparent calc(50% - 1px), gray calc(50% - 1px),
+          gray calc(50% + 1px), transparent calc(50% + 1px));
+ }

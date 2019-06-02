@@ -1,0 +1,78 @@
+.columnSelectorSVG {
+    height:20px;
+    width:20px;
+}
+
+
+.insertColumnHeader{
+    position: relative;
+    margin-top: 20px;
+    width:20px;
+    height:20px;
+}
+.insertColumnHeaderAction{
+    position: absolute;
+    border-radius: 50%;
+    left:2px;
+    width:16px;
+    height:16px;
+    border:1px dotted grey;
+    background-color: #dddddd;
+
+}
+.insertColumnHeaderAction:hover
+{
+
+    background-color: #222222;
+}
+.insertColumnHeaderConnector{
+    position: absolute;
+    top: 15px;
+    width:10px;
+    left: 5px;
+  
+    border:1px dotted grey;
+    background-color: #dddddd;
+}
+
+.insertRowHeader{
+
+}
+
+
+.deleteColumnHeader{
+
+}
+
+.deleteRowHeader{
+
+}
+
+
+.insertRowHeaderConnector{
+
+}
+
+
+.deleteColumnHeaderConnector{
+
+}
+
+.deleteRowHeaderConnector{
+
+}
+
+
+
+.insertRowHeaderAction{
+
+}
+
+
+.deleteColumnHeaderAction{
+
+}
+
+.deleteRowHeaderAction{
+
+}

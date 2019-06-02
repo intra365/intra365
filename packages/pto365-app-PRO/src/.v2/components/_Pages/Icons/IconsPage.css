@@ -1,0 +1,22 @@
+.toc1{
+    font-size: 14px;
+}
+
+.toc2{
+    font-size: 12px;
+}
+
+.toc3{   
+    font-size: 10px;
+}
+
+.iconFrame:hover {
+    background-color: #cccccc
+}
+.iconBackground:hover {
+    display: none
+}
+.iconImage:hover {
+    cursor: pointer;
+    background-color: #000000
+}

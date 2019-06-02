@@ -1,0 +1,178 @@
+
+.nopayment {
+  text-align: center;
+  font-size: small;
+  margin-top: -32px;
+}
+.priceCenter {
+  font-size: large;
+  text-align: center;
+}
+.priceCenterHeader {
+  font-size: xx-large;
+  justify-self: center;
+  margin: 24px;
+  text-align: center;
+}
+
+.priceHeadingBody{
+  min-width: 300px;
+
+  xbackground-color: red
+}
+.priceCenterBody {
+    font-size: large;
+    justify-self: center;
+    margin: 24px;
+    text-align: center;
+  }
+  .priceCenterBodyError {
+    font-size: large;
+    justify-self: center;
+    margin: 24px;
+    text-align: center;
+    color: red
+  }
+  
+.pageBody{
+  width: 880px;
+  margin-left: auto;
+  margin-right: auto
+}  
+.priceCenterText {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto
+  }
+.configContainer{
+    margin-left:16px;
+    margin-top: 48px;
+    min-width: 300px;
+}
+.configHeader {
+  font-size: larger;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #bbbbbb;
+}
+.prodHeader {
+  max-width: 50%;
+}
+.prod {
+  margin: 32px;
+  font-size: large;
+}
+.prodInner {
+  display: flex;
+}
+.prodFamily {
+  margin: 16px;
+  padding: 32px;
+  flex-grow: 1;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  align-items: center
+}
+.prodFamilyHeader {
+  font-size: x-large;
+}
+/* .toolbody {
+
+    overflow-y: auto
+} */
+
+.actionButton {
+  width: 240px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  margin:32px;
+  margin-left:auto;
+  margin-right: auto;
+  
+
+  align-self:center;
+}
+
+.Buy {
+  background-color: #2a7ab9;
+  color: #ffffff;
+}
+.Buy:hover {
+}
+
+
+
+.Try {
+  background-color: #888888;
+  color: #ffffff;
+}
+
+.Signin {
+    background-color: #2a7ab9;
+    color: #ffffff;
+  }
+  .Signin:hover {
+  }
+
+.priceContainer{
+    xborder: 1px solid red;
+    margin-top: 24px;
+    width:180px;
+    margin-right:auto;
+    margin-left: auto;
+    align-self:center;
+    display: flex;
+
+}
+
+
+.priceValue{
+   font-size: 48px;
+   line-height: 48px;
+   color:#2a7ab9;
+   font-weight: 900;
+    margin-right:8px
+}
+
+
+.priceCurrency{
+    font-size: 14px;
+    color:#2a7ab9;
+    font-weight: 700
+     
+ }
+ 
+ .priceLength{
+    font-size: 14px;
+    
+    font-weight: 400
+     
+ }
+
+
+ .defaultChoiceGroup{
+     margin-top: 24px;
+     margin-bottom: 24px;
+
+    }
+
+
+    .QuoteBefore{
+        height:90px;
+    }
+
+
+    .PageHeader{
+        font-size: xx-large;
+        display: none
+    }
+
+    .Features > li {
+      padding:0;
+      margin:0;
+margin-top:16px;
+list-style-type: none;
+    }

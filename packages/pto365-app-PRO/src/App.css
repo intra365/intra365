@@ -1,0 +1,508 @@
+.messagedialog {
+  margin-left: -8px;
+  margin-right: -18px;
+}
+.feedbackIcon{
+position: fixed;
+top: 5px;
+right:5px;
+
+}
+body{
+  xoverflow: hidden;
+  }
+.buttom .notify
+{
+  display:none;
+}
+
+.lefter .notify
+{
+  display:none;
+}
+
+.service .notify
+{
+  display:none;
+  position:absolute;
+  z-index:10;
+  background-color: red;
+  border: solid;
+  border-width:0px;
+  border-color:white;
+  margin-left:70px; 
+  margin-top:-15px; 
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  text-align:center;
+  line-height:20px;
+   }
+.connect-presentation{
+  position: absolute;
+  margin-left:750px;
+  margin-top:40px;
+  z-index:-10;
+  width:90px;
+  background-color:#BBBBE6;
+  border: solid;
+  border-color:#B0B0D9;
+  border-width:3px;
+  height:20px;
+}
+
+.connect-enterprise-video{
+  position: absolute;
+  margin-left:50px;
+  margin-top:40px;
+  z-index:-10;
+  width:150px;
+  height:20px;
+  border: solid;
+  background-color:#A6E1F4;
+  border-color:#74C5DE;
+  border-width:3px;
+}
+.connect-office-online{
+  position: absolute;
+  margin-left:450px;
+  margin-top:40px;
+  z-index:-10;
+  width:380px;
+  height:20px;
+  background-color:#A6E1F4;
+  border: solid;
+  border-color:#74C5DE;
+  border-width:3px;
+}
+.connect-presentation-down{
+  position: absolute;
+  margin-left:740px;
+  margin-top:90px;
+  z-index:-10;
+  width:20px;
+  height:20px;
+  background-color:#BBBBE6;
+  border: solid;
+  border-color:#B0B0D9;
+  border-width:3px;
+}
+
+.connect-employee-profile-down{
+  position: absolute;
+  margin-left:295px;
+  margin-top:90px;
+  z-index:-10;
+  width:20px;
+  height:20px;
+  background-color:#BBBBE6;
+  border: solid;
+  border-color:#9898CE;
+  border-width:3px;
+}
+
+.connect-filestorage{
+  position: absolute;
+  margin-left:50px;
+  margin-top:40px;
+  z-index:-10;
+  width:280px;
+  background-color:#C2EBBA;
+  border: solid;
+  border-color:#A6DD9C;
+  border-width:3px;
+  height:20px;
+}
+.connect-forms{
+  position: absolute;
+  margin-left:380px;
+  margin-top:40px;
+  z-index:-10;
+  width:150px;
+  background-color:#BBBBE6;
+  border: solid;
+  border-color:#9898CE;
+  border-width:3px;
+  height:20px;
+}
+
+.connect-business-apps{
+  position: absolute;
+  margin-left:550px;
+  margin-top:40px;
+  z-index:-10;
+  width:260px;
+  background-color:#C1ECBE;
+  border: solid;
+  border-color:#9DDA91;
+  border-width:3px;
+  height:20px;
+}
+
+.connect-outlook{
+  position: absolute;
+  margin-left:50px;
+  margin-top:40px;
+  z-index:-10;
+  width:400px;
+  background-color:#B8E7F6;
+  border: solid;
+  border-color:#74C5DE;
+  border-width:3px;
+  height:20px;
+}
+.connect-task-management{
+  position: absolute;
+  margin-left:440px;
+  margin-top:40px;
+  z-index:-10;
+  width:200px;
+  background-color:#C2EBBA;
+  border: solid;
+  border-color:#95D689;
+  border-width:3px;
+  height:20px;
+}
+.connect-project-management{
+  position: absolute;
+  margin-left:650px;
+  margin-top:40px;
+  z-index:-10;
+  width:190px;
+  background-color:#C9C9EB;
+  border: solid;
+  border-color:#ADADD9;
+  border-width:3px;
+  height:20px;
+}
+.connect-direct-communication-1{
+  position: absolute;
+  margin-left:55px;
+  margin-top: 0px;
+  z-index:-20;
+  width:100px;
+  background-color:#D0D0D0;
+  height:100px;
+}
+.connect-chat{
+  position: absolute;
+  margin-left:50px;
+  margin-top:40px;
+  z-index:-5;
+  width:190px;
+  background-color:#C9C9EB;
+  border: solid;
+  border-color:#9E9ED1;
+  border-width:3px;
+  height:20px;
+}
+.connect-social-network{
+  position: absolute;
+  margin-left:340px;
+  margin-top:40px;
+  z-index:-10;
+  width:130px;
+  background-color:#B8E7F6;
+  border: solid;
+  border-color:#74C5DE;
+  border-width:3px;
+  height:20px;
+}
+.connect-small-business{
+  position: absolute;
+  margin-left:650px;
+  margin-top:40px;
+  z-index:-10;
+  width:190px;
+  background-color:#B3E6A9;
+  border: solid;
+  border-color:#9CD991;
+  border-width:3px;
+  height:20px;
+}
+
+.connect-direct-communication-2{
+  position: absolute;
+  margin-left:55px;
+  margin-top: 0px;
+  z-index:-20;
+  width:400px;
+  background-color:#D0D0D0;
+  height:100px;
+}
+
+
+
+.pad{
+    xwidth:860px;
+   /*
+    background-color:grey;
+    border:solid 1px red
+    */
+  }
+  .row {
+    xbackground-color: red;
+    clear: both;
+  }
+  .icon {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 24px;
+  }
+  .heading {
+    position: absolute;
+
+    width: 75px;
+  }
+
+  .subtitle
+  {
+    position: absolute;
+
+    bottom:1;
+    margin-top:14px;
+  }
+
+  .footer {
+    margin-top: 25px;
+    bottom: 1;
+  }
+
+  .col {
+    cursor: hand;
+    background-color: white;
+    float: left;
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    page-break-after: 3px;
+  }
+  .service {
+    width: 80px;
+  }
+  .hidde {
+    opacity: 0;
+  }
+  .leftcol {
+    color: black;
+    height: 80px;
+    width: 40px;
+    cursor: hand;
+    background-color: white;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    color: white;
+    page-break-after: 3px;
+    text-align: center;
+  }
+  .lefttext {
+    color: black;
+    transform: rotate(270deg);
+    transform-origin: 46% 50%;
+    text-transform:uppercase;
+    width:78px;
+    height:78px;
+    xborder:solid 1px red;
+  }
+
+  .rightcol {
+    color: black;
+    height: 80px;
+    width: 40px;
+    cursor: hand;
+    background-color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    page-break-after: 3px;
+  }
+
+  .righttext {
+    color: black;
+    transform: rotate(90deg);
+    transform-origin: 25% 60%;
+    text-transform:uppercase;
+    width:78px;
+    height:38px;
+    text-align: center;
+  }
+  .buttom {
+    margin-top: 50px;
+    height: 35px;
+    width: 80px;
+    color: black;
+   text-transform:uppercase;
+    text-align: center;
+  }
+
+  .buttom4 {
+    clear:both;
+    margin-left:55px;
+    margin-top: 50px;
+    height: 55px;
+    width: 400px;
+    color: #EFEFEF;
+    background-color:#7C7C7C;
+     text-transform:uppercase;
+  line-height: 45px;
+    text-align: center;
+  }
+
+  .lefter {
+
+    width:25px;
+  }
+
+  .subbottom{
+
+  }
+  .sub270{
+     color: black;
+    transform: rotate(270deg);
+    transform-origin: 46% 50%;
+    text-transform:uppercase;
+    width:78px;
+    height:78px;
+      text-align: center;
+
+
+  }
+
+  .sub90{
+     color: black;
+    transform: rotate(90deg);
+    transform-origin: 20% 40%;
+    text-transform:uppercase;
+    width:78px;
+    height:38px;
+      text-align: center;
+
+
+  }
+
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 40px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-title {
+    margin-top:20px;
+    font-size: 15px;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  @keyframes App-logo-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    16% {
+      transform: rotate(10deg);
+    }
+    33% {
+      transform: rotate(0deg);
+    }
+  
+    50% {
+      transform: rotate(-10deg);
+    }
+    80% {
+      transform: rotate(0deg);
+    }
+    90% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+    
+    /* from { transform: rotate(-20deg); }
+    to { transform: rotate(20deg); } */
+  }
+  
+  .ms-NavExample-LeftPane {
+    width: 208px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid #EEE;
+    overflow-y: auto;
+  }
+
+  .ActionCommandBar{
+    z-index: 10000;
+    position:relative
+  }
+
+  .fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 5000ms ease-in;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 5000ms ease-in;
+  }
+  .markdownimage{
+    height:auto;
+    max-width: 80%;
+  }
+  .toptoolsLeft {
+    float: left;
+    margin:7px;
+  }
+
+  .toptoolsRight {
+    float: right;
+    margin:7px;
+  }
+  .SearchBoxHeading{
+    
+    background-color: #ffffff;
+  }
+
+  .markdown table{
+    
+  }
+
+  .markdown thead {
+   
+   text-align: left;
+   border-bottom: 1px solid lightgray
+  }
+  .markdown tr {
+   
+    
+    border-bottom: 1px solid lightgray
+   }
+   .markdown th,
+   .markdown td{
+    padding: 12px;
+    border-bottom: 1px solid lightgray
+  }
+
+  

@@ -1,0 +1,61 @@
+.mastheadlogo {
+    margin:6px;
+    margin-left:6px;
+    margin-top:10px;
+    width:auto;
+    height:20px;
+}
+.mastheadlogo-mobile {
+    margin:6px;
+    margin-left:36px;
+    margin-top:10px;
+    width:auto;
+    height:20px;
+}
+
+.mastheadRow {
+    max-height: 30px;
+    overflow:clip
+}
+
+
+.buyme{
+    xdisplay: none;
+    position: absolute;
+    top: 32px;
+    left:42px;
+    width: 660px;
+    height:400px;
+    padding:32px;
+    background-color: #3D2985;
+    color: #ffffff; 
+    z-index: 10000;
+    box-shadow: 10px 10px  rgba(0, 0, 0, .5);
+
+}
+
+.headContainer {
+    display: flex;
+    flex-direction: row;
+    height:40px;
+    max-height: 40px;
+    xborder:1px solid red
+}
+
+.headLeft {
+
+    
+    align-self: flex-start
+}
+.headCenter {
+    flex-grow:2;
+    align-self: center;
+    text-align: center
+
+}
+
+.headRight {
+    
+    align-self: flex-end;
+    margin-right: 16px;
+}

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Selawik-Regular';
+  src: url('Selawik-Regular.woff') format('woff'),
+       url('Selawik-Regular.ttf') format('truetype'),
+       url('Selawik-Regular.svg#Selawik-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SelawikRegular';
+  src: url('SelawikRegular.eot');
+  src: url('SelawikRegular.woff2') format('woff2'),
+       url('SelawikRegular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

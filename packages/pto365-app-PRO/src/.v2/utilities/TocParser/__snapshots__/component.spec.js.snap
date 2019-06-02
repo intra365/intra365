@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that it renders 1`] = `
+Object {
+  "body": "<p>Word Online is a browser-based version of Microsoft Word, the ubiquitous
+word processing app you&#39;ve likely been using for years. Word Online is
+a &quot;lite&quot; version of the full-fledged desktop app and provides fast
+opening times for reading and editing .docx and .doc files. Depending on
+your browser settings, PDF files may also open in Word Online. Word
+Online is great for reading Word files and making simple edits from
+basically any browser on almost any device.</p>
+<p>Most Word files will open directly in Word Online when using SharePoint
+Online, OneDrive for Business, MS Teams, Yammer, and some other Office
+365 apps. Files open in reading mode. To edit the files, simply click
+the &quot;Edit Document&quot; button and choose to edit the file in Word Online
+(directly in the browser) or Word (the desktop app).</p>
+<p>Functionality in Word Online is generally limited to day-to-day editing,
+text formatting, page layout changes, hyperlinks, and comments, though
+it provides excellent support for co-authoring (simultaneous editing by
+multiple users). You&#39;ll want to avoid more complex tasks like image
+manipulation, indexes, footnotes, tables, and, notably, and <a href=\\"http://icansharepoint.com/version-history-isnt-track-changes/\\" title=\\"null\\" />track
+changes</a>
+(among others) in Word Online. Macros will not run in Word Online.</p>
+<p>All changes made in Word Online are saved automatically; there is no
+save button. This sometimes causes confusion with how <a href=\\"http://icsh.pt/VersionHistory\\" title=\\"null\\" />version
+history</a>,
+<a href=\\"http://icsh.pt/CoAuthoring\\" title=\\"null\\" />co-authoring</a>, and <a href=\\"http://icsh.pt/SPCheckOut\\" title=\\"null\\" />check
+in/out</a> work.</p>
+<p>If Word Online doesn&#39;t provide the features you need to do the job,
+simply click the &quot;Edit in Word&quot; button in the menu bar to access the
+desktop version of the app and its more complex features. Some versions
+of the desktop app save updates automatically, but some do not. Be aware
+of how this feature works on your version.</p>
+<h2 id=\\"resources\\" class=\\"ms-font-xl\\">
+                  <a name=\\"'resources'\\" class=\\"anchor \\" href=\\"#resources\\">
+                    <span class=\\"header-link\\"></span>
+                  </a>
+                  Resources
+                </h2><ul>
+<li><a href=\\"https://support.office.com/en-us/article/Differences-between-using-a-document-in-the-browser-and-in-Word-3e863ce3-e82c-4211-8f97-5b33c36c55f8\\" title=\\"null\\" />Functionality differences between Word and Word
+Online</a>
+[Microsoft]</li>
+</ul>
+<h2 id=\\"similar-applications\\" class=\\"ms-font-xl\\">
+                  <a name=\\"'similar-applications'\\" class=\\"anchor \\" href=\\"#similar-applications\\">
+                    <span class=\\"header-link\\"></span>
+                  </a>
+                  Similar applications
+                </h2><ul>
+<li><p>Google Docs</p>
+</li>
+<li><p>Apple Pages</p>
+</li>
+<li><p><a href=\\"https://en.wikipedia.org/wiki/List_of_word_processors#Online\\" title=\\"null\\" />Other various
+apps</a></p>
+</li>
+</ul>
+<h2 id=\\"feedback\\" class=\\"ms-font-xl\\">
+                  <a name=\\"'feedback'\\" class=\\"anchor \\" href=\\"#feedback\\">
+                    <span class=\\"header-link\\"></span>
+                  </a>
+                  Feedback
+                </h2><ul>
+<li><p><a href=\\"https://word.uservoice.com/forums/271331-word-online\\" title=\\"null\\" />Word Online UserVoice</a>
+[UserVoice]</p>
+</li>
+<li><p><a href=\\"https://techcommunity.microsoft.com/t5/Word/ct-p/Word\\" title=\\"null\\" />Word on TechCommunity</a>
+[Microsoft]</p>
+</li>
+</ul>
+<h2 id=\\"author\\" class=\\"ms-font-xl\\">
+                  <a name=\\"'author'\\" class=\\"anchor \\" href=\\"#author\\">
+                    <span class=\\"header-link\\"></span>
+                  </a>
+                  Author
+                </h2><ul>
+<li><a href=\\"https://www.linkedin.com/in/thatmattwade/\\" title=\\"null\\" />Matt Wade</a>, Office Services MVP</li>
+</ul>
+",
+  "headings": Array [
+    Object {
+      "escapedText": "resources",
+      "id": "heading0",
+      "level": 2,
+      "text": "Resources",
+    },
+    Object {
+      "escapedText": "similar-applications",
+      "id": "heading1",
+      "level": 2,
+      "text": "Similar applications",
+    },
+    Object {
+      "escapedText": "feedback",
+      "id": "heading2",
+      "level": 2,
+      "text": "Feedback",
+    },
+    Object {
+      "escapedText": "author",
+      "id": "heading3",
+      "level": 2,
+      "text": "Author",
+    },
+  ],
+  "properties": Object {
+    "groups": "Office Online",
+    "inshort": "Word processing in the browser",
+    "layout": "service",
+    "link": "https://office.live.com/start/Word.aspx",
+    "linkadmin": "https://technet.microsoft.com/en-us/library/word-online-service-description.aspx",
+    "linkdev": "https://developer.microsoft.com/en-us/word",
+    "similar": "https://en.wikipedia.org/wiki/List_of_word_processors#Online",
+    "source": "https://products.office.com/en/office-online/documents-spreadsheets-presentations-office-online",
+    "title": "Word Online",
+    "xicansharepoint": "http://icansharepoint.com/wiki/Index",
+    "xlinkbusiness": "",
+    "xmarketing": "https://products.office.com/en-us/visio/visio-online",
+  },
+}
+`;
+
+exports[`Check that it supports frontpage mode 1`] = `
+Object {
+  "body": "<p>Word Online is a browser-based version of Microsoft Word, the ubiquitous
+word processing app you&#39;ve likely been using for years. Word Online is
+a &quot;lite&quot; version of the full-fledged desktop app and provides fast
+opening times for reading and editing .docx and .doc files. Depending on
+your browser settings, PDF files may also open in Word Online. Word
+Online is great for reading Word files and making simple edits from
+basically any browser on almost any device.</p>
+<p>Most Word files will open directly in Word Online when using SharePoint
+Online, OneDrive for Business, MS Teams, Yammer, and some other Office
+365 apps. Files open in reading mode. To edit the files, simply click
+the &quot;Edit Document&quot; button and choose to edit the file in Word Online
+(directly in the browser) or Word (the desktop app).</p>
+<p>Functionality in Word Online is generally limited to day-to-day editing,
+text formatting, page layout changes, hyperlinks, and comments, though
+it provides excellent support for co-authoring (simultaneous editing by
+multiple users). You&#39;ll want to avoid more complex tasks like image
+manipulation, indexes, footnotes, tables, and, notably, and <a href=\\"http://icansharepoint.com/version-history-isnt-track-changes/\\" title=\\"null\\" />track
+changes</a>
+(among others) in Word Online. Macros will not run in Word Online.</p>
+<p>All changes made in Word Online are saved automatically; there is no
+save button. This sometimes causes confusion with how <a href=\\"http://icsh.pt/VersionHistory\\" title=\\"null\\" />version
+history</a>,
+<a href=\\"http://icsh.pt/CoAuthoring\\" title=\\"null\\" />co-authoring</a>, and <a href=\\"http://icsh.pt/SPCheckOut\\" title=\\"null\\" />check
+in/out</a> work.</p>
+<p>If Word Online doesn&#39;t provide the features you need to do the job,
+simply click the &quot;Edit in Word&quot; button in the menu bar to access the
+desktop version of the app and its more complex features. Some versions
+of the desktop app save updates automatically, but some do not. Be aware
+of how this feature works on your version.</p>
+<div data-Flowid=\\"1-2\\" style=\\"border:0x dashed grey ;border-top:3px dashed grey;margin:4px; display:flex;flex-direction: column;flex-grow:1  \\"><ul>
+<li><a href=\\"https://support.office.com/en-us/article/Differences-between-using-a-document-in-the-browser-and-in-Word-3e863ce3-e82c-4211-8f97-5b33c36c55f8\\" title=\\"null\\" />Functionality differences between Word and Word
+Online</a>
+[Microsoft]</li>
+</ul>
+</div><div data-Flowid=\\"2-2\\" style=\\"border:0x dashed grey ;border-top:3px dashed grey;margin:4px; display:flex;flex-direction: column;flex-grow:1  \\"><ul>
+<li><p>Google Docs</p>
+</li>
+<li><p>Apple Pages</p>
+</li>
+<li><p><a href=\\"https://en.wikipedia.org/wiki/List_of_word_processors#Online\\" title=\\"null\\" />Other various
+apps</a></p>
+</li>
+</ul>
+</div><div data-Flowid=\\"3-2\\" style=\\"border:0x dashed grey ;border-top:3px dashed grey;margin:4px; display:flex;flex-direction: column;flex-grow:1  \\"><ul>
+<li><p><a href=\\"https://word.uservoice.com/forums/271331-word-online\\" title=\\"null\\" />Word Online UserVoice</a>
+[UserVoice]</p>
+</li>
+<li><p><a href=\\"https://techcommunity.microsoft.com/t5/Word/ct-p/Word\\" title=\\"null\\" />Word on TechCommunity</a>
+[Microsoft]</p>
+</li>
+</ul>
+</div><div data-Flowid=\\"4-2\\" style=\\"border:0x dashed grey ;border-top:3px dashed grey;margin:4px; display:flex;flex-direction: column;flex-grow:1  \\"><ul>
+<li><a href=\\"https://www.linkedin.com/in/thatmattwade/\\" title=\\"null\\" />Matt Wade</a>, Office Services MVP</li>
+</ul>
+</div></div>",
+  "headings": Array [
+    Object {
+      "escapedText": "resources",
+      "id": "heading0",
+      "level": 2,
+      "text": "Resources",
+    },
+    Object {
+      "escapedText": "similar-applications",
+      "id": "heading1",
+      "level": 2,
+      "text": "Similar applications",
+    },
+    Object {
+      "escapedText": "feedback",
+      "id": "heading2",
+      "level": 2,
+      "text": "Feedback",
+    },
+    Object {
+      "escapedText": "author",
+      "id": "heading3",
+      "level": 2,
+      "text": "Author",
+    },
+  ],
+  "properties": Object {
+    "groups": "Office Online",
+    "inshort": "Word processing in the browser",
+    "layout": "service",
+    "link": "https://office.live.com/start/Word.aspx",
+    "linkadmin": "https://technet.microsoft.com/en-us/library/word-online-service-description.aspx",
+    "linkdev": "https://developer.microsoft.com/en-us/word",
+    "similar": "https://en.wikipedia.org/wiki/List_of_word_processors#Online",
+    "source": "https://products.office.com/en/office-online/documents-spreadsheets-presentations-office-online",
+    "title": "Word Online",
+    "xicansharepoint": "http://icansharepoint.com/wiki/Index",
+    "xlinkbusiness": "",
+    "xmarketing": "https://products.office.com/en-us/visio/visio-online",
+  },
+}
+`;

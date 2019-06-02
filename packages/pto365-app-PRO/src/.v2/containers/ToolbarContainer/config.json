@@ -1,0 +1,13 @@
+{
+  "navigation": "https://blob.jumpto365/toolbar/t/e/n/tenant/nav/default.json",
+  "rules": [
+    {
+      "path": "/sites/*",
+      "navigation": "https://blob.jumpto365/toolbar/t/e/n/tenant/nav/default.json"
+    },
+    {
+      "path": "/teams/*",
+      "navigation": "https://blob.jumpto365/toolbar/t/e/n/tenant/nav/default.json"
+    }
+  ]
+}

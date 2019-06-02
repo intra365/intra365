@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that it renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContextPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          style={
+                    Object {
+                              "height": "0px",
+                              "marginBottom": "10px",
+                              "overflow": "hidden",
+                            }
+          }
+>
+          <PageHeader
+                    color="#3E5897"
+                    icon="https://jumpto365.com/resources/images/app/jumpto365-Icon-white.png"
+                    title="Office 365"
+          />
+</div>,
+        <PageBody>
+          <div
+                    style={
+                              Object {
+                                        "border": "0px solid red",
+                                      }
+                    }
+          >
+                    <PeriodicTable
+                              banner={true}
+                              center={true}
+                              grid={undefined}
+                              height={NaN}
+                              language={undefined}
+                              onScale={[Function]}
+                              renditions={
+                                        Array [
+                                                  Object {
+                                                    "element": [Function],
+                                                    "size": 10,
+                                                  },
+                                                ]
+                              }
+                              title="Office 365"
+                              width={undefined}
+                    />
+          </div>
+</PageBody>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <PageHeader
+            color="#3E5897"
+            icon="https://jumpto365.com/resources/images/app/jumpto365-Icon-white.png"
+            title="Office 365"
+/>,
+          "style": Object {
+            "height": "0px",
+            "marginBottom": "10px",
+            "overflow": "hidden",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "color": "#3E5897",
+            "icon": "https://jumpto365.com/resources/images/app/jumpto365-Icon-white.png",
+            "title": "Office 365",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div
+            style={
+                        Object {
+                                    "border": "0px solid red",
+                                  }
+            }
+>
+            <PeriodicTable
+                        banner={true}
+                        center={true}
+                        grid={undefined}
+                        height={NaN}
+                        language={undefined}
+                        onScale={[Function]}
+                        renditions={
+                                    Array [
+                                                Object {
+                                                  "element": [Function],
+                                                  "size": 10,
+                                                },
+                                              ]
+                        }
+                        title="Office 365"
+                        width={undefined}
+            />
+</div>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <PeriodicTable
+                banner={true}
+                center={true}
+                grid={undefined}
+                height={NaN}
+                language={undefined}
+                onScale={[Function]}
+                renditions={
+                                Array [
+                                                Object {
+                                                  "element": [Function],
+                                                  "size": 10,
+                                                },
+                                              ]
+                }
+                title="Office 365"
+                width={undefined}
+/>,
+              undefined,
+            ],
+            "style": Object {
+              "border": "0px solid red",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "banner": true,
+                "center": true,
+                "grid": undefined,
+                "height": NaN,
+                "language": undefined,
+                "onScale": [Function],
+                "renditions": Array [
+                  Object {
+                    "element": [Function],
+                    "size": 10,
+                  },
+                ],
+                "title": "Office 365",
+                "width": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            undefined,
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            style={
+                        Object {
+                                    "height": "0px",
+                                    "marginBottom": "10px",
+                                    "overflow": "hidden",
+                                  }
+            }
+>
+            <PageHeader
+                        color="#3E5897"
+                        icon="https://jumpto365.com/resources/images/app/jumpto365-Icon-white.png"
+                        title="Office 365"
+            />
+</div>,
+          <PageBody>
+            <div
+                        style={
+                                    Object {
+                                                "border": "0px solid red",
+                                              }
+                        }
+            >
+                        <PeriodicTable
+                                    banner={true}
+                                    center={true}
+                                    grid={undefined}
+                                    height={NaN}
+                                    language={undefined}
+                                    onScale={[Function]}
+                                    renditions={
+                                                Array [
+                                                            Object {
+                                                              "element": [Function],
+                                                              "size": 10,
+                                                            },
+                                                          ]
+                                    }
+                                    title="Office 365"
+                                    width={undefined}
+                        />
+            </div>
+</PageBody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <PageHeader
+              color="#3E5897"
+              icon="https://jumpto365.com/resources/images/app/jumpto365-Icon-white.png"
+              title="Office 365"
+/>,
+            "style": Object {
+              "height": "0px",
+              "marginBottom": "10px",
+              "overflow": "hidden",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#3E5897",
+              "icon": "https://jumpto365.com/resources/images/app/jumpto365-Icon-white.png",
+              "title": "Office 365",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <div
+              style={
+                            Object {
+                                          "border": "0px solid red",
+                                        }
+              }
+>
+              <PeriodicTable
+                            banner={true}
+                            center={true}
+                            grid={undefined}
+                            height={NaN}
+                            language={undefined}
+                            onScale={[Function]}
+                            renditions={
+                                          Array [
+                                                        Object {
+                                                          "element": [Function],
+                                                          "size": 10,
+                                                        },
+                                                      ]
+                            }
+                            title="Office 365"
+                            width={undefined}
+              />
+</div>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PeriodicTable
+                  banner={true}
+                  center={true}
+                  grid={undefined}
+                  height={NaN}
+                  language={undefined}
+                  onScale={[Function]}
+                  renditions={
+                                    Array [
+                                                      Object {
+                                                        "element": [Function],
+                                                        "size": 10,
+                                                      },
+                                                    ]
+                  }
+                  title="Office 365"
+                  width={undefined}
+/>,
+                undefined,
+              ],
+              "style": Object {
+                "border": "0px solid red",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "banner": true,
+                  "center": true,
+                  "grid": undefined,
+                  "height": NaN,
+                  "language": undefined,
+                  "onScale": [Function],
+                  "renditions": Array [
+                    Object {
+                      "element": [Function],
+                      "size": 10,
+                    },
+                  ],
+                  "title": "Office 365",
+                  "width": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              undefined,
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

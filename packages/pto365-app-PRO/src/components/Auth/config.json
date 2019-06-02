@@ -1,0 +1,18 @@
+{
+    "clientID": "5a473557-a9d3-4378-90f1-e9cd3a38006f",
+    "redirectUri":"https://localhost:3000/#/login",
+    "b2cScopes": ["user.read"],
+    "webApi": "https://graph.microsoft.com/beta/me",
+    "webApi2": "https://graph.microsoft.com/beta/me/createdObjects",
+    "environments": [
+      {
+        "url": "https://preview.app.jumpto365.com",
+        "clientID": "244b7568-9548-44ed-8ed2-e71f7a78915c"
+      },
+      {
+        "url": "https://localhost:3000",
+        "clientID": "5a473557-a9d3-4378-90f1-e9cd3a38006f"
+      }
+
+    ]
+  }

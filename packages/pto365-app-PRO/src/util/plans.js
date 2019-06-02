@@ -1,0 +1,27 @@
+// https://loicsterckx.wordpress.com/2016/05/18/office-365-main-skuids-of-licenses/
+var sku = {}
+sku["c5928f49-12ba-48f7-ada3-0d743a3601d5"] = "Visio Pro for Office 365"
+sku["a10d5e58-74da-4312-95c8-76be4e5b75a0"] = "Project Pro for Office 365"
+sku["87bbbc60-4754-4998-8c88-227dca264858"] = "Microsoft PowerApps and Logic flows"
+sku["f8a1db68-be16-40ed-86d5-cb42ce701560"] = "Power BI Pro"
+sku["6fd2c87f-b296-42f0-b197-1e91e994b900"] = "Office 365 Enterprise E3"
+sku["a403ebcc-fae0-4ca2-8c8c-7a907fd6c235"] = "Power BI (Free)"
+sku["efccb6f7-5641-4e0e-bd10-b4976e1bf68e"] = "Enterprise Mobility Suite"
+sku["1fc08a02-8b3d-43b9-831e-f76859e04e1a"] = "SharePoint Online (Plan 1)"
+sku["8c4ce438-32a7-4ac5-91a6-e22ae08d9c8b"] = "Rights Management Adhoc"
+sku["76846ad7-7776-4c40-a281-a386362dd1b9"] = "Flow for Office 365 in E3"
+sku["c68f8d98-5534-41c8-bf36-22fa496fa792"] = "PowerApps for Office 365 in E3"
+sku["18181a46-0d4e-45cd-891e-60aabd171b4e"] = "Office 365 Enterprise E1"
+sku["57ff2da0-773e-42df-b2af-ffb7a2317929"] = "Microsoft Teams"
+sku["9aaf7827-d63c-4b61-89c3-182f06f82e5c"] = "Exchange Online (Plan 1)"
+sku["92f7a6f3-b89b-4bbd-8c30-809e6da5ad1c"] = "Power App for Office 365 in E1"
+sku["0f9b09cb-62d1-4ff4-9129-43f4996f83f4"] = "Flow for Office 365 in E1"
+sku["0feaeb32-d00e-4d66-bd5a-43b5b83db82c"] = "Skype Enterprise Online (plan 2)"
+sku["e95bec33-7c88-4a70-8e19-b10bd9d0c014"] = "Office Online"
+sku["2789c901-c14e-48ab-a76a-be334d9d793a"] = "Microsoft Forms (plan E3)"
+sku["9e700747-8b1d-45e5-ab8d-ef187ceec156"] = "Microsoft Stream for O365 E3 SKU"
+sku["b737dad2-2f6c-4c65-90e3-ca563267e8b9"] = "Microsoft Planner"
+sku["8c7d2df8-86f0-4902-b2ed-a0458298f3b3"] = "Microsoft StaffHub"
+sku["c87f142c-d1e9-4363-8630-aaea9c4d9ae5"] = "To-Do"
+
+module.exports = sku

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+.debuginfo{
+  display: none;
+  position: fixed;
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #ffffff88;
+  top:0;
+  left:0;
+  z-index: 1000;
+  border: solid 1px red;
+}     
+
+
+.layoutBorders {
+  /* border:dashed 1px blue; */
+}
+.component{
+  float: left;
+  position: absolute;
+  width: 1470px;
+  transform-origin-y: 0px; 
+  transform-origin-x: 0px;
+}
+#sb {
+  /* display: none; */
+}
+

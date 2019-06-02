@@ -1,0 +1,88 @@
+[
+  [
+    {
+      "Services": "Secure Score",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/secure-score"
+    },
+    {
+      "Services": "Compliance Manager",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/compliance-manager"
+    },
+    {
+      "Services": "Office 365 Reporting",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/office-365-reporting"
+    },
+    {
+      "Services": "Audit Logs",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/audit-logs"
+    },
+    {
+      "Services": "Content Search and Ediscovery",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/content-search-and-ediscovery"
+    },
+    {
+      "Services": "Employee Profiles",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/employee-profiles"
+    },
+    {
+      "Services": "ATA",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/ata"
+    },
+    {
+      "Services": "Threat Intelligence",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/threat-intelligence"
+    },
+    {
+      "Services": "Service Assurance",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/service-assurance"
+    },
+    {
+      "Services": "Office ATP",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/office-atp"
+    },
+    {
+      "Services": "Win ATP",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/win-atp"
+    },
+    {
+      "Services": "Azure ATP",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/azure-atp"
+    },
+    {
+      "Services": "Data Loss Prevention",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/data-loss-prevention"
+    },
+    {
+      "Services": "Cloud App Security",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/cloud-app-security"
+    },
+    {
+      "Services": "Advanced Data Governance",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/advanced-data-governance"
+    },
+    {
+      "Services": "Intune MAM",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/intune-mam"
+    },
+    {
+      "Services": "Azure AD ",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/azure-ad"
+    },
+    {
+      "Services": "SSO",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/sso"
+    },
+    {
+      "Services": "MFA",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/mfa"
+    },
+    {
+      "Services": "Conditional Access",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/conditional-access"
+    },
+    {
+      "Services": "AIP",
+      "Link": "https://hexatown.github.io/docs/microsoft/security-compliance/aip"
+    }
+  ]
+]

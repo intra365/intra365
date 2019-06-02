@@ -1,0 +1,814 @@
+{
+  "!ref": "A1:G41",
+  "A1": {
+    "t": "s",
+    "v": "Område",
+    "r": "<t>Område</t>",
+    "h": "Område",
+    "w": "Område"
+  },
+  "B1": {
+    "t": "s",
+    "v": "Opgave",
+    "r": "<t>Opgave</t>",
+    "h": "Opgave",
+    "w": "Opgave"
+  },
+  "C1": {
+    "t": "n",
+    "v": 5,
+    "w": "5"
+  },
+  "D1": {
+    "t": "n",
+    "v": 4,
+    "w": "4"
+  },
+  "E1": {
+    "t": "n",
+    "v": 3,
+    "w": "3"
+  },
+  "F1": {
+    "t": "n",
+    "v": 2,
+    "w": "2"
+  },
+  "G1": {
+    "t": "n",
+    "v": 1,
+    "w": "1"
+  },
+  "A2": {
+    "t": "s",
+    "v": "Samarbejde",
+    "r": "<t>Samarbejde</t>",
+    "h": "Samarbejde",
+    "w": "Samarbejde"
+  },
+  "B3": {
+    "t": "s",
+    "v": "Rediger et dokument samtidig med en anden inden publisering",
+    "r": "<t>Rediger et dokument samtidig med en anden inden publisering</t>",
+    "h": "Rediger et dokument samtidig med en anden inden publisering",
+    "w": "Rediger et dokument samtidig med en anden inden publisering"
+  },
+  "C3": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt"
+  },
+  "C4": {
+    "t": "s",
+    "v": "OneDrive",
+    "r": "<t>OneDrive</t>",
+    "h": "OneDrive",
+    "w": "OneDrive"
+  },
+  "B5": {
+    "t": "s",
+    "v": "Gem og rediger personlige dokumenter",
+    "r": "<t>Gem og rediger personlige dokumenter</t>",
+    "h": "Gem og rediger personlige dokumenter",
+    "w": "Gem og rediger personlige dokumenter"
+  },
+  "C5": {
+    "t": "s",
+    "v": "OneDrive",
+    "r": "<t>OneDrive</t>",
+    "h": "OneDrive",
+    "w": "OneDrive"
+  },
+  "F5": {
+    "t": "s",
+    "v": "Outlook",
+    "r": "<t>Outlook</t>",
+    "h": "Outlook",
+    "w": "Outlook"
+  },
+  "B6": {
+    "t": "s",
+    "v": "Stil et spørgsmål uden at vide, hvem der har svaret",
+    "r": "<t>Stil et spørgsmål uden at vide, hvem der har svaret</t>",
+    "h": "Stil et spørgsmål uden at vide, hvem der har svaret",
+    "w": "Stil et spørgsmål uden at vide, hvem der har svaret"
+  },
+  "D6": {
+    "t": "s",
+    "v": ".Tavlen",
+    "r": "<t>.Tavlen</t>",
+    "h": ".Tavlen",
+    "w": ".Tavlen"
+  },
+  "E6": {
+    "t": "s",
+    "v": "Skype",
+    "r": "<t>Skype</t>",
+    "h": "Skype",
+    "w": "Skype"
+  },
+  "F6": {
+    "t": "s",
+    "v": "Outlook",
+    "r": "<t>Outlook</t>",
+    "h": "Outlook",
+    "w": "Outlook"
+  },
+  "B7": {
+    "t": "s",
+    "v": "Opret en debat om et emne med forventet længere levetid",
+    "r": "<t>Opret en debat om et emne med forventet længere levetid</t>",
+    "h": "Opret en debat om et emne med forventet længere levetid",
+    "w": "Opret en debat om et emne med forventet længere levetid"
+  },
+  "C7": {
+    "t": "s",
+    "v": ".Tavlen",
+    "r": "<t>.Tavlen</t>",
+    "h": ".Tavlen",
+    "w": ".Tavlen"
+  },
+  "F7": {
+    "t": "s",
+    "v": ".Projekt,Outlook",
+    "r": "<t>.Projekt,Outlook</t>",
+    "h": ".Projekt,Outlook",
+    "w": ".Projekt,Outlook"
+  },
+  "B8": {
+    "t": "s",
+    "v": "Opret en afstemning eller undersøgelse for en bestemt gruppe",
+    "r": "<t>Opret en afstemning eller undersøgelse for en bestemt gruppe</t>",
+    "h": "Opret en afstemning eller undersøgelse for en bestemt gruppe",
+    "w": "Opret en afstemning eller undersøgelse for en bestemt gruppe"
+  },
+  "C8": {
+    "t": "s",
+    "v": ".Afstemning",
+    "r": "<t>.Afstemning</t>",
+    "h": ".Afstemning",
+    "w": ".Afstemning"
+  },
+  "E8": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt"
+  },
+  "B9": {
+    "t": "s",
+    "v": "Send et dokument til korrektur",
+    "r": "<t>Send et dokument til korrektur</t>",
+    "h": "Send et dokument til korrektur",
+    "w": "Send et dokument til korrektur"
+  },
+  "C9": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt",
+    "c": [
+      {
+        "a": "Niels Gregers Johansen",
+        "t": "Projekt er et internt værktøj ...",
+        "r": "<r><rPr><sz val=\"9\"/><color indexed=\"81\"/><rFont val=\"Tahoma\"/><charset val=\"1\"/></rPr><t>Projekt er et internt værktøj ...</t></r>",
+        "h": "<span style=\"font-size:9;\">Projekt er et internt værktøj ...</span>"
+      }
+    ]
+  },
+  "E9": {
+    "t": "s",
+    "v": "OneDrive,Outlook",
+    "r": "<t>OneDrive,Outlook</t>",
+    "h": "OneDrive,Outlook",
+    "w": "OneDrive,Outlook"
+  },
+  "B10": {
+    "t": "s",
+    "v": "Inviter en kollega til frokost",
+    "r": "<t>Inviter en kollega til frokost</t>",
+    "h": "Inviter en kollega til frokost",
+    "w": "Inviter en kollega til frokost"
+  },
+  "C10": {
+    "t": "s",
+    "v": "Skype",
+    "r": "<t>Skype</t>",
+    "h": "Skype",
+    "w": "Skype"
+  },
+  "E10": {
+    "t": "s",
+    "v": "Outlook",
+    "r": "<t>Outlook</t>",
+    "h": "Outlook",
+    "w": "Outlook"
+  },
+  "B11": {
+    "t": "s",
+    "v": "Skab en interaktiv og kreativ præsentation til et møde",
+    "r": "<t>Skab en interaktiv og kreativ præsentation til et møde</t>",
+    "h": "Skab en interaktiv og kreativ præsentation til et møde",
+    "w": "Skab en interaktiv og kreativ præsentation til et møde"
+  },
+  "C11": {
+    "t": "s",
+    "v": "Sway",
+    "r": "<t>Sway</t>",
+    "h": "Sway",
+    "w": "Sway"
+  },
+  "B12": {
+    "t": "s",
+    "v": "Inviter udvalgte personer til et møde",
+    "r": "<t>Inviter udvalgte personer til et møde</t>",
+    "h": "Inviter udvalgte personer til et møde",
+    "w": "Inviter udvalgte personer til et møde"
+  },
+  "C12": {
+    "t": "s",
+    "v": "Outlook",
+    "r": "<t>Outlook</t>",
+    "h": "Outlook",
+    "w": "Outlook"
+  },
+  "D12": {
+    "t": "s",
+    "v": "Teams",
+    "r": "<t>Teams</t>",
+    "h": "Teams",
+    "w": "Teams"
+  },
+  "A13": {
+    "t": "s",
+    "v": "Kommunikation",
+    "r": "<t>Kommunikation</t>",
+    "h": "Kommunikation",
+    "w": "Kommunikation"
+  },
+  "B14": {
+    "t": "s",
+    "v": "Publiser en tværgående nyhed for en bredere flok",
+    "r": "<t>Publiser en tværgående nyhed for en bredere flok</t>",
+    "h": "Publiser en tværgående nyhed for en bredere flok",
+    "w": "Publiser en tværgående nyhed for en bredere flok"
+  },
+  "C14": {
+    "t": "s",
+    "v": ".Nyheder på tværs",
+    "r": "<t>.Nyheder på tværs</t>",
+    "h": ".Nyheder på tværs",
+    "w": ".Nyheder på tværs"
+  },
+  "E14": {
+    "t": "s",
+    "v": "Tavlen",
+    "r": "<t>Tavlen</t>",
+    "h": "Tavlen",
+    "w": "Tavlen"
+  },
+  "B15": {
+    "t": "s",
+    "v": "Deltag i en chat med en kollega/samarbejdspartner",
+    "r": "<t>Deltag i en chat med en kollega/samarbejdspartner</t>",
+    "h": "Deltag i en chat med en kollega/samarbejdspartner",
+    "w": "Deltag i en chat med en kollega/samarbejdspartner"
+  },
+  "D15": {
+    "t": "s",
+    "v": "News",
+    "r": "<t>News</t>",
+    "h": "News",
+    "w": "News"
+  },
+  "F15": {
+    "t": "s",
+    "v": "Outlook",
+    "r": "<t>Outlook</t>",
+    "h": "Outlook",
+    "w": "Outlook"
+  },
+  "B16": {
+    "t": "s",
+    "v": "Publiser et opslag for en afdeling og/eller bestemt arbejdssted",
+    "r": "<t>Publiser et opslag for en afdeling og/eller bestemt arbejdssted</t>",
+    "h": "Publiser et opslag for en afdeling og/eller bestemt arbejdssted",
+    "w": "Publiser et opslag for en afdeling og/eller bestemt arbejdssted"
+  },
+  "C16": {
+    "t": "s",
+    "v": ".Tavlen",
+    "r": "<t>.Tavlen</t>",
+    "h": ".Tavlen",
+    "w": ".Tavlen"
+  },
+  "D16": {
+    "t": "s",
+    "v": "News",
+    "r": "<t>News</t>",
+    "h": "News",
+    "w": "News",
+    "l": {
+      "ref": "D16",
+      "location": "News",
+      "display": "News",
+      "Target": "#News",
+      "Rel": {
+        "Target": "#News",
+        "TargetMode": "Internal"
+      }
+    }
+  },
+  "F16": {
+    "t": "s",
+    "v": "Outlook",
+    "r": "<t>Outlook</t>",
+    "h": "Outlook",
+    "w": "Outlook"
+  },
+  "B17": {
+    "t": "s",
+    "v": "Afhold et online-møde med dit team eller en kollega",
+    "r": "<t>Afhold et online-møde med dit team eller en kollega</t>",
+    "h": "Afhold et online-møde med dit team eller en kollega",
+    "w": "Afhold et online-møde med dit team eller en kollega"
+  },
+  "C17": {
+    "t": "s",
+    "v": "Skype",
+    "r": "<t>Skype</t>",
+    "h": "Skype",
+    "w": "Skype"
+  },
+  "B18": {
+    "t": "s",
+    "v": "Informér et team eller projektdeltagere om noget væsentligt om en sag",
+    "r": "<t>Informér et team eller projektdeltagere om noget væsentligt om en sag</t>",
+    "h": "Informér et team eller projektdeltagere om noget væsentligt om en sag",
+    "w": "Informér et team eller projektdeltagere om noget væsentligt om en sag"
+  },
+  "C18": {
+    "t": "s",
+    "v": "News",
+    "r": "<t>News</t>",
+    "h": "News",
+    "w": "News"
+  },
+  "D18": {
+    "t": "s",
+    "v": ".Tavlen",
+    "r": "<t>.Tavlen</t>",
+    "h": ".Tavlen",
+    "w": ".Tavlen"
+  },
+  "E18": {
+    "t": "s",
+    "v": ".Projekt,Outlook",
+    "r": "<t>.Projekt,Outlook</t>",
+    "h": ".Projekt,Outlook",
+    "w": ".Projekt,Outlook"
+  },
+  "B19": {
+    "t": "s",
+    "v": "Journaliser korrespondance, der er omfattet af journaliseringspligt",
+    "r": "<t>Journaliser korrespondance, der er omfattet af journaliseringspligt</t>",
+    "h": "Journaliser korrespondance, der er omfattet af journaliseringspligt",
+    "w": "Journaliser korrespondance, der er omfattet af journaliseringspligt"
+  },
+  "C19": {
+    "t": "s",
+    "v": ".ESDH",
+    "r": "<t>.ESDH</t>",
+    "h": ".ESDH",
+    "w": ".ESDH"
+  },
+  "A20": {
+    "t": "s",
+    "v": "Søg",
+    "r": "<t>Søg</t>",
+    "h": "Søg",
+    "w": "Søg"
+  },
+  "B21": {
+    "t": "s",
+    "v": "Se og opdater min profil",
+    "r": "<t>Se og opdater min profil</t>",
+    "h": "Se og opdater min profil",
+    "w": "Se og opdater min profil"
+  },
+  "C21": {
+    "t": "s",
+    "v": ".Telefonbog,Delve",
+    "r": "<t>.Telefonbog,Delve</t>",
+    "h": ".Telefonbog,Delve",
+    "w": ".Telefonbog,Delve"
+  },
+  "B22": {
+    "t": "s",
+    "v": "Søg efter en person, der besidder en bestemt kompetence",
+    "r": "<t>Søg efter en person, der besidder en bestemt kompetence</t>",
+    "h": "Søg efter en person, der besidder en bestemt kompetence",
+    "w": "Søg efter en person, der besidder en bestemt kompetence"
+  },
+  "C22": {
+    "t": "s",
+    "v": ".Telefonbog",
+    "r": "<t>.Telefonbog</t>",
+    "h": ".Telefonbog",
+    "w": ".Telefonbog"
+  },
+  "D22": {
+    "t": "s",
+    "v": "Delve",
+    "r": "<t>Delve</t>",
+    "h": "Delve",
+    "w": "Delve"
+  },
+  "B23": {
+    "t": "s",
+    "v": "Søg efter en bestemt persons kontaktoplysninger",
+    "r": "<t>Søg efter en bestemt persons kontaktoplysninger</t>",
+    "h": "Søg efter en bestemt persons kontaktoplysninger",
+    "w": "Søg efter en bestemt persons kontaktoplysninger"
+  },
+  "C23": {
+    "t": "s",
+    "v": ".Telefonbog",
+    "r": "<t>.Telefonbog</t>",
+    "h": ".Telefonbog",
+    "w": ".Telefonbog"
+  },
+  "D23": {
+    "t": "s",
+    "v": "Delve",
+    "r": "<t>Delve</t>",
+    "h": "Delve",
+    "w": "Delve"
+  },
+  "B24": {
+    "t": "s",
+    "v": "Søg efter bestemt indhold eller et dokument, du ved findes",
+    "r": "<t>Søg efter bestemt indhold eller et dokument, du ved findes</t>",
+    "h": "Søg efter bestemt indhold eller et dokument, du ved findes",
+    "w": "Søg efter bestemt indhold eller et dokument, du ved findes"
+  },
+  "C24": {
+    "t": "s",
+    "v": ".Projekt,Delve",
+    "r": "<t>.Projekt,Delve</t>",
+    "h": ".Projekt,Delve",
+    "w": ".Projekt,Delve"
+  },
+  "B25": {
+    "t": "s",
+    "v": "Find svar på Ofte Stillede Spørgsmål (Frequently Asked Questions), FAQ's",
+    "r": "<t>Find svar på Ofte Stillede Spørgsmål (Frequently Asked Questions), FAQ's</t>",
+    "h": "Find svar på Ofte Stillede Spørgsmål (Frequently Asked Questions), FAQ&apos;s",
+    "w": "Find svar på Ofte Stillede Spørgsmål (Frequently Asked Questions), FAQ's"
+  },
+  "C25": {
+    "t": "s",
+    "v": ".FAQ",
+    "r": "<t>.FAQ</t>",
+    "h": ".FAQ",
+    "w": ".FAQ"
+  },
+  "E25": {
+    "t": "s",
+    "v": ".Håndbøger",
+    "r": "<t>.Håndbøger</t>",
+    "h": ".Håndbøger",
+    "w": ".Håndbøger"
+  },
+  "A26": {
+    "t": "s",
+    "v": "Andre scenarier",
+    "r": "<t>Andre scenarier</t>",
+    "h": "Andre scenarier",
+    "w": "Andre scenarier"
+  },
+  "B27": {
+    "t": "s",
+    "v": "Del en video med mit team/en gruppe/min organisation",
+    "r": "<t>Del en video med mit team/en gruppe/min organisation</t>",
+    "h": "Del en video med mit team/en gruppe/min organisation",
+    "w": "Del en video med mit team/en gruppe/min organisation"
+  },
+  "C27": {
+    "t": "s",
+    "v": "Video",
+    "r": "<t>Video</t>",
+    "h": "Video",
+    "w": "Video"
+  },
+  "D27": {
+    "t": "s",
+    "v": ".Nyheder på tværs,Tavlen",
+    "r": "<t>.Nyheder på tværs,Tavlen</t>",
+    "h": ".Nyheder på tværs,Tavlen",
+    "w": ".Nyheder på tværs,Tavlen"
+  },
+  "B28": {
+    "t": "s",
+    "v": "Meld dig til et (internt) kursus",
+    "r": "<t>Meld dig til et (internt) kursus</t>",
+    "h": "Meld dig til et (internt) kursus",
+    "w": "Meld dig til et (internt) kursus"
+  },
+  "F28": {
+    "t": "s",
+    "v": ".Tavlen,Outlook",
+    "r": "<t>.Tavlen,Outlook</t>",
+    "h": ".Tavlen,Outlook",
+    "w": ".Tavlen,Outlook"
+  },
+  "B29": {
+    "t": "s",
+    "v": "Tag noter (fælles såvel som individuelt) fra et møde",
+    "r": "<t>Tag noter (fælles såvel som individuelt) fra et møde</t>",
+    "h": "Tag noter (fælles såvel som individuelt) fra et møde",
+    "w": "Tag noter (fælles såvel som individuelt) fra et møde"
+  },
+  "C29": {
+    "t": "s",
+    "v": "OneNote",
+    "r": "<t>OneNote</t>",
+    "h": "OneNote",
+    "w": "OneNote"
+  },
+  "F29": {
+    "t": "s",
+    "v": "Outlook",
+    "r": "<t>Outlook</t>",
+    "h": "Outlook",
+    "w": "Outlook"
+  },
+  "B30": {
+    "t": "s",
+    "v": "Arkiver og del fælles retningslinjer, procedurer",
+    "r": "<t>Arkiver og del fælles retningslinjer, procedurer</t>",
+    "h": "Arkiver og del fælles retningslinjer, procedurer",
+    "w": "Arkiver og del fælles retningslinjer, procedurer"
+  },
+  "C30": {
+    "t": "s",
+    "v": ".Håndbøger",
+    "r": "<t>.Håndbøger</t>",
+    "h": ".Håndbøger",
+    "w": ".Håndbøger"
+  },
+  "E30": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt"
+  },
+  "B31": {
+    "t": "s",
+    "v": "Opret en formular for at indhente fastlagte data",
+    "r": "<t>Opret en formular for at indhente fastlagte data</t>",
+    "h": "Opret en formular for at indhente fastlagte data",
+    "w": "Opret en formular for at indhente fastlagte data"
+  },
+  "C31": {
+    "t": "s",
+    "v": ".Webform",
+    "r": "<t>.Webform</t>",
+    "h": ".Webform",
+    "w": ".Webform"
+  },
+  "B32": {
+    "t": "s",
+    "v": "Del fotos fra en begivenhed",
+    "r": "<t>Del fotos fra en begivenhed</t>",
+    "h": "Del fotos fra en begivenhed",
+    "w": "Del fotos fra en begivenhed"
+  },
+  "C32": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt"
+  },
+  "D32": {
+    "t": "s",
+    "v": ".Nyheder på tværs,Tavlen",
+    "r": "<t>.Nyheder på tværs,Tavlen</t>",
+    "h": ".Nyheder på tværs,Tavlen",
+    "w": ".Nyheder på tværs,Tavlen"
+  },
+  "E32": {
+    "t": "s",
+    "v": "OneDrive",
+    "r": "<t>OneDrive</t>",
+    "h": "OneDrive",
+    "w": "OneDrive"
+  },
+  "F32": {
+    "t": "s",
+    "v": "Outlook",
+    "r": "<t>Outlook</t>",
+    "h": "Outlook",
+    "w": "Outlook"
+  },
+  "A33": {
+    "t": "s",
+    "v": "Håndter projekter",
+    "r": "<t>Håndter projekter</t>",
+    "h": "Håndter projekter",
+    "w": "Håndter projekter"
+  },
+  "B34": {
+    "t": "s",
+    "v": "Opret og behandl opgaver relateret til et projekt",
+    "r": "<t>Opret og behandl opgaver relateret til et projekt</t>",
+    "h": "Opret og behandl opgaver relateret til et projekt",
+    "w": "Opret og behandl opgaver relateret til et projekt"
+  },
+  "C34": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt"
+  },
+  "D34": {
+    "t": "s",
+    "v": "Planner",
+    "r": "<t>Planner</t>",
+    "h": "Planner",
+    "w": "Planner"
+  },
+  "F34": {
+    "t": "s",
+    "v": ".Kanban,Outlook,OneNote",
+    "r": "<t>.Kanban,Outlook,OneNote</t>",
+    "h": ".Kanban,Outlook,OneNote",
+    "w": ".Kanban,Outlook,OneNote"
+  },
+  "B35": {
+    "t": "s",
+    "v": "Opret en projektplan",
+    "r": "<t>Opret en projektplan</t>",
+    "h": "Opret en projektplan",
+    "w": "Opret en projektplan"
+  },
+  "C35": {
+    "t": "s",
+    "v": "Project",
+    "r": "<t>Project</t>",
+    "h": "Project",
+    "w": "Project"
+  },
+  "D35": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt"
+  },
+  "E35": {
+    "t": "s",
+    "v": "Planner",
+    "r": "<t>Planner</t>",
+    "h": "Planner",
+    "w": "Planner"
+  },
+  "B36": {
+    "t": "s",
+    "v": "Tildel opgaver til specifikke personer eller generelle roller",
+    "r": "<t>Tildel opgaver til specifikke personer eller generelle roller</t>",
+    "h": "Tildel opgaver til specifikke personer eller generelle roller",
+    "w": "Tildel opgaver til specifikke personer eller generelle roller"
+  },
+  "C36": {
+    "t": "s", 
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt",
+    "l": {
+      "ref": "C36",
+      "id": "rId1",
+      "Target": "http://nets-intranets/",
+      "Rel": {
+        "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+        "Target": "http://nets-intranets/",
+        "Id": "rId1",
+        "TargetMode": "External"
+      }
+    }
+  },
+  "E36": {
+    "t": "s",
+    "v": ".Kanban",
+    "r": "<t>.Kanban</t>",
+    "h": ".Kanban",
+    "w": ".Kanban"
+  },
+  "F36": {
+    "t": "s",
+    "v": "Project",
+    "r": "<t>Project</t>",
+    "h": "Project",
+    "w": "Project"
+  },
+  "C37": {
+    "t": "s",
+    "v": "Planner",
+    "r": "<t>Planner</t>",
+    "h": "Planner",
+    "w": "Planner"
+  },
+  "B38": {
+    "t": "s",
+    "v": "Få overblik over bestemte projekter/projekttyper",
+    "r": "<t>Få overblik over bestemte projekter/projekttyper</t>",
+    "h": "Få overblik over bestemte projekter/projekttyper",
+    "w": "Få overblik over bestemte projekter/projekttyper"
+  },
+  "C38": {
+    "t": "s",
+    "v": ".Projekt,Delve",
+    "r": "<t>.Projekt,Delve</t>",
+    "h": ".Projekt,Delve",
+    "w": ".Projekt,Delve"
+  },
+  "D38": {
+    "t": "s",
+    "v": "Planner",
+    "r": "<t>Planner</t>",
+    "h": "Planner",
+    "w": "Planner"
+  },
+  "B39": {
+    "t": "s",
+    "v": "Del dokumenter relateret til et projekt - med kort tidshorisont",
+    "r": "<t>Del dokumenter relateret til et projekt - med kort tidshorisont</t>",
+    "h": "Del dokumenter relateret til et projekt - med kort tidshorisont",
+    "w": "Del dokumenter relateret til et projekt - med kort tidshorisont"
+  },
+  "D39": {
+    "t": "s",
+    "v": ".Projekt,OneDrive",
+    "r": "<t>.Projekt,OneDrive</t>",
+    "h": ".Projekt,OneDrive",
+    "w": ".Projekt,OneDrive"
+  },
+  "B40": {
+    "t": "s",
+    "v": "Del dokumenter relateret til et projekt - lang tidshorisont/behov for kontrol",
+    "r": "<t>Del dokumenter relateret til et projekt - lang tidshorisont/behov for kontrol</t>",
+    "h": "Del dokumenter relateret til et projekt - lang tidshorisont/behov for kontrol",
+    "w": "Del dokumenter relateret til et projekt - lang tidshorisont/behov for kontrol"
+  },
+  "C40": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt"
+  },
+  "B41": {
+    "t": "s",
+    "v": "Journaliser dokumenter, der er omfattet af journaliseringspligt",
+    "r": "<t>Journaliser dokumenter, der er omfattet af journaliseringspligt</t>",
+    "h": "Journaliser dokumenter, der er omfattet af journaliseringspligt",
+    "w": "Journaliser dokumenter, der er omfattet af journaliseringspligt"
+  },
+  "C41": {
+    "t": "s",
+    "v": ".ESDH",
+    "r": "<t>.ESDH</t>",
+    "h": ".ESDH",
+    "w": ".ESDH"
+  },
+  "F41": {
+    "t": "s",
+    "v": ".Projekt",
+    "r": "<t>.Projekt</t>",
+    "h": ".Projekt",
+    "w": ".Projekt"
+  },
+  "G41": {
+    "t": "s",
+    "v": "OneDrive",
+    "r": "<t>OneDrive</t>",
+    "h": "OneDrive",
+    "w": "OneDrive"
+  },
+  "!margins": {
+    "left": 0.7,
+    "right": 0.7,
+    "top": 0.75,
+    "bottom": 0.75,
+    "header": 0.3,
+    "footer": 0.3
+  }
+}

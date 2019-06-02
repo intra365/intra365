@@ -1,0 +1,1951 @@
+ [
+    {
+      "id": "1",
+      "Category": "Hospitality",
+      "Featuring": "Delve,SharePoint,Skype for Business,Yammer",
+      "Title": "Quickly answer guest questions from anywhere in the hotel",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-answer-guest-questions-from-anywhere-in-the-hotel",
+      "Details": "Provide top-notch guest service by surfacing relevant, company-approved information promptly, from anywhere in the hotel.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/1"
+    },
+    {
+      "id": "2",
+      "Category": "RETAIL ,  HUMAN RESOURCES",
+      "Featuring": "Excel,OneNote,PowerPoint,Skype for Business,Sway,Word,Yammer",
+      "Title": "Increase employee engagement of firstline workers",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Increase-employee-engagement-of-firstline-workers",
+      "Details": "Inspire firstline worker engagement to increase organizational loyalty and retention, and avoid the expense of constant hiring and training.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/2"
+    },
+    {
+      "id": "3",
+      "Featuring": "Microsoft Teams,Skype for Business,StaffHub",
+      "Title": "Interact in real time with IM, persistent chat, and presence",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Interact-in-real-time-with-IM-persistent-chat-and-presence",
+      "Details": "Communicate instantly with your firstline workers, and keep them updated with the alerts, reminders, and content they need to do their jobs.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/3"
+    },
+    {
+      "id": "4",
+      "Featuring": "WINDOWS 10",
+      "Title": "Protect, detect, investigate, and respond to advanced threats",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Protect-detect-investigate-and-respond-to-advanced-threats",
+      "Details": "The cyberthreat landscape today requires an ongoing and relentless focus on security, and IT administrators need tools that help them prevent, protect, defend, and respond to threats in addition to modernizing their workplace to empower employee creativity and productivity. Windows Defender in Windows 10 Enterprise changes the game for security in organizations by protecting user identities, information, and devices from threats, with a comprehensive and fully integrated set of advanced security capabilities. Windows Defender provides both pre-breach threat resistance, removing or defending against the attack vectors used by the malware and hacking industry, and post-breach protection, detection, and response capabilities, all within a single end-to-end solution.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/4"
+    },
+    {
+      "id": "5",
+      "Category": "COMMUNICATION & MEDIA",
+      "Featuring": "Excel,Office 365,OneDrive,OneNote,Outlook,PowerPoint,SharePoint,Skype for Business,Word",
+      "Title": "Work together on documents with colleagues",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Work-together-on-documents-with-colleagues",
+      "Details": "Securely share content and gather immediate feedback from colleagues.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/5"
+    },
+    {
+      "id": "6",
+      "Category": "Operations",
+      "Featuring": "Excel,Office 365,OneDrive,Outlook,PowerPoint,SharePoint,Word",
+      "Title": "Manage ongoing case work from anywhere",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-ongoing-case-work-from-anywhere",
+      "Details": "Ensure secure online and offline access to client documents, data, and discovery to keep working and put in billable hours from the office, airport, client site, or any other location.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/6"
+    },
+    {
+      "id": "7",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Excel,Power BI",
+      "Title": "Pinpoint market trends that impact financial performance",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Pinpoint-market-trends-that-impact-financial-performance",
+      "Details": "Assess financial performance risks by identifying market trends and reviewing internal and external data.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/7"
+    },
+    {
+      "id": "8",
+      "Category": "MANUFACTURING",
+      "Featuring": "Delve,Office 365,SharePoint,Skype for Business,Yammer",
+      "Title": "Resolve service and repair issues faster",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Resolve-service-and-repair-issues-faster",
+      "Details": "Shorten resolution time in the field via easily accessible equipment repair information and immediate access to product experts.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/8"
+    },
+    {
+      "id": "9",
+      "Featuring": "WINDOWS 10",
+      "Title": "Unlock more productivity on powerful, modern devices",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Unlock-more-productivity-on-powerful-modern-devices",
+      "Details": "Windows 10 empowers you to work faster, smarter, and more productively with a Microsoft 365 powered device. New devices in a variety of shapes and sizes, industry-leading security capabilities, powerful Office productivity app integration, new browsing experiences, and personalization features keep you at the forefront of innovation.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/9"
+    },
+    {
+      "id": "10",
+      "Category": "Operations",
+      "Featuring": "Microsoft Teams,Planner",
+      "Title": "Manage your team scrum",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-your-team-scrum",
+      "Details": "Engage the entire team in actively planning and managing scrum tasks.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/10"
+    },
+    {
+      "id": "11",
+      "Featuring": "Office 365,StaffHub",
+      "Title": "Manage firstline worker teams",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-firstline-worker-teams",
+      "Details": "Streamline the process of adding and removing firstline workers in your schedules.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/11"
+    },
+    {
+      "id": "12",
+      "Featuring": "StaffHub",
+      "Title": "Keep firstline workers up to date with the latest company policies and procedures",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Keep-firstline-workers-up-to-date-with-the-latest-company-policies-and-procedures",
+      "Details": "Quickly onboard new firstline workers and keep your existing team up to date with the latest versions of company procedures, best practices, and guidelines, accessible instantly from any device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/12"
+    },
+    {
+      "id": "13",
+      "Featuring": "Office 365,Skype for Business,StaffHub,Yammer",
+      "Title": "Deliver onboarding materials and schedule training",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Deliver-onboarding-materials-and-schedule-training",
+      "Details": "Use versatile communication and content-sharing tools to quickly onboard your new workers.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/13"
+    },
+    {
+      "id": "14",
+      "Featuring": "MICROSOFT TEAMS, OFFICE 365,OUTLOOK,SHAREPOINT,YAMMER",
+      "Title": "Transform teamwork in your organization",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Transform-teamwork-in-your-organization",
+      "Details": "Microsoft 365 is a universal toolkit for teamwork, serving multiple team needs while providing a seamless experience across apps and services. Avoid multiple sign-ins across unconnected apps, security risks due to noncompliant software, and duplicative tools that strain team productivity. Microsoft 365 provides a single membership across apps and services with Office 365 Groups, suite-wide intelligence with the Microsoft Graph, and security and compliance.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/14"
+    },
+    {
+      "id": "15",
+      "Category": "HEALTHCARE",
+      "Featuring": "Excel,Office 365,OneNote,Outlook,PowerPoint,SharePoint,Skype for Business,Word",
+      "Title": "Keep up with patient care from anywhere",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Keep-up-with-patient-care-from-anywhere",
+      "Details": "Maintain a single, ongoing source of patient information accessible from anywhere, anytime.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/15"
+    },
+    {
+      "id": "16",
+      "Category": "HEALTHCARE",
+      "Featuring": "Excel,Office 365,OneNote,Outlook,PowerPoint,Skype for Business,Word",
+      "Title": "Identify and alert colleagues about a spreading illness",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Identify-and-alert-colleagues-about-a-spreading-illness",
+      "Details": "Take immediate action to review recent patient history and connect with healthcare professionals when there is a suspected viral outbreak.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/16"
+    },
+    {
+      "id": "17",
+      "Category": "HEALTHCARE",
+      "Featuring": "OneNote,Outlook,SharePoint,Skype for Business",
+      "Title": "Provide quick resolution to patient questions",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Provide-quick-resolution-to-patient-questions",
+      "Details": "Respond promptly to health and care questions raised by patients by easily accessing medical information and connecting with other health professionals.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/17"
+    },
+    {
+      "id": "18",
+      "Category": "HEALTHCARE",
+      "Featuring": "Office 365,OneDrive,OneNote,Skype for Business,Yammer",
+      "Title": "Get an informed second opinion faster",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Get-an-informed-second-opinion-faster",
+      "Details": "When making a diagnosis, confer with specialists across departments in order to deliver an informed, thorough opinion to best address patient health.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/18"
+    },
+    {
+      "id": "19",
+      "Featuring": "OFFICE 365 BASICS, SHAREPOINT",
+      "Title": "Share sites and content",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Share-sites-and-content",
+      "Details": "SharePoint powers sharing and collaboration on the intranet. Build sites and portals that engage people, connecting them to expertise, content, actionable insights and collective knowledge. Drive organizational efficiency by sharing applications that streamline processes. Manage and share files or folders—within team sites or intranet sites, and inside or outside your organization.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/19"
+    },
+    {
+      "id": "20",
+      "Category": "MANUFACTURING ,  OPERATIONS",
+      "Featuring": "Delve,Excel,Office 365,Power BI,SharePoint,Sway",
+      "Title": "Make data-driven product design decisions",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Make-datadriven-product-design-decisions",
+      "Details": "Understand what product features and fixes should be prioritized for development based on feedback from distributed field services personnel about common product issues that hurt customer satisfaction.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/20"
+    },
+    {
+      "id": "21",
+      "Featuring": "OneDrive,SharePoint,Skype for Business,Yammer",
+      "Title": "Provide fast, informed answers to legal questions",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Provide-fast-informed-answers-to-legal-questions",
+      "Details": "Easily and instantly access knowledge and expertise in order to respond effectively to a clients legal question.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/21"
+    },
+    {
+      "id": "22",
+      "Category": "EDUCATION",
+      "Featuring": "Office 365,Outlook,PowerPoint,Skype for Business",
+      "Title": "Balance classroom time with other faculty investments",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Balance-classroom-time-with-other-faculty-investments",
+      "Details": "Prepare for a presentation at an upcoming conference without infringing upon classroom time.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/22"
+    },
+    {
+      "id": "23",
+      "Category": "SALES",
+      "Featuring": "OneNote,Skype for Business,Yammer",
+      "Title": "Close deals by engaging experts and executives in important customer discussions",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Close-deals-by-engaging-experts-and-executives-in-important-customer-discussions",
+      "Details": "In order to close important deals, bring corporate experts and executives into the sales process by providing a way for them to participate in customer meetings and respond to questions, even if they are remote.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/23"
+    },
+    {
+      "id": "24",
+      "Featuring": "MICROSOFT TEAMS, OFFICE 365 BASICS",
+      "Title": "Provide a chat-based workspace",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Provide-a-chatbased-workspace",
+      "Details": "Microsoft Teams brings together information that teams need to work effectively and perform at their peak. This mobile-friendly chat-based workspace combines chat, documents, people, and tools in one secure place.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/24"
+    },
+    {
+      "id": "25",
+      "Category": "RETAIL",
+      "Featuring": "Outlook,SharePoint,Skype for Business,Yammer",
+      "Title": "Conduct sales training for store employees across the globe",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Conduct-sales-training-for-store-employees-across-the-globe",
+      "Details": "Ensure that dispersed sales reps are educated and available to participate in marketing initiatives.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/25"
+    },
+    {
+      "id": "26",
+      "Category": "MANUFACTURING",
+      "Featuring": "Delve,Office 365,SharePoint,Yammer",
+      "Title": "Crowd-source new product ideas",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Crowdsource-new-product-ideas",
+      "Details": "Capture innovative ideas and bring differentiated products to market faster by incorporating feedback from customers, supply chain partners, and employees across all departments and outside the companys immediate network.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/26"
+    },
+    {
+      "id": "27",
+      "Category": "MANUFACTURING ,  OPERATIONS",
+      "Featuring": "Office 365,OneDrive,Outlook,Skype for Business,Sway,Yammer",
+      "Title": "Deliver clear manufacturing requirements",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Deliver-clear-manufacturing-requirements",
+      "Details": "Gather comprehensive and validated manufacturing requirements and convey them clearly to subcontractors.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/27"
+    },
+    {
+      "id": "28",
+      "Featuring": "Office 365,OneDrive,Outlook,SharePoint",
+      "Title": "Continue ongoing client work from anywhere",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Continue-ongoing-client-work-from-anywhere",
+      "Details": "Ensure more-secure online and offline access to client documents and data in order to keep working from anywhere.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/28"
+    },
+    {
+      "id": "29",
+      "Featuring": "OFFICE 365 BASICS, PLANNER",
+      "Title": "Organize teamwork visually",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Organize-teamwork-visually",
+      "Details": "Microsoft Planner lets you create, manage, and complete tasks with anyone in your organization through a single, easy-to-use portal. The secure, cloud-based tool provides access to your entire group from all devices, so no one misses a step.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/29"
+    },
+    {
+      "id": "30",
+      "Featuring": "Delve,Excel,Power BI,Sway,Yammer",
+      "Title": "Create and impress loyal customers by understanding their preferences",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Create-and-impress-loyal-customers-by-understanding-their-preferences",
+      "Details": "Understand what makes customers loyal and analyze internal resources to design personalized customer experiences.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/30"
+    },
+    {
+      "id": "31",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Excel,Power BI,Skype for Business",
+      "Title": "Engage stakeholders with impactful presentations",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Engage-stakeholders-with-impactful-presentations",
+      "Details": "Foster impactful interactions with stakeholders based on live, dynamic reports that keep up with constantly changing financial data.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/31"
+    },
+    {
+      "id": "32",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Delve,Outlook,SharePoint,Yammer",
+      "Title": "Help employees filter relevant information and find answers faster",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Help-employees-filter-relevant-information-and-find-answers-faster",
+      "Details": "Filter relevant information to the right employees to enable them to find answers to their questions faster.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/32"
+    },
+    {
+      "id": "33",
+      "Featuring": "Excel,Office 365,OneDrive,OneNote,Outlook,PowerPoint,Word",
+      "Title": "Develop impactful project deliverables as a team",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Develop-impactful-project-deliverables-as-a-team",
+      "Details": "Foster real-time contributions among consultants and analysts to get the best possible deliverables in the shortest possible timeframe.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/33"
+    },
+    {
+      "id": "34",
+      "Featuring": "Office 365",
+      "Title": "Choose the right collaboration tool for your group",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Choose-the-right-collaboration-tool-for-your-group",
+      "Details": "Collaboration is how work gets done. When we look at how companies are working today, we see a myriad of tools in use, and a variety of work cultures, across geographies and generations.  We’ve designed Office 365 to meet the unique needs of every group. Together, the product suite creates a holistic collaboration solution.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/34"
+    },
+    {
+      "id": "35",
+      "Featuring": "Project,SharePoint,Yammer",
+      "Title": "Keep a project team in sync and on schedule",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Keep-a-project-team-in-sync-and-on-schedule",
+      "Details": "Facilitate zero-friction, transparent work communication so that a client project is completed on time.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/35"
+    },
+    {
+      "id": "36",
+      "Featuring": "Delve,OneNote,Sway,Yammer",
+      "Title": "Get up to speed on a new client’s business landscape",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Get-up-to-speed-on-a-new-clients-business-landscape",
+      "Details": "Work with client needs and expectations in mind and efficiently understand their unique circumstances when launching new project work",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/36"
+    },
+    {
+      "id": "37",
+      "Category": "RETAIL ,  SALES",
+      "Featuring": "Microsoft Teams,Skype for Business,Yammer",
+      "Title": "Gain insight into customer opinions",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Gain-insight-into-customer-opinions",
+      "Details": "Communicate with sales staff in order to understand how customers are reacting to products as they shop.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/37"
+    },
+    {
+      "id": "38",
+      "Category": "RETAIL",
+      "Featuring": "SharePoint,Skype for Business,Yammer",
+      "Title": "Provide informed, prompt customer service",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Provide-informed-prompt-customer-service",
+      "Details": "Provide top-notch customer experiences by surfacing relevant, company-approved information promptly from anywhere in the store.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/38"
+    },
+    {
+      "id": "39",
+      "Featuring": "OFFICE 365 BASICS, SKYPE FOR BUSINESS",
+      "Title": "Meet and collaborate with ease",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Meet-and-collaborate-with-ease",
+      "Details": "Your ability to get things done is, in part, reliant on being able to connect in real-time. From getting a quick answer, to keeping projects on track, to maintaining group momentum, to establishing rapport with customers, Skype for Business offers a complete meeting solution with one platform for instant messaging, audio and video calling, conferencing, and live sharing.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/39"
+    },
+    {
+      "id": "40",
+      "Category": "FINANCIAL SERVICES ,  FINANCE",
+      "Featuring": "Excel,Power BI",
+      "Title": "Monitor and communicate about business performance",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Monitor-and-communicate-about-business-performance",
+      "Details": "Track and analyze business performance from anywhere, on any device, and securely share trends with business managers for immediate action.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/40"
+    },
+    {
+      "id": "41",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Delve,Excel,Power BI,SharePoint,Sway",
+      "Title": "Spend more time with clients and less time creating reports",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Spend-more-time-with-clients-and-less-time-creating-reports",
+      "Details": "Present important data to clients in a relatable, self-service format without spending all day drafting reports.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/41"
+    },
+    {
+      "id": "42",
+      "Category": "FINANCIAL SERVICES ,  FINANCE",
+      "Featuring": "OneNote,Outlook,Project,SharePoint",
+      "Title": "Shorten the product planning cycle",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Shorten-the-product-planning-cycle",
+      "Details": "Take client solutions from planning to execution, effectively communicate and collaborate with people across an organization, collect feedback, and get buy-in on plans for new service offerings, without creating delays.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/42"
+    },
+    {
+      "id": "43",
+      "Category": "Financial Services ",
+      "Featuring": "Office 365,Outlook,SharePoint,Skype for Business",
+      "Title": "Incorporate varied input to develop new financial offerings",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Incorporate-varied-input-to-develop-new-financial-offerings",
+      "Details": "Gather productive input from all relevant stakeholders to better understand client needs and expectations.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/43"
+    },
+    {
+      "id": "44",
+      "Featuring": "Office 365 Basics, OneDrive",
+      "Title": "Save and share files",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Save-and-share-files",
+      "Details": "Microsoft OneDrive is the smarter online storage system that makes it simple to create, upload and edit files from your desktop, favorite browser, or mobile device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/44"
+    },
+    {
+      "id": "45",
+      "Category": "SALES",
+      "Featuring": "Microsoft Teams,OneDrive,Power BI",
+      "Title": "Plan and coordinate account management activities",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Plan-and-coordinate-account-management-activities",
+      "Details": "Easily communicate and collaborate with geographically dispersed account management teams in a mobile-friendly chat-based workspace.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/45"
+    },
+    {
+      "id": "46",
+      "Category": "Retail",
+      "Featuring": "OneDrive,Outlook,SharePoint,Skype for Business",
+      "Title": "Securely collaborate with suppliers in a timely manner",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Securely-collaborate-with-suppliers-in-a-timely-manner",
+      "Details": "Communicate, collect feedback, and share content up and down the supply chain quickly and reliably to stay ahead of the curve.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/46"
+    },
+    {
+      "id": "47",
+      "Category": "Human Resources ",
+      "Featuring": "Outlook,SharePoint,Skype for Business,Word",
+      "Title": "Collaborate to write better job listings",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Collaborate-to-write-better-job-listings",
+      "Details": "Receive real-time input and feedback from key contributors to help write relevant job listings that will attract the best candidates.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/47"
+    },
+    {
+      "id": "48",
+      "Category": "Financial Services ",
+      "Featuring": "Excel,OneDrive,Outlook,Skype for Business",
+      "Title": "Deliver financial analysis on time from anywhere",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Deliver-financial-analysis-on-time-from-anywhere",
+      "Details": "Respond to executive and client needs and deliver reports in a timely manner.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/48"
+    },
+    {
+      "id": "49",
+      "Featuring": "OFFICE 365 BASICS, POWER BI",
+      "Title": "Make data-driven decisions",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Make-datadriven-decisions",
+      "Details": "Power BI enables anyone to visualize and analyze data with greater speed, efficiency, and understanding. It connects you to a broad range of data through live dashboards, interactive reports, and compelling visualizations that bring your data to life.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/49"
+    },
+    {
+      "id": "50",
+      "Category": "EDUCATION",
+      "Featuring": "Delve,Excel,OneNote,PowerPoint,Skype for Business,Word",
+      "Title": "Help a student write a persuasive research paper",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Help-a-student-write-a-persuasive-research-paper",
+      "Details": "Work with students to quickly answer their questions and help them discover resources to guide them on independent projects.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/50"
+    },
+    {
+      "id": "51",
+      "Category": "FINANCE",
+      "Featuring": "Microsoft Teams,Office 365,Power BI",
+      "Title": "Manage periodic closing processes",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-periodic-closing-processes",
+      "Details": "Efficiently manage monthly, quarterly, and annual closing processes by bringing your team together in a mobile-friendly chat-based workspace that empowers team members to move quickly from chats to content and tasks, with context, continuity, and transparency among the entire team.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/51"
+    },
+    {
+      "id": "52",
+      "Category": "OPERATIONS",
+      "Featuring": "OneDrive,Outlook,Power BI,Skype for Business,Yammer",
+      "Title": "Resolve supply issues faster",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Resolve-supply-issues-faster",
+      "Details": "Identify a supply shortage in real-time and quickly collaborate with supply chain partners to find an alternative solution.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/52"
+    },
+    {
+      "id": "53",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Delve,Office 365,Skype for Business,Yammer",
+      "Title": "Develop investment proposals with real-time expert help",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Develop-investment-proposals-with-realtime-expert-help",
+      "Details": "Identify analysts, risk managers, and traders and instantly get their advice while researching the right solution for a client.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/53"
+    },
+    {
+      "id": "54",
+      "Featuring": "OFFICE 365 BASICS, YAMMER",
+      "Title": "Connect your organization",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Connect-your-organization",
+      "Details": "Yammer seamlessly enables connections to people and information from across your organization that you never knew existed. Discuss ideas, share updates, and crowdsource answers from coworkers from anywhere. Connect to everything important so you can share, learn and make better decisions on the go.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/54"
+    },
+    {
+      "id": "55",
+      "Category": "COMMUNICATION & MEDIA ,  SALES",
+      "Featuring": "Excel,Power BI,Yammer",
+      "Title": "Understand customer preferences and predict requests",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Understand-customer-preferences-and-predict-requests",
+      "Details": "Know as much about customers as about the products that are sold in order to better understand and predict their preferences.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/55"
+    },
+    {
+      "id": "56",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "OneDrive,OneNote,SharePoint,Skype for Business,Yammer",
+      "Title": "Support new employees in onboarding",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Support-new-employees-in-onboarding",
+      "Details": "Ensure that new hires get the information, support, and training they need to quickly get up to speed.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/56"
+    },
+    {
+      "id": "57",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Excel,Office 365,Power BI,SharePoint",
+      "Title": "Quickly create compelling financial deliverables",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-create-compelling-financial-deliverables",
+      "Details": "Foster real-time contributions among partners and cross-functional teams to produce the best possible deliverables in the shortest timeframe.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/57"
+    },
+    {
+      "id": "58",
+      "Category": "SALES",
+      "Featuring": "Microsoft Teams,OneDrive,Planner",
+      "Title": "Prepare and manage an RFP or proposal",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Prepare-and-manage-an-RFP-or-proposal",
+      "Details": "Bring your team together to draft a winning request or response and earn a customer’s future business.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/58"
+    },
+    {
+      "id": "59",
+      "Featuring": "MYANALYTICS, OFFICE 365 BASICS",
+      "Title": "Create better work habits",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Create-better-work-habits",
+      "Details": "MyAnalytics helps you focus on what matters most with personalized insights about how you work. Learn from your time spent in meetings, working in email, your dedicated focus hours, and from how many after-hours you rack up so you can be more effective at work",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/59"
+    },
+    {
+      "id": "60",
+      "Category": "Hospitality",
+      "Featuring": "Outlook,SharePoint,Skype for Business,Sway,Yammer",
+      "Title": "Ensure employees across hotel locations are on the same page",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Ensure-employees-across-hotel-locations-are-on-the-same-page",
+      "Details": "Communicate news across the hotel chain and encourage feedback so that employees feel connected and loyal to the organization and brand.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/60"
+    },
+    {
+      "id": "61",
+      "Category": "SALES",
+      "Featuring": "Delve,OneNote,SharePoint,Yammer",
+      "Title": "Tap into sales best practices across the company",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Tap-into-sales-best-practices-across-the-company",
+      "Details": "Improve sales performance by sharing tribal knowledge and best practices on how to establish new relationships or handle common objections from clients.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/61"
+    },
+    {
+      "id": "62",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Delve,Microsoft Teams,OneNote,Planner",
+      "Title": "Integrate new hires into the team and work in progress",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Integrate-new-hires-into-the-team-and-work-in-progress",
+      "Details": "Make sure new hires get the information, training, and support needed to connect with and start contributing to the team. ",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/62"
+    },
+    {
+      "id": "63",
+      "Category": "SALES",
+      "Featuring": "Excel,Office 365,OneDrive,OneNote,PowerPoint,Skype for Business,Word",
+      "Title": "Be productive on the road",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Be-productive-on-the-road",
+      "Details": "Keep up with customer demands and be productive even when on the road in order to deliver better customer service and resolve issues with no delays.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/63"
+    },
+    {
+      "id": "64",
+      "Featuring": "DELVE, OFFICE 365 BASICS",
+      "Title": "Discover relevant content and people",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Discover-relevant-content-and-people",
+      "Details": "Delve surfaces the people and content most relevant to your work based on what you’re working on, who you’re working with, and what is trending. Through an intuitive card-based interface, Delve creates a personalized view of what’s happening around you.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/64"
+    },
+    {
+      "id": "65",
+      "Category": "SALES",
+      "Featuring": "Excel,Microsoft Teams,Office 365,OneNote,Planner,PowerPoint,Word",
+      "Title": "Manage accounts to close deals faster",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-accounts-to-close-deals-faster",
+      "Details": "Work effectively as a team to develop strategic account plans and keep your business moving forward.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/65"
+    },
+    {
+      "id": "66",
+      "Category": "SALES",
+      "Featuring": "Delve,Excel,Power BI,SharePoint,Skype for Business",
+      "Title": "Provide data-driven recommendations for client success",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Provide-datadriven-recommendations-for-client-success",
+      "Details": "Get focused input and quickly gather relevant data in order to deliver better client recommendations.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/66"
+    },
+    {
+      "id": "67",
+      "Category": "SALES",
+      "Featuring": "Excel,Power BI,Skype for Business,Yammer",
+      "Title": "Uncover opportunities to better meet sales forecasts",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Uncover-opportunities-to-better-meet-sales-forecasts",
+      "Details": "Gather customer feedback and analyze buying behavior to evaluate opportunities to better meet sales forecasts.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/67"
+    },
+    {
+      "id": "68",
+      "Category": "EDUCATION",
+      "Featuring": "Office 365,OneDrive,PowerPoint,Skype for Business,Word",
+      "Title": "Connect to the classroom from anywhere",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Connect-to-the-classroom-from-anywhere",
+      "Details": "Create, share, and sync classroom documents from any location to get more done while on the go.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/68"
+    },
+    {
+      "id": "69",
+      "Featuring": "Office 365 Basics, Outlook",
+      "Title": "Work in email, solo or as a group",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Work-in-email-solo-or-as-a-group",
+      "Details": "Microsoft Exchange Online is your email and calendaring backbone that helps you collaborate in the ‘we’ space through the same familiar Outlook environment that you use in the ‘me’ space. Exchange Online lets you accomplish more and work more effectively with consistent, rich Outlook experiences, no matter what device you’re on.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/69"
+    },
+    {
+      "id": "70",
+      "Category": "Education",
+      "Featuring": "Excel,Power BI,SharePoint",
+      "Title": "Personalize instruction by analyzing student performance",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Personalize-instruction-by-analyzing-student-performance",
+      "Details": "Better understand the needs of your students and customize learning plans based on their performance.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/70"
+    },
+    {
+      "id": "71",
+      "Category": "Education",
+      "Featuring": "Delve,OneNote,Skype for Business",
+      "Title": "Collaborate with other teachers to plan inspiring lessons",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Collaborate-with-other-teachers-to-plan-inspiring-lessons",
+      "Details": "Engage colleagues for ideas and feedback about lesson plans and curriculums.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/71"
+    },
+    {
+      "id": "72",
+      "Category": "Manufacturing",
+      "Featuring": "Excel,Office 365,OneDrive,Power BI,SharePoint",
+      "Title": "Discover opportunities for operational improvements ",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Discover-opportunities-for-operational-improvements",
+      "Details": "Drive supply chain efficiency and reduce yield analysis time based on analyzing cost, inventory, and production data.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/72"
+    },
+    {
+      "id": "73",
+      "Category": "Operations",
+      "Featuring": "SharePoint,Skype for Business,Yammer",
+      "Title": "Help prevent safety incidents",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Help-prevent-safety-incidents",
+      "Details": "Reduce the number of safety incidents by training employees about procedures, making safety guidelines easily accessible, and informing operators quickly about potential safety incidents.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/73"
+    },
+    {
+      "id": "74",
+      "Featuring": "Office 365, Office 365 Basics",
+      "Title": "Create impactful content together",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Create-impactful-content-together",
+      "Details": "With Office, you can get things done from virtually anywhere, faster. You can take advantage of the Office integration with OneDrive and SharePoint to access, share, and coauthor documents. You can also download Office Mobile apps to help you access everything you need to work seamlessly from nearly any device while you’re on the move.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/74"
+    },
+    {
+      "id": "75",
+      "Category": "Marketing",
+      "Featuring": "Excel,Microsoft Teams,Office 365,OneDrive,PowerPoint,Word",
+      "Title": "Develop an effective Go-to-Market strategy",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Develop-an-effective-GotoMarket-strategy",
+      "Details": "Communicate, collaborate, and manage work across teams to develop and implement an effective Go-to-Market (GTM) strategy for a new product or service launch.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/75"
+    },
+    {
+      "id": "76",
+      "Category": "Financial Services ",
+      "Featuring": "Skype for Business,Sway",
+      "Title": "Deliver personalized content to clients and stakeholders",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Deliver-personalized-content-to-clients-and-stakeholders",
+      "Details": "Offer richer, more personalized experiences to your customers and other stakeholders, to solidify existing relationships and more efficiently develop new ones.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/76"
+    },
+    {
+      "id": "77",
+      "Category": "Human Resources ",
+      "Featuring": "Excel,Outlook,SharePoint,Skype for Business",
+      "Title": "Stay better connected to candidates throughout the hiring process",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Stay-better-connected-to-candidates-throughout-the-hiring-process",
+      "Details": "Track progress in filling open positions, and the status of all candidates, in a way that teams can monitor and update in real time.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/77"
+    },
+    {
+      "id": "78",
+      "Featuring": "StaffHub",
+      "Title": "Stay up to date with work schedules and request time off",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Stay-up-to-date-with-work-schedules-and-request-time-off",
+      "Details": "Using StaffHub online or the StaffHub mobile app, staff workers can view schedules, swap shifts, and request time off.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/78"
+    },
+    {
+      "id": "79",
+      "Category": "Hospitality,Retail ",
+      "Featuring": "StaffHub",
+      "Title": "Publish and update team schedules",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Publish-and-update-team-schedules",
+      "Details": "Create a shift schedule in minutes and send it directly to each workers mobile device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/79"
+    },
+    {
+      "id": "80",
+      "Category": "Operations,Sales ",
+      "Featuring": "Delve,OneDrive,Outlook,Skype for Business,Yammer",
+      "Title": "Produce winning RFPs faster",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Produce-winning-RFPs-faster",
+      "Details": "Accelerate responses to requests for proposals (RFPs) by getting input from topic experts faster and by uncovering relevant content and reusable components of existing RFPs to iterate faster and win more business.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/80"
+    },
+    {
+      "id": "81",
+      "Category": "Education ",
+      "Featuring": "Office 365,OneNote,Outlook,PowerPoint,Skype for Business",
+      "Title": "Lead a class remotely with rich student interaction",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Lead-a-class-remotely-with-rich-student-interaction",
+      "Details": "Teach a class remotely without sacrificing engagement from students, while making sure they all have the necessary lesson materials wherever they are.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/81"
+    },
+    {
+      "id": "82",
+      "Category": "Operations ",
+      "Featuring": "Delve,OneNote,SharePoint,Yammer",
+      "Title": "Employ best practices across company operations",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Employ-best-practices-across-company-operations",
+      "Details": "Leverage company-wide experience to capture best practices and share them across the organization.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/82"
+    },
+    {
+      "id": "83",
+      "Category": "Finance",
+      "Featuring": "Excel,Microsoft Teams,Power BI,SharePoint",
+      "Title": "Use analytics to maximize business opportunities",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Use-analytics-to-maximize-business-opportunities",
+      "Details": "Quickly run financial analytics without being dependent on IT or analysts, to identify and respond to business opportunities.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/83"
+    },
+    {
+      "id": "84",
+      "Category": "Finance",
+      "Featuring": "Excel,Microsoft Teams,Office 365,Power BI,PowerPoint,Word",
+      "Title": "Plan and manage department budgets",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Plan-and-manage-department-budgets",
+      "Details": "Move quickly from conversations to completed budgets by bringing your budget planning and management teams together in a mobile-friendly chat-based workspace that syncs seamlessly with the apps you use every day.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/84"
+    },
+    {
+      "id": "85",
+      "Category": "Operations ",
+      "Featuring": "Planner,Project,SharePoint,Skype for Business",
+      "Title": "Reduce production downtime with faster maintenance",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Reduce-production-downtime-with-faster-maintenance",
+      "Details": "Streamline service procedures and stay on top of maintenance activities to reduce production downtime.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/85"
+    },
+    {
+      "id": "86",
+      "Featuring": "SharePoint,StaffHub,Yammer",
+      "Title": "Share best practices across the organization",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Share-best-practices-across-the-organization",
+      "Details": "Quickly find and share tips, tricks, and best practices with your coworkers.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/86"
+    },
+    {
+      "id": "87",
+      "Category": "Education",
+      "Featuring": "Delve,Skype for Business,Yammer",
+      "Title": "Find expertise and resources by using social networks",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Find-expertise-and-resources-by-using-social-networks",
+      "Details": "Tap into enterprise social media to learn how to accommodate special needs in the classroom, find subject-matter experts, and other resources to improve classroom instruction.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/87"
+    },
+    {
+      "id": "88",
+      "Category": "Manufacturing",
+      "Featuring": "Planner,Project,SharePoint,Skype for Business",
+      "Title": "Work with suppliers to bring products to market faster",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Work-with-suppliers-to-bring-products-to-market-faster",
+      "Details": "Seamlessly and securely consolidate product knowledge across the supply chain and efficiently manage tasks, resources, and budget to keep product development and production on track.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/88"
+    },
+    {
+      "id": "89",
+      "Category": "Marketing",
+      "Featuring": "OneDrive,SharePoint,Skype for Business,Sway",
+      "Title": "Deliver on-target client proposals",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Deliver-ontarget-client-proposals",
+      "Details": "Quickly deliver compelling and highly tailored proposals that leverage existing knowledge or experience with a potential new client.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/89"
+    },
+    {
+      "id": "90",
+      "Category": "Operations",
+      "Featuring": "Delve,Microsoft Teams,OneNote,Planner",
+      "Title": "Connect with experts to resolve a customer complaint",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Connect-with-experts-to-resolve-a-customer-complaint",
+      "Details": "Easily work with a cross-functional team to address customer complaints quickly and effectively.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/90"
+    },
+    {
+      "id": "91",
+      "Category": "Communication & Media ,  Sales ",
+      "Featuring": "Delve,OneNote,Skype for Business,Yammer",
+      "Title": "Resolve customer inquiries through collaboration",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Resolve-customer-inquiries-through-collaboration",
+      "Details": "Quickly respond to customer inquiries by accessing information or connecting with someone who can provide relevant expertise, helping move the sales cycle forward.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/91"
+    },
+    {
+      "id": "92",
+      "Category": "Retail",
+      "Featuring": "Excel,Power BI,SharePoint",
+      "Title": "Gather and analyze purchasing data from multiple sources ",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Gather-and-analyze-purchasing-data-from-multiple-sources",
+      "Details": "Collect historic sales data from internal and external sources and analyze it without having to learn complex coding.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/92"
+    },
+    {
+      "id": "93",
+      "Featuring": "Office 365,OneDrive,SharePoint,Sway",
+      "Title": "Prepare impactful client engagement proposals ",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Prepare-impactful-client-engagement-proposals",
+      "Details": "Quickly deliver an educated and highly tailored client proposal that showcases related subject know-how and proactive research.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/93"
+    },
+    {
+      "id": "94",
+      "Category": "Sales ",
+      "Featuring": "Excel,Microsoft Teams,OneDrive,Planner,Power BI,PowerPoint,Word",
+      "Title": "Prepare and manage sales planning activities",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Prepare-and-manage-sales-planning-activities",
+      "Details": "Bring your sales leadership, account managers, marketing managers, product specialists, and research and development contributors together in a mobile-friendly chat-based workspace to quickly coordinate your sales planning tasks.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/94"
+    },
+    {
+      "id": "95",
+      "Category": "Financial Services ,  Sales ",
+      "Featuring": "Delve,Skype for Business,Yammer",
+      "Title": "Keep up with knowledgeable investor clientele",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Keep-up-with-knowledgeable-investor-clientele",
+      "Details": "Stay educated about company best practices and industry standards to provide the best client experience.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/95"
+    },
+    {
+      "id": "96",
+      "Category": "Marketing ",
+      "Featuring": "Excel,Microsoft Teams,Office 365,OneDrive,PowerPoint,Word",
+      "Title": "Plan and manage public relations activities",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Plan-and-manage-public-relations-activities",
+      "Details": "Coordinate quickly and communicate in real time among team members and departments, to ensure that timely and accurate information is provided to customers, shareholders, and the public.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/96"
+    },
+    {
+      "id": "97",
+      "Category": "Sales ",
+      "Featuring": "Excel,Power BI,SharePoint",
+      "Title": "Understand trends and visualize potential impact to sales forecasts",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Understand-trends-and-visualize-potential-impact-to-sales-forecasts",
+      "Details": "Quickly and intuitively visualize potential impacts to sales forecast and performance targets without relying on analysts.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/97"
+    },
+    {
+      "id": "98",
+      "Category": "Financial Services ",
+      "Featuring": "Outlook,SharePoint,Skype for Business,Yammer",
+      "Title": "Share client feedback with branch managers",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Share-client-feedback-with-branch-managers",
+      "Details": "Hold meetings with all branch managers across various locations to share common feedback from clients and identify areas for improvement.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/98"
+    },
+    {
+      "id": "99",
+      "Category": "Marketing",
+      "Featuring": "Microsoft Teams,Office 365,OneDrive,Planner",
+      "Title": "Manage a marketing event",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-a-marketing-event",
+      "Details": "Coordinate closely across different departments and teams to plan and execute a successful marketing event.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/99"
+    },
+    {
+      "id": "100",
+      "Category": "Financial Services ",
+      "Featuring": "Delve,OneNote,Sway,Yammer",
+      "Title": "Get educated quickly on a new client’s business model",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Get-educated-quickly-on-a-new-clients-business-model",
+      "Details": "Keep client needs and expectations in mind, including unique circumstances, to get a project started on the right foot.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/100"
+    },
+    {
+      "id": "101",
+      "Featuring": "OneDrive,SharePoint,Skype for Business,Yammer",
+      "Title": "Address client questions quickly and professionally",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Address-client-questions-quickly-and-professionally",
+      "Details": "Easily and instantly access knowledge and expertise to respond effectively to a client question about industry standards and requirements. ",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/101"
+    },
+    {
+      "id": "102",
+      "Category": "Sales",
+      "Featuring": "OneNote,Outlook,SharePoint,Skype for Business,Yammer",
+      "Title": "Educate distributed sales representatives from anywhere ",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Educate-distributed-sales-representatives-from-anywhere",
+      "Details": "Provide a way for distributed sales staff to attend training workshops and access product documentation from anywhere.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/102"
+    },
+    {
+      "id": "103",
+      "Category": "Human Resources ",
+      "Featuring": "SharePoint,Skype for Business,Sway,Yammer",
+      "Title": "Communicate important news within the company",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Communicate-important-news-within-the-company",
+      "Details": "Communicate important changes across the company with a personal touch, and encourage feedback to help understand how employees are reacting in order to ensure they feel connected and loyal to the organization and the brand.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/103"
+    },
+    {
+      "id": "104",
+      "Category": "Education",
+      "Featuring": "Excel,OneDrive,Outlook,PowerPoint,SharePoint",
+      "Title": "Evaluate school data to gain insights about priorities",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Evaluate-school-data-to-gain-insights-about-priorities",
+      "Details": "Present complex performance reports based on large amounts of school data for a presentation at a school conference.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/104"
+    },
+    {
+      "id": "105",
+      "Category": "Retail",
+      "Featuring": "Office 365,OneNote,SharePoint,Yammer",
+      "Title": "Harness the collective knowledge of your firstline workforce",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Harness-the-collective-knowledge-of-your-firstline-workforce",
+      "Details": "Foster the spontaneous, free flow of information across your company to unleash hidden talents and spark innovation.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/105"
+    },
+    {
+      "id": "106",
+      "Category": "Manufacturing ",
+      "Featuring": "Office 365,SharePoint,Skype for Business,Yammer",
+      "Title": "Bring products to market faster with a connected workforce",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Bring-products-to-market-faster-with-a-connected-workforce",
+      "Details": "Spark innovation and solve problems more quickly by tapping into your entire workforce, from factory employees to executives, across the globe.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/106"
+    },
+    {
+      "id": "107",
+      "Category": "Healthcare",
+      "Featuring": "Office 365,SharePoint,Yammer",
+      "Title": "Unite healthcare employees around quality and commitment",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Unite-healthcare-employees-around-quality-and-commitment",
+      "Details": "Raise the quality bar in your healthcare field by fostering a connected, empowered workforce.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/107"
+    },
+    {
+      "id": "108",
+      "Category": "Human Resources",
+      "Featuring": "Office 365,OneNote,SharePoint,Skype for Business,Yammer",
+      "Title": "Empower and engage employees in an enterprise social network",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Empower-and-engage-employees-in-an-enterprise-social-network",
+      "Details": "Attract and retain the best people by creating a collaborative corporate culture in which every voice is heard.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/108"
+    },
+    {
+      "id": "109",
+      "Category": "Sales",
+      "Featuring": "SharePoint,Skype for Business,Yammer",
+      "Title": "Drive sales efficiency through an enterprise social network",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Drive-sales-efficiency-through-an-enterprise-social-network",
+      "Details": "Connect sales reps across the globe with the current information, real-time support, and relevant insights they need to drive sales success.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/109"
+    },
+    {
+      "id": "110",
+      "Category": "Marketing",
+      "Featuring": "Office 365,Yammer",
+      "Title": "Collaborate on marketing initiatives through a social network",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Collaborate-on-marketing-initiatives-through-a-social-network",
+      "Details": "Connect teams in real time to spark new ideas, facilitate collaboration, and build synergy around marketing priorities.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/110"
+    },
+    {
+      "id": "111",
+      "Category": "Manufacturing ,  Operations ",
+      "Featuring": "Office 365,OneDrive,OneNote,SharePoint,Skype for Business",
+      "Title": "Reduce costs by coauthoring product documents in-house",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Reduce-costs-by-coauthoring-product-documents-inhouse",
+      "Details": "Keep manufacturing costs in check by collectively creating and coauthoring product documents with experts across your organization.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/111"
+    },
+    {
+      "id": "112",
+      "Category": "Professional Services ",
+      "Featuring": "Office 365,OneDrive,OneNote,Skype for Business",
+      "Title": "Reduce time-to-market by coauthoring case studies with experts",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Reduce-timetomarket-by-coauthoring-case-studies-with-experts",
+      "Details": "Explore new market opportunities by collectively creating and coauthoring business strategy case studies with experts across the organization.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/112"
+    },
+    {
+      "id": "113",
+      "Category": "Financial Services ,  Sales ",
+      "Featuring": "Delve,Office 365,OneDrive,SharePoint,Yammer",
+      "Title": "Quickly identify and engage with in-house industry experts",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-identify-and-engage-with-inhouse-industry-experts",
+      "Details": "Help clients invest in highly specialized industries by identifying and engaging with industry experts across your organization, discovering new content and best practices.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/113"
+    },
+    {
+      "id": "114",
+      "Category": "Communication & Media ,  Sales ",
+      "Featuring": "Delve,Office 365,OneDrive,SharePoint,Yammer",
+      "Title": "Create comprehensive press kits by engaging with in-house experts",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Create-comprehensive-press-kits-by-engaging-with-inhouse-experts",
+      "Details": "Create comprehensive and compelling press kits by identifying and engaging with key experts across your organization, discovering new content and insights.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/114"
+    },
+    {
+      "id": "115",
+      "Category": "Education",
+      "Featuring": "Delve,OneDrive,SharePoint,Yammer",
+      "Title": "Engage with experts to scale math classes and meet student needs",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Engage-with-experts-to-scale-math-classes-and-meet-student-needs",
+      "Details": "Scale your school districts math classes to meet student needs by identifying and engaging with curriculum and departmental experts, and learning from best practices.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/115"
+    },
+    {
+      "id": "116",
+      "Category": "Communication & Media ,  Sales ",
+      "Featuring": "Microsoft Teams,Office 365,OneNote,Outlook,SharePoint,Skype for Business",
+      "Title": "Collaborate on promo event handouts in a chat-based workspace",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Collaborate-on-promo-event-handouts-in-a-chatbased-workspace",
+      "Details": "Increase the impact of in-store promotional events by building consensus on event handouts in real time, in a collaborative, chat-based workspace.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/116"
+    },
+    {
+      "id": "117",
+      "Category": "SALES",
+      "Featuring": "Microsoft Teams,Office 365,Outlook,SharePoint,Skype for Business",
+      "Title": "Collaborate in real time to build consensus on a new CRM solution",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Collaborate-in-real-time-to-build-consensus-on-a-new-CRM-solution",
+      "Details": "Grow your sales teams revenue by building consensus on a new CRM solution in a collaborative, real-time, chat-based workspace.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/117"
+    },
+    {
+      "id": "118",
+      "Category": "EDUCATION",
+      "Featuring": "Excel,Flow,Microsoft Teams,Office 365,Power BI,PowerApps,Skype for Business",
+      "Title": "Predict student success by using customized reporting tools",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Predict-student-success-by-using-customized-reporting-tools<",
+      "Details": "Build deep student insights and predictors on first-year student success by developing your own workflows, reports, and dashboards without burdening IT.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/118"
+    },
+    {
+      "id": "119",
+      "Category": "PROFESSIONAL SERVICES ,  SALES",
+      "Featuring": "Excel,Flow,Office 365,Power BI,PowerApps,SharePoint",
+      "Title": "Create sales reports by developing your own tools and apps",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Create-sales-reports-by-developing-your-own-tools-and-apps",
+      "Details": "Justify your territorys value and budget by developing your own workflows, sales reports, and dashboards without burdening IT.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/119"
+    },
+    {
+      "id": "120",
+      "Category": "FINANCIAL SERVICES ,  MARKETING",
+      "Featuring": "Delve,Office 365,OneNote,SharePoint,Skype for Business,Yammer",
+      "Title": "Build consensus in a social network for a new investment product",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Build-consensus-in-a-social-network-for-a-new-investment-product",
+      "Details": "Create a corporate social network to connect your companys entire product development team, so you can quickly build consensus on a new investment program.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/120"
+    },
+    {
+      "id": "121",
+      "Category": "PROFESSIONAL SERVICES ,  SALES",
+      "Featuring": "Delve,Office 365,OneNote,SharePoint,Skype for Business,Yammer",
+      "Title": "Track the success of in-store offers via a corporate social network",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Track-the-success-of-instore-offers-via-a-corporate-social-network",
+      "Details": "Track the success of in-store sales offers better by connecting the entire organization via a corporate social network.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/121"
+    },
+    {
+      "id": "122",
+      "Category": "RETAIL ,  SALES",
+      "Featuring": "Office 365,SharePoint,Skype for Business,Yammer",
+      "Title": "Share tips and best practices with your sales colleagues",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Share-tips-and-best-practices-with-your-sales-colleagues",
+      "Details": "Maintain a consistent, high-quality customer service experience by sharing tips and best practices among all of your retail sales colleagues via a corporate social network",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/122"
+    },
+    {
+      "id": "123",
+      "Category": "FINANCIAL SERVICES ,  SALES",
+      "Featuring": "Outlook,Planner,Project,SharePoint,Skype for Business,Yammer",
+      "Title": "Manage sell sheet projects in a team-based environment",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-sell-sheet-projects-in-a-teambased-environment",
+      "Details": "Improve the relationship management teams industry knowledge by managing sell sheet projects in an intuitive team-based environment.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/123"
+    },
+    {
+      "id": "124",
+      "Category": "RETAIL ,  MARKETING",
+      "Featuring": "Outlook,Planner,Project,SharePoint,Skype for Business",
+      "Title": "Maximize profits for seasonal launches by working as a team",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Maximize-profits-for-seasonal-launches-by-working-as-a-team",
+      "Details": "Manage your product launches for seasonal opportunities by using an intuitive team-based environment to unify your team and maximize profits.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/124"
+    },
+    {
+      "id": "125",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Outlook,Skype for Business",
+      "Title": "Hold online training sessions with remote financial advisors",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Hold-online-training-sessions-with-remote-financial-advisors",
+      "Details": "Make the global client experience more consistent by scheduling and launching online training with remote financial advisors from almost anywhere, on almost any device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/125"
+    },
+    {
+      "id": "126",
+      "Category": "COMMUNICATION & MEDIA ,  SALES",
+      "Featuring": "Office 365,Outlook,Skype for Business",
+      "Title": "Meet online to prepare for and troubleshoot a sales event",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Meet-online-to-prepare-for-and-troubleshoot-a-sales-event",
+      "Details": "Avoid shortages and maximize profits at sales events by scheduling and launching online meetings to prepare for and troubleshoot the event from almost anywhere, on almost any device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/126"
+    },
+    {
+      "id": "127",
+      "Category": "FINANCIAL SERVICES ,  FINANCE",
+      "Featuring": "Flow,Microsoft Teams,PowerApps,SharePoint,StaffHub,Yammer",
+      "Title": "Use modern digital tools to recruit the best analysts",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Use-modern-digital-tools-to-recruit-the-best-analysts",
+      "Details": "Keep the talent pool fresh and hire the best young analysts by bringing brand ambassadors and recruiting teams together with digital communication, scheduling, and collaboration tools.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/127"
+    },
+    {
+      "id": "128",
+      "Category": "MANUFACTURING ,  SALES",
+      "Featuring": "Flow,Microsoft Teams,PowerApps,SharePoint,StaffHub,Yammer",
+      "Title": "Use digital tools to ensure successful promotional events",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Use-digital-tools-to-ensure-successful-promotional-events",
+      "Details": "Ensure that your promotional events are successful by providing firstline workers with modern digital communication, scheduling, and collaboration tools they can use from the event floor.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/128"
+    },
+    {
+      "id": "129",
+      "Category": "RETAIL ,  OPERATIONS",
+      "Featuring": "Flow,Microsoft Teams,PowerApps,SharePoint,Skype for Business,StaffHub",
+      "Title": "Easily plan and staff pop-up shops and other events",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Easily-plan-and-staff-popup-shops-and-other-events",
+      "Details": "Quickly spin up and staff pop-up shops by providing firstline workforce with digital communication, scheduling, and collaboration tools.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/129"
+    },
+    {
+      "id": "130",
+      "Category": "RETAIL ,  MARKETING",
+      "Featuring": "Delve,Office 365,PowerPoint",
+      "Title": "Quickly build digital look books from existing collateral",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-build-digital-look-books-from-existing-collateral",
+      "Details": "Provide your sales team with high-quality digital look books that draw on existing content from across the organization, without the expense of hiring a design agency.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/130"
+    },
+    {
+      "id": "131",
+      "Category": "FINANCIAL SERVICES ,  SALES",
+      "Featuring": "Delve,Excel,Power BI",
+      "Title": "Quickly collect, analyze, and visualize credit risk data in a dashboard",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-collect-analyze-and-visualize-credit-risk-data-in-a-dashboard",
+      "Details": "Win customer loyalty with quick responses by automatically collecting, analyzing, and visualizing internal and external credit risk data in a single dashboard.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/131"
+    },
+    {
+      "id": "132",
+      "Category": "COMMUNICATION & MEDIA ,  SALES",
+      "Featuring": "Delve,Excel,Power BI",
+      "Title": "Collect and analyze social media, web, and print outreach data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Collect-and-analyze-social-media-web-and-print-outreach-data",
+      "Details": "Easily track your media strategy effectiveness by collecting, analyzing, and visualizing internal and external social media, web, and print outreach data.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/132"
+    },
+    {
+      "id": "133",
+      "Category": "RETAIL ,  SALES",
+      "Featuring": "Enterprise Mobility + Security,Office 365,Windows 10",
+      "Title": "Securely qualify sales leads from wherever you are",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Securely-qualify-sales-leads-from-wherever-you-are",
+      "Details": "Use enterprise-grade identity management controls and secure sign-in methods to ensure that your login credentials are secure, so that you can qualify leads on the sales floor or in the field.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/133"
+    },
+    {
+      "id": "134",
+      "Category": "RETAIL",
+      "Featuring": "Excel,Power BI",
+      "Title": "Collect and analyze holiday sales performance data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Collect-and-analyze-holiday-sales-performance-data",
+      "Details": "Accurately evaluate holiday performance by collecting, analyzing, and visualizing internal and external holiday sales trends and social media sentiment data.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/134"
+    },
+    {
+      "id": "135",
+      "Category": "PROFESSIONAL SERVICES ,  SALES",
+      "Featuring": "Enterprise Mobility + Security,Office 365,Windows 10",
+      "Title": "More securely access and work with your company sales apps",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/More-securely-access-and-work-with-your-company-sales-apps",
+      "Details": "Quickly sign into your company sales apps while ensuring that your companys and customers data is secure, by using industry-leading identity management controls and secure sign-in methods.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/135"
+    },
+    {
+      "id": "136",
+      "Category": "FINANCIAL SERVICES ,  MARKETING",
+      "Featuring": "Delve,MyAnalytics,Office 365",
+      "Title": "Gain rich insights into your workflow to meet tight deadlines",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Gain-rich-insights-into-your-workflow-to-meet-tight-deadlines",
+      "Details": "Meet tight deadlines on financial initiatives such as new loan product risk assessments by gaining rich insights into your own workflow and managing your time better.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/136"
+    },
+    {
+      "id": "137",
+      "Category": "RETAIL ,  SALES",
+      "Featuring": "Delve,MyAnalytics,Office 365",
+      "Title": "Increase sales team productivity by leveraging digital tools",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Increase-sales-team-productivity-by-leveraging-digital-tools",
+      "Details": "Increase your sales teams productivity without sacrificing their work/life balance, by using digital tools to manage workflow and provide insights about their work habits.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/137"
+    },
+    {
+      "id": "138",
+      "Category": "RETAIL ,  SALES",
+      "Featuring": "Delve,MyAnalytics,Office 365",
+      "Title": "Gain insight into your work habits to manage your time better",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Gain-insight-into-your-work-habits-to-manage-your-time-better",
+      "Details": "Improve your productivity and job satisfaction by gaining rich insights into your work habits, so that you can manage your workload better even in busy holiday times.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/138"
+    },
+    {
+      "id": "139",
+      "Category": "RETAIL ,  OPERATIONS",
+      "Featuring": "Office 365",
+      "Title": "Safeguard company data and systems from malicious threats",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Safeguard-company-data-and-systems-from-malicious-threats",
+      "Details": "Protect budget and vendor data from external attacks and suspicious internal behavior by intelligently monitoring and eliminating malicious threats.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/139"
+    },
+    {
+      "id": "140",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Office 365,OneDrive,Outlook,SharePoint",
+      "Title": "Access financial files quickly and securely from almost anywhere",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Access-financial-files-quickly-and-securely-from-almost-anywhere",
+      "Details": "Stay in the loop while you travel to client meetings by easily and more securely accessing all financial and economic files from virtually anywhere.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/140"
+    },
+    {
+      "id": "141",
+      "Category": "MANUFACTURING ,  SALES",
+      "Featuring": "Enterprise Mobility + Security,Office 365,OneDrive,SharePoint",
+      "Title": "Protect customer contracts, price lists, and related data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Protect-customer-contracts-price-lists-and-related-data",
+      "Details": "Keep contracts, price lists, and related data more secure with appropriate permissions, policies, and access management.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/141"
+    },
+    {
+      "id": "142",
+      "Category": "MANUFACTURING ,  OPERATIONS",
+      "Featuring": "Enterprise Mobility + Security,Office 365",
+      "Title": "Protect customer and supplier data while maintaining productivity",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Protect-customer-and-supplier-data-while-maintaining-productivity",
+      "Details": "Stay productive on the factory floor while ensuring that customer orders and supply chain documents are protected with appropriate permissions, policies, and access management.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/142"
+    },
+    {
+      "id": "143",
+      "Category": "COMMUNICATION & MEDIA ,  SALES",
+      "Featuring": "Enterprise Mobility + Security,Office 365",
+      "Title": "Protect campaign analytics and other sensitive data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Protect-campaign-analytics-and-other-sensitive-data",
+      "Details": "Keep campaign analytics and other sensitive data more secure with appropriate permissions, policies, and access management.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/143"
+    },
+    {
+      "id": "144",
+      "Category": "RETAIL ,  MARKETING",
+      "Featuring": "Enterprise Mobility + Security,Office 365,SharePoint",
+      "Title": "Protect loyalty program data with security and privacy policies",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Protect-loyalty-program-data-with-security-and-privacy-policies",
+      "Details": "Protect the data for your customer loyalty program and other customers better with security and privacy policies, and ensure easy access to independent compliance reports and assessments.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/144"
+    },
+    {
+      "id": "145",
+      "Category": "EDUCATION",
+      "Featuring": "Enterprise Mobility + Security,Office 365,OneDrive,Outlook,SharePoint",
+      "Title": "Meet education compliance standards to safeguard school data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Meet-education-compliance-standards-to-safeguard-school-data",
+      "Details": "Stay compliant with security and privacy policies for school data to protect sensitive student and school information.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/145"
+    },
+    {
+      "id": "146",
+      "Category": "RETAIL ,  SALES",
+      "Featuring": "Enterprise Mobility + Security,Office 365,OneDrive,SharePoint",
+      "Title": "Improve retail customer service with secure access to customer data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Improve-retail-customer-service-with-secure-access-to-customer-data",
+      "Details": "Improve customer service among your stores sales associates and reduce complaints by allowing your sales team to securely access customer reviews and other company apps anywhere, anytime, on their devices.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/146"
+    },
+    {
+      "id": "147",
+      "Category": "MANUFACTURING ,  SALES",
+      "Featuring": "Enterprise Mobility + Security,Office 365,OneDrive,SharePoint",
+      "Title": "Securely access company and customer data to score leads",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Securely-access-company-and-customer-data-to-score-leads",
+      "Details": "Access lead-scoring information from anywhere, anytime, on almost any device with secure access to apps, customer data, and company data.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/147"
+    },
+    {
+      "id": "148",
+      "Category": "COMMUNICATION & MEDIA ,  SALES",
+      "Featuring": "Enterprise Mobility + Security,Office 365,SharePoint",
+      "Title": "Access customer reviews and other data securely from your device",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Access-customer-reviews-and-other-data-securely-from-your-device",
+      "Details": "Improve customer service and reduce complaints by quickly and securely accessing customer reviews, data, and company apps anywhere, anytime, on almost any device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/148"
+    },
+    {
+      "id": "149",
+      "Category": "RETAIL ,  OPERATIONS",
+      "Featuring": "Office 365,OneDrive,Outlook,SharePoint",
+      "Title": "Make confident purchase decisions from almost anywhere",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Make-confident-purchase-decisions-from-almost-anywhere",
+      "Details": "Make fast, on-trend purchase decisions with confidence by accessing necessary information quickly and securely from virtually anywhere.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/149"
+    },
+    {
+      "id": "150",
+      "Category": "PROFESSIONAL SERVICES",
+      "Featuring": "Office 365,OneDrive,Outlook,SharePoint",
+      "Title": "Securely access sales data from almost anywhere",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Securely-access-sales-data-from-almost-anywhere",
+      "Details": "Increase your productivity while traveling by remotely accessing the information you need, so that you can work quickly and securely from virtually anywhere.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/150"
+    },
+    {
+      "id": "151",
+      "Featuring": "Enterprise Mobility + Security,Office 365,OneDrive,Outlook,SharePoint",
+      "Title": "Work seamlessly across organizational boundaries",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Work-seamlessly-across-organizational-boundaries",
+      "Details": "Access the important information and people you need from anywhere, anytime, and from almost any device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/151"
+    },
+    {
+      "id": "152",
+      "Featuring": "Microsoft Teams,Office 365,Outlook,SharePoint,Skype for Business",
+      "Title": "Communicate with your team in real time to gain input and consensus",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Communicate-with-your-team-in-real-time-to-gain-input-and-consensus",
+      "Details": "Connect with your team instantly to stay informed, solicit input, and build cohesion and consensus.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/152"
+    },
+    {
+      "id": "153",
+      "Featuring": "Flow,Microsoft Teams,Office 365,OneDrive,PowerApps,SharePoint,Skype for Business,StaffHub,Yammer",
+      "Title": "Maximize the impact of your firstline workforce",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Maximize-the-impact-of-your-firstline-workforce",
+      "Details": "The impact of a digital transformation extends throughout your organization, from the CEO to the firstline worker. As you embark on your own transformation, your firstline workforce is particularly important. You can enable firstline workers to do their best work with tools for schedule and task management, communications and community, training and onboarding, and identity and access management.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/153"
+    },
+    {
+      "id": "154",
+      "Featuring": "Excel,Flow,Office 365,Power BI,PowerApps,SharePoint",
+      "Title": "Automate your business processes to increase efficiency",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Automate-your-business-processes-to-increase-efficiency",
+      "Details": "Run your business more efficiently by using custom apps that your own team creates to link data from various sources, incorporate workflows, and create charts and reports that provide a clear picture",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/154"
+    },
+    {
+      "id": "155",
+      "Featuring": "Office 365,Outlook,Skype for Business",
+      "Title": "Meet with coworkers and customers around the world",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Meet-with-coworkers-and-customers-around-the-world",
+      "Details": "Communicate with remote stakeholders by easily scheduling calls and online meetings, or quickly starting an ad hoc call or IM.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/155"
+    },
+    {
+      "id": "156",
+      "Featuring": "Enterprise Mobility + Security,Office 365,SharePoint,Windows 10",
+      "Title": "Work more securely from anywhere, on almost any device",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Work-more-securely-from-anywhere-on-almost-any-device",
+      "Details": "Protect business and client information while empowering a mobile workforce.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/156"
+    },
+    {
+      "id": "157",
+      "Featuring": "Enterprise Mobility + Security,Office 365,SharePoint,Windows 10",
+      "Title": "Meet global compliance standards with controls and visibility",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Meet-global-compliance-standards-with-controls-and-visibility",
+      "Details": "Maintain a productive business across industries and around the world with security solutions that meet a variety of compliance standards.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/157"
+    },
+    {
+      "id": "158",
+      "Featuring": "Office 365,Windows 10",
+      "Title": "Detect, analyze, and protect against external security threats",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Detect-analyze-and-protect-against-external-security-threats",
+      "Details": "Your organization can monitor, report, and analyze activity so it can react promptly to detect and protect against external security threats to organization and client data.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/158"
+    },
+    {
+      "id": "159",
+      "Featuring": "Office 365,Windows 10",
+      "Title": "Securely maintain mobile productivity",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Securely-maintain-mobile-productivity",
+      "Details": "Strengthen user and account protection while maintaining a high level of productivity and mobility by using innovative, identity-driven security techniques.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/159"
+    },
+    {
+      "id": "160",
+      "Featuring": "Flow,Office 365,Outlook,PowerPoint,Word",
+      "Title": "Tap the power of intelligent assistance to make your work shine",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Tap-the-power-of-intelligent-assistance-to-make-your-work-shine",
+      "Details": "New intelligent assistance features available to Office 365 subscribers enable you to quickly and easily create professional presentations and documents, visually express geographical and temporal data, reuse existing content from within your organization, and eradicate grammar and spelling errors.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/160"
+    },
+    {
+      "id": "161",
+      "Featuring": "Excel,Office 365,Power BI",
+      "Title": "Discover, analyze, and share data to support informed decisions",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Discover-analyze-and-share-data-to-support-informed-decisions",
+      "Details": "Quickly access and analyze the information you need, in the format you need it.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/161"
+    },
+    {
+      "id": "162",
+      "Featuring": "Enterprise Mobility + Security,Office 365,Windows 10",
+      "Title": "Protect your information and reduce risk of data loss",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Protect-your-information-and-reduce-risk-of-data-loss",
+      "Details": "Create policies and procedures that enable your workforce to stay productive on their own devices while keeping company information better protected.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/162"
+    },
+    {
+      "id": "163",
+      "Featuring": "Delve,Flow,Office 365,OneNote,SharePoint,Yammer",
+      "Title": "Discover, share, and manage information across your organization",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Discover-share-and-manage-information-across-your-organization",
+      "Details": "Harness the collective knowledge of your workforce by tapping into the power of integrated tools, secure shared workspaces, and artificial intelligence.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/163"
+    },
+    {
+      "id": "164",
+      "Featuring": "Office 365,OneNote,SharePoint,Skype for Business,Yammer",
+      "Title": "Engage and connect employees to shape company culture",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Engage-and-connect-employees-to-shape-company-culture",
+      "Details": "Bring the expertise and experience of your workforce together by sharing information across the company quickly and efficiently.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/164"
+    },
+    {
+      "id": "165",
+      "Featuring": "Delve,MyAnalytics,Office 365",
+      "Title": "Understand your work habits to improve your influence and impact",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Understand-your-work-habits-to-improve-your-influence-and-impact",
+      "Details": "With the personal and organization analytics features in Office 365, everyone in the organization can get rich insights and metrics on reach, influence, and work-life balance, which promotes better time management and employee satisfaction.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/165"
+    },
+    {
+      "id": "166",
+      "Featuring": "Enterprise Mobility + Security,Office 365,OneDrive,OneNote,Outlook,Skype for Business,Word",
+      "Title": "Collaborate on documents at the same time or on your own time",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Collaborate-on-documents-at-the-same-time-or-on-your-own-time",
+      "Details": "Easily create polished and professional documents, presentations, and spreadsheets by coauthoring with team members in real time or on your own time, whether you’re together or apart.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/166"
+    },
+    {
+      "id": "167",
+      "Featuring": "Office 365,Planner,Project,SharePoint",
+      "Title": "Manage projects, tasks, and deadlines to meet your business goals",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-projects-tasks-and-deadlines-to-meet-your-business-goals",
+      "Details": "Easily kick off projects, effectively allocate resources, and manage schedules to finish projects on time and on budget.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/167"
+    },
+    {
+      "id": "168",
+      "Featuring": "Excel,Office 365,PowerPoint,SharePoint,Sway",
+      "Title": "Create high-quality financial presentations",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Create-highquality-financial-presentations",
+      "Details": "Quickly share financial data with stakeholders and clients in polished, compelling presentations targeted to your audience.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/168"
+    },
+    {
+      "id": "169",
+      "Featuring": "Excel,PowerApps,SharePoint",
+      "Title": "Spend less time gathering and manipulating data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Spend-less-time-gathering-and-manipulating-data",
+      "Details": "Use automated tools to streamline the process of gathering and transforming data so that you can spend more time on working on financial analysis and driving impact.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/169"
+    },
+    {
+      "id": "170",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Excel,Flow,Office 365,PowerPoint,SharePoint,Word",
+      "Title": "Automate financial processes by using integrated workflows",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Automate-financial-processes-by-using-integrated-workflows",
+      "Details": "Work less and achieve more by using workflow tools to automate common, repetitive financial processes.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/170"
+    },
+    {
+      "id": "171",
+      "Category": "FINANCE",
+      "Featuring": "Excel",
+      "Title": "Easily and accurately perform financial analysis",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Easily-and-accurately-perform-financial-analysis",
+      "Details": "Inspire confidence from your clients or your team by analyzing your data quickly and accurately.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/171"
+    },
+    {
+      "id": "172",
+      "Category": "FINANCIAL SERVICES ,  FINANCE",
+      "Featuring": "Flow,Power BI,PowerApps,SharePoint",
+      "Title": "Use custom tools to streamline financial processes",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Use-custom-tools-to-streamline-financial-processes",
+      "Details": "Speed up your data-gathering, analysis, and reporting processes with customized tools you can access from almost any device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/172"
+    },
+    {
+      "id": "173",
+      "Featuring": "Office 365,Skype for Business,Yammer",
+      "Title": "Connect with transportation crew coworkers in real time",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Connect-with-transportation-crew-coworkers-in-real-time",
+      "Details": "Communicate instantly with other members of your flight crew, transit drivers, and transportation personnel in real time, no matter where you are.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/173"
+    },
+    {
+      "id": "174",
+      "Category": "SALES",
+      "Featuring": "Flow,Outlook,Power BI,PowerApps",
+      "Title": "Focus on selling by automating routine administrative tasks",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Focus-on-selling-by-automating-routine-administrative-tasks",
+      "Details": "Increase your productivity by saving time on administrative tasks, so that you can spend more time selling.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/174"
+    },
+    {
+      "id": "175",
+      "Category": "SALES",
+      "Featuring": "Delve,Microsoft Teams,PowerPoint,Skype for Business,Sway,Yammer",
+      "Title": "Customize sales presentations to meet customer needs",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Customize-sales-presentations-to-meet-customer-needs",
+      "Details": "Quickly tailor presentations to meet the needs of your customers.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/175"
+    },
+    {
+      "id": "176",
+      "Category": "SALES",
+      "Featuring": "Flow,Office 365,Outlook,Skype for Business",
+      "Title": "Engage customers more effectively",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Engage-customers-more-effectively",
+      "Details": "Quickly respond to customer emails, stay on top of leads, and conduct “face-to-face” meetings and product demos to grow customer relationships.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/176"
+    },
+    {
+      "id": "177",
+      "Category": "SALES",
+      "Featuring": "Microsoft Teams,Power BI,SharePoint,Skype for Business,Yammer",
+      "Title": "Build a cohesive sales team to meet and beat revenue targets",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Build-a-cohesive-sales-team-to-meet-and-beat-revenue-targets",
+      "Details": "Leverage digital collaboration and performance tools to bring sales reps together in a cohesive sales team that consistently meets and exceeds targets.  ",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/177"
+    },
+    {
+      "id": "178",
+      "Category": "SALES",
+      "Featuring": "Delve,Microsoft Teams,Office 365,OneDrive,SharePoint",
+      "Title": "Use integrated tools to improve your sales teams productivity",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Use-integrated-tools-to-improve-your-sales-teams-productivity",
+      "Details": "Drive your sales team to success by giving them quick access to the tools, people, and information they need.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/178"
+    },
+    {
+      "id": "179",
+      "Category": "MARKETING",
+      "Featuring": "OneDrive,SharePoint,Skype for Business,Yammer",
+      "Title": "Build a customer advocacy community",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Build-a-customer-advocacy-community",
+      "Details": "Advocate effectively for your customers by engaging with them in a social network and sharing your insights across the company.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/179"
+    },
+    {
+      "id": "180",
+      "Category": "MARKETING",
+      "Featuring": "Delve,Microsoft Teams,Planner,Project,Skype for Business,Yammer",
+      "Title": "Plan and carry out a successful product launch",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Plan-and-carry-out-a-successful-product-launch",
+      "Details": "Streamline the planning and implementation of a product launch by using intuitive scheduling and collaboration tools.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/180"
+    },
+    {
+      "id": "181",
+      "Category": "MARKETING",
+      "Featuring": "Microsoft Teams,PowerPoint,Sway",
+      "Title": "Quickly create a polished and compelling marketing presentation",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-create-a-polished-and-compelling-marketing-presentation",
+      "Details": "Catch your customers interest with a polished presentation, without relying on expensive and time-consuming professional design services.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/181"
+    },
+    {
+      "id": "182",
+      "Category": "MARKETING",
+      "Featuring": "Excel,Microsoft Teams,Power BI,SharePoint",
+      "Title": "Track campaign performance with interactive visuals",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Track-campaign-performance-with-interactive-visuals",
+      "Details": "Share your marketing campaigns progress with up-to-the-minute data presented in compelling and easy-to-read visuals.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/182"
+    },
+    {
+      "id": "183",
+      "Category": "MARKETING",
+      "Featuring": "Microsoft Teams,Power BI,Skype for Business,Yammer",
+      "Title": "Build a winning marketing strategy",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Build-a-winning-marketing-strategy",
+      "Details": "Use intuitive tools to quickly conduct research, summarize your findings, and develop and present a winning strategy to your stakeholders.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/183"
+    },
+    {
+      "id": "184",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Microsoft Teams,PowerPoint,SharePoint,Yammer",
+      "Title": "Engage employees with interactive online training",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Engage-employees-with-interactive-online-training",
+      "Details": "Quickly create engaging, interactive training, and make training resources available in a central repository for on-demand access.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/184"
+    },
+    {
+      "id": "185",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Flow,Planner,PowerApps,SharePoint",
+      "Title": "Streamline common HR processes by using intelligent tools",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Streamline-common-HR-processes-by-using-intelligent-tools",
+      "Details": "Take the repetitiveness out of onboarding new employees, reviewing employee policies, and other HR tasks by creating automated workflows and using intelligent tools.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/185"
+    },
+    {
+      "id": "186",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Excel,Power BI",
+      "Title": "Analyze and visualize HR data with powerful, intuitive tools",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Analyze-and-visualize-HR-data-with-powerful-intuitive-tools",
+      "Details": "Quickly import and analyze your data with powerful data analysis tools, and create beautiful reports that you share in interactive dashboards.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/186"
+    },
+    {
+      "id": "187",
+      "Category": "FINANCE",
+      "Featuring": "Microsoft Teams",
+      "Title": "Build consensus on financial analysis within your team",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Build-consensus-on-financial-analysis-within-your-team",
+      "Details": "Bring your team together in a chat-based workspace to discuss analysis strategies, build consensus, and expedite decision-making.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/187"
+    },
+    {
+      "id": "188",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Outlook,Skype for Business",
+      "Title": "Expedite decision-making by meeting with clients in real time",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Expedite-decisionmaking-by-meeting-with-clients-in-real-time",
+      "Details": "Meet with your financial clients on their time, using the communication style that works best for their needs.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/188"
+    },
+    {
+      "id": "189",
+      "Category": "SALES",
+      "Featuring": "Delve,SharePoint,Yammer",
+      "Title": "Engage with internal experts to optimize your sales content",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Engage-with-internal-experts-to-optimize-your-sales-content",
+      "Details": "Move prospects through the sales funnel by working with your companys product and customer experts to craft compelling, focused sales content",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/189"
+    },
+    {
+      "id": "190",
+      "Category": "SALES",
+      "Featuring": "Microsoft Teams,Planner,Project",
+      "Title": "Manage resources and scheduling to coordinate a team sale",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-resources-and-scheduling-to-coordinate-a-team-sale",
+      "Details": "Organize the tasks and resources needed to bring a team sale to fruition by leveraging powerful, intuitive project management tools.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/190"
+    },
+    {
+      "id": "191",
+      "Category": "SALES",
+      "Featuring": "Excel,PowerPoint,Word",
+      "Title": "Create high-quality sales reports",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Create-highquality-sales-reports",
+      "Details": "Develop sales reports that provide value-add by using templates, intelligently designed charts, and cinematic motion.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/191"
+    },
+    {
+      "id": "192",
+      "Category": "SALES",
+      "Featuring": "Enterprise Mobility + Security,Microsoft Teams,Office 365,Windows 10",
+      "Title": "Use industry-leading security to stay productive in the field",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Use-industryleading-security-to-stay-productive-in-the-field",
+      "Details": "Work securely and efficiently—whether you are in the office or in the field—by accessing the sales apps and data you need from your device.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/192"
+    },
+    {
+      "id": "193",
+      "Featuring": "Skype for Business,StaffHub,Yammer",
+      "Title": "Broadcast company town halls to engage employees remotely",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Broadcast-company-town-halls-to-engage-employees-remotely",
+      "Details": "Bring your company’s local and remote employees together for a \"town hall\" meeting to engage employees at every level.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/193"
+    },
+    {
+      "id": "194",
+      "Category": "HEALTHCARE",
+      "Featuring": "Microsoft Teams,Word",
+      "Title": "Create a patient care plan",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Create-a-patient-care-plan",
+      "Details": "Bring the whole medical team together to securely create the optimal care plan for your patient.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/194"
+    },
+    {
+      "id": "195",
+      "Category": "HEALTHCARE",
+      "Featuring": "StaffHub",
+      "Title": "Manage your nursing shift from your device",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-your-nursing-shift-from-your-device",
+      "Details": "Use your smartphone or other device to view your schedule, request time off or swap shifts, and keep up with news and events.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/195"
+    },
+    {
+      "id": "196",
+      "Category": "HEALTHCARE",
+      "Featuring": "Enterprise Mobility + Security,Office 365",
+      "Title": "Protect patient and hospital data while making it accessible",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Protect-patient-and-hospital-data-while-making-it-accessible",
+      "Details": "Make patient and hospital data accessible to mobile staff while keeping that data more secure with appropriate permissions, policies, and access management.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/196"
+    },
+    {
+      "id": "197",
+      "Category": "FINANCE",
+      "Featuring": "Excel,Microsoft Teams,Office 365,OneDrive,Planner,PowerPoint,Word",
+      "Title": "Prepare for a corporate earnings release",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Prepare-for-a-corporate-earnings-release",
+      "Details": "Prepare for a successful earnings release by bringing people, content, and tools together in a mobile-friendly chat-based workspace that empowers team members to move quickly from chats to content and tasks, with context, continuity, and transparency among the entire team.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/197"
+    },
+    {
+      "id": "198",
+      "Featuring": "Windows 10",
+      "Title": "Stay organized, productive, and safe while on the internet",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Stay-organized-productive-and-safe-while-on-the-internet",
+      "Details": "Safely find and download the data and resources you need by browsing the web with Microsoft Edge, the faster, safer browser designed for Windows 10.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/198"
+    },
+    {
+      "id": "199",
+      "Featuring": "Windows 10",
+      "Title": "Stay ahead of the game with a personal digital assistant",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Stay-ahead-of-the-game-with-a-personal-digital-assistant",
+      "Details": "Count on Cortana in Windows 10 to remind you of important meetings and deadlines, to help you keep in touch with coworkers and supervisors even when youre on the move, and to quickly search your devices and the internet to find the information you need.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/199"
+    },
+    {
+      "id": "200",
+      "Category": "FINANCIAL SERVICES",
+      "Featuring": "Windows 10",
+      "Title": "Engage customers with a personalized banking experience",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Engage-customers-with-a-personalized-banking-experience",
+      "Details": "Use secure, light, and mobile Windows 10 devices and integrated Office 365 apps to step out from behind your desk and bring full-service banking to your customers wherever they are—such as in the bank lobby or at their location.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/200"
+    },
+    {
+      "id": "201",
+      "Category": "HEALTHCARE",
+      "Featuring": "Windows 10",
+      "Title": "Use integrated apps and devices to improve patient care",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Use-integrated-apps-and-devices-to-improve-patient-care",
+      "Details": "Gain secure, speedy access to lab results, specialist recommendations, patient notes, scheduling, and more from your Microsoft 365 powered device and your clinics integrated apps.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/201"
+    },
+    {
+      "id": "202",
+      "Category": "MANUFACTURING",
+      "Featuring": "Windows 10",
+      "Title": "Securely work with data and ideas from the factory floor",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Securely-work-with-data-and-ideas-from-the-factory-floor",
+      "Details": "Maximize your productivity on the factory floor by using your Microsoft 365 powered device to connect to data, coordinate with coworkers, and use digital ink and 3D modeling to brainstorm new ideas.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/202"
+    },
+    {
+      "id": "203",
+      "Category": "RETAIL",
+      "Featuring": "Windows 10",
+      "Title": "Serve customers quickly and securely from the sales floor",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Serve-customers-quickly-and-securely-from-the-sales-floor",
+      "Details": "Answer customer questions and close sales right from the sales floor with confidence by using your Microsoft 365 powered device and your stores integrated apps.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/203"
+    },
+    {
+      "id": "204",
+      "Category": "MARKETING",
+      "Featuring": "Microsoft Teams,SharePoint,Skype for Business,StaffHub",
+      "Title": "Plan a summit by using mobile scheduling",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Plan-a-summit-by-using-mobile-scheduling",
+      "Details": "Use mobile communication and scheduling tools to successfully manage staffing at a summit.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/204"
+    },
+    {
+      "id": "205",
+      "Featuring": "Windows 10",
+      "Title": "Keep devices always up to date",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Keep-devices-always-up-to-date",
+      "Details": "Windows as a service enables Windows 10 to keep itself up to date for the lifetime of your devices through simple, always-improving updating processes, with high levels of application compatibility, minimal effort and cost, and—most importantly—no more big deployment projects.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/205"
+    },
+    {
+      "id": "206",
+      "Featuring": "Windows 10",
+      "Title": "Get actionable insights about upgrade readiness",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Get-actionable-insights-about-upgrade-readiness",
+      "Details": "For IT pros who provide support to the business by delivering apps that enhance the agility of the organization, planning for operating system upgrades can be a challenge. Windows Analytics provides powerful upgrade readiness insights and recommendations about the computers, apps, and drivers in your organization. These insights allow app owners and IT teams to identify compatibility issues that can block an upgrade, implement fixes that are known to Microsoft, and accelerate deployment of Microsoft 365.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/206"
+    },
+    {
+      "id": "207",
+      "Featuring": "Windows 10",
+      "Title": "Quickly and easily transform new devices",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-and-easily-transform-new-devices",
+      "Details": "Windows AutoPilot capabilities enable the quick and easy transformation of new devices into enterprise-ready machines, without imaging and with the flexibility to satisfy the needs of organizations of all shapes and sizes. This process can be done by the users themselves—without IT ever touching the device—when the organization uses technologies such as Azure Active Directory, Microsoft Intune, third-party MDM services, and the Windows AutoPilot device enrollment service.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/207"
+    },
+    {
+      "id": "208",
+      "Featuring": "Windows 10",
+      "Title": "Easily and securely manage devices",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Easily-and-securely-manage-devices",
+      "Details": "The use of personal devices for work, in addition to the increase in the number of employees who work outside the office, is changing how organizations manage mobile devices. Windows 10 helps to manage devices efficiently and cost effectively while reducing business disruptions, as you make new devices available to your employees. You can use the same management tools that you are familiar with today to manage all types of devices running Windows 10—including traditional desktops, laptops, and tablets. Support for traditional deep manageability is available through technologies like Active Directory, Group Policy, and System Center Configuration Manager, and modern management that uses cloud-based device management solutions such as Microsoft Enterprise Mobility + Security (EMS).",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/208"
+    },
+    {
+      "id": "209",
+      "Category": "SALES",
+      "Featuring": "Delve,OneDrive,SharePoint,Yammer",
+      "Title": "Bridge the gap between sales and marketing",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Bridge-the-gap-between-sales-and-marketing",
+      "Details": "Improve your deal-closing rate by working more closely with marketing to generate and follow up on hot leads.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/209"
+    },
+    {
+      "id": "210",
+      "Category": "SALES",
+      "Featuring": "Outlook,Skype for Business",
+      "Title": "Quickly gain consensus on sales team budgets",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-gain-consensus-on-sales-team-budgets",
+      "Details": "Get together with other sales reps, no matter where they are, to get traction on your annual budget by using digital meeting solutions.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/210"
+    },
+    {
+      "id": "211",
+      "Category": "SALES",
+      "Featuring": "Delve,MyAnalytics,Office 365,Outlook",
+      "Title": "Analyze and streamline your workday",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Analyze-and-streamline-your-workday",
+      "Details": "Shift your sales career into high gear by using analytics and productivity tools to optimize your performance.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/211"
+    },
+    {
+      "id": "212",
+      "Category": "SALES",
+      "Featuring": "Excel,Microsoft Teams,Power BI,Visio",
+      "Title": "Quickly visualize your sales data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Quickly-visualize-your-sales-data",
+      "Details": "Share compelling sales data visualizations and dashboards with your team for better collaboration.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/212"
+    },
+    {
+      "id": "213",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "OneNote,Outlook,SharePoint,Skype for Business",
+      "Title": "Interview more candidates with greater efficiency",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Interview-more-candidates-with-greater-efficiency",
+      "Details": "Broaden your organizations candidate pool nationally and globally, without lengthy interview processes and the expense of in-person interviews.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/213"
+    },
+    {
+      "id": "214",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Delve,SharePoint,Yammer",
+      "Title": "Tap collective knowledge to develop a benefits plan",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Tap-collective-knowledge-to-develop-a-benefits-plan",
+      "Details": "Collaborate with benefits vendors, financial stakeholders, and corporate decision makers to develop a new benefits plan.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/214"
+    },
+    {
+      "id": "215",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Microsoft Teams,Office 365,OneDrive,SharePoint",
+      "Title": "Coauthor a new employee handbook",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Coauthor-a-new-employee-handbook",
+      "Details": "Work together in a single document with your team to create a new employee handbook.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/215"
+    },
+    {
+      "id": "216",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Planner,Project",
+      "Title": "Manage a new HR policy rollout",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-a-new-HR-policy-rollout",
+      "Details": "Roll out a new policy on time and on target by managing your resources and scheduling in an intuitive, team-based environment.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/216"
+    },
+    {
+      "id": "217",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Microsoft Teams,SharePoint,StaffHub",
+      "Title": "Manage contractors with mobile scheduling",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Manage-contractors-with-mobile-scheduling",
+      "Details": "Use mobile communication and scheduling tools to manage contract worker staffing at an event.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/217"
+    },
+    {
+      "id": "218",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Excel,Power BI",
+      "Title": "Easily visualize workforce diversity data",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Easily-visualize-workforce-diversity-data",
+      "Details": "Evaluate your company’s diversity data more easily with compelling visualizations and dashboards.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/218"
+    },
+    {
+      "id": "219",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "OneDrive,SharePoint",
+      "Title": "Keep up with recruiting when offsite",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Keep-up-with-recruiting-when-offsite",
+      "Details": "Access candidate data securely when you are offsite or offline, and share and collaborate with other recruiters.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/219"
+    },
+    {
+      "id": "220",
+      "Featuring": "Windows 10",
+      "Title": "Fuel your creativity with powerful devices and apps",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Fuel-your-creativity-with-powerful-devices-and-apps",
+      "Details": "Use Surface Studio and Windows 10 to transform the way you sketch, model, and share your creative ideas.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/220"
+    },
+    {
+      "id": "221",
+      "Featuring": "Windows 10",
+      "Title": "Use your device like a PC to stay productive and secure",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Use-your-device-like-a-PC-to-stay-productive-and-secure",
+      "Details": "Maintain the high level of productivity you need, wherever you are, by leveraging the seamless, secure mobile experience offered by Windows 10.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/221"
+    },
+    {
+      "id": "222",
+      "Category": "HUMAN RESOURCES",
+      "Featuring": "Office 365",
+      "Title": "Store employee data with industry-standard compliance",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Store-employee-data-with-industrystandard-compliance",
+      "Details": "Protect employee data with security and privacy policies, and ensure easy access to independent compliance reports and assessments.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/222"
+    },
+    {
+      "id": "223",
+      "Category": "HEALTHCARE",
+      "Featuring": "Windows 10",
+      "Title": "Streamline lab operations while ensuring compliance",
+      "Link": "https://fasttrack.microsoft.com/microsoft365/productivitylibrary/Streamline-lab-operations-while-ensuring-compliance",
+      "Details": "Improve your lab’s testing operations and ensure regulatory compliance by using powerful, modern devices.",
+      "Docs": "https://hexatown.github.io/docs/microsoft/use-cases/fasttrack/223"
+    }
+  ]

@@ -1,0 +1,74 @@
+.wizardContainer {
+    display: flex;
+    flex-direction: row;
+    height:36px;
+    max-height: 36px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 4px;
+    xborder:1px solid red
+}
+
+.wizardRight {
+
+    xborder:1px solid blue;
+    align-self: flex-start
+}
+.wizardCenter {
+    xborder:1px solid yellow;
+    flex-grow:2;
+    align-self: center
+
+}
+
+.wizardLeft {
+    xbackground-color: aqua;
+    xborder:1px solid green;
+    cursor: progress;
+    width:16px;
+    height:32px;
+    align-self: flex-end;
+
+}
+.wizardLeft:hover {
+    border:1px solid green;
+    
+    
+}
+
+
+.prompter {
+    padding:8px;
+    color:#999999;
+}
+
+.prompter:hover {
+
+    background-color: #444444;
+  
+    color:#ffffff;
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 1.8em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  .toolbody  img {
+    max-width: 100%;
+    height: auto;
+}

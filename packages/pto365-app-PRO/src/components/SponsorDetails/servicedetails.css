@@ -1,0 +1,23 @@
+.ServiceDetailsFrame {
+    background-color: #aaaaaa;
+}
+
+.ServiceDetailsOuterFrame{
+    
+}
+
+.iFrameContent{
+    height:600px;
+}
+
+.ptominiature{
+    -webkit-transform: scale(0.35,0.35);
+    -moz-transform: scale(0.35,0.35);
+    -ms-transform: scale(0.35,0.35);
+    -o-transform: scale(0.35,0.35);
+    transform: scale(0.35,0.35);
+    -webkit-transform-origin :  0 0 0 ;
+    -moz-transform-origin    :  0 0 0 ;
+    -ms-transform-origin     :  0 0 0 ;
+    -o-transform-origin      :  0 0 0 ;
+ }   

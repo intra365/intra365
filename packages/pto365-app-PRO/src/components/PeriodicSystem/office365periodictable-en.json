@@ -1,0 +1,636 @@
+[
+  {
+    "left": {},
+    "right": {
+      "title": "Presentations",
+      "type": "righter",
+      "color": "#BBBBE6"
+    },
+    "connectors": [
+      {
+        "class": "connect-presentation"
+      },
+      {
+        "class": "connect-presentation-down"
+      }
+    ],
+    "columns": [
+      {
+        "id": "1:1",
+        "type": "service",
+        "title": "Dynamics 365",
+        "about": "",
+        "image": "Dynamics.png",
+        "color": "#15224e",
+        "descriptor": "CRM & ERP [Salesforce]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Dynamics",
+        "shareable": "Partial"
+      },
+      {
+        "id": "1:2",
+        "type": "left",
+        "about": "",
+        "subtitle": "",
+        "link": "",
+        "shareable": ""
+      },
+      {
+        "id": "1:3",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "1:4",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "1:5",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "1:6",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "1:7",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "1:8",
+        "type": "service",
+        "title": "Sway",
+        "about": "",
+        "image": "Sway.png",
+        "color": "#008272",
+        "descriptor": "Next-gen presentations",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Sway",
+        "shareable": "Yes"
+      }
+    ]
+  },
+  {
+    "left": {},
+    "right": {
+      "title": "Office Online",
+      "type": "righter",
+      "color": "#B8E7F6"
+    },
+    "connectors": [
+      {
+        "class": "connect-enterprise-video"
+      },
+      {
+        "class": "connect-office-online"
+      },
+      {
+        "class": "connect-employee-profile-down"
+      }
+    ],
+    "columns": [
+      {
+        "id": "2:1",
+        "type": "service",
+        "title": "Stream",
+        "about": "",
+        "image": "Stream.png",
+        "color": "#c30052",
+        "descriptor": "Video portal [YouTube]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Stream",
+        "shareable": "No"
+      },
+      {
+        "id": "2:2",
+        "type": "service",
+        "title": "Visio Online",
+        "about": "",
+        "image": "Visio.png",
+        "color": "#4568c4",
+        "descriptor": "Diagramming in the browser",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Visio",
+        "shareable": "Yes"
+      },
+      {
+        "id": "2:3",
+        "type": "bottom",
+        "title": "Employee Profiles",
+        "about": "",
+        "color": "#BBBBE6",
+        "subtitle": "",
+        "link": "",
+        "shareable": ""
+      },
+      {
+        "id": "2:4",
+        "type": "left",
+        "about": "",
+        "subtitle": "",
+        "link": "",
+        "shareable": ""
+      },
+      {
+        "id": "2:5",
+        "type": "service",
+        "title": "Word Online",
+        "about": "",
+        "image": "Word.png",
+        "color": "#2b579a",
+        "descriptor": "Word processing in the browser",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Word",
+        "shareable": "Yes"
+      },
+      {
+        "id": "2:6",
+        "type": "service",
+        "title": "Excel Online",
+        "about": "",
+        "image": "Excel.png",
+        "color": "#02723b",
+        "descriptor": "Spreadhseets in the browser",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Excel",
+        "shareable": "Yes"
+      },
+      {
+        "id": "2:7",
+        "type": "service",
+        "title": "OneNote Online",
+        "about": "",
+        "image": "OneNote.png",
+        "color": "#80397b",
+        "descriptor": "Note taking in the browser [Evernote]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/OneNote",
+        "shareable": "Yes"
+      },
+      {
+        "id": "2:8",
+        "type": "service",
+        "title": "PowerPoint Online",
+        "about": "",
+        "image": "PowerPoint.png",
+        "color": "#d24726",
+        "descriptor": "Presentations in the browser",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/PowerPoint",
+        "shareable": "Yes"
+      }
+    ]
+  },
+  {
+    "left": {
+      "title": "File Storage & Collaboration",
+      "type": "lefter",
+      "color": "#B3E6A9"
+    },
+    "right": {
+      "title": "Businss Application Platform",
+      "type": "righter",
+      "color": "#B3E6A9"
+    },
+    "connectors": [
+      {
+        "class": "connect-filestorage"
+      },
+      {
+        "class": "connect-forms"
+      },
+      {
+        "class": "connect-business-apps"
+      },
+      {
+        "class": "connect-employee-profile-down"
+      }
+    ],
+    "columns": [
+      {
+        "id": "3:1",
+        "type": "service",
+        "title": "SharePoint Online",
+        "about": "",
+        "image": "SharePoint.png",
+        "color": "#0072c6",
+        "descriptor": "Team file sharing & storage",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/SharePoint",
+        "shareable": "Yes"
+      },
+      {
+        "id": "3:2",
+        "type": "service",
+        "title": "OneDrive for Business",
+        "about": "",
+        "image": "OneDrive.png",
+        "color": "#1174c3",
+        "descriptor": "Personal file storage [Dropbox]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/OneDrive",
+        "shareable": "Yes"
+      },
+      {
+        "id": "3:3",
+        "type": "service",
+        "title": "Delve",
+        "about": "",
+        "image": "Delve.png",
+        "color": "#1c7bb9",
+        "descriptor": "Employee profile & content discovery",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Delve",
+        "shareable": "No"
+      },
+      {
+        "id": "3:4",
+        "type": "left",
+        "title": "Forms",
+        "about": "",
+        "color": "#BBBBE6",
+        "subtitle": "",
+        "link": "",
+        "shareable": ""
+      },
+      {
+        "id": "3:5",
+        "type": "service",
+        "title": "Forms",
+        "about": "",
+        "image": "Forms.png",
+        "color": "#008271",
+        "descriptor": "Code-free forms",
+        "subtitle": "Preview",
+        "link": "http://hexatown.com/docs/microsoft/office365/Forms",
+        "shareable": "Yes"
+      },
+      {
+        "id": "3:6",
+        "type": "service",
+        "title": "PowerApps",
+        "about": "",
+        "image": "PowerApps.png",
+        "color": "#742774",
+        "descriptor": "Code-free mobile apps (& forms)",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/PowerApps",
+        "shareable": "Partial"
+      },
+      {
+        "id": "3:7",
+        "type": "service",
+        "title": "Flow",
+        "about": "",
+        "image": "Flow.png",
+        "color": "#0077ff",
+        "descriptor": "Code-free workflows [IFTTT]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Flow",
+        "shareable": "Partial"
+      },
+      {
+        "id": "3:8",
+        "type": "service",
+        "title": "Power BI",
+        "about": "",
+        "image": "Power-BI.png",
+        "color": "#f2c811",
+        "descriptor": "Business analytics & dashboards",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Power-BI",
+        "shareable": "Partial"
+      }
+    ]
+  },
+  {
+    "left": {
+      "title": "Outlook",
+      "type": "lefter",
+      "color": "#A6E1F4"
+    },
+    "right": {
+      "title": "Project Management",
+      "type": "righter",
+      "color": "#BBBBE6"
+    },
+    "connectors": [
+      {
+        "class": "connect-outlook"
+      },
+      {
+        "class": "connect-task-management"
+      },
+      {
+        "class": "connect-project-management"
+      },
+      {
+        "class": "connect-direct-communication-1"
+      }
+    ],
+    "columns": [
+      {
+        "id": "4:1",
+        "type": "service",
+        "title": "Mail",
+        "about": "",
+        "image": "Mail.png",
+        "color": "#2072b9",
+        "descriptor": "Outlook email",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Mail",
+        "shareable": "Yes"
+      },
+      {
+        "id": "4:2",
+        "type": "service",
+        "title": "Calendar",
+        "about": "",
+        "image": "Calendar.png",
+        "color": "#2072b9",
+        "descriptor": "Outlook calendar",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Calendar",
+        "shareable": "Partial"
+      },
+      {
+        "id": "4:3",
+        "type": "service",
+        "title": "People",
+        "about": "",
+        "image": "People.png",
+        "color": "#2072b9",
+        "descriptor": "Outlook contact list",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/People",
+        "shareable": "No"
+      },
+      {
+        "id": "4:4",
+        "type": "service",
+        "title": "Tasks",
+        "about": "",
+        "image": "Tasks.png",
+        "color": "#2072b9",
+        "descriptor": "Outlook tasks",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Tasks",
+        "shareable": "No"
+      },
+      {
+        "id": "4:5",
+        "type": "right",
+        "title": "Task Management",
+        "about": "",
+        "color": "#B3E6A9",
+        "subtitle": "",
+        "link": "",
+        "shareable": ""
+      },
+      {
+        "id": "4:6",
+        "type": "service",
+        "title": "To-Do",
+        "about": "",
+        "image": "To-Do.png",
+        "color": "#3896f9",
+        "descriptor": "To-do list for life & work [Wunderlist]",
+        "subtitle": "Preview",
+        "link": "http://hexatown.com/docs/microsoft/office365/To-Do",
+        "shareable": "No"
+      },
+      {
+        "id": "4:7",
+        "type": "service",
+        "title": "Planner",
+        "about": "",
+        "image": "Planner.png",
+        "color": "#3c853c",
+        "descriptor": "Everyday project management [Trello]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Planner",
+        "shareable": "No"
+      },
+      {
+        "id": "4:8",
+        "type": "service",
+        "title": "Project Online",
+        "about": "",
+        "image": "Project.png",
+        "color": "#2f722d",
+        "descriptor": "Premium project management",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Project",
+        "shareable": "Yes"
+      }
+    ]
+  },
+  {
+    "left": {
+      "title": "Chat & Conferencing",
+      "type": "lefter",
+      "color": "#BBBBE6"
+    },
+    "right": {
+      "title": "Small Business Applications",
+      "type": "righter",
+      "color": "#B3E6A9"
+    },
+    "connectors": [
+      {
+        "class": "connect-chat"
+      },
+      {
+        "class": "connect-social-network"
+      },
+      {
+        "class": "connect-small-business"
+      },
+      {
+        "class": "connect-direct-communication-2"
+      }
+    ],
+    "columns": [
+      {
+        "id": "5:1",
+        "type": "service",
+        "title": "Skype for Business",
+        "about": "",
+        "image": "Skype.png",
+        "color": "#00aff0",
+        "descriptor": "Instant messaging & video chat [Skype]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Skype",
+        "shareable": "Yes"
+      },
+      {
+        "id": "5:2",
+        "type": "service",
+        "title": "Teams",
+        "about": "",
+        "image": "Teams.png",
+        "color": "#3f418e",
+        "descriptor": "Group chat & video chat [Slack]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Teams",
+        "shareable": "Partial"
+      },
+      {
+        "id": "5:3",
+        "type": "service",
+        "title": "Newsfeed",
+        "about": "",
+        "image": "Newsfeed.png",
+        "color": "#0072c6",
+        "descriptor": "SharePoint's (lite) social network",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Newsfeed",
+        "shareable": "Partial"
+      },
+      {
+        "id": "5:4",
+        "type": "service",
+        "title": "Yammer",
+        "about": "",
+        "image": "Yammer.png",
+        "color": "#007dc6",
+        "descriptor": "Social network [Facebook]",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Yammer",
+        "shareable": "Yes"
+      },
+      {
+        "id": "5:5",
+        "type": "left",
+        "about": "",
+        "subtitle": "",
+        "link": "",
+        "shareable": ""
+      },
+      {
+        "id": "5:6",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "5:7",
+        "type": "service",
+        "title": "Bookings",
+        "about": "",
+        "image": "Bookings.png",
+        "color": "#25abb2",
+        "descriptor": "Customer self-reservations",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/Bookings",
+        "shareable": ""
+      },
+      {
+        "id": "5:8",
+        "type": "service",
+        "title": "StaffHub",
+        "about": "",
+        "image": "StaffHub.png",
+        "color": "#25c8c2",
+        "descriptor": "Frontline employee hub & scheduler",
+        "subtitle": "",
+        "link": "http://hexatown.com/docs/microsoft/office365/StaffHub",
+        "shareable": ""
+      }
+    ]
+  },
+  {
+    "left": {},
+    "right": {},
+    "connectors": [],
+    "columns": [
+      {
+        "id": "6:1",
+        "type": "row",
+        "title": "Direct Communication",
+        "about": "",
+        "color": "#777777",
+        "subtitle": "",
+        "link": "",
+        "shareable": ""
+      },
+      {
+        "id": "6:2",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "6:3",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "6:4",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "6:5",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "6:6",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "6:7",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      },
+      {
+        "id": "6:8",
+        "type": "",
+        "title": "",
+        "about": "",
+        "image": "",
+        "color": ""
+      }
+    ]
+  }
+]

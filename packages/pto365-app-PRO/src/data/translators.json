@@ -1,0 +1,124 @@
+[
+    {
+        "language": "en",
+        "promptId": 26,
+        "author": "Matt Wade",
+        "link": "https://twitter.com/thatmattwade",
+        "image": "https://pbs.twimg.com/profile_images/917919350551666688/0s9s-2He_400x400.jpg"
+
+    },
+    {
+        "language": "da",
+        "promptId": 13,
+        "author": "Jesper U. Pedersen",
+        "link": "https://twitter.com/yp1702",
+        "image": "https://pbs.twimg.com/profile_images/487855974079008768/ilB7kiB8_400x400.jpeg"
+
+    },
+    {
+        "language": "de",
+        "promptId": 9,
+        "author": "Wolfgang Miedl",
+        "link": "https://twitter.com/sharepoint360de",
+        "image": "https://pbs.twimg.com/profile_images/948514312649428993/y1nWkM7P_400x400.jpg"
+    },
+    {
+        "language": "es",
+        "promptId": 10,
+        "author": "Jorge Castañeda",
+        "link": "https://twitter.com/jcastanedacano",
+        "image":"https://jumpto365.com/resources/images/Jorge.jpg"
+    },
+    {
+        "language": "fr",
+        "promptId": 12,
+        "author": "Michel Laplane",
+        "link": "https://twitter.com/MichelLAPLANE",
+        "image":"https://pbs.twimg.com/profile_images/1782991365/Michel_400x400.jpg"
+    },
+    {
+        "language": "ja",
+        "promptId": 11,
+        "author": "Taiki Yoshida",
+        "link": "https://twitter.com/TaikiYoshidaJP",
+        "image":"https://pbs.twimg.com/profile_images/709698940887629824/PAZBgi5u_400x400.jpg"
+    }
+    ,
+    {
+        "language": "nl",
+        "promptId": 15,
+        "author": "Paul Keijzers",
+        "link": "https://twitter.com/KbWorks",
+        "image":"https://pbs.twimg.com/profile_images/821680780611121154/ZltLUHo5_400x400.jpg"
+    }
+    ,
+    {
+        "language": "no",
+        "promptId": 16,
+        "author": "Arne Ivar Olsen",
+        "link": "https://twitter.com/ArneIvarOlsen",
+        "image":"https://pbs.twimg.com/profile_images/2340849627/ljn7mmpb2syti3pvn7qy_400x400.jpeg"
+    }
+    ,
+    {
+        "language": "hu",
+        "promptId": 17,
+        "author": "Dániel Baranyi",
+        "link": "https://twitter.com/dbaranyi",
+        "image":"https://pbs.twimg.com/profile_images/651552217841975297/WIYFnhDK_400x400.jpg"
+    },
+
+    {
+        "language": "pt",
+        "promptId": 20,
+        "author": "Nuno Árias Silva",
+        "link": "https://twitter.com/nunoariassilva",
+        "image":"https://pbs.twimg.com/profile_images/477823406012772352/AC4_aWvY_400x400.jpeg"
+    },
+
+    {
+        "language": "is",
+        "promptId": 21,
+        "author": "Hjálmur Hjálmsson",
+        "link": "https://www.linkedin.com/in/hjalmur-hjalmsson-bb0b8a29/",
+        "image":"https://media.licdn.com/dms/image/C4D03AQGMwWItpitMmg/profile-displayphoto-shrink_800_800/0?e=1526817600&v=alpha&t=vYUy7_9bmePaLsaUXDE6DAYlE2bj9jGmvjc-gkX5Yxo"
+    },
+
+{
+    "language": "he",
+    "promptId": 22,
+    "author": "Alon Goldberg",
+    "link": "https://www.linkedin.com/in/alongoldberg/"
+}
+,
+
+{
+    "language": "fi",
+    "promptId": 28,
+    "author": "Katja Jokisalo",
+    "link": "https://www.linkedin.com/in/katjajokisalo/",
+    "image":"https://media.licdn.com/dms/image/C4E03AQEbl64qDwxAEA/profile-displayphoto-shrink_800_800/0?e=1529737200&v=beta&t=KR8gkKus2WQzVnUTs8sDCpdLZ1EGS4uPtvK6Q30Mp0o"
+}
+,
+
+{
+    "language": "sv",
+    "promptId": 29,
+    "author": "Anette Stjärnkvist Lönnberg",
+    "link": "https://www.linkedin.com/in/anette-stj%C3%A4rnkvist-l%C3%B6nnberg-b797373/",
+    "image":"https://media.licdn.com/dms/image/C4E03AQHduYyAViwGEg/profile-displayphoto-shrink_800_800/0?e=1529737200&v=beta&t=LDasT-vSkqgvKLfMA2jbDh3-nxGiO1PraP6KgJ4uyHM"
+    
+}
+    
+,
+
+{
+    "language": "cs",
+    "promptId": 30,
+    "author": "Barbora Mazochová",
+    "link": "https://www.linkedin.com/in/barborasipkova/"
+    
+}
+
+    
+]

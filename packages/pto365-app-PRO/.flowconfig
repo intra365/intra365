@@ -1,0 +1,13 @@
+[ignore]
+node_modules/findup
+server/
+src
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]

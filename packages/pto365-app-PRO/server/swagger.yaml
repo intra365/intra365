@@ -1,0 +1,254 @@
+swagger: "2.0"
+info:
+  description: ""
+  version: "1.0.0"
+  title: "PTO365 APi"
+  termsOfService: "http://pto365.com/terms/"
+  contact:
+    email: "apiteam@pto365.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "pto365.azurewebsites.net"
+basePath: "/api"
+tags:
+- name: "tenant"
+  description: "Operations related to tenant administration"
+- name: "user"
+  description: "Operations about user"
+- name: "file"
+  description : "File Management"
+- name: "telemetry"
+  description : "IOT"
+schemes:
+  - "https"
+paths:
+  /me:
+    get:
+      tags:
+      - "user"
+      summary: "Everything about the current user"
+      operationId: "me"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/User"
+          examples:
+            "Example 1" : {
+                            "_id": "5aca51234c809f3d9c6550f4",
+                            "license": {
+                              "ring": 1
+                            },
+                            "upn": "ngjoh@nets.eu",
+                            "name": "ngjoh@nets.eu"
+                          }
+        400:
+          description: "Invalid status value"
+      security:
+      - Bearer: []
+    x-security-scopes:
+      - admin
+      - user
+  /register:
+    post:
+      tags:
+      - "user"
+      summary: "Authenticate"
+      description: ""
+      operationId: "authRegister"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        required: true
+        schema:
+          $ref: "#/definitions/Credentials"
+      
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "#/definitions/ApiResponse"
+        400:
+          description: "Invalid Credentials"
+  /track:
+    post:
+      tags:
+      - "telemetry"
+      summary: "Store telemetry data"
+      operationId: "track"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Data to track"
+        required: true
+        schema:
+          $ref: "#/definitions/Audit"
+      responses:
+        default:
+          description: "successful operation"
+      security:
+      - Bearer: []
+  /file/{id}:
+    get:
+      tags:
+      - "file"
+      summary: "Find file by ID"
+      description: "Returns a single file"
+      produces:
+      - "application/xml"
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "ID of file to return"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type : file
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "File not found"
+      security:
+      - Bearer: []
+ 
+  /mytenant:
+    get:
+      tags:
+      - "tenant"
+      summary: "Find (our create) tenant based on domain of authenticated user"
+      description: "Returns a single tenant"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type : file
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Tenant not found"
+      security:
+      - Bearer: []
+  /tenant/{id}:
+    get:
+      tags:
+      - "tenant"
+      summary: "Find tenant by ID"
+      description: "Returns a single tenant"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "ID of tenant to return"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type : file
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Tenant not found"
+      security:
+      - Bearer: []
+  /file:
+    post:
+      tags:
+      - "file"
+      summary: Uploads a file.
+      consumes:
+        - multipart/form-data
+      produces:
+        - "application/json"         
+      parameters:
+         - in: formData
+           name: upfile
+           type: file
+           description: The file to upload.  
+         - in: formData
+           name: note
+           type: string
+           required: false
+           description: Description of file contents.
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: string
+          examples:
+            "Id of uploaded file" : "5aca51234c809f3d9c6550f4"
+        500:
+          description: "Could not save file"
+securityDefinitions:
+  Bearer:
+    type: apiKey
+    name: Authorization
+    in: header
+definitions:
+  Audit:
+    type: "string"
+  Credentials:
+    type: "object"
+    example: Example
+    properties:
+      token:
+        type: "string"
+  License:
+    type: "object"
+    properties:
+      ring:
+        type: "integer"
+  User:
+    type: "object"
+    properties:
+      _id:
+        type: "integer"
+        format: "string"
+      license:
+        $ref: "#/definitions/License"
+      upn:
+        type: "string"
+      name:
+        type: "string"
+  Tenant:
+    type: "object"
+    properties:
+      _id:
+        type: "integer"
+        format: "string"
+      license:
+        $ref: "#/definitions/License"
+      upn:
+        type: "string"
+      name:
+        type: "string"
+  ApiResponse:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      type:
+        type: "string"
+      message:
+        type: "string"
+externalDocs:
+  description: "Find out more about Jumpto365"
+  url: "http://jumpto365.com"

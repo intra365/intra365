@@ -1,0 +1,6 @@
+.AboutCloseButton {
+    position: absolute;
+    top: 20px;
+    right:30px;
+    line-height: 60px;
+}

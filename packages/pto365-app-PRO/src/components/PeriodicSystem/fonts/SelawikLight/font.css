@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Selawik-Light';
+  src: url('Selawik-Light.woff') format('woff'),
+       url('Selawik-Light.ttf') format('truetype'),
+       url('Selawik-Light.svg#Selawik-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SelawikLight';
+  src: url('SelawikLight.eot');
+  src: url('SelawikLight.woff2') format('woff2'),
+       url('SelawikLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

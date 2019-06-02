@@ -1,0 +1,113 @@
+{
+  "language": "EN",
+  "data": [
+    {
+      "id": "2",
+      "fasttrack": "Sway"
+    },
+    {
+      "id": "4",
+      "fasttrack": "Stream"
+    },
+    {
+      "id": "5",
+      "fasttrack": "Visio"
+    },
+    {
+      "id": "7",
+      "fasttrack": "Word"
+    },
+    {
+      "id": "8",
+      "fasttrack": "Excel"
+    },
+    {
+      "id": "9",
+      "fasttrack": "OneNote"
+    },
+    {
+      "id": "10",
+      "fasttrack": "PowerPoint"
+    },
+    {
+      "id": "13",
+      "fasttrack": "SharePoint"
+    },
+    {
+      "id": "14",
+      "fasttrack": "OneDrive"
+    },
+    {
+      "id": "15",
+      "fasttrack": "Delve"
+    },
+    {
+      "id": "17",
+      "fasttrack": "Forms"
+    },
+    {
+      "id": "18",
+      "fasttrack": "PowerApps"
+    },
+    {
+      "id": "19",
+      "fasttrack": "Flow"
+    },
+    {
+      "id": "20",
+      "fasttrack": "Power BI"
+    },
+    {
+      "id": "23",
+      "fasttrack": "Mail"
+    },
+    {
+      "id": "24",
+      "fasttrack": "Calendar"
+    },
+    {
+      "id": "25",
+      "fasttrack": "People"
+    },
+    {
+      "id": "26",
+      "fasttrack": "Tasks"
+    },
+    {
+      "id": "28",
+      "fasttrack": "todo"
+    },
+    {
+      "id": "29",
+      "fasttrack": "Planner"
+    },
+    {
+      "id": "30",
+      "fasttrack": "Project"
+    },
+    {
+      "id": "33",
+      "fasttrack": "Skype for Business"
+    },
+    {
+      "id": "34",
+      "fasttrack": "Microsoft Teams"
+    },
+    {
+      "id": "35",
+      "fasttrack": "Newsfeed"
+    },
+    {
+      "id": "36",
+      "fasttrack": "Yammer"
+    },
+    {
+      "id": "37",
+      "fasttrack": "Bookings"
+    },
+    {
+      "id": "38",
+      "fasttrack": "StaffHub"
+    }
+  ]
+}

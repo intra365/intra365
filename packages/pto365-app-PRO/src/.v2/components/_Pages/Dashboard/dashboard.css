@@ -1,0 +1,44 @@
+.toolbody  img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .toolbody {
+
+    overflow-y: auto
+} */
+
+
+
+.MyTablesMiniature{
+border:1px solid #cccccc;
+margin:8px;
+}
+
+
+.MyTablesHeader{
+  margin:16px;
+}
+.WebPartHeader{
+    margin:8px;
+    padding-bottom: 8px;
+    xborder-bottom: 1px solid #cccccc;
+}
+
+.SupportNewsContainer{
+    margin:16px;
+}
+
+.SupportNewsItem{
+    margin:8px;
+
+}
+
+.BlogNewsContainer{
+    margin:16px;
+}
+
+.BlogNewsItem{
+    margin:8px;
+
+}

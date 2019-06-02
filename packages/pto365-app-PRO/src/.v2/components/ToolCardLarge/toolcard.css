@@ -1,0 +1,43 @@
+.ToolCard{
+    width: 100%;
+}
+.ToolCardHeader {
+   
+    cursor: pointer;
+   
+    height: 48px;
+    display: flex;
+    flex-direction: row
+}
+
+.ToolCardIcon{
+margin: 8px 8px;   
+
+ 
+}
+
+.ToolCardTitle{
+  
+    line-height: 48px
+}
+.ToolCardJump{
+   
+    margin-top: 8px;
+    align-self: flex-start;
+}
+
+.ToolCardDetails {
+    margin: 0px;
+    min-height: 50px;
+    flex-direction: row
+}
+.ToolCardText {
+    margin:5px;
+    
+    
+}
+
+.ToolCardReadmoreLink {
+    margin-top: 5px;
+    font-size: smaller
+}

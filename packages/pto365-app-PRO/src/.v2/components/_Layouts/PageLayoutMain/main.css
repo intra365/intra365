@@ -1,0 +1,15 @@
+
+.Main {
+    display: flex;
+    flex-direction: row
+}
+
+.MainBody {
+    padding-left:8px;
+    padding-right:8px;
+    flex-grow: stretch;
+    width: 100%;
+    min-height: 400px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}

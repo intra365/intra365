@@ -1,0 +1,112 @@
+.cellTypeSelector{
+    padding:8px;
+    height:64px;
+    width:64px;
+    border:1px solid #ffffff00
+}
+
+.cellTypeSelector:hover{
+    border:1px dashed #cccccc
+}
+
+.cellBlur {
+    transition: all 500ms ease-in-out;
+    filter:blur(3px);
+
+   
+}
+
+.cellDimmed {
+
+    transition: all 750ms ease-in-out;
+    filter:grayscale(90%);
+}
+
+/* .groupInFocus{
+    border:2px dashed red
+} */
+.centeredContainer{
+    cursor:default;
+    height:53px;
+    line-height: 53px;
+    text-align: center;
+    margin-right: 5px;
+
+}
+.centeredSpan{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    
+}
+.cellTextVerticalContainer{
+    position: relative;
+    width:53px;
+}
+.cellTextLeftContainer {
+    position: absolute;
+    transform-origin: left bottom;
+    display:flex;
+    xborder:1px dashed green;
+    align-items: center;
+    transform: rotate(270deg);
+    min-width: 160px;
+    max-width: 160px;
+    min-height: 53px;
+    max-height: 53px;
+    margin-top: 106px;
+    margin-left: 53px;
+  }
+.cellTextLeft {
+    vertical-align: middle;
+    flex-grow: 1;
+   align-self:center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-indent: 3%
+}
+
+.cellTextRightContainer {
+    position: absolute;
+    transform-origin: left top;
+    display:flex;
+    xborder:1px dashed green;
+    transform: rotate(90deg);
+    min-width: 160px;
+    max-width: 160px;
+    min-height: 53px;
+    max-height: 53px;
+    margin-left: 53px;
+}
+.cellTextRight {
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-indent: 3%
+}
+
+.cellTextTopContainer {
+  
+}
+.cellTextTop {
+    
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-indent: 3%
+}
+.cellTextBottomContainer {
+  
+}
+.cellTextBottom {
+    
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-indent: 3%
+}

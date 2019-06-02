@@ -1,0 +1,79 @@
+[{
+    "table": "skills",
+    "label" : "List of Skills",
+    "signature": ["Skill", "Capability"],
+    "key": ["title"],
+    "title": "Skill",
+    "text1": "Capability"
+},
+{
+    "table": "capabilities",
+    "label" : "List of Capabilities",
+    "signature": ["Capability"]
+
+},
+{
+    "table": "Learning Paths",
+    "label" : "List of Learning Paths",
+    "signature": ["Level", "Role", "Skill"]
+},
+
+{
+    "table": "Licenses",
+    "label" : "List of Licenses",
+    "signature": ["SKU"]
+},
+{
+    "table": "Stories",
+    "label" : "List of Stories",
+    "signature": ["Story"]
+},
+{
+    "table": "Roles",
+    "label" : "List of Roles",
+    "signature": ["Rolename"]
+},
+{
+    "table": "Triggers",
+    "label" : "List of Triggers",
+    "signature": ["Trigger Name"]
+},
+{
+    "table": "WTW",
+    "label" : "Which tool when",
+    "loader": "wtw",
+    "signature": ["Area", "Use case"]
+},
+{
+    "table": "tools",
+    "label" : "List of Tools",
+    "loader": "tools",
+    "signature": ["key", "Title"],
+    "key": ["title"],
+    "title": "key",
+    "text1": "Title",
+    "text2": "Subtitle",
+    "text3": "background",
+    "text4": "path"
+},
+{
+    "table": "tableof",
+    "label" : "Periodic Table",
+    "loader": "pto",
+    "signature": ["", "", "1", "", "", "2"]
+},
+{
+    "table": "groups",
+    "label" : "List of Groups",
+    "loader": "groups",
+    "signature": ["key", "Is Connector"],
+    "key": ["title"],
+    "title": "key",
+    "int1": "Is Connector",
+    "text1": "Title",
+    "text2": "Color",
+    "text3": "Border Color"
+}
+
+
+]

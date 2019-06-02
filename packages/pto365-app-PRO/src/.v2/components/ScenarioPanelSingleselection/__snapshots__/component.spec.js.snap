@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that it renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ScenarioPanelSingleSelection
+    scenario={
+        Object {
+            "area": "Communication & Media",
+            "key": 1,
+            "name": "Work together on documents with colleagues",
+            "subject": "Work together on documents with colleagues",
+            "tools": Array [
+              Object {
+                "data": Object {
+                  "Content": "https://hexatown.github.io/docs/microsoft/office365/Excel",
+                  "Link": "https://office.live.com/start/Excel.aspx",
+                  "color": "#02723b",
+                  "icon": "https://jumpto365.com/resources/images/app/Excel.png",
+                  "name": "excel",
+                },
+                "key": 1,
+                "name": "Excel",
+                "rating": 5,
+              },
+              Object {
+                "data": undefined,
+                "key": 2,
+                "name": "Office 365",
+                "rating": 5,
+              },
+              Object {
+                "data": Object {
+                  "Content": "https://hexatown.github.io/docs/microsoft/office365/OneDrive",
+                  "color": "#1174c3",
+                  "icon": "https://jumpto365.com/resources/images/app/OneDrive.png",
+                  "name": "onedrive",
+                },
+                "key": 3,
+                "name": "OneDrive",
+                "rating": 5,
+              },
+              Object {
+                "data": Object {
+                  "Content": "https://hexatown.github.io/docs/microsoft/office365/OneNote",
+                  "Link": "https://www.onenote.com/notebooks",
+                  "color": "#80397b",
+                  "icon": "https://jumpto365.com/resources/images/app/OneNote.png",
+                  "name": "onenote",
+                },
+                "key": 4,
+                "name": "OneNote",
+                "rating": 5,
+              },
+              Object {
+                "data": Object {
+                  "Content": "https://hexatown.github.io/docs/microsoft/office365/Mail",
+                  "Link": "https://outlook.office.com/owa/",
+                  "color": "#2072b9",
+                  "icon": "https://jumpto365.com/resources/images/app/Mail.png",
+                  "name": "outlook",
+                },
+                "key": 5,
+                "name": "Outlook",
+                "rating": 5,
+              },
+              Object {
+                "data": Object {
+                  "Content": "https://hexatown.github.io/docs/microsoft/office365/PowerPoint",
+                  "Link": "https://office.live.com/start/PowerPoint.aspx",
+                  "color": "#d24726",
+                  "icon": "https://jumpto365.com/resources/images/app/PowerPoint.png",
+                  "name": "powerpoint",
+                },
+                "key": 6,
+                "name": "PowerPoint",
+                "rating": 5,
+              },
+              Object {
+                "data": Object {
+                  "Content": "https://hexatown.github.io/docs/microsoft/office365/SharePoint",
+                  "color": "#0072c6",
+                  "icon": "https://jumpto365.com/resources/images/app/SharePoint.png",
+                  "name": "sharepoint",
+                },
+                "key": 7,
+                "name": "SharePoint",
+                "rating": 5,
+              },
+              Object {
+                "data": Object {
+                  "Content": "https://hexatown.github.io/docs/microsoft/office365/Skype",
+                  "color": "#00aff0",
+                  "icon": "https://jumpto365.com/resources/images/app/Skype.png",
+                  "name": "skype for business",
+                },
+                "key": 8,
+                "name": "Skype for Business",
+                "rating": 5,
+              },
+              Object {
+                "data": Object {
+                  "Content": "https://hexatown.github.io/docs/microsoft/office365/Word",
+                  "Link": "https://office.live.com/start/Word.aspx",
+                  "color": "#2b579a",
+                  "icon": "https://jumpto365.com/resources/images/app/Word.png",
+                  "name": "word",
+                },
+                "key": 9,
+                "name": "Word",
+                "rating": 5,
+              },
+            ],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="ms-fontSize-l Title"
+>
+          Work together on documents with colleagues
+</div>,
+        <div
+          className="ms-fontSize-m SubTitle"
+>
+          Communication & Media
+</div>,
+        <CustomizedDefaultButton
+          onClick={[Function]}
+          primary={true}
+          style={
+                    Object {
+                              "marginBottom": "10px",
+                            }
+          }
+          text="Details"
+/>,
+        <div
+          className="ms-font-l"
+          style={
+                    Object {
+                              "borderBottom": "1px solid grey",
+                              "marginBottom": "10px",
+                            }
+          }
+>
+          Tools
+</div>,
+        Array [
+          <ToolCardLarge
+            color="#02723b"
+            iconUrl="https://jumpto365.com/resources/images/app/Excel.png"
+            name="excel"
+            onClick={[Function]}
+/>,
+          <ToolCardLarge
+            color="#cccccc"
+            iconUrl=""
+            name="Office 365"
+/>,
+          <ToolCardLarge
+            color="#1174c3"
+            iconUrl="https://jumpto365.com/resources/images/app/OneDrive.png"
+            name="onedrive"
+            onClick={[Function]}
+/>,
+          <ToolCardLarge
+            color="#80397b"
+            iconUrl="https://jumpto365.com/resources/images/app/OneNote.png"
+            name="onenote"
+            onClick={[Function]}
+/>,
+          <ToolCardLarge
+            color="#2072b9"
+            iconUrl="https://jumpto365.com/resources/images/app/Mail.png"
+            name="outlook"
+            onClick={[Function]}
+/>,
+          <ToolCardLarge
+            color="#d24726"
+            iconUrl="https://jumpto365.com/resources/images/app/PowerPoint.png"
+            name="powerpoint"
+            onClick={[Function]}
+/>,
+          <ToolCardLarge
+            color="#0072c6"
+            iconUrl="https://jumpto365.com/resources/images/app/SharePoint.png"
+            name="sharepoint"
+            onClick={[Function]}
+/>,
+          <ToolCardLarge
+            color="#00aff0"
+            iconUrl="https://jumpto365.com/resources/images/app/Skype.png"
+            name="skype for business"
+            onClick={[Function]}
+/>,
+          <ToolCardLarge
+            color="#2b579a"
+            iconUrl="https://jumpto365.com/resources/images/app/Word.png"
+            name="word"
+            onClick={[Function]}
+/>,
+        ],
+      ],
+      "className": "Panel",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Work together on documents with colleagues",
+          "className": "ms-fontSize-l Title",
+        },
+        "ref": null,
+        "rendered": "Work together on documents with colleagues",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Communication & Media",
+          "className": "ms-fontSize-m SubTitle",
+        },
+        "ref": null,
+        "rendered": "Communication & Media",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "onClick": [Function],
+          "primary": true,
+          "style": Object {
+            "marginBottom": "10px",
+          },
+          "text": "Details",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Tools",
+          "className": "ms-font-l",
+          "style": Object {
+            "borderBottom": "1px solid grey",
+            "marginBottom": "10px",
+          },
+        },
+        "ref": null,
+        "rendered": "Tools",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#02723b",
+          "iconUrl": "https://jumpto365.com/resources/images/app/Excel.png",
+          "name": "excel",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#cccccc",
+          "iconUrl": "",
+          "name": "Office 365",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#1174c3",
+          "iconUrl": "https://jumpto365.com/resources/images/app/OneDrive.png",
+          "name": "onedrive",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#80397b",
+          "iconUrl": "https://jumpto365.com/resources/images/app/OneNote.png",
+          "name": "onenote",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#2072b9",
+          "iconUrl": "https://jumpto365.com/resources/images/app/Mail.png",
+          "name": "outlook",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "6",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#d24726",
+          "iconUrl": "https://jumpto365.com/resources/images/app/PowerPoint.png",
+          "name": "powerpoint",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "7",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#0072c6",
+          "iconUrl": "https://jumpto365.com/resources/images/app/SharePoint.png",
+          "name": "sharepoint",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "8",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#00aff0",
+          "iconUrl": "https://jumpto365.com/resources/images/app/Skype.png",
+          "name": "skype for business",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "9",
+        "nodeType": "class",
+        "props": Object {
+          "color": "#2b579a",
+          "iconUrl": "https://jumpto365.com/resources/images/app/Word.png",
+          "name": "word",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="ms-fontSize-l Title"
+>
+            Work together on documents with colleagues
+</div>,
+          <div
+            className="ms-fontSize-m SubTitle"
+>
+            Communication & Media
+</div>,
+          <CustomizedDefaultButton
+            onClick={[Function]}
+            primary={true}
+            style={
+                        Object {
+                                    "marginBottom": "10px",
+                                  }
+            }
+            text="Details"
+/>,
+          <div
+            className="ms-font-l"
+            style={
+                        Object {
+                                    "borderBottom": "1px solid grey",
+                                    "marginBottom": "10px",
+                                  }
+            }
+>
+            Tools
+</div>,
+          Array [
+            <ToolCardLarge
+              color="#02723b"
+              iconUrl="https://jumpto365.com/resources/images/app/Excel.png"
+              name="excel"
+              onClick={[Function]}
+/>,
+            <ToolCardLarge
+              color="#cccccc"
+              iconUrl=""
+              name="Office 365"
+/>,
+            <ToolCardLarge
+              color="#1174c3"
+              iconUrl="https://jumpto365.com/resources/images/app/OneDrive.png"
+              name="onedrive"
+              onClick={[Function]}
+/>,
+            <ToolCardLarge
+              color="#80397b"
+              iconUrl="https://jumpto365.com/resources/images/app/OneNote.png"
+              name="onenote"
+              onClick={[Function]}
+/>,
+            <ToolCardLarge
+              color="#2072b9"
+              iconUrl="https://jumpto365.com/resources/images/app/Mail.png"
+              name="outlook"
+              onClick={[Function]}
+/>,
+            <ToolCardLarge
+              color="#d24726"
+              iconUrl="https://jumpto365.com/resources/images/app/PowerPoint.png"
+              name="powerpoint"
+              onClick={[Function]}
+/>,
+            <ToolCardLarge
+              color="#0072c6"
+              iconUrl="https://jumpto365.com/resources/images/app/SharePoint.png"
+              name="sharepoint"
+              onClick={[Function]}
+/>,
+            <ToolCardLarge
+              color="#00aff0"
+              iconUrl="https://jumpto365.com/resources/images/app/Skype.png"
+              name="skype for business"
+              onClick={[Function]}
+/>,
+            <ToolCardLarge
+              color="#2b579a"
+              iconUrl="https://jumpto365.com/resources/images/app/Word.png"
+              name="word"
+              onClick={[Function]}
+/>,
+          ],
+        ],
+        "className": "Panel",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Work together on documents with colleagues",
+            "className": "ms-fontSize-l Title",
+          },
+          "ref": null,
+          "rendered": "Work together on documents with colleagues",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Communication & Media",
+            "className": "ms-fontSize-m SubTitle",
+          },
+          "ref": null,
+          "rendered": "Communication & Media",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onClick": [Function],
+            "primary": true,
+            "style": Object {
+              "marginBottom": "10px",
+            },
+            "text": "Details",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tools",
+            "className": "ms-font-l",
+            "style": Object {
+              "borderBottom": "1px solid grey",
+              "marginBottom": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": "Tools",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#02723b",
+            "iconUrl": "https://jumpto365.com/resources/images/app/Excel.png",
+            "name": "excel",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#cccccc",
+            "iconUrl": "",
+            "name": "Office 365",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#1174c3",
+            "iconUrl": "https://jumpto365.com/resources/images/app/OneDrive.png",
+            "name": "onedrive",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#80397b",
+            "iconUrl": "https://jumpto365.com/resources/images/app/OneNote.png",
+            "name": "onenote",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#2072b9",
+            "iconUrl": "https://jumpto365.com/resources/images/app/Mail.png",
+            "name": "outlook",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "6",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#d24726",
+            "iconUrl": "https://jumpto365.com/resources/images/app/PowerPoint.png",
+            "name": "powerpoint",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "7",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#0072c6",
+            "iconUrl": "https://jumpto365.com/resources/images/app/SharePoint.png",
+            "name": "sharepoint",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "8",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#00aff0",
+            "iconUrl": "https://jumpto365.com/resources/images/app/Skype.png",
+            "name": "skype for business",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "9",
+          "nodeType": "class",
+          "props": Object {
+            "color": "#2b579a",
+            "iconUrl": "https://jumpto365.com/resources/images/app/Word.png",
+            "name": "word",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

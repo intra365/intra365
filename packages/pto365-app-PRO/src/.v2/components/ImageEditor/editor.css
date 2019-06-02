@@ -1,0 +1,14 @@
+.imgContainer {
+    display: flex;
+    align-items: stretch
+
+}
+/* .imgFile {
+    font-size: 32px;
+} */
+
+.imgPreview {
+    min-width: 300px;
+    max-width: 300px;
+    
+}

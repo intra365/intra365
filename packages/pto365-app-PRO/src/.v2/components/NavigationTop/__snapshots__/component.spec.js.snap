@@ -1,0 +1,753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that it renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavigationTop />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        null,
+        <CommandBar
+          elipisisAriaLabel="More options"
+          farItems={
+                    Array [
+                              Object {
+                                "href": "/about",
+                                "icon": "Info",
+                                "key": "about",
+                                "name": "About",
+                              },
+                            ]
+          }
+          isSearchBoxVisible={false}
+          items={
+                    Array [
+                              Object {
+                                "icon": "Repair",
+                                "key": "wtw",
+                                "name": "Which Tool When",
+                                "subMenuProps": Object {
+                                  "items": Array [
+                                    Object {
+                                      "href": "/scenario/microsoft365",
+                                      "key": "scenario1",
+                                      "name": "Microsoft 365",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/upload",
+                                      "key": "scenario2",
+                                      "name": "Have your own custom",
+                                      "xtarget": "_blank",
+                                    },
+                                  ],
+                                },
+                              },
+                              Object {
+                                "href": "https://medium.com/jumpto365/latest/home",
+                                "icon": "News",
+                                "key": "blog",
+                                "name": "Blog",
+                                "target": "_blank",
+                              },
+                            ]
+          }
+          overflowItems={
+                    Array [
+                              Object {
+                                "href": "/embed",
+                                "icon": "Embed",
+                                "key": "embed",
+                                "name": "Embed",
+                              },
+                              Object {
+                                "href": "/language",
+                                "icon": "LocaleLanguage",
+                                "key": "lang",
+                                "name": "Language",
+                                "subMenuProps": Object {
+                                  "items": Array [
+                                    Object {
+                                      "href": "/periodictable/en",
+                                      "key": "en",
+                                      "name": "English",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/periodictable/da",
+                                      "key": "da",
+                                      "name": "Danish",
+                                      "xtarget": "_blank",
+                                    },
+                                  ],
+                                },
+                              },
+                              Object {
+                                "className": "ms-CommandBarItem",
+                                "icon": "Money",
+                                "key": "license",
+                                "name": "By License",
+                                "subMenuProps": Object {
+                                  "items": Array [
+                                    Object {
+                                      "href": "/license/BusinessEssentials/undefined",
+                                      "key": "BusinessEssentials",
+                                      "name": "Business Essentials",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/Business/undefined",
+                                      "key": "Business",
+                                      "name": "Business",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/BusinessPremium/undefined",
+                                      "key": "BusinessPremium",
+                                      "name": "Business Premium",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/EnterpriseE1/undefined",
+                                      "key": "EnterpriseE1",
+                                      "name": "Enterprise E1",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/EnterpriseE3/undefined",
+                                      "key": "EnterpriseE3",
+                                      "name": "Enterprise E3",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/EnterpriseE5/undefined",
+                                      "key": "EnterpriseE5",
+                                      "name": "Enterprise E5",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/EnterpriseF1/undefined",
+                                      "key": "EnterpriseF1",
+                                      "name": "Enterprise F1",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/EduA1/undefined",
+                                      "key": "EduA1",
+                                      "name": "Education A1",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/EduA3/undefined",
+                                      "key": "EduA3",
+                                      "name": "Education A3",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/EduA5/undefined",
+                                      "key": "EduA5",
+                                      "name": "Education A5",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/USGovG1/undefined",
+                                      "key": "USGovG1",
+                                      "name": "US Government G1",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/USGovG3/undefined",
+                                      "key": "USGovG5",
+                                      "name": "US Government G3",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/USGovG5/undefined",
+                                      "key": "USGovG5",
+                                      "name": "US Government G5",
+                                      "xtarget": "_blank",
+                                    },
+                                    Object {
+                                      "href": "/license/USGovF1/undefined",
+                                      "key": "USGovF1",
+                                      "name": "US Government F1",
+                                      "xtarget": "_blank",
+                                    },
+                                  ],
+                                },
+                              },
+                            ]
+          }
+          searchPlaceholderText="Search use case"
+/>,
+      ],
+      "id": "topnav",
+    },
+    "ref": null,
+    "rendered": Array [
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "elipisisAriaLabel": "More options",
+          "farItems": Array [
+            Object {
+              "href": "/about",
+              "icon": "Info",
+              "key": "about",
+              "name": "About",
+            },
+          ],
+          "isSearchBoxVisible": false,
+          "items": Array [
+            Object {
+              "icon": "Repair",
+              "key": "wtw",
+              "name": "Which Tool When",
+              "subMenuProps": Object {
+                "items": Array [
+                  Object {
+                    "href": "/scenario/microsoft365",
+                    "key": "scenario1",
+                    "name": "Microsoft 365",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/upload",
+                    "key": "scenario2",
+                    "name": "Have your own custom",
+                    "xtarget": "_blank",
+                  },
+                ],
+              },
+            },
+            Object {
+              "href": "https://medium.com/jumpto365/latest/home",
+              "icon": "News",
+              "key": "blog",
+              "name": "Blog",
+              "target": "_blank",
+            },
+          ],
+          "overflowItems": Array [
+            Object {
+              "href": "/embed",
+              "icon": "Embed",
+              "key": "embed",
+              "name": "Embed",
+            },
+            Object {
+              "href": "/language",
+              "icon": "LocaleLanguage",
+              "key": "lang",
+              "name": "Language",
+              "subMenuProps": Object {
+                "items": Array [
+                  Object {
+                    "href": "/periodictable/en",
+                    "key": "en",
+                    "name": "English",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/periodictable/da",
+                    "key": "da",
+                    "name": "Danish",
+                    "xtarget": "_blank",
+                  },
+                ],
+              },
+            },
+            Object {
+              "className": "ms-CommandBarItem",
+              "icon": "Money",
+              "key": "license",
+              "name": "By License",
+              "subMenuProps": Object {
+                "items": Array [
+                  Object {
+                    "href": "/license/BusinessEssentials/undefined",
+                    "key": "BusinessEssentials",
+                    "name": "Business Essentials",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/Business/undefined",
+                    "key": "Business",
+                    "name": "Business",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/BusinessPremium/undefined",
+                    "key": "BusinessPremium",
+                    "name": "Business Premium",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/EnterpriseE1/undefined",
+                    "key": "EnterpriseE1",
+                    "name": "Enterprise E1",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/EnterpriseE3/undefined",
+                    "key": "EnterpriseE3",
+                    "name": "Enterprise E3",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/EnterpriseE5/undefined",
+                    "key": "EnterpriseE5",
+                    "name": "Enterprise E5",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/EnterpriseF1/undefined",
+                    "key": "EnterpriseF1",
+                    "name": "Enterprise F1",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/EduA1/undefined",
+                    "key": "EduA1",
+                    "name": "Education A1",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/EduA3/undefined",
+                    "key": "EduA3",
+                    "name": "Education A3",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/EduA5/undefined",
+                    "key": "EduA5",
+                    "name": "Education A5",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/USGovG1/undefined",
+                    "key": "USGovG1",
+                    "name": "US Government G1",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/USGovG3/undefined",
+                    "key": "USGovG5",
+                    "name": "US Government G3",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/USGovG5/undefined",
+                    "key": "USGovG5",
+                    "name": "US Government G5",
+                    "xtarget": "_blank",
+                  },
+                  Object {
+                    "href": "/license/USGovF1/undefined",
+                    "key": "USGovF1",
+                    "name": "US Government F1",
+                    "xtarget": "_blank",
+                  },
+                ],
+              },
+            },
+          ],
+          "searchPlaceholderText": "Search use case",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          null,
+          <CommandBar
+            elipisisAriaLabel="More options"
+            farItems={
+                        Array [
+                                    Object {
+                                      "href": "/about",
+                                      "icon": "Info",
+                                      "key": "about",
+                                      "name": "About",
+                                    },
+                                  ]
+            }
+            isSearchBoxVisible={false}
+            items={
+                        Array [
+                                    Object {
+                                      "icon": "Repair",
+                                      "key": "wtw",
+                                      "name": "Which Tool When",
+                                      "subMenuProps": Object {
+                                        "items": Array [
+                                          Object {
+                                            "href": "/scenario/microsoft365",
+                                            "key": "scenario1",
+                                            "name": "Microsoft 365",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/upload",
+                                            "key": "scenario2",
+                                            "name": "Have your own custom",
+                                            "xtarget": "_blank",
+                                          },
+                                        ],
+                                      },
+                                    },
+                                    Object {
+                                      "href": "https://medium.com/jumpto365/latest/home",
+                                      "icon": "News",
+                                      "key": "blog",
+                                      "name": "Blog",
+                                      "target": "_blank",
+                                    },
+                                  ]
+            }
+            overflowItems={
+                        Array [
+                                    Object {
+                                      "href": "/embed",
+                                      "icon": "Embed",
+                                      "key": "embed",
+                                      "name": "Embed",
+                                    },
+                                    Object {
+                                      "href": "/language",
+                                      "icon": "LocaleLanguage",
+                                      "key": "lang",
+                                      "name": "Language",
+                                      "subMenuProps": Object {
+                                        "items": Array [
+                                          Object {
+                                            "href": "/periodictable/en",
+                                            "key": "en",
+                                            "name": "English",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/periodictable/da",
+                                            "key": "da",
+                                            "name": "Danish",
+                                            "xtarget": "_blank",
+                                          },
+                                        ],
+                                      },
+                                    },
+                                    Object {
+                                      "className": "ms-CommandBarItem",
+                                      "icon": "Money",
+                                      "key": "license",
+                                      "name": "By License",
+                                      "subMenuProps": Object {
+                                        "items": Array [
+                                          Object {
+                                            "href": "/license/BusinessEssentials/undefined",
+                                            "key": "BusinessEssentials",
+                                            "name": "Business Essentials",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/Business/undefined",
+                                            "key": "Business",
+                                            "name": "Business",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/BusinessPremium/undefined",
+                                            "key": "BusinessPremium",
+                                            "name": "Business Premium",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/EnterpriseE1/undefined",
+                                            "key": "EnterpriseE1",
+                                            "name": "Enterprise E1",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/EnterpriseE3/undefined",
+                                            "key": "EnterpriseE3",
+                                            "name": "Enterprise E3",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/EnterpriseE5/undefined",
+                                            "key": "EnterpriseE5",
+                                            "name": "Enterprise E5",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/EnterpriseF1/undefined",
+                                            "key": "EnterpriseF1",
+                                            "name": "Enterprise F1",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/EduA1/undefined",
+                                            "key": "EduA1",
+                                            "name": "Education A1",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/EduA3/undefined",
+                                            "key": "EduA3",
+                                            "name": "Education A3",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/EduA5/undefined",
+                                            "key": "EduA5",
+                                            "name": "Education A5",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/USGovG1/undefined",
+                                            "key": "USGovG1",
+                                            "name": "US Government G1",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/USGovG3/undefined",
+                                            "key": "USGovG5",
+                                            "name": "US Government G3",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/USGovG5/undefined",
+                                            "key": "USGovG5",
+                                            "name": "US Government G5",
+                                            "xtarget": "_blank",
+                                          },
+                                          Object {
+                                            "href": "/license/USGovF1/undefined",
+                                            "key": "USGovF1",
+                                            "name": "US Government F1",
+                                            "xtarget": "_blank",
+                                          },
+                                        ],
+                                      },
+                                    },
+                                  ]
+            }
+            searchPlaceholderText="Search use case"
+/>,
+        ],
+        "id": "topnav",
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "elipisisAriaLabel": "More options",
+            "farItems": Array [
+              Object {
+                "href": "/about",
+                "icon": "Info",
+                "key": "about",
+                "name": "About",
+              },
+            ],
+            "isSearchBoxVisible": false,
+            "items": Array [
+              Object {
+                "icon": "Repair",
+                "key": "wtw",
+                "name": "Which Tool When",
+                "subMenuProps": Object {
+                  "items": Array [
+                    Object {
+                      "href": "/scenario/microsoft365",
+                      "key": "scenario1",
+                      "name": "Microsoft 365",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/upload",
+                      "key": "scenario2",
+                      "name": "Have your own custom",
+                      "xtarget": "_blank",
+                    },
+                  ],
+                },
+              },
+              Object {
+                "href": "https://medium.com/jumpto365/latest/home",
+                "icon": "News",
+                "key": "blog",
+                "name": "Blog",
+                "target": "_blank",
+              },
+            ],
+            "overflowItems": Array [
+              Object {
+                "href": "/embed",
+                "icon": "Embed",
+                "key": "embed",
+                "name": "Embed",
+              },
+              Object {
+                "href": "/language",
+                "icon": "LocaleLanguage",
+                "key": "lang",
+                "name": "Language",
+                "subMenuProps": Object {
+                  "items": Array [
+                    Object {
+                      "href": "/periodictable/en",
+                      "key": "en",
+                      "name": "English",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/periodictable/da",
+                      "key": "da",
+                      "name": "Danish",
+                      "xtarget": "_blank",
+                    },
+                  ],
+                },
+              },
+              Object {
+                "className": "ms-CommandBarItem",
+                "icon": "Money",
+                "key": "license",
+                "name": "By License",
+                "subMenuProps": Object {
+                  "items": Array [
+                    Object {
+                      "href": "/license/BusinessEssentials/undefined",
+                      "key": "BusinessEssentials",
+                      "name": "Business Essentials",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/Business/undefined",
+                      "key": "Business",
+                      "name": "Business",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/BusinessPremium/undefined",
+                      "key": "BusinessPremium",
+                      "name": "Business Premium",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/EnterpriseE1/undefined",
+                      "key": "EnterpriseE1",
+                      "name": "Enterprise E1",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/EnterpriseE3/undefined",
+                      "key": "EnterpriseE3",
+                      "name": "Enterprise E3",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/EnterpriseE5/undefined",
+                      "key": "EnterpriseE5",
+                      "name": "Enterprise E5",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/EnterpriseF1/undefined",
+                      "key": "EnterpriseF1",
+                      "name": "Enterprise F1",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/EduA1/undefined",
+                      "key": "EduA1",
+                      "name": "Education A1",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/EduA3/undefined",
+                      "key": "EduA3",
+                      "name": "Education A3",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/EduA5/undefined",
+                      "key": "EduA5",
+                      "name": "Education A5",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/USGovG1/undefined",
+                      "key": "USGovG1",
+                      "name": "US Government G1",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/USGovG3/undefined",
+                      "key": "USGovG5",
+                      "name": "US Government G3",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/USGovG5/undefined",
+                      "key": "USGovG5",
+                      "name": "US Government G5",
+                      "xtarget": "_blank",
+                    },
+                    Object {
+                      "href": "/license/USGovF1/undefined",
+                      "key": "USGovF1",
+                      "name": "US Government F1",
+                      "xtarget": "_blank",
+                    },
+                  ],
+                },
+              },
+            ],
+            "searchPlaceholderText": "Search use case",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

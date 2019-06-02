@@ -1,0 +1,316 @@
+[
+  {
+    "Product": "Exchange Online",
+    "Office 365 Business Essentials": "X"
+  },
+  {
+    "Product": "Exchange Online K1",
+    "Office 365 Enterprise F1": "X",
+    "Office 365 Government F1": "X",
+    "Microsoft 365 F1": "X"
+  },
+  {
+    "Product": "Exchange Online Plan 1",
+    "Office 365 Enterprise E1": "X",
+    "Office 365 Government E1": "X",
+    "Office 365 Business Premium": "X",
+    "Microsoft 365 Business": "X"
+  },
+  {
+    "Product": "Exchange Online Plan 2",
+    "Office 365 Enterprise E3": "X",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E3": "X",
+    "Office 365 Government E4": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A1": "X",
+    "Office 365 Education A3": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E3": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "SharePoint Online",
+    "Office 365 Business Essentials": "X"
+  },
+  {
+    "Product": "SharePoint Online K1",
+    "Office 365 Enterprise F1": "X",
+    "Office 365 Government F1": "X",
+    "Microsoft 365 F1": "X"
+  },
+  {
+    "Product": "SharePoint Online Plan 1",
+    "Office 365 Enterprise E1": "X",
+    "Office 365 Government E1": "X",
+    "Office 365 Education A1": "X",
+    "Office 365 Business Premium": "X",
+    "Microsoft 365 Business": "X"
+  },
+  {
+    "Product": "SharePoint Online Plan 2",
+    "Office 365 Enterprise E3": "X",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E3": "X",
+    "Office 365 Government E4": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A3": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E3": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Skype for Business Online Plan 1",
+    "Office 365 Enterprise F1": "X",
+    "Office 365 Government F1": "X",
+    "Office 365 Business Essentials": "X",
+    "Microsoft 365 F1": "X"
+  },
+  {
+    "Product": "Skype for Business Online Plan 2",
+    "Office 365 Enterprise E1": "X",
+    "Office 365 Enterprise E3": "X",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E1": "X",
+    "Office 365 Government E3": "X",
+    "Office 365 Government E4": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A1": "X",
+    "Office 365 Education A3": "X",
+    "Office 365 Education A5": "X",
+    "Office 365 Business Premium": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E3": "X",
+    "Microsoft 365 E5": "X",
+    "Microsoft 365 Business": "X"
+  },
+  {
+    "Product": "Phone System",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A3": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Audio Conferencing ",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A3": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Office Online",
+    "Office 365 Enterprise F1": "X",
+    "Office 365 Enterprise E1": "X",
+    "Office 365 Enterprise E3": "X",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government F1": "X",
+    "Office 365 Government E1": "X",
+    "Office 365 Government E3": "X",
+    "Office 365 Government E4": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A1": "X",
+    "Office 365 Education A3": "X",
+    "Office 365 Education A5": "X",
+    "Office 365 Business Essentials": "X",
+    "Office 365 Business Premium": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 F1": "X",
+    "Microsoft 365 E3": "X",
+    "Microsoft 365 E5": "X",
+    "Microsoft 365 Business": "X"
+  },
+  {
+    "Product": "Office 365 Business",
+    "Office 365 Business Premium": "X",
+    "Microsoft 365 Business": "X"
+  },
+  {
+    "Product": "Office 365 ProPlus",
+    "Office 365 Enterprise E3": "X",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E3": "X",
+    "Office 365 Government E4": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A3": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E3": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Microsoft MyAnalytics",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Office 365 Advanced Compliance",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Office 365 Cloud App Security",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A3": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Office 365 Threat Intelligence",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Microsoft Power BI Pro",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Office 365 Advanced Threat Protection",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Microsoft Intune",
+    "Enterprise Mobility +Security E3": "X",
+    "Enterprise Mobility +Security E5": "X",
+    "Microsoft 365 F1": "X",
+    "Microsoft 365 E3": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Azure Info Protection Premium Plan 1",
+    "Enterprise Mobility +Security E3": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 E3": "X"
+  },
+  {
+    "Product": "Azure Info Protection Premium Plan 2",
+    "Enterprise Mobility +Security E5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Azure Active Directory Premium Plan 1",
+    "Enterprise Mobility +Security E3": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 F1": "X",
+    "Microsoft 365 E3": "X"
+  },
+  {
+    "Product": "Azure Active Directory Premium Plan 2",
+    "Enterprise Mobility +Security E5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Microsoft Cloud App Security",
+    "Enterprise Mobility +Security E5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Microsoft Dynamics 365 for Customer Service",
+    "Dynamics 365 Enterprise Edition Cust": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft Dynamics 365 for Field Service",
+    "Dynamics 365 Enterprise Edition Cust": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft Dynamics 365 for Project Service Automation ",
+    "Dynamics 365 Enterprise Edition Cust": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft Dynamics 365 for Retail",
+    "Dynamics 365 Enterprise Edition Uni": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft Dynamics 365 for Sales",
+    "Dynamics 365 Enterprise Edition Cust": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft Dynamics 365 for Talent",
+    "Dynamics 365 Enterprise Edition Uni": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft Flow Plan 1 ",
+    "Office 365 Business Premium": "X",
+    "Microsoft 365 Business": "X",
+    "Dynamics 365 Enterprise Edition Uni": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft PowerApps Plan 1",
+    "Office 365 Business Premium": "X",
+    "Microsoft 365 Business": "X",
+    "Dynamics 365 Enterprise Edition Uni": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft PowerApps Plan 2",
+    "Dynamics 365 Enterprise Edition Cust": "X",
+    "Dynamics 365 Enterprise Edition Uni": "X",
+    "Dynamics 365 Enterprise Edition Plan": "X"
+  },
+  {
+    "Product": "Microsoft Stream Plan 1",
+    "Office 365 Enterprise E1": "X",
+    "Office 365 Enterprise E3": "X",
+    "Office 365 Government E1": "X",
+    "Office 365 Government E3": "X",
+    "Office 365 Government E4": "X",
+    "Office 365 Education A1": "X",
+    "Office 365 Education A3": "X",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 E3": "X"
+  },
+  {
+    "Product": "Microsoft Stream Plan 2",
+    "Office 365 Enterprise E5": "X",
+    "Office 365 Government E5": "X",
+    "Office 365 Education A5": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X",
+    "Microsoft 365 E5": "X"
+  },
+  {
+    "Product": "Minecraft: Education Edition",
+    "Microsoft 365 Education Mobility +Security A3": "X",
+    "Microsoft 365 Education Mobility +Security A5": "X"
+  }
+]

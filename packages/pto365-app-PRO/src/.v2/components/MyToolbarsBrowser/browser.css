@@ -1,0 +1,21 @@
+.myTable {
+    cursor: pointer;
+    border: 1px solid #00000000;
+    margin: 4px;
+    padding:8px;
+}
+
+.myTableSelected{
+    border: 1px solid #000000;
+    color: #eeeeee;
+    background-color: #888888;
+    margin: 4px;
+    padding:8px;
+}
+
+.myTableSelected:hover,
+.myTable:hover {
+    border: 1px solid #000000;
+    color: #eeeeee;
+    background-color: #444444
+}

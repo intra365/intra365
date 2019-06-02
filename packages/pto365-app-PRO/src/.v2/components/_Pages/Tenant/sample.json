@@ -1,0 +1,328 @@
+{
+  "childrens": [
+    {
+      "text": "My Job",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Team tasks",
+          "links": []
+        },
+        {
+          "text": "My Personal task",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Productivity",
+              "links": []
+            },
+            {
+              "text": "Azure AD related",
+              "links": []
+            },
+            {
+              "text": "Office 365 related",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Frequent tasks",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Daily",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Company News",
+              "links": []
+            },
+            {
+              "text": "My Tasks",
+              "links": []
+            },
+            {
+              "text": "Connected Employee",
+              "links": []
+            },
+            {
+              "text": "Cafeteria Services",
+              "links": []
+            },
+            {
+              "text": "Time Sheet",
+              "links": []
+            },
+            {
+              "text": "IT Helpdesk",
+              "links": []
+            },
+            {
+              "text": "Department Tools",
+              "links": []
+            }
+          ]
+        },
+        {
+          "text": "Weekly",
+          "links": [],
+          "childrens": [
+            {
+              "text": "My Requests",
+              "links": []
+            },
+            {
+              "text": "Weekly status",
+              "links": []
+            },
+            {
+              "text": "Project Data & Insights",
+              "links": []
+            },
+            {
+              "text": "HR Policies FAQ",
+              "links": []
+            },
+            {
+              "text": "Team Events",
+              "links": []
+            },
+            {
+              "text": "Employee Search",
+              "links": []
+            },
+            {
+              "text": "HR Leave App",
+              "links": []
+            },
+            {
+              "text": "L&D Training",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Low frequent",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Monthly/Quarterly",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Company Events",
+              "links": []
+            },
+            {
+              "text": "Performance & Goals",
+              "links": []
+            },
+            {
+              "text": "My Profile Update",
+              "links": []
+            },
+            {
+              "text": "Business Travel",
+              "links": []
+            },
+            {
+              "text": "HR Services",
+              "links": []
+            },
+            {
+              "text": "Recruitment Services",
+              "links": []
+            },
+            {
+              "text": "Payroll & Rewards",
+              "links": []
+            },
+            {
+              "text": "Company Poll",
+              "links": []
+            },
+            {
+              "text": "Job Referral",
+              "links": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Instructions",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Flow and more",
+          "links": []
+        }
+      ]
+    },
+    {
+      "text": "MCT role",
+      "links": [],
+      "childrens": [
+        {
+          "text": "MCT Links",
+          "links": [
+            {
+              "text": "https://www.microsoft.com/en-us/learning/mct-central.aspx",
+              "link": "https://www.microsoft.com/en-us/learning/mct-central.aspx"
+            },
+            {
+              "text": "https://www.skillpipe.com",
+              "link": "https://www.skillpipe.com"
+            },
+            {
+              "text": "https://shop.courseware-marketplace.com/en-GB/Home",
+              "link": "https://shop.courseware-marketplace.com/en-GB/Home"
+            },
+            {
+              "text": "Access free digital Microsoft courseware and MOC On Demand at the Courseware Marketplace",
+              "link": "https://shop.courseware-marketplace.com/"
+            },
+            {
+              "text": "Sign in to the Microsoft learning download center",
+              "link": "https://learningdownloadcenter.microsoft.com/"
+            },
+            {
+              "text": "Azure Pass Voucher Portal",
+              "link": "https://vouchers.cloudapp.net/AzurePass/"
+            },
+            {
+              "text": "Become a Microsoft SME, and earn exam credit",
+              "link": "http://borntolearn.mslearn.net/btl/b/weblog/archive/2013/09/17/smes-who-help-create-exam-content-to-get-credit-for-the-exam.aspx"
+            },
+            {
+              "text": "Download the MCT competencies list",
+              "link": "http://download.microsoft.com/download/7/2/E/72E0E73C-1D36-409A-8E26-C7B0A486CD73/MCT_Competencies_List_Updated_April_2018.xlsx"
+            },
+            {
+              "text": "Access the MCT enrollment tool",
+              "link": "https://mcp.microsoft.com/Authenticate/MCT"
+            },
+            {
+              "text": "Explore Microsoft Virtual Academy",
+              "link": "https://mva.microsoft.com/"
+            },
+            {
+              "text": "Subscribe to the MCP Flash newsletter",
+              "link": "https://profile.microsoft.com/regsysprofilecenter/wizard.aspx?wizid=2f98ca71-108e-42e5-aec4-256221ab1a34"
+            },
+            {
+              "text": "Subscribe to the MCT Flash newsletter",
+              "link": "https://profile.microsoft.com/regsysprofilecenter/wizard.aspx?wizid=b194e7b9-d9ad-4b24-903a-29427d1df4c3"
+            },
+            {
+              "text": "Microsoft Press discounts (use discount code <strong>MCPBOOK</strong> for print books; <strong>MCPEBOOK</strong> for e-books)",
+              "link": "https://www.microsoftpressstore.com/store"
+            },
+            {
+              "text": "MCP discounts on Dell products",
+              "link": "http://www.dell.com/mpp/mcp"
+            },
+            {
+              "text": "Search job opportunities at Elance",
+              "link": "https://www.microsoft.com/en-us/learning/legal-mcp-elance.aspx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "About",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Matt Wade",
+          "links": [
+            {
+              "text": "Matt Wade",
+              "link": "https://www.linkedin.com/in/thatmattwade/"
+            },
+            {
+              "text": "Periodic Table of Office 365",
+              "link": "https://www.linkedin.com/pulse/everyday-intro-office-365-matt-wade"
+            },
+            {
+              "text": "Spanish ",
+              "link": "http://icsh.pt/TablaDeO365"
+            },
+            {
+              "text": "German",
+              "link": "https://sharepoint360.de/das-office-365-periodensystem-alle-apps-und-ihre-funktionen-in-einer-infografik/"
+            },
+            {
+              "text": "Jeremy Thake",
+              "link": "https://twitter.com/jthake"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "How it’s made: Periodic Table of Office 365",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Steps",
+          "links": [],
+          "childrens": [
+            {
+              "text": "What's the need?",
+              "links": [
+                {
+                  "text": "waffle",
+                  "link": "http://icansharepoint.com/wiki/Waffle"
+                }
+              ]
+            },
+            {
+              "text": "Creative process",
+              "links": []
+            },
+            {
+              "text": "Now, to digitize",
+              "links": []
+            },
+            {
+              "text": "Launch",
+              "links": [
+                {
+                  "text": "I launched it",
+                  "link": "https://www.linkedin.com/pulse/everyday-intro-office-365-matt-wade"
+                },
+                {
+                  "text": "So I responded",
+                  "link": "https://www.linkedin.com/pulse/everyday-guide-office-365-groups-matt-wade"
+                },
+                {
+                  "text": "I updated it",
+                  "link": "https://www.linkedin.com/pulse/periodic-table-office-365-welcomes-microsoft-forms-matt-wade"
+                },
+                {
+                  "text": "German",
+                  "link": "https://sharepoint360.de/das-office-365-periodensystem-alle-apps-und-ihre-funktionen-in-einer-infografik/"
+                },
+                {
+                  "text": "Spanish",
+                  "link": "http://icsh.pt/TablaDeO365"
+                }
+              ]
+            },
+            {
+              "text": "Conclusion",
+              "links": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

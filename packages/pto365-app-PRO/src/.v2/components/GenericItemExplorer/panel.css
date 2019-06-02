@@ -1,0 +1,56 @@
+
+.Panel {
+    padding-top:10px;
+
+}
+
+
+.Title {
+margin-top: 0px;
+margin-left:-16px;
+margin-right:-16px;
+margin-bottom: 8px;
+padding:8px;
+color: #ffffff;
+background-color: #2a7ab9
+}
+
+.Title-Mobile {
+    margin-top: 0px;
+    margin-left:-16px;
+    margin-right:-16px;
+    margin-bottom: 8px;
+    padding-top:8px ;
+    padding-bottom:8px ;
+    padding-left:20px ;
+    padding-right:20px ;
+    color: #ffffff;
+    background-color: #2a7ab9
+    }
+
+.SubTitle {
+    margin: 8px 0px;
+    
+}
+
+
+.DatabaseExplorerContainer{
+    width:100%;
+    display:flex;
+    min-height: 500px;
+    xborder:1px dashed red
+}
+
+.DatabaseExplorerInspectorItem{
+    border:1px dashed red
+}
+
+.toolbody  img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .toolbody {
+
+    overflow-y: auto
+} */

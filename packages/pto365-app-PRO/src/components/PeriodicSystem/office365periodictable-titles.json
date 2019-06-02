@@ -1,0 +1,42 @@
+[
+  {
+    "Language": "English",
+    "Title": "The Periodic table of Office 365",
+    "SubTitle1": "App availability depends on license type",
+    "SubTitle2": "Provided services include: Office 365 Groups • Enterprise Search • Microsoft Graph • MyAnalytics • Security & Compliance • Plus More",
+    "Brackets": "*Items in [brackets] identify software with similar functionality for the sake of context",
+    "ByLine": "Created by Matt Wade | @thatmattwade",
+    "Link": "http://icsh.pt/O365Table",
+    "Copyright": "© 2017 icansharepoint.com"
+  },
+  {
+    "Language": "Spanish",
+    "Title": "La tabla periódica de Office 365",
+    "SubTitle1": "La disponibilidad de la aplicación depende del tipo de licencia",
+    "SubTitle2": "Los servicios incluyen: Grupo de Office 365 • Enterprise Search • Microsoft Graph • MyAnalytics • Seguridad & Cumplimiento • Más",
+    "Brackets": "*En [corchetes] identifican software con funcionalidad similar para la comparación.",
+    "ByLine": "Creado por Matt Wade | @thatmattwade || Traducido por Jorge Castañeda | @jcastanedacano",
+    "Link": "http://icsh.pt/TablaDeO365",
+    "Copyright": "© 2017 icansharepoint.com"
+  },
+  {
+    "Language": "German",
+    "Title": "Das Periodensystem von Office 365",
+    "SubTitle1": "App-Verfügbarkeit hängt vom Office 365-Plan ab",
+    "SubTitle2": "Durchgängig enthaltene Dienste: Office 365 Gruppen • Enterprise Search • Office Graph • MyAnalytics • Sicherheit & Compliance • weitere Dienste",
+    "Brackets": "*in [Klammern] Software-Beispiele mit ähnlicher Funktion zum Vergleich",
+    "ByLine": "Erstellt von Matt Wade | @thatmattwade || Übersetzt von SharePoint360.de | @sharepoint360de",
+    "Link": "http://bit.ly/o365periode",
+    "Copyright": "© 2017 icansharepoint.com"
+  },
+  {
+    "Language": "Japanese",
+    "Title": "Office 365 の周期表",
+    "SubTitle1": "ライセンスによって利用可能な製品が異なります",
+    "SubTitle2": "以下以外に: Office 365 Groups、企業内検索、Office Graph、MyAnalytics、セキュリティ＆コンプライアンス等があります",
+    "Brackets": "*カッコ[]で囲まれた製品は類似製品を表しています",
+    "ByLine": "作成者： Matt Wade (@thatmattwade) | 翻訳：吉田の備忘録 (@TaikiYoshiaJP)",
+    "Link": "http://icsh.pt/O365-no-shukihyo",
+    "Copyright": "© 2017 icansharepoint.com"
+  }
+]

@@ -1,0 +1,20 @@
+const Nes = require('nes');
+
+const client = new Nes.Client('ws://localhost:8000');
+const start = async () => {
+
+   
+    await client.connect({ auth: { headers: { authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1cG4iOiJuaWVsc0BqdW1wdG8zNjUuY29tIiwiZG9tYWluIjoianVtcHRvMzY1LmNvbSIsIm9yZ0dVSUQiOiJkZjk2YjhjOS01MWExLTQwY2YtYjhiMS00NTE0YmU4ZTk2NjgiLCJ1c2VyR1VJRCI6IjU4ZDAyZWU1LWFmODAtNGY4MS1iMTQ0LTE3MzRiNzdjMDJjOSIsIm1zYWwiOnsiYXVkIjoiaHR0cHM6Ly9ncmFwaC5taWNyb3NvZnQuY29tIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvZGY5NmI4YzktNTFhMS00MGNmLWI4YjEtNDUxNGJlOGU5NjY4LyIsImlhdCI6MTU0NDk4MjY0MCwibmJmIjoxNTQ0OTgyNjQwLCJleHAiOjE1NDQ5ODY1NDAsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiI0MlJnWUppbE9EMW1aU2Z2bjJLTmhvRE5qL1dGMzIvcmNKSFUvSHBhS1lIWnYvMTgreFVBIiwiYW1yIjpbInB3ZCJdLCJhcHBfZGlzcGxheW5hbWUiOiJKdW1wdG8zNjUiLCJhcHBpZCI6IjVhNDczNTU3LWE5ZDMtNDM3OC05MGYxLWU5Y2QzYTM4MDA2ZiIsImFwcGlkYWNyIjoiMCIsImZhbWlseV9uYW1lIjoiSm9oYW5zZW4iLCJnaXZlbl9uYW1lIjoiTmllbHMgR3JlZ2VycyIsImlwYWRkciI6IjgwLjE2MC4xMjYuMjU0IiwibmFtZSI6Ik5pZWxzIEdyZWdlcnMgSm9oYW5zZW4gLSBqdW1wdG8zNjUuY29tIiwib2lkIjoiNThkMDJlZTUtYWY4MC00ZjgxLWIxNDQtMTczNGI3N2MwMmM5IiwicGxhdGYiOiI1IiwicHVpZCI6IjEwMDNCRkZEOUNFQjc2NjUiLCJwd2RfZXhwIjoiODkxNzgiLCJwd2RfdXJsIjoiaHR0cHM6Ly9wb3J0YWwubWljcm9zb2Z0b25saW5lLmNvbS9DaGFuZ2VQYXNzd29yZC5hc3B4Iiwic2NwIjoiRmlsZXMuUmVhZCBGaWxlcy5SZWFkV3JpdGUgTWFpbC5SZWFkIG9wZW5pZCBwcm9maWxlIFVzZXIuUmVhZCBlbWFpbCIsInNpZ25pbl9zdGF0ZSI6WyJpbmtub3dubnR3ayIsImttc2kiXSwic3ViIjoiWWFLczJscHhaZ0xSTUZRTnMxZ2tlOE5lbHpGbmhVYzEyQm4tM2V1NGZBbyIsInRpZCI6ImRmOTZiOGM5LTUxYTEtNDBjZi1iOGIxLTQ1MTRiZThlOTY2OCIsInVuaXF1ZV9uYW1lIjoibmllbHNAanVtcHRvMzY1LmNvbSIsInVwbiI6Im5pZWxzQGp1bXB0bzM2NS5jb20iLCJ1dGkiOiJZWWxiQXY0WXprS0dHTkdseVJVakFBIiwidmVyIjoiMS4wIiwieG1zX3N0Ijp7InN1YiI6Im93LWt5NGV4dDE5QVJPODlUSUhlZzliTHZqSWw2a2J2YUhQRmNVY2Z1NXcifSwieG1zX3RjZHQiOjE0ODIwMDAxMTh9LCJkaXNwbGF5TmFtZSI6Ik5pZWxzIEdyZWdlcnMgSm9oYW5zZW4gLSBqdW1wdG8zNjUuY29tIiwiSlNPTiI6IntcImNhblVwbG9hZFwiOnRydWUsXCJkZXZlbG9wZXJcIjp0cnVlfSIsInVzZXJJbnRlcm5hbElkIjoiMjEifQ.UcqMxtb383Dm5Ur8jxQGRjctlfDQocrRWRZqNAeprhc' } } });
+    const handler = (update, flags) => {
+        console.log("received",update,flags)
+       
+    };
+    client.onUpdate = (update) => {
+        console.log(update)
+        // update -> 'welcome!'
+    };
+    //client.subscribe('/item/5', handler);
+    //client.
+};
+
+start();
