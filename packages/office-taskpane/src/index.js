@@ -1,3 +1,4 @@
+import 'react-app-polyfill/ie11'; // For IE 9-11 support
 import "office-ui-fabric-react/dist/css/fabric.min.css";
 import React from "react";
 import ReactDOM from "react-dom";
@@ -21,14 +22,23 @@ const render = officeLoaded => {
     document.getElementById("root")
   );
 };
-
-
 if (window && window.Office) {
   window.Office.onReady()
   .then(function() {
     var Office =  window.Office ? window.Office : {}
     var ctx = Office.context
-    if (ctx.diagnostics){
+  //   if (ctx.auth){
+  //     ctx.auth.getAccessTokenAsync(function(result) {
+      
+  //     if (result.status === "succeeded") {
+  //         var token = result.value;
+  //         // ...
+  //     } else {
+  //         console.log("Error obtaining token", result.error);
+  //     }
+  // })}
+    if (ctx.diagnostics){ 
+      
        console.log("Office ready")
    // debugger
     render(true);

@@ -16,13 +16,15 @@
   <AppDomains>
     <AppDomain>intra365.com</AppDomain>
     <AppDomain>jumpto365.com</AppDomain>
+      <AppDomain>pro.jumpto365.com</AppDomain>
+    <AppDomain>app.jumpto365.com</AppDomain>
     <AppDomain>blob.jumpto365.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Document"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://docs.jumpto365.com/addin-word/"/>
+    <SourceLocation DefaultValue="https://docs.jumpto365.com/office-taskpane/"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">

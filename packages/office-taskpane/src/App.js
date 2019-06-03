@@ -22,6 +22,11 @@ export default class App extends Component {
           <Customizer {...FluentCustomizations}>
       <Router> 
         <Root path="/" default officeLoaded={this.props.officeLoaded} />
+        <Root path="/outlook" app="Outlook" officeLoaded={this.props.officeLoaded} />
+        <Root path="/word"   app="Word" officeLoaded={this.props.officeLoaded} />
+        <Root path="/excel"   app="Excel" officeLoaded={this.props.officeLoaded} />
+        <Root path="/powerpoint"   app="PowerPoint" officeLoaded={this.props.officeLoaded} />
+        <Root path="/onenote"   app="OneNote" officeLoaded={this.props.officeLoaded} /> 
       </Router> 
       </Customizer>
       </Fabric>

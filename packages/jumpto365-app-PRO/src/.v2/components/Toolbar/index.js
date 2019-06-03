@@ -36,115 +36,116 @@ import sharepointDesktop from "../../../media/HostFrames/sharepointDesktop.png";
 import appleAir from "../../../media/HostFrames/appleAir.png";
 import { imgElement } from "mammoth/lib/images";
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
+import {getProperty,newItem,subtree,megaMenuWidth,renderMegaMenu} from "@intra365/navigation-components"
 
-export function getProperty(props, key, propertyName, defaultValue) {
-  return props && props[key] && props[key][propertyName] !== undefined
-    ? props[key][propertyName]
-    : defaultValue;
-}
-export function newItem(key, name, iconName, checked, props, onCmd, maxWidth) {
-  var itemProps = props && props[key] ? props[key] : {};
-  var itemType = itemProps.type ? itemProps.type.toUpperCase() : "";
-  var onRender = null;
+// export function getProperty(props, key, propertyName, defaultValue) {
+//   return props && props[key] && props[key][propertyName] !== undefined
+//     ? props[key][propertyName]
+//     : defaultValue;
+// }
+// export function newItem(key, name, iconName, checked, props, onCmd, maxWidth) {
+//   var itemProps = props && props[key] ? props[key] : {};
+//   var itemType = itemProps.type ? itemProps.type.toUpperCase() : "";
+//   var onRender = null;
 
-  switch (itemType) {
-    case "IFRAME":
-      onRender = data => {
-        return (
-          <div style={{ display: "flex" }}>
-            <div style={{ marginTop: "0px" }}>
-              <iframe
-                style={{ overflow: "hidden", borderStyle: "hidden" }}
-                src={itemProps.href}
-                height={itemProps.height ? itemProps.height : "500px"}
-                width={itemProps.width ? itemProps.width : "800px"}
-              />
-            </div>
-          </div>
-        );
-      };
-      break;
-    case "MEGAMENU":
-      onRender = data => {
-       // debugger
-       var width = megaMenuWidth(maxWidth)
-       if (data.isSubtree ){
-        return (
+//   switch (itemType) {
+//     case "IFRAME":
+//       onRender = data => {
+//         return (
+//           <div style={{ display: "flex" }}>
+//             <div style={{ marginTop: "0px" }}>
+//               <iframe
+//                 style={{ overflow: "hidden", borderStyle: "hidden" }}
+//                 src={itemProps.href}
+//                 height={itemProps.height ? itemProps.height : "500px"}
+//                 width={itemProps.width ? itemProps.width : "800px"}
+//               />
+//             </div>
+//           </div>
+//         );
+//       };
+//       break;
+//     case "MEGAMENU":
+//       onRender = data => {
+//        // debugger
+//        var width = megaMenuWidth(maxWidth)
+//        if (data.isSubtree ){
+//         return (
          
-          <div
-            className="megamenuLevel0"
-            style={{ width,position:"relative",zIndex:10  }}
-          >
-            {renderMegaMenu(data, props, 1)}
-          </div>
+//           <div
+//             className="megamenuLevel0"
+//             style={{ width,position:"relative",zIndex:10  }}
+//           >
+//             {renderMegaMenu(data, props, 1)}
+//           </div>
           
           
-        );
-       }
-        return (
-          <div
-            className="megamenuLevel0"
-            style={{ width}}
-          >
-            {renderMegaMenu(data, props, 1)}
-          </div>
-        );
-      };
-      break;
-    case "IMAGE":
-      onRender = data => {
-        return (
-          <div style={{ marginTop: "14px", marginRight: "6px" }}>
-            <img
-              src={itemProps.href}
-              alt={itemProps.title}
-              style={{ height: "16px", width: "auto" }}
-            />
-          </div>
-        );
-      };
-      break;
-    case "DROPDOWN":
-      onRender = null;
-      break;
+//         );
+//        }
+//         return (
+//           <div
+//             className="megamenuLevel0"
+//             style={{ width}}
+//           >
+//             {renderMegaMenu(data, props, 1)}
+//           </div>
+//         );
+//       };
+//       break;
+//     case "IMAGE":
+//       onRender = data => {
+//         return (
+//           <div style={{ marginTop: "14px", marginRight: "6px" }}>
+//             <img
+//               src={itemProps.href}
+//               alt={itemProps.title}
+//               style={{ height: "16px", width: "auto" }}
+//             />
+//           </div>
+//         );
+//       };
+//       break;
+//     case "DROPDOWN":
+//       onRender = null;
+//       break;
 
-    case "LINK":
-      onRender = null;
-      break;
-    case "TILE":
-      onRender = null;
-      break;
-    default:
-      onRender = null;
-      break;
-  }
-  return {
-    checked: checked ? true : false,
-    key,
-    name,
-    iconProps: iconName ? { iconName } : null,
-    // disabled:this.isDisabled(key) ,
-    onRender,
-    onClick: () => {
-      switch (itemType) {
-        case "IFRAME":
-          break;
+//     case "LINK":
+//       onRender = null;
+//       break;
+//     case "TILE":
+//       onRender = null;
+//       break;
+//     default:
+//       onRender = null;
+//       break;
+//   }
+//   return {
+//     checked: checked ? true : false,
+//     key,
+//     name,
+//     iconProps: iconName ? { iconName } : null,
+//     // disabled:this.isDisabled(key) ,
+//     onRender,
+//     onClick: () => {
+//       switch (itemType) {
+//         case "IFRAME":
+//           break;
 
-        case "DROPDOWN":
-          break;
+//         case "DROPDOWN":
+//           break;
 
-        case "LINK":
-          window.open(itemProps.href, "_blank");
-          break;
-        case "TILE":
-          break;
-        default:
-          break;
-      }
-      if (onCmd) onCmd({ key, name, iconName, checked });
-    }
-  };
-}
+//         case "LINK":
+//           window.open(itemProps.href, "_blank");
+//           break;
+//         case "TILE":
+//           break;
+//         default:
+//           break;
+//       }
+//       if (onCmd) onCmd({ key, name, iconName, checked });
+//     }
+//   };
+// }
 
 export function tree(props, data, level, onCmd, width) {
   if (!data) return [];
@@ -198,174 +199,174 @@ export function tree(props, data, level, onCmd, width) {
   });
 }
 
-export function subtree(key, props, data, level, onCmd, width) {
-  var subItems = [];
+// export function subtree(key, props, data, level, onCmd, width) {
+//   var subItems = [];
 
-  function subs(key, props, data, level, onCmd, width,looping) {
-    if (!data || looping > 1) return [];
-    return data.map(item => {
-      if (item.children && item.children.length) {
-        var actionItem = newItem(
-          item.key,
-          getProperty(props, item.key, "title", item.title),
-          getProperty(props, item.key, "icon", ""),
-          false,
-          props,
-          onCmd,
-          width
-        );
+//   function subs(key, props, data, level, onCmd, width,looping) {
+//     if (!data || looping > 1) return [];
+//     return data.map(item => {
+//       if (item.children && item.children.length) {
+//         var actionItem = newItem(
+//           item.key,
+//           getProperty(props, item.key, "title", item.title),
+//           getProperty(props, item.key, "icon", ""),
+//           false,
+//           props,
+//           onCmd,
+//           width
+//         );
 
 
-        var children = item.children ? item.children : []
-        var itemProps = props && props[key] ? props[key] : {};
-        var itemType = itemProps.type ? itemProps.type.toUpperCase() : "";
+//         var children = item.children ? item.children : []
+//         var itemProps = props && props[key] ? props[key] : {};
+//         var itemType = itemProps.type ? itemProps.type.toUpperCase() : "";
       
-        if (false && itemType==="FILE"){
-        var sample = itemProps.sample ? itemProps.sample : "[]"
+//         if (false && itemType==="FILE"){
+//         var sample = itemProps.sample ? itemProps.sample : "[]"
         
-        try {
-        var  sampleArray = JSON.parse(sample)
-        if ( 0 < sampleArray.length ) {looping++}
-         children =  children.concat(sampleArray)
+//         try {
+//         var  sampleArray = JSON.parse(sample)
+//         if ( 0 < sampleArray.length ) {looping++}
+//          children =  children.concat(sampleArray)
 
-        } catch (error) {
-          console.log("parse sample error",error)
-        }}
-        actionItem.subMenuProps = {
-          items: subs(
-            key,
-            props,
-            children,
-            level ? level + 1 : 1,
-            onCmd,
-            width,
-            looping
-          )
-        };
-        if (item.key === key) {
-          actionItem.isSubtree = true
-          subItems.push(actionItem);
-        }
-        return actionItem;
-      }
-      var actionItem = newItem(
-        item.key,
-        getProperty(props, item.key, "title", item.title),
-        getProperty(props, item.key, "icon", ""),
-        false,
-        props,
-        onCmd,
-        width
-      );
-      if (item.key === key) {
-        actionItem.isSubtree = true
-        subItems.push(actionItem);
-      }
-      return actionItem;
-    });
-  }
+//         } catch (error) {
+//           console.log("parse sample error",error)
+//         }}
+//         actionItem.subMenuProps = {
+//           items: subs(
+//             key,
+//             props,
+//             children,
+//             level ? level + 1 : 1,
+//             onCmd,
+//             width,
+//             looping
+//           )
+//         };
+//         if (item.key === key) {
+//           actionItem.isSubtree = true
+//           subItems.push(actionItem);
+//         }
+//         return actionItem;
+//       }
+//       var actionItem = newItem(
+//         item.key,
+//         getProperty(props, item.key, "title", item.title),
+//         getProperty(props, item.key, "icon", ""),
+//         false,
+//         props,
+//         onCmd,
+//         width
+//       );
+//       if (item.key === key) {
+//         actionItem.isSubtree = true
+//         subItems.push(actionItem);
+//       }
+//       return actionItem;
+//     });
+//   }
 
-  subs(key, props, data, level, onCmd, width,0);
+//   subs(key, props, data, level, onCmd, width,0);
 
-  return subItems;
-}
-export function renderMegaMenu(data, props, level) {
-  switch (level) {
-    case 1:
-      return (data.subMenuProps && data.subMenuProps.items
-        ? data.subMenuProps.items
-        : []
-      ).map((item, key) => {
-        var itemProps = props && props[item.key] ? props[item.key] : {};
-        return (
-          <div className={`megamenuLevel${level}`}>
-            <ul>
-              <div className="ms-Menu-heading">
-                {false && item.iconProps && item.iconProps.iconName && (
-                  <i
-                    class={`ms-Icon ms-Icon--${item.iconProps.iconName}`}
-                    aria-hidden="true"
-                  />
-                )}
-                {itemProps.href ? (
-                  <a href={itemProps.href} target="_blank">
-                    {item.name}
-                  </a>
-                ) : (
-                  item.name
-                )}
-              </div>
-              {(item.subMenuProps && item.subMenuProps.items
-                ? item.subMenuProps.items
-                : []
-              ).map((item, key) => {
-                return <li>{renderMegaMenu(item, props, level + 1)}</li>;
-              })}
-            </ul>
-          </div>
-        );
-      });
+//   return subItems;
+// }
+// export function renderMegaMenu(data, props, level) {
+//   switch (level) {
+//     case 1:
+//       return (data.subMenuProps && data.subMenuProps.items
+//         ? data.subMenuProps.items
+//         : []
+//       ).map((item, key) => {
+//         var itemProps = props && props[item.key] ? props[item.key] : {};
+//         return (
+//           <div className={`megamenuLevel${level}`}>
+//             <ul>
+//               <div className="ms-Menu-heading">
+//                 {false && item.iconProps && item.iconProps.iconName && (
+//                   <i
+//                     class={`ms-Icon ms-Icon--${item.iconProps.iconName}`}
+//                     aria-hidden="true"
+//                   />
+//                 )}
+//                 {itemProps.href ? (
+//                   <a href={itemProps.href} target="_blank">
+//                     {item.name}
+//                   </a>
+//                 ) : (
+//                   item.name
+//                 )}
+//               </div>
+//               {(item.subMenuProps && item.subMenuProps.items
+//                 ? item.subMenuProps.items
+//                 : []
+//               ).map((item, key) => {
+//                 return <li>{renderMegaMenu(item, props, level + 1)}</li>;
+//               })}
+//             </ul>
+//           </div>
+//         );
+//       });
 
-    case 2:
-      var itemProps = props && props[data.key] ? props[data.key] : {};
-      return (
-        <div className={`megamenuLevel${level}`}>
-          <ul>
-            <div className="ms-Menu-item">
-              {false && data.iconProps && data.iconProps.iconName && (
-                <i
-                  class={`ms-Icon ms-Icon--${data.iconProps.iconName}`}
-                  aria-hidden="true"
-                />
-              )}
+//     case 2:
+//       var itemProps = props && props[data.key] ? props[data.key] : {};
+//       return (
+//         <div className={`megamenuLevel${level}`}>
+//           <ul>
+//             <div className="ms-Menu-item">
+//               {false && data.iconProps && data.iconProps.iconName && (
+//                 <i
+//                   class={`ms-Icon ms-Icon--${data.iconProps.iconName}`}
+//                   aria-hidden="true"
+//                 />
+//               )}
 
-              {itemProps.href ? (
-                <a href={itemProps.href} target="_blank">
-                  {data.name}
-                </a>
-              ) : (
-                data.name
-              )}
-            </div>
-            {(data.subMenuProps &&
-            data.iconProps.iconName &&
-            data.subMenuProps.items
-              ? data.subMenuProps.items
-              : []
-            ).map((item, key) => {
-              return <li>{renderMegaMenu(item, props, level + 1)}</li>;
-            })}
-          </ul>
-        </div>
-      );
-    case 3:
-      var itemProps = props && props[data.key] ? props[data.key] : {};
-      return (
-        <div className={`megamenuLevel${level}`}>
-          <div className="ms-Menu-item">
-            {false && data.iconProps && data.iconProps.iconName && (
-              <i
-                class={`ms-Icon ms-Icon--${data.iconProps.iconName}`}
-                aria-hidden="true"
-              />
-            )}
+//               {itemProps.href ? (
+//                 <a href={itemProps.href} target="_blank">
+//                   {data.name}
+//                 </a>
+//               ) : (
+//                 data.name
+//               )}
+//             </div>
+//             {(data.subMenuProps &&
+//             data.iconProps.iconName &&
+//             data.subMenuProps.items
+//               ? data.subMenuProps.items
+//               : []
+//             ).map((item, key) => {
+//               return <li>{renderMegaMenu(item, props, level + 1)}</li>;
+//             })}
+//           </ul>
+//         </div>
+//       );
+//     case 3:
+//       var itemProps = props && props[data.key] ? props[data.key] : {};
+//       return (
+//         <div className={`megamenuLevel${level}`}>
+//           <div className="ms-Menu-item">
+//             {false && data.iconProps && data.iconProps.iconName && (
+//               <i
+//                 class={`ms-Icon ms-Icon--${data.iconProps.iconName}`}
+//                 aria-hidden="true"
+//               />
+//             )}
 
-            {itemProps.href ? (
-              <a href={itemProps.href} target="_blank">
-                {data.name}
-              </a>
-            ) : (
-              data.name
-            )}
-            {data.subMenuProps && data.subMenuProps.items && "***"}
-          </div>
-        </div>
-      );
-  }
-}
-export function megaMenuWidth(width) {
-  return parseInt(width / 1.3 / 300) * 300;
-}
+//             {itemProps.href ? (
+//               <a href={itemProps.href} target="_blank">
+//                 {data.name}
+//               </a>
+//             ) : (
+//               data.name
+//             )}
+//             {data.subMenuProps && data.subMenuProps.items && "***"}
+//           </div>
+//         </div>
+//       );
+//   }
+// }
+// export function megaMenuWidth(width) {
+//   return parseInt(width / 1.3 / 300) * 300;
+// }
 export function generateData(x = 5, y = 2, z = 1, gData = []) {
   var lastKey = 0;
   function _loop(_level, _preKey, _tns) {

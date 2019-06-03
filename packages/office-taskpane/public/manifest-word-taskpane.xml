@@ -13,9 +13,11 @@
   <IconUrl DefaultValue="https://jumpto365.com/resources/images/50x50.png" />
   <HighResolutionIconUrl DefaultValue="https://jumpto365.com/resources/images/50x50.png"/>
   <SupportUrl DefaultValue="https://jumpto365.zendesk.com/hc/en-us"/>
-  <AppDomains>
+   <AppDomains>
     <AppDomain>intra365.com</AppDomain>
     <AppDomain>jumpto365.com</AppDomain>
+      <AppDomain>pro.jumpto365.com</AppDomain>
+    <AppDomain>app.jumpto365.com</AppDomain>
     <AppDomain>blob.jumpto365.com</AppDomain>
   </AppDomains>
   <Hosts>
