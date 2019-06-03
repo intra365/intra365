@@ -1,0 +1,1412 @@
+{
+  "childrens": [
+    {
+      "text": "My Job",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Customer focused",
+          "links": [
+            {
+              "text": "Hubspot",
+              "link": "https://app.hubspot.com/getting-started/5114462"
+            },
+            {
+              "text": "Posting a ticket",
+              "link": "https://share.hsforms.com/1ZTSd1LbkQYOWzKHvq206oQ31mce"
+            }
+          ],
+          "childrens": [
+            {
+              "text": "Business Development",
+              "links": [
+                {
+                  "text": "The Brain",
+                  "link": "https://coggle.it/diagram/W-LJGznK8kZwwQkx/t/jumpto365"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Feedback",
+          "links": [
+            {
+              "text": "Hotjar",
+              "link": "https://insights.hotjar.com/sites/709549/dashboard"
+            },
+            {
+              "text": "Google Analytics",
+              "link": "https://analytics.google.com/analytics/web/"
+            },
+            {
+              "text": "Zendesk",
+              "link": "https://jumpto365.zendesk.com/hc/en-us/community/topics/360000858971-Feature-Requests"
+            }
+          ],
+          "childrens": [
+            {
+              "text": "Support",
+              "links": [
+                {
+                  "text": "Zendesk",
+                  "link": "https://jumpto365.zendesk.com"
+                },
+                {
+                  "text": "Zendesk help center",
+                  "link": "https://jumpto365.zendesk.com/hc/en-us/categories/360001116531-General"
+                }
+              ]
+            },
+            {
+              "text": "Web shop",
+              "links": [
+                {
+                  "text": "ChargeBee",
+                  "link": "https://jumpto365.chargebee.com/dashboards"
+                },
+                {
+                  "text": "test here",
+                  "link": "https://codepen.io/niegrejoh/live/qJvpxw"
+                },
+                {
+                  "text": "Stripe",
+                  "link": "https://www.stripe.com"
+                }
+              ]
+            },
+            {
+              "text": "Licenses",
+              "links": [
+                {
+                  "text": "Licensing Logic App",
+                  "link": "https://portal.azure.com/#@365admin.net/resource/subscriptions/8018d1a9-2d4c-4af6-9dcf-1e27709314ca/resourceGroups/365admin/providers/Microsoft.Logic/workflows/Licensing/logicApp"
+                },
+                {
+                  "text": "Source code",
+                  "link": "https://365admin.visualstudio.com/Jumpto365/_git/pto365-functions"
+                },
+                {
+                  "text": "Office Store",
+                  "link": "https://docs.microsoft.com/en-us/office/dev/store/submit-to-the-office-store"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Operations",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Azure Portal",
+              "links": [
+                {
+                  "text": "Error logs",
+                  "link": "https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/microsoft.insights%2Fcomponents"
+                },
+                {
+                  "text": "Subscription Costs",
+                  "link": "https://portal.azure.com/#blade/Microsoft_Azure_Billing/ModernBillingMenuBlade/Overview"
+                },
+                {
+                  "text": "Application Insights",
+                  "link": "https://portal.azure.com/#@365admin.net/resource/subscriptions/f2be2d48-417f-4f4f-900a-542941227086/resourceGroups/Jumpto365/providers/microsoft.insights/components/periodictableoffice365/overview"
+                }
+              ]
+            },
+            {
+              "text": "Azure DevOps",
+              "links": [
+                {
+                  "text": "Jumpto365",
+                  "link": "https://365admin.visualstudio.com/Jumpto365/_dashboards/Jumpto365%20Team/61629cf0-a901-463d-9974-ddad77461ef8"
+                },
+                {
+                  "text": "CN",
+                  "link": "https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/microsoft.cdn%2Fprofiles"
+                }
+              ]
+            },
+            {
+              "text": "Azure AD related",
+              "links": [
+                {
+                  "text": "Licenses",
+                  "link": "https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Overview"
+                }
+              ]
+            },
+            {
+              "text": "Office 365 related",
+              "links": [
+                {
+                  "text": "Service health",
+                  "link": "https://portal.office.com/adminportal#/servicehealth"
+                },
+                {
+                  "text": "Planned Changes",
+                  "link": "https://portal.office.com/adminportal#/MessageCenter"
+                }
+              ]
+            },
+            {
+              "text": "Sales related",
+              "links": [
+                {
+                  "text": "Dynamics",
+                  "link": "https://preview.app.jumpto365.com/@/niels@hexatown.com/Dynamics%20365%20in%20Jumpto365.docx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Personal Beta stuff",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Hot",
+              "links": [
+                {
+                  "text": "https://beta.jumpto365.com/github.com/Hexatown/powerapps/blob/master/docs/index.md",
+                  "link": "https://beta.jumpto365.com/github.com/Hexatown/powerapps/blob/master/docs/index.md"
+                },
+                {
+                  "text": "PowerApps PTO",
+                  "link": "https://preview.app.jumpto365.com/excel/Customised%20Periodic%20Tables.xlsx/PowerApps"
+                },
+                {
+                  "text": "Teams SPFX",
+                  "link": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-web-part-as-ms-teams-tab"
+                },
+                {
+                  "text": "PowerApps dashboard",
+                  "link": "https://preview.app.jumpto365.com/@/niels@jumpto365.com/PowerApps1.docx"
+                },
+                {
+                  "text": "https://coggle.it/",
+                  "link": "https://coggle.it/"
+                },
+                {
+                  "text": "https://github.com/Azure/ServerlessLibrary",
+                  "link": "https://github.com/Azure/ServerlessLibrary"
+                },
+                {
+                  "text": "https://www.npmjs.com/package/react-responsive-carousel",
+                  "link": "https://www.npmjs.com/package/react-responsive-carousel"
+                },
+                {
+                  "text": "Docs.microsoft integration",
+                  "link": "https://preview.app.jumpto365.com/github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/Teams-overview.md"
+                },
+                {
+                  "text": "Graph Auth",
+                  "link": "https://docs.microsoft.com/en-us/office/dev/add-ins/develop/authorize-to-microsoft-graph"
+                },
+                {
+                  "text": "https://github.com/kb-dk/aftalelicenser",
+                  "link": "https://github.com/kb-dk/aftalelicenser"
+                },
+                {
+                  "text": "Aftalelicenser.docx",
+                  "link": "https://preview.app.jumpto365.com/@/niels@hexatown.com/Aftalelicenser.docx"
+                },
+                {
+                  "text": "AI 2",
+                  "link": "https://preview.app.jumpto365.com/context/ai2"
+                },
+                {
+                  "text": "https://github.com/zendeskgarden/react-components",
+                  "link": "https://github.com/zendeskgarden/react-components"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Personal tasks",
+          "links": [
+            {
+              "text": "Mail",
+              "link": "https://preview.app.jumpto365.com/tool/mail"
+            },
+            {
+              "text": "Tasks",
+              "link": "https://preview.app.jumpto365.com/tool/planner"
+            }
+          ]
+        },
+        {
+          "text": "Dynamic Content",
+          "links": []
+        }
+      ]
+    },
+    {
+      "text": "Jumpto365",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Features",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Periodic Table of",
+              "links": [
+                {
+                  "text": "AI",
+                  "link": "https://preview.app.jumpto365.com/context/pandora"
+                },
+                {
+                  "text": "Security and Compliance",
+                  "link": "https://preview.app.jumpto365.com/@/niels@hexatown.com/Security%20and%20Compliance%20V2.docx"
+                }
+              ]
+            },
+            {
+              "text": "Which tool when",
+              "links": [
+                {
+                  "text": "On boarding",
+                  "link": "https://preview.app.jumpto365.com/scenario/generic/onboard"
+                },
+                {
+                  "text": "Office 365 essentials",
+                  "link": "https://preview.app.jumpto365.com/scenario/generic/office-365"
+                },
+                {
+                  "text": "Meetings",
+                  "link": "https://preview.app.jumpto365.com/scenario/generic/meetingpreperations/ranked"
+                },
+                {
+                  "text": "Learn Yammer",
+                  "link": "https://preview.app.jumpto365.com/scenario/generic/yammer"
+                }
+              ]
+            },
+            {
+              "text": "Docs.Microsoft",
+              "links": [
+                {
+                  "text": "Docs.Microsoft",
+                  "link": "https://preview.app.jumpto365.com/@/niels@hexatown.com/docs.microsoft.com.docx"
+                }
+              ]
+            },
+            {
+              "text": "Cases",
+              "links": [
+                {
+                  "text": "Pandora",
+                  "link": "https://preview.app.jumpto365.com/scenario/generic/pandora-yammer"
+                }
+              ]
+            },
+            {
+              "text": "Dashboards",
+              "links": []
+            },
+            {
+              "text": "Personal",
+              "links": [
+                {
+                  "text": "https://preview.app.jumpto365.com/@/niels@hexatown.com",
+                  "link": "https://preview.app.jumpto365.com/@/niels@hexatown.com"
+                }
+              ]
+            },
+            {
+              "text": "Client forms",
+              "links": [
+                {
+                  "text": "https://jumpto365.com/client",
+                  "link": "https://jumpto365.com/client"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Goto Market",
+          "links": []
+        },
+        {
+          "text": "Training",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Certifications",
+              "links": [
+                {
+                  "text": "Inspiration from Umbraco",
+                  "link": "https://umbraco.com/training/"
+                }
+              ],
+              "childrens": [
+                {
+                  "text": "Individual",
+                  "links": [
+                    {
+                      "text": "Certified Professional",
+                      "link": "https://umbraco.com/training/get-certified/umbraco-certified-professional/"
+                    },
+                    {
+                      "text": "Certified Expert",
+                      "link": "https://umbraco.com/training/get-certified/umbraco-certified-expert/"
+                    },
+                    {
+                      "text": "Certified Master",
+                      "link": "https://umbraco.com/training/get-certified/umbraco-certified-master/"
+                    }
+                  ]
+                },
+                {
+                  "text": "Partners",
+                  "links": [
+                    {
+                      "text": "https://umbraco.com/partners/umbraco-partnerships/-",
+                      "link": "https://umbraco.com/partners/umbraco-partnerships/-"
+                    },
+                    {
+                      "text": "Registrated Partner",
+                      "link": "https://umbraco.com/partners/umbraco-partnerships/registered/"
+                    },
+                    {
+                      "text": "Certified Partner",
+                      "link": "https://umbraco.com/partners/umbraco-partnerships/certified/"
+                    },
+                    {
+                      "text": "Gold Partner",
+                      "link": "https://umbraco.com/partners/umbraco-partnerships/gold/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Roles",
+      "links": [],
+      "childrens": [
+        {
+          "text": "Microsoft Partner Network",
+          "links": [
+            {
+              "text": "Microsoft Partner Portal",
+              "link": "https://partner.microsoft.com/en-us/pcv/partnership/benefits?selectedProductTypeId=cloud"
+            },
+            {
+              "text": "Profile",
+              "link": "https://partner.microsoft.com/en-us/pcv/accountsettings/connectedpartnerprofile"
+            }
+          ]
+        },
+        {
+          "text": "MCT",
+          "links": [],
+          "childrens": [
+            {
+              "text": 3,
+              "links": [],
+              "childrens": [
+                {
+                  "text": "Links",
+                  "links": [
+                    {
+                      "text": "https://www.microsoft.com/en-us/learning/mct-central.aspx",
+                      "link": "https://www.microsoft.com/en-us/learning/mct-central.aspx"
+                    },
+                    {
+                      "text": "https://www.skillpipe.com",
+                      "link": "https://www.skillpipe.com/"
+                    },
+                    {
+                      "text": "https://shop.courseware-marketplace.com/en-GB/Home",
+                      "link": "https://shop.courseware-marketplace.com/en-GB/Home"
+                    },
+                    {
+                      "text": "Access free digital Microsoft courseware and MOC On Demand at the Courseware Marketplace",
+                      "link": "https://shop.courseware-marketplace.com/"
+                    }
+                  ]
+                },
+                {
+                  "text": "Other Links",
+                  "links": [
+                    {
+                      "text": "Sign in to the Microsoft learning download center",
+                      "link": "https://learningdownloadcenter.microsoft.com/"
+                    },
+                    {
+                      "text": "Azure Pass Voucher Portal",
+                      "link": "https://vouchers.cloudapp.net/AzurePass/"
+                    },
+                    {
+                      "text": "Become a Microsoft SME, and earn exam credit",
+                      "link": "http://borntolearn.mslearn.net/btl/b/weblog/archive/2013/09/17/smes-who-help-create-exam-content-to-get-credit-for-the-exam.aspx"
+                    },
+                    {
+                      "text": "Download the MCT competencies list",
+                      "link": "http://download.microsoft.com/download/7/2/E/72E0E73C-1D36-409A-8E26-C7B0A486CD73/MCT_Competencies_List_Updated_April_2018.xlsx"
+                    },
+                    {
+                      "text": "Access the MCT enrollment tool",
+                      "link": "https://mcp.microsoft.com/Authenticate/MCT"
+                    },
+                    {
+                      "text": "Explore Microsoft Virtual Academy",
+                      "link": "https://mva.microsoft.com/"
+                    },
+                    {
+                      "text": "Subscribe to the <em>MCP Flash</em> newsletter",
+                      "link": "https://profile.microsoft.com/regsysprofilecenter/wizard.aspx?wizid=2f98ca71-108e-42e5-aec4-256221ab1a34"
+                    },
+                    {
+                      "text": "Subscribe to the <em>MCT Flash</em> newsletter",
+                      "link": "https://profile.microsoft.com/regsysprofilecenter/wizard.aspx?wizid=b194e7b9-d9ad-4b24-903a-29427d1df4c3"
+                    }
+                  ]
+                },
+                {
+                  "text": "Even more links",
+                  "links": [
+                    {
+                      "text": "Microsoft Press discounts (use discount code <strong>MCPBOOK</strong> for print books; <strong>MCPEBOOK</strong> for e-books)",
+                      "link": "https://www.microsoftpressstore.com/store"
+                    },
+                    {
+                      "text": "MCP discounts on Dell products",
+                      "link": "http://www.dell.com/mpp/mcp"
+                    },
+                    {
+                      "text": "Search job opportunities at Elance",
+                      "link": "https://www.microsoft.com/en-us/learning/legal-mcp-elance.aspx"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Nets",
+      "links": [],
+      "childrens": [
+        {
+          "text": "My Daily Tasks",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Collaboration Tools",
+              "links": [
+                {
+                  "text": "Guides – Digital Workspace",
+                  "link": "http://nets-intranets/Organisation/Helpdesk/my-digital-workspace"
+                }
+              ]
+            },
+            {
+              "text": "SharePoint Provisioning",
+              "links": [],
+              "childrens": [
+                {
+                  "text": "Internal SharePoint",
+                  "links": [
+                    {
+                      "text": "New Project share",
+                      "link": "http://share/sites/project-management-office/Lists/SharePoint%20Projectsite%20Request/AllItems.aspx?InitialTabId=Ribbon%2EListItem&VisibilityContext=WSSTabPersistence"
+                    },
+                    {
+                      "text": "New Community Share",
+                      "link": "http://share/sites/it-sharepoint-nets.eu/Lists/SharePoint%20Provisioning"
+                    }
+                  ]
+                },
+                {
+                  "text": "Office 365",
+                  "links": [
+                    {
+                      "text": "Team Sites with IDM integration",
+                      "link": "https://christianiabpos.sharepoint.com/sites/000001/Lists/Collection%20Request/AllItems.aspx"
+                    }
+                  ]
+                },
+                {
+                  "text": "Azure AD related",
+                  "links": []
+                },
+                {
+                  "text": "Office 365 related",
+                  "links": [
+                    {
+                      "text": "Office Graph Explorer",
+                      "link": "https://developer.microsoft.com/en-us/graph/graph-explorer"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Frequent tasks",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Daily",
+              "links": [],
+              "childrens": [
+                {
+                  "text": "Company News",
+                  "links": [
+                    {
+                      "text": "Nets Intranets",
+                      "link": "http://nets-intranets/Pages/IntraNetsFrontPage.aspx"
+                    }
+                  ]
+                },
+                {
+                  "text": "My Tasks",
+                  "links": [
+                    {
+                      "text": "ServiceNow Tasks",
+                      "link": "https://nets.service-now.com/nav_to.do?uri=%2Ftask_list.do%3Fsysparm_query%3Dactive%253Dtrue%255Eassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255EORwork_notes_listLIKEjavascript:gs.getUserID("
+                    }
+                  ]
+                },
+                {
+                  "text": "Connected Employee",
+                  "links": []
+                },
+                {
+                  "text": "Cafeteria Services",
+                  "links": [
+                    {
+                      "text": "LB10",
+                      "link": "http://nets-intranets/Locations/LB10/Food-and-beverages/Pages/default.aspx"
+                    }
+                  ]
+                },
+                {
+                  "text": "Time Sheet",
+                  "links": [
+                    {
+                      "text": "SAP",
+                      "link": "https://portal.sap.nets.eu/irj/portal"
+                    }
+                  ]
+                },
+                {
+                  "text": "IT Helpdesk",
+                  "links": []
+                },
+                {
+                  "text": "Department Tools",
+                  "links": [
+                    {
+                      "text": "Unassigned Tasks in ServiceNow",
+                      "link": "https://nets.service-now.com/nav_to.do?uri=%2Ftask_list.do%3Fsysparm_query%3Dactive%3Dtrue%5Eassignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744%5EORu_departmentDYNAMIC5d9284650fe38200434200ace1050ef1%5Eassigned_toISEMPTY%5EEQ%26sysparm_userpref_module%3Dca5dd06b37638e00bce342f643990e20%26sysparm_clear_stack%3Dtrue"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Weekly",
+              "links": [],
+              "childrens": [
+                {
+                  "text": "My Requests",
+                  "links": []
+                },
+                {
+                  "text": "Weekly status",
+                  "links": [
+                    {
+                      "text": "Woody (DEV)",
+                      "link": "http://dev.woody.web.cartoons/"
+                    }
+                  ]
+                },
+                {
+                  "text": "Project Data & Insights",
+                  "links": []
+                },
+                {
+                  "text": "HR Policies FAQ",
+                  "links": []
+                },
+                {
+                  "text": "Team Events",
+                  "links": []
+                },
+                {
+                  "text": "Employee Search",
+                  "links": []
+                },
+                {
+                  "text": "HR Leave App",
+                  "links": []
+                },
+                {
+                  "text": "L&D Training",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Low frequent",
+          "links": [],
+          "childrens": [
+            {
+              "text": "Monthly/Quarterly",
+              "links": [],
+              "childrens": [
+                {
+                  "text": "Performance & Goals",
+                  "links": []
+                },
+                {
+                  "text": "My Profile Update",
+                  "links": []
+                },
+                {
+                  "text": "Business Travel",
+                  "links": []
+                },
+                {
+                  "text": "HR Services",
+                  "links": []
+                },
+                {
+                  "text": "Recruitment Services",
+                  "links": []
+                },
+                {
+                  "text": "Payroll & Rewards",
+                  "links": []
+                },
+                {
+                  "text": "Company Poll",
+                  "links": []
+                },
+                {
+                  "text": "Job Referral",
+                  "links": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "IntraNets",
+      "links": [],
+      "childrens": [
+        {
+          "text": "ABOUT NETS",
+          "links": [],
+          "childrens": [
+            {
+              "text": "ABOUT NETS",
+              "links": [
+                {
+                  "text": "Board of Directors",
+                  "link": "https://www.nets.eu/Pages/Board-of-directors.aspx"
+                },
+                {
+                  "text": "Financial information",
+                  "link": "https://www.nets.eu/Pages/Financial-information.aspx"
+                },
+                {
+                  "text": "Management",
+                  "link": "https://www.nets.eu/Pages/Management.aspx"
+                },
+                {
+                  "text": "Who we are?",
+                  "link": "https://www.nets.eu/Pages/Who-we-are.aspx"
+                },
+                {
+                  "text": "Strategy 2018-22",
+                  "link": "http://nets-intranets/Organisation/Strategy2018-2022/Pages/Default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "NETS POLICIES",
+              "links": [
+                {
+                  "text": "Acceptable Use Policy",
+                  "link": "http://share/docs/corp/Documents/10%20Governance/40%20Policies/Nets%20Security%20Framework/Supporting%20Security%20Documentation/L3%20-%20Nets%20Acceptable%20Use%20Policy.pdf"
+                },
+                {
+                  "text": "Press Policy",
+                  "link": "http://share/sites/corp-grp-comm/v2/Documents/Press_policy_nets_UK_2017.doc"
+                },
+                {
+                  "text": "Press Strategy",
+                  "link": "http://share/sites/corp-grp-comm/v2/Documents/Nets%20press%20strategy_20170901.doc"
+                },
+                {
+                  "text": "Security Policy",
+                  "link": "http://elsa/3-41575"
+                },
+                {
+                  "text": "Social Media Policy",
+                  "link": "http://share/sites/corp-grp-comm/v2/Documents/Intern%20Social%20Media%20Policy.pdf"
+                },
+                {
+                  "text": "Travel Policy",
+                  "link": "http://share/docs/corp/Apps/Elsa/current/index.html#/ELSA-3-40266"
+                },
+                {
+                  "text": "Nets Security Framework",
+                  "link": "http://nets-intranets/Organisation/Technology/nets-security-framework/Pages/default.aspx"
+                },
+                {
+                  "text": "Internal Data Protection Policy",
+                  "link": "http://share/project/X-52336/v2/Shared%20documents/Nets%20Privacy%20Policy.pdf"
+                }
+              ]
+            },
+            {
+              "text": "CSR",
+              "links": [
+                {
+                  "text": "CSR in Nets",
+                  "link": "http://nets-intranets/About-nets/CSR/Pages/default.aspx"
+                },
+                {
+                  "text": "Environment",
+                  "link": "http://nets-intranets/About-nets/CSR/Environment/Pages/default.aspx"
+                },
+                {
+                  "text": "Ethical Guidelines",
+                  "link": "http://nets-intranets/About-nets/CSR/Pages/Ethical-Guidelines.aspx"
+                },
+                {
+                  "text": "Supplier Code",
+                  "link": "http://nets-intranets/About-nets/CSR/Pages/Supplier-Code.aspx"
+                },
+                {
+                  "text": "Whistleblower",
+                  "link": "http://nets-intranets/Organisation/Legal/Whistleblower/"
+                }
+              ]
+            },
+            {
+              "text": "CORPORATE MATERIAL",
+              "links": [
+                {
+                  "text": "Corporate Presentation",
+                  "link": "http://share/sites/internalcommunication/v2/Documents/Corporate_presentation_V2_2018__16_9_final.pptx"
+                }
+              ]
+            },
+            {
+              "text": "STRUCTURE",
+              "links": [
+                {
+                  "text": "Group Structure",
+                  "link": "https://www.nets.eu/Pages/Group-structure.aspx"
+                },
+                {
+                  "text": "Organisation Charts",
+                  "link": "http://share/sites/hr/v2/Documents/Organisation%20charts_Only%20BHAUB%20to%20update/Nets_Total/Org_Chart_Nets.pptx"
+                }
+              ]
+            },
+            {
+              "text": "LOCATIONS",
+              "links": [
+                {
+                  "text": "All locations",
+                  "link": "http://nets-intranets/Locations/"
+                },
+                {
+                  "text": "Map of all locations",
+                  "link": "http://share/sites/Internal-services-Intranet2-documents/v2/Documents/Denmark/Reception%20DK/Meeting%20rooms%20overview%2018042016.xlsm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "CUSTOMER CORNER",
+          "links": [],
+          "childrens": [
+            {
+              "text": "WELCOME TO CUSTOMER CORNER",
+              "links": [
+                {
+                  "text": "What is Customer Corner?",
+                  "link": "http://nets-intranets/Customer%20Corner/"
+                }
+              ]
+            },
+            {
+              "text": "CUSTOMER CENTRIC INITIATIVES",
+              "links": [
+                {
+                  "text": "What is customer centric initiatives",
+                  "link": "http://nets-intranets/Customer%20Corner/Customercentricinitiatives/"
+                }
+              ]
+            },
+            {
+              "text": "CUSTOMER COCKPIT",
+              "links": [
+                {
+                  "text": "What is customer cockpit",
+                  "link": "http://nets-intranets/Customer%20Corner/Customercockpit"
+                }
+              ]
+            },
+            {
+              "text": "CUSTOMER INSIGHTS",
+              "links": [
+                {
+                  "text": "What is customer insights",
+                  "link": "http://nets-intranets/Customer%20Corner/Customerinsights/"
+                }
+              ]
+            },
+            {
+              "text": "CUSTOMER INFORMATION",
+              "links": [
+                {
+                  "text": "What is Customer information",
+                  "link": "http://nets-intranets/Customer%20Corner/Customerinformation/"
+                }
+              ]
+            },
+            {
+              "text": "TOOLS & PRESENTATIONS",
+              "links": [
+                {
+                  "text": "What is Tools & presentations",
+                  "link": "http://nets-intranets/Customer%20Corner/Toolsandpresentations/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ORGANISATION",
+          "links": [],
+          "childrens": [
+            {
+              "text": "BUSINESSES",
+              "links": [
+                {
+                  "text": "FINANCIAL & NETWORK SERVICES",
+                  "link": "http://nets-intranets/Organisation/CardServices/Pages/Default.aspx"
+                },
+                {
+                  "text": "MERCHANT SERVICES",
+                  "link": "http://nets-intranets/Organisation/MerchantServices/Pages/Default.aspx"
+                },
+                {
+                  "text": "CORPORATE SERVICES",
+                  "link": "http://nets-intranets/Organisation/Corporate%20Services/pages/default.aspx"
+                },
+                {
+                  "text": "- Payments International",
+                  "link": "http://nets-intranets/Organisation/ClearingServices/Pages/Default.aspx"
+                },
+                {
+                  "text": "- Payment Services",
+                  "link": "http://nets-intranets/Organisation/PaymentServices/Pages/Default.aspx"
+                },
+                {
+                  "text": "- Digitisation & Payments NO",
+                  "link": "http://nets-intranets/Organisation/DigitisationInformationServices"
+                },
+                {
+                  "text": "- eSecurity Services",
+                  "link": "http://nets-intranets/Organisation/eSecurityServices/Pages/Default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "CORPORATE FUNCTIONS",
+              "links": [
+                {
+                  "text": "Communication",
+                  "link": "http://nets-intranets/Organisation/Communication/Pages/Default.aspx"
+                },
+                {
+                  "text": "Finance",
+                  "link": "http://nets-intranets/Organisation/Finance/Pages/Default.aspx"
+                },
+                {
+                  "text": "HR",
+                  "link": "http://nets-intranets/Organisation/human-resources/"
+                },
+                {
+                  "text": "Legal",
+                  "link": "http://nets-intranets/Organisation/Legal/Pages/Default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "CROSS NETS FUNCTIONS",
+              "links": [
+                {
+                  "text": "Anti-money Laundering",
+                  "link": "http://nets-intranets/Organisation/Legal/Pages/Anti-Money-Laundering.aspx"
+                },
+                {
+                  "text": "Capacity Management",
+                  "link": "http://nets-intranets/Organisation/Technology/Pages/Capacity-Management.aspx"
+                },
+                {
+                  "text": "GDPR",
+                  "link": "http://nets-intranets/Organisation/GDPR/Pages/Default.aspx"
+                },
+                {
+                  "text": "Helpdesk",
+                  "link": "http://nets-intranets/Organisation/helpdesk/Pages/Default.aspx"
+                },
+                {
+                  "text": "Internal Services",
+                  "link": "http://nets-intranets/Organisation/InternalServices/Pages/Default.aspx"
+                },
+                {
+                  "text": "Internal Systems",
+                  "link": "http://nets-intranets/Organisation/Technology/Internal-Systems"
+                },
+                {
+                  "text": "IT Business Support",
+                  "link": "http://nets-intranets/Organisation/Technology/ITBS/Pages/default.aspx"
+                },
+                {
+                  "text": "IT Governance Framework",
+                  "link": "http://nets-intranets/corp/handbooks/08/001/Pages/default.aspx"
+                },
+                {
+                  "text": "IT Governance, Risk & Compliance",
+                  "link": "http://nets-intranets/Organisation/Technology/IT-GRC/Pages/default.aspx"
+                },
+                {
+                  "text": "Language",
+                  "link": "http://nets-intranets/Organisation/Communication/language/Pages/default.aspx"
+                },
+                {
+                  "text": "Nets Quality Framework",
+                  "link": "http://nets-intranets/Organisation/nqf/Pages/Default.aspx"
+                },
+                {
+                  "text": "Network & Telecom",
+                  "link": "http://nets-intranets/Organisation/Telecom/Pages/Default.aspx"
+                },
+                {
+                  "text": "Portfolio Management",
+                  "link": "http://nets-intranets/Organisation/Technology/Pages/portfolio-management.aspx"
+                },
+                {
+                  "text": "Procurement",
+                  "link": "http://nets-intranets/Organisation/Procurement/Pages/Default.aspx"
+                },
+                {
+                  "text": "Project Management",
+                  "link": "http://nets-intranets/Organisation/Technology/Pages/project-management.aspx"
+                },
+                {
+                  "text": "PSD2",
+                  "link": "http://nets-intranets/Organisation/PSD2/Pages/Default.aspx"
+                },
+                {
+                  "text": "Service Owner",
+                  "link": "http://nets-intranets/Organisation/service-owner/Pages/Default.aspx"
+                },
+                {
+                  "text": "Travel",
+                  "link": "http://nets-intranets/Organisation/Travel/Pages/Default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "GROUP UNITS",
+              "links": [
+                {
+                  "text": "Customer Services",
+                  "link": "http://nets-intranets/Organisation/customer%20services/pages/default.aspx"
+                },
+                {
+                  "text": "Technology",
+                  "link": "http://nets-intranets/Organisation/Technology/Pages/Default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "INTERNAL AUDIT",
+              "links": [
+                {
+                  "text": "Internal Audit",
+                  "link": "http://nets-intranets/Organisation/Internal-audit/Pages/Default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EMPLOYEE",
+          "links": [],
+          "childrens": [
+            {
+              "text": "WORKING AT NETS",
+              "links": [
+                {
+                  "text": "Competence Development",
+                  "link": "http://nets-intranets/Organisation/human-resources/personal-growth/Pages/default.aspx"
+                },
+                {
+                  "text": "Ethical guidelines",
+                  "link": "http://nets-intranets/About-nets/CSR/Pages/Ethical-Guidelines.aspx"
+                },
+                {
+                  "text": "Nets Values: ACT",
+                  "link": "http://nets-intranets/Organisation/human-resources/Accelerating-performance-and-behavior/ACT/Pages/default.aspx"
+                },
+                {
+                  "text": "ImpACT",
+                  "link": "http://nets-intranets/Organisation/human-resources/Accelerating-performance-and-behavior/ImpACT/Pages/default.aspx"
+                },
+                {
+                  "text": "Vacancies",
+                  "link": "http://nets-intranets/Organisation/human-resources/next-career-move/Pages/default.aspx#/default.aspx"
+                },
+                {
+                  "text": "Bonus",
+                  "link": "http://nets-intranets/Organisation/human-resources/rewards/bonus2018/Pages/default.aspx#/default.aspx"
+                },
+                {
+                  "text": "Employee Journey",
+                  "link": "http://nets-intranets/Organisation/human-resources/Pages/Default.aspx#/Default.aspx"
+                },
+                {
+                  "text": "New2Nets",
+                  "link": "http://nets-intranets/Organisation/human-resources/onboard/New2Nets/Pages/default.aspx#/default.aspx%3FControlMode=Edit&DisplayMode=Design"
+                }
+              ]
+            },
+            {
+              "text": "UNIONS",
+              "links": [
+                {
+                  "text": "Unions in Nets",
+                  "link": "http://nets-intranets/Employees/Unions/Pages/default.aspx"
+                },
+                {
+                  "text": "Denmark",
+                  "link": "http://nets-intranets/Employees/Unions/Denmark/Pages/Default.aspx"
+                },
+                {
+                  "text": "Finland",
+                  "link": "http://nets-intranets/Employees/Unions/Finland/pages/default.aspx"
+                },
+                {
+                  "text": "Norway",
+                  "link": "http://nets-intranets/Employees/Unions/Norway/Pages/Finansforbundet%20Commities.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "GUIDES",
+          "links": [],
+          "childrens": [
+            {
+              "text": "CORPORATE",
+              "links": [
+                {
+                  "text": "How to order business cards",
+                  "link": "http://nets-intranets/Organisation/Communication/Group-brand-and-marketing/business-cards/Pages/default.aspx"
+                },
+                {
+                  "text": "How to use the Netshop",
+                  "link": "http://nets-intranets/Organisation/Communication/Netshop/Pages/default.aspx"
+                },
+                {
+                  "text": "Guide to writing good articles for IntraNets",
+                  "link": "http://share/sites/internalcommunication/v2/Documents/Quick%20guide_How%20to%20write%20an%20IntraNets%20article.docx"
+                }
+              ]
+            },
+            {
+              "text": "EXTERNAL RESOURCES",
+              "links": [
+                {
+                  "text": "How to on-/offboard external resources",
+                  "link": "http://nets-intranets/Organisation/Finance/Pages/External-resources.aspx"
+                }
+              ]
+            },
+            {
+              "text": "INTERNAL SERVICES",
+              "links": [
+                {
+                  "text": "Guide to virtual meeting rooms",
+                  "link": "http://share/sites/telecom/v2/Documents/User%20Guide%20from%20Acano%20virtual%20meeting%20rooms.docx"
+                }
+              ]
+            },
+            {
+              "text": "HR GUIDELINES FOR MANAGERS",
+              "links": [
+                {
+                  "text": "Recruitment process",
+                  "link": "http://nets-intranets/Organisation/human-resources/recruit/Pages/default.aspx#/default.aspx"
+                },
+                {
+                  "text": "On-boarding process and checklist",
+                  "link": "http://nets-intranets/Organisation/human-resources/onboard/Pages/default.aspx#/default.aspx"
+                },
+                {
+                  "text": "Off-boarding process and checklist",
+                  "link": "http://nets-intranets/Organisation/human-resources/offboard/Pages/default.aspx#/default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "VIDEO GUIDES AND TUTORIALS",
+              "links": [
+                {
+                  "text": "All our video guides and tutorials in one place",
+                  "link": "http://nets-intranets/guides/Pages/default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "INTERNAL SYSTEMS",
+              "links": [
+                {
+                  "text": "How to order hardware and accessories",
+                  "link": "https://nets.service-now.com/sp?id=kb_article&sys_id=51cb900edb4c8388abcb70600f96197d"
+                },
+                {
+                  "text": "Software in Nets",
+                  "link": "http://nets-intranets/Organisation/Technology/Pages/How-to-order-software.aspx"
+                },
+                {
+                  "text": "How to use Identity Manager (IDM)",
+                  "link": "http://share/sites/it-infosec/v2/Documents/IntraNets2%20documents/User%20Manual%20IM.docx"
+                },
+                {
+                  "text": "How to use ELSA",
+                  "link": "http://elsa/3-5256/download"
+                },
+                {
+                  "text": "Service Management Portal",
+                  "link": "https://nets.service-now.com/sp"
+                },
+                {
+                  "text": "Knowledge articles",
+                  "link": "https://nets.service-now.com/nav_to.do?uri=/$knowledge.do%3Fsysparm_kb%3D15344aa40f399600b421f88ce1050ed5%26sysparm_category%3D652aea930f146e40cbce3e7ce1050eab%26sysparm_type_filter%3Dall%26browse_type%3Dcategories"
+                }
+              ]
+            },
+            {
+              "text": "SERVICENOW",
+              "links": [
+                {
+                  "text": "ServiceNow Foundation",
+                  "link": "https://community.servicenow.com/docs/DOC-3831"
+                },
+                {
+                  "text": "How to request",
+                  "link": "http://share/sites/ServiceNow/v2/Documents/Quick%20quides/ServiceNow%20-%20Quick%20Guide%20-%20How%20to%20request%20an%20item%20in%20ServiceNow.pdf"
+                },
+                {
+                  "text": "How to approve",
+                  "link": "http://share/sites/ServiceNow/v2/Documents/Quick%20quides/ServiceNow%20-%20Quick%20Guide%20-%20How%20to%20approve%20a%20requested%20item.pdf"
+                }
+              ]
+            },
+            {
+              "text": "TRAVEL & CORPORATE CREDITCARD EXPENSES",
+              "links": [
+                {
+                  "text": "Credit card Expense Report",
+                  "link": "http://nets-intranets/Organisation/Finance/Pages/Travel-(Expense-report-and-Eurocard"
+                },
+                {
+                  "text": "Travel policy",
+                  "link": "http://share/docs/corp/Apps/Elsa/current/index.html#/ELSA-3-40266"
+                },
+                {
+                  "text": "Travel site on IntraNets",
+                  "link": "http://nets-intranets/Organisation/Travel/Pages/Default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "SOCIAL",
+          "links": [],
+          "childrens": [
+            {
+              "text": "SOCIAL CLUBS DK",
+              "links": [
+                {
+                  "text": "Art Society DK",
+                  "link": "http://nets-intranets/Employees/dk/art-society-dk/Pages/Default.aspx"
+                },
+                {
+                  "text": "Golf Club DK",
+                  "link": "http://nets-intranets/Employees/dk/Golf-club-dk/Pages/Default.aspx"
+                },
+                {
+                  "text": "Holiday Cottages DK",
+                  "link": "http://nets-intranets/Employees/dk/holiday-cottages/Pages/default.aspx"
+                },
+                {
+                  "text": "Nets Fitness DK",
+                  "link": "http://nets-intranets/Employees/dk/Nets-fitness-dk/Pages/Default.aspx"
+                },
+                {
+                  "text": "Nets Photo Club DK",
+                  "link": "http://share/sites/nets-photoclub-lb/v2/Pages/welcome.aspx"
+                },
+                {
+                  "text": "Nets Sports Club DK",
+                  "link": "http://nets-intranets/Employees/dk/Nets-Sports-Club-dk/Pages/Default.aspx"
+                },
+                {
+                  "text": "Nets Theatre & Music Society DK",
+                  "link": "http://nets-intranets/Employees/dk/Nets-Theatre-Music%20Society-DK/"
+                },
+                {
+                  "text": "Nets Wellness DK",
+                  "link": "http://nets-intranets/Employees/dk/Nets-Wellness-DK/Pages/Default.aspx"
+                },
+                {
+                  "text": "Riding Club DK",
+                  "link": "http://nets-intranets/Employees/dk/Riding-Club-DK/Pages/Default.aspx"
+                },
+                {
+                  "text": "Senior Club DK",
+                  "link": "http://nets-intranets/Employees/dk/Senior-Club-DK/Pages/Default.aspx"
+                },
+                {
+                  "text": "Wine Club DK",
+                  "link": "http://nets-intranets/Employees/dk/wine-club-dk/Pages/Default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "NETS PARTIES",
+              "links": [
+                {
+                  "text": "Parties Denmark",
+                  "link": "http://nets-intranets/Employees/Parties-DK/Pages/Default.aspx"
+                },
+                {
+                  "text": "Parties Finland",
+                  "link": "http://nets-intranets/Employees/parties-finland/Pages/Default.aspx"
+                },
+                {
+                  "text": "Parties Norway",
+                  "link": "http://nets-intranets/Employees/parties-norway/Pages/Default.aspx"
+                },
+                {
+                  "text": "Parties Sweden",
+                  "link": "http://nets-intranets/Employees/parties-sweden/Pages/Default.aspx"
+                }
+              ]
+            },
+            {
+              "text": "SOCIAL CLUBS NO",
+              "links": [
+                {
+                  "text": "Nets Active Cabins",
+                  "link": "http://nets-intranets/Employees/no/nets-active-cabins/pages/default.aspx"
+                },
+                {
+                  "text": "Nets Active Golf Club",
+                  "link": "http://nets-intranets/Employees/no/nets-active-golf-club/Pages/Default.aspx"
+                },
+                {
+                  "text": "Nets Active Gym",
+                  "link": "http://nets-intranets/Employees/no/nets-active-gym/pages/default.aspx"
+                },
+                {
+                  "text": "Nets Active Hunting",
+                  "link": "http://nets-intranets/Employees/no/nets-active-hunting/pages/default.aspx"
+                },
+                {
+                  "text": "Nets Active Pilates",
+                  "link": "http://nets-intranets/Employees/no/Pages/Nets-Active-Pilates.aspx"
+                },
+                {
+                  "text": "Nets Active Squash",
+                  "link": "http://nets-intranets/Employees/no/netsactivesquash/Pages/Default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "BETWEEN EMPLOYEES",
+          "links": [
+            {
+              "text": "Employee discounts",
+              "link": "http://nets-intranets/SocialCorner/SitePages/Category.aspx?CategoryID=7&SiteMapTitle=Employee+discounts"
+            },
+            {
+              "text": "Social Corner",
+              "link": "http://nets-intranets/SocialCorner/SitePages/Community%20Home.aspx"
+            },
+            {
+              "text": "Yardsale buy and sell",
+              "link": "http://nets-intranets/SocialCorner/SitePages/Community%20Home.aspx"
+            }
+          ]
+        },
+        {
+          "text": "INTRANETS",
+          "links": [],
+          "childrens": [
+            {
+              "text": "INTRANETS",
+              "links": [
+                {
+                  "text": "About IntraNets",
+                  "link": "http://nets-intranets/projects/intranets/Pages/default.aspx"
+                },
+                {
+                  "text": "Editors",
+                  "link": "http://nets-intranets/projects/intranets/Pages/Editors.aspx"
+                },
+                {
+                  "text": "FAQ",
+                  "link": "http://nets-intranets/projects/intranets/Pages/FAQ.aspx"
+                },
+                {
+                  "text": "News",
+                  "link": "http://nets-intranets/projects/intranets/Pages/News-about-IntraNets.aspx"
+                },
+                {
+                  "text": "Tutorials",
+                  "link": "http://nets-intranets/projects/intranets/tutorials/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

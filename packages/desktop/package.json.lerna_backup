@@ -1,0 +1,113 @@
+{
+	"name": "my-jumpto365",
+	"version": "0.1.2",
+	"private": true,
+	"homepage": "./",
+	"author": {
+		"name": "Niels Gregers Johansen",
+		"email": "niels@jumpto365.com",
+		"url": "https://www.linkedin.com/in/niels-gregers-johansen"
+	},
+	"main": "public/electron.js",
+	"dependencies": {
+		"@reach/router": "^1.2.1",
+		"@uifabric/fluent-theme": "^0.8.0",
+		"add": "^2.0.6",
+		"babel-loader": "^8.0.4",
+		
+		"electron-devtools-installer": "^2.2.4",
+		"electron-is-dev": "^1.0.1",
+		"electron-publisher-s3": "^20.17.2",
+		"lodash": "^4.17.11",
+		"react": "^16.6.3",
+		"react-contextual": "^5.0.2",
+		"react-dev-utils": "^6.1.1",
+		"react-dom": "^16.6.3",
+		"react-loadable": "^5.5.0",
+		"react-masonry-component": "^6.2.1",
+		"react-scripts": "^2.1.1",
+		"yarn": "^1.12.3"
+	},
+	"scripts": {
+		"dev": "yarn react-scripts start",
+		"build": "react-scripts build",
+		"start": "concurrently \"cross-env PORT=3001 BROWSER=none yarn react-scripts start\" \"wait-on http://localhost:3001 && electron .\"",
+		"pack": "electron-builder --dir",
+		"dist": "npx build --x64 --macos --win  --c.extraMetadata.main=build/electron.js -p always",
+		"distw": "npx build --x64 --win  --c.extraMetadata.main=build/electron.js -p always"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"devDependencies": {
+		"concurrently": "^4.0.1",
+		"cross-env": "^5.2.0",
+		"electron": "^3.0.10",
+		"electron-builder": "^20.36.2",
+		"version-bump-prompt": "^4.2.1"
+	},
+	"build": {
+		"appId": "com.jumpto365.desktop",
+		"compression": "normal",
+		"productName": "My jumpto365",
+		"directories": {
+			"buildResources": "build",
+			"output": "dist"
+		},
+		"mac": {
+			"icon": "assets/icon.icns",
+			"type": "distribution",
+			"target": [
+				"pkg",
+				"dmg",
+				"mas"
+			],
+			"publish": {
+				"provider": "github",
+				"repo": "desktop",
+				"owner": "jumpto365",
+				"path": "releases",
+				"token": "18aaf42206bcb9c31197df0b6916f13db6d4b3b2"
+			},
+			"category": "public.app-category.news"
+		},
+		"mas": {
+			"entitlements": "assets/entitlements.mas.plist",
+			"entitlementsInherit": "assets/entitlements.mas.inherit.plist",
+			"provisioningProfile": "assets/embedded.provisionprofile"
+		},
+		"win": {
+			"target": "nsis",
+			"icon": "assets/icon.ico",
+			"publish": {
+				"provider": "github",
+				"repo": "my",
+				"owner": "jumpto365",
+				"path": "releases",
+				"token": "18aaf42206bcb9c31197df0b6916f13db6d4b3b2"
+			}
+		},
+		"linux": {
+			"icon": "assets/icon.png",
+			"target": [
+				"snap",
+				"AppImage"
+			],
+			"description": "Example",
+			"category": "Network;Feed",
+			"publish": {
+				"provider": "github",
+				"repo": "desktop",
+				"owner": "jumpto365",
+				"path": "releases",
+				"token": "18aaf42206bcb9c31197df0b6916f13db6d4b3b2"
+			}
+		}
+	}
+}

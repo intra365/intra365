@@ -197,7 +197,7 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
         <span>{option.text}</span>
       </div>
     );
-  };
+  }
 
   private _onRenderPlaceholder = (props: IDropdownProps): JSX.Element => {
     return (
