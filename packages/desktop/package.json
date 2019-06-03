@@ -25,7 +25,10 @@
 		"react-loadable": "^5.5.0",
 		"react-masonry-component": "^6.2.1",
 		"react-scripts": "^2.1.1",
-		"yarn": "^1.12.3"
+		"yarn": "^1.12.3",
+		"@intra365/models":"1.0.0",
+		"@intra365/navigation": "^1.0.0",
+		"@intra365/navigation-components":"1.0.0"
 	},
 	"eslintConfig": {
 		"extends": "react-app"

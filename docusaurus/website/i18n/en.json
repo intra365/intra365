@@ -5,6 +5,9 @@
     "previous": "Previous",
     "tagline": "Set up a Intranet integrations  by running one command.",
     "docs": {
+      "developer/bootstrap": {
+        "title": "developer/bootstrap"
+      },
       "folder-structure": {
         "title": "Folder Structure"
       },

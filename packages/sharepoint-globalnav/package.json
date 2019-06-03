@@ -7,6 +7,7 @@
   },
   "scripts": {
     "build": "gulp bundle",
+    "deploy": "gh-pages -b master -d build -r https://github.com/jumpto365/sharepoint-globalnavigation",
     "clean": "gulp clean",
     "test": "gulp test"
   },
@@ -37,6 +38,8 @@
     "@types/chai": "3.4.34",
     "@types/mocha": "2.2.38",
     "ajv": "~5.2.2",
-    "gulp": "~3.9.1"
+    "gulp": "~3.9.1",
+    "gh-pages":"^2.0.1"
   }
 }
+
