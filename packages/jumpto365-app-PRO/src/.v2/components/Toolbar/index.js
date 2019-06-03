@@ -36,7 +36,7 @@ import sharepointDesktop from "../../../media/HostFrames/sharepointDesktop.png";
 import appleAir from "../../../media/HostFrames/appleAir.png";
 import { imgElement } from "mammoth/lib/images";
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
-import {getProperty,newItem,subtree,megaMenuWidth,renderMegaMenu} from "@intra365/navigation-components"
+import {getProperty,newItem,tree,subtree,megaMenuWidth,renderMegaMenu} from "@intra365/navigation-components"
 
 // export function getProperty(props, key, propertyName, defaultValue) {
 //   return props && props[key] && props[key][propertyName] !== undefined
@@ -147,7 +147,7 @@ import {getProperty,newItem,subtree,megaMenuWidth,renderMegaMenu} from "@intra36
 //   };
 // }
 
-export function tree(props, data, level, onCmd, width) {
+export function xtree(props, data, level, onCmd, width) {
   if (!data) return [];
   return data.map(item => {
 

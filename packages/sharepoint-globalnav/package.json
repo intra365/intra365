@@ -23,7 +23,9 @@
     "mammoth": "^1.4.8",
     "marked": "^0.6.2",
     "react-json-view": "^1.19.1",
-    "@intra365/models":"1.0.0"
+    "@intra365/models":"1.0.0",
+    "@intra365/navigation": "^1.0.0",
+    "@intra365/navigation-components":"1.0.0"
   },
   "devDependencies": {
     "@microsoft/microsoft-graph-types": "^1.8.0",

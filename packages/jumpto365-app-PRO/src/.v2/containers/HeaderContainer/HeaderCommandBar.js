@@ -14,7 +14,8 @@ import jumpto365Logo from "../../media/Logo horizontal color - transparent backg
 import { Link } from "@reach/router";
 import { Toggle } from "office-ui-fabric-react";
 import { EditorExperienceContext } from "../../logic/EditorExperience/EditorExperienceContext";
-import { tree } from "../../components/Toolbar";
+
+import {tree} from "@intra365/navigation-components"
 import { readConfig } from "../../api/config";
 import $ from "jquery";
 export default class HeaderCommandBar extends Component {

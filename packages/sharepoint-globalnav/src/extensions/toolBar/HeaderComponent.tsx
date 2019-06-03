@@ -18,7 +18,7 @@ import {
 } from "office-ui-fabric-react";
 import { FluentCustomizations } from "@uifabric/fluent-theme";
 
-import data from "./globaltool.js";
+//import data from "./globaltool.js";
 
 import ReactJson from "react-json-view";
 import {
@@ -45,8 +45,8 @@ import {
 import {
   readConfig
 } from "../../api/config"
-var mammoth: any = require("mammoth");
-var WORD : any = require("../../api/word")
+// var mammoth: any = require("mammoth");
+// var WORD : any = require("../../api/word")
 
 export interface IHeaderProps {
   context: ApplicationCustomizerContext;
@@ -405,57 +405,57 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
         }
       );
   }
-  private _readFile(url: string, stateProperty: string): any {
-    return new Promise((resolve, reject) => {
-      var that: any = this;
-      fetch(url)
-        .then(response => {
-          return response.arrayBuffer();
-        })
-        .then(async arrayBuffer => {
-          // var arrayBuffer = await new Response(blob).arrayBuffer();
-          // var reader = new FileReader();
-          // reader.readAsDataURL(blob);
-          // reader.onloadend = function() {
-          //   var base64data = reader.result;
-          //   console.log(base64data);
-          //   var state: any = {};
-          //   state[stateProperty] = true;
-          //   localStorage.setItem("jumpto365." + stateProperty, base64data);
+  // private _readFile(url: string, stateProperty: string): any {
+  //   return new Promise((resolve, reject) => {
+  //     var that: any = this;
+  //     fetch(url)
+  //       .then(response => {
+  //         return response.arrayBuffer();
+  //       })
+  //       .then(async arrayBuffer => {
+  //         // var arrayBuffer = await new Response(blob).arrayBuffer();
+  //         // var reader = new FileReader();
+  //         // reader.readAsDataURL(blob);
+  //         // reader.onloadend = function() {
+  //         //   var base64data = reader.result;
+  //         //   console.log(base64data);
+  //         //   var state: any = {};
+  //         //   state[stateProperty] = true;
+  //         //   localStorage.setItem("jumpto365." + stateProperty, base64data);
 
-          //   that.setState(state);
-          //   return resolve({ result: state });
-          // };
+  //         //   that.setState(state);
+  //         //   return resolve({ result: state });
+  //         // };
 
-          var options = {
-            arrayBuffer
-          };
-          mammoth.convertToMarkdown(options).then(result => {
+  //         var options = {
+  //           arrayBuffer
+  //         };
+  //         mammoth.convertToMarkdown(options).then(result => {
             
-            localStorage.setItem(
-              "jumpto365." + stateProperty,
-              result.value
-            );
-            WORD.parseMarkdown(result.value)
-            .then(tree=>{
-              localStorage.setItem(
-                "jumpto365." + stateProperty + ".tree",
-                JSON.stringify(tree)
-              );
+  //           localStorage.setItem(
+  //             "jumpto365." + stateProperty,
+  //             result.value
+  //           );
+  //           WORD.parseMarkdown(result.value)
+  //           .then(tree=>{
+  //             localStorage.setItem(
+  //               "jumpto365." + stateProperty + ".tree",
+  //               JSON.stringify(tree)
+  //             );
 
-            })
+  //           })
 
 
-          });
-        })
-        .catch(error => {
-          var errors = this.state.errors ? this.state.errors : {};
-          errors[stateProperty] = error;
-          this.setState({ errors });
-          return resolve({ error });
-        });
-    });
-  }
+  //         });
+  //       })
+  //       .catch(error => {
+  //         var errors = this.state.errors ? this.state.errors : {};
+  //         errors[stateProperty] = error;
+  //         this.setState({ errors });
+  //         return resolve({ error });
+  //       });
+  //   });
+  // }
   private _read(url: string): any {
     return new Promise((resolve, reject) => {
       fetch(url)
@@ -516,19 +516,19 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
           "me.drive.root"
         );
         this._readMemberships();
-        if (!myDrive.error) {
-          var file = await this._readGraph(
-            "https://graph.microsoft.com/v1.0/me/drive/root:/jumpto365/index.docx:",
-            "my.index"
-          );
-          if (!file.error) {
-            this.setState({ myIndexFile: file.result.webUrl });
-            var indexFile = await this._readFile(
-              file.result["@microsoft.graph.downloadUrl"],
-              "index.file"
-            );
-          }
-        }
+        // if (!myDrive.error) {
+        //   var file = await this._readGraph(
+        //     "https://graph.microsoft.com/v1.0/me/drive/root:/jumpto365/index.docx:",
+        //     "my.index"
+        //   );
+        //   if (!file.error) {
+        //     this.setState({ myIndexFile: file.result.webUrl });
+        //     var indexFile = await this._readFile(
+        //       file.result["@microsoft.graph.downloadUrl"],
+        //       "index.file"
+        //     );
+        //   }
+        // }
         //
       } else {
         this.setState({ configError: config.error });
