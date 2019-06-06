@@ -68,7 +68,12 @@ export default class ToolbarContainer extends React.PureComponent {
   }
 
   componentDidMount() {
-    // this.load(this.props.tag);
+    
+    if (this.props.tag){
+      this.load(this.props.tag);
+    }else{
+      this._setState({ onToolbarOpen: true });
+    }
     var context = this.props.context;
   }
 
@@ -639,7 +644,7 @@ export default class ToolbarContainer extends React.PureComponent {
         resolve();
       } else {
         
-        navigate("./" + tag);
+        navigate("/toolbar/" + this.props.domain + "/" + tag);
         return resolve({ hasError: false });
       }
     });

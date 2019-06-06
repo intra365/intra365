@@ -6,6 +6,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "start": "gulp start",
     "build": "gulp bundle",
     "deploy": "gh-pages -b master -d build -r https://github.com/jumpto365/sharepoint-globalnavigation",
     "clean": "gulp clean",
@@ -26,6 +27,7 @@
     "react-json-view": "^1.19.1",
     "@intra365/models":"1.0.0",
     "@intra365/navigation": "^1.0.0",
+    "@intra365/config": "^1.0.0",
     "@intra365/navigation-components":"1.0.0"
   },
   "devDependencies": {

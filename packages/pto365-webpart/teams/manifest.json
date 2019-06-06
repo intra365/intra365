@@ -1,0 +1,43 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.3",
+    "version": "0.0.1",
+    "id": "3be8923e-8b98-4258-b097-b3965fbb90ea",
+    "packageName": "com.jumpto365.table",
+    "developer": {
+        "name": "jumpto365, Inc.",
+        "websiteUrl": "https://jumpto365.com/en",
+        "privacyUrl": "https://jumpto365.com/privacy/",
+        "termsOfUseUrl": "https://jumpto365.com/eula/"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Jumpto365",
+        "full": "jumpto365 pro"
+    },
+    "description": {
+        "short": "Support your IT adoption programs ",
+        "full": "Create tables from scratch \nExpert-designed templates \nInclude popular cloud apps \nInclude custom and on-prem apps \nWrite your own articles \nGroup your apps for context \nLaunch directly to apps from tables \nProvide your own title and icon graphics \nPublish your tables and embed in your intranet "
+    },
+    "accentColor": "#ffffff",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://pro.jumpto365.com/@/jumpto365.com/Bridge",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "pro.jumpto365.com",
+        "*.jumpto365.com"
+    ]
+}

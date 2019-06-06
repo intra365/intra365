@@ -42,9 +42,9 @@ import {
   SelectableOptionMenuItemType
 } from "office-ui-fabric-react/lib/index";
 
-import {
-  readConfig
-} from "../../api/config"
+
+import {  readSharePointConfig} from "@intra365/config"
+import { newItem, getProperty,getTree } from "@intra365/navigation-components";
 // var mammoth: any = require("mammoth");
 // var WORD : any = require("../../api/word")
 
@@ -197,7 +197,7 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
         <span>{option.text}</span>
       </div>
     );
-  }
+  };
 
   private _onRenderPlaceholder = (props: IDropdownProps): JSX.Element => {
     return (
@@ -405,57 +405,7 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
         }
       );
   }
-  // private _readFile(url: string, stateProperty: string): any {
-  //   return new Promise((resolve, reject) => {
-  //     var that: any = this;
-  //     fetch(url)
-  //       .then(response => {
-  //         return response.arrayBuffer();
-  //       })
-  //       .then(async arrayBuffer => {
-  //         // var arrayBuffer = await new Response(blob).arrayBuffer();
-  //         // var reader = new FileReader();
-  //         // reader.readAsDataURL(blob);
-  //         // reader.onloadend = function() {
-  //         //   var base64data = reader.result;
-  //         //   console.log(base64data);
-  //         //   var state: any = {};
-  //         //   state[stateProperty] = true;
-  //         //   localStorage.setItem("jumpto365." + stateProperty, base64data);
-
-  //         //   that.setState(state);
-  //         //   return resolve({ result: state });
-  //         // };
-
-  //         var options = {
-  //           arrayBuffer
-  //         };
-  //         mammoth.convertToMarkdown(options).then(result => {
-            
-  //           localStorage.setItem(
-  //             "jumpto365." + stateProperty,
-  //             result.value
-  //           );
-  //           WORD.parseMarkdown(result.value)
-  //           .then(tree=>{
-  //             localStorage.setItem(
-  //               "jumpto365." + stateProperty + ".tree",
-  //               JSON.stringify(tree)
-  //             );
-
-  //           })
-
-
-  //         });
-  //       })
-  //       .catch(error => {
-  //         var errors = this.state.errors ? this.state.errors : {};
-  //         errors[stateProperty] = error;
-  //         this.setState({ errors });
-  //         return resolve({ error });
-  //       });
-  //   });
-  // }
+  
   private _read(url: string): any {
     return new Promise((resolve, reject) => {
       fetch(url)
@@ -471,28 +421,34 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
         });
     });
   }
- 
+
   async componentDidMount() {
     try {
-      var config = await readConfig(
+      
+      var config = await readSharePointConfig(
         this.props.context.pageContext.site.absoluteUrl
       );
-
+      
       if (!config.error) {
-        config = config.result;
+        //config = config.result;
         var navigation = config.navigation;
         var match = false;
         var sitepath = this.props.context.pageContext.site.serverRelativeUrl.toUpperCase();
-        config.rules.forEach(rule => {
+
+        var rules:any[] = config.rules
+        rules.sort((a,b)=>{  return String(b.path).length - String(a.path).length})
+        
+        rules.forEach(rule => {
           var subpath = rule.path.toUpperCase();
           var matchPath = sitepath.substr(0, subpath.length);
-          if (subpath === matchPath) {
+          if (subpath === matchPath && !match) {
             match = true;
             navigation = rule.navigation;
           }
         });
 
         var file = await this._read(navigation);
+        
         if (!file.error) {
           file = file.result;
 
@@ -551,341 +507,16 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
     );
   };
 
-  getProperty(store, key, propertyName, defaultValue) {
-    return store && store[key] && store[key][propertyName] !== undefined
-      ? store[key][propertyName]
-      : defaultValue;
-  }
+  
 
-  private newItem = (key, name, iconName, checked): any => {
-    var itemProps =
-      this.state.properties && this.state.properties[key]
-        ? this.state.properties[key]
-        : {};
-var itemType = itemProps.type ? itemProps.type.toUpperCase() : ""
-    var onRender = null;
-
-    switch (itemType) {
-      case "IFRAME":
-          onRender = (data: any): JSX.Element => {
-            return (
-              <div style={{ display: "flex" }}>
-                <div style={{ marginTop: "0px" }}>
-                  <iframe
-                    style={{ overflow: "hidden", borderStyle: "hidden" }}
-                    src={itemProps.href}
-                    height={itemProps.height ? itemProps.height  :  "500px"}
-                    width={itemProps.width ? itemProps.width  :  "800px"}
-                  />
-                </div>
-              </div>
-            );
-          };
-        break;
-        // case "MEGAMENU":
-        //     onRender = data => {
-        //       return (
-        //         <div style={{ display: "flex" }}>
-        //           <div style={{ marginTop: "0px",maxWidth:this.props.width/3 }}>
-        //            {JSON.stringify(data)}
-        //           </div>
-        //         </div>
-        //       );
-        //     };
-        //     break;
-            case "IMAGE":
-              onRender = data => {
-                return (
-                  <div style={{marginTop:"14px",marginRight:"6px" }}>
-                  <img  src={itemProps.href} alt={itemProps.title} style={{ height: "16px",width:"auto" }} />
-                  </div>
-                );
-              };
-              break;
-      case "DROPDOWN":
-        onRender = null;
-        break;
-
-      case "LINK":
-        onRender = null;
-        break;
-      case "TILE":
-        onRender = null;
-        break;
-      default:
-        onRender = null;
-        break;
-    }
-
-    return {
-      checked: checked ? true : false,
-      key,
-      name,
-      iconProps: iconName ? { iconName } : null,
-      // disabled:this.isDisabled(key) ,
-
-      onRender,
-      onClick: () => {
-        switch (itemType) {
-          case "IFRAME":
-            break;
-
-          case "DROPDOWN":
-            break;
-
-          case "LINK":
-            window.open(itemProps.href, "_blank");
-            break;
-          case "TILE":
-            break;
-          default:
-            break;
-        }
-      }
-    };
-  };
-
-  private getTree = (properties, tree, level) => {
-    if (!tree) return [];
-    return tree.map(item => {
-      if (item.children && item.children.length) {
-        var actionItem = this.newItem(
-          item.key,
-          this.getProperty(properties, item.key, "title", item.title),
-          this.getProperty(properties, item.key, "icon", ""),
-          false
-        );
-        var items =  this.getTree(properties, item.children, level ? level + 1 : 1)
-        if (actionItem.subMenuProps && actionItem.subMenuProps.items ){
-          actionItem.subMenuProps.items =  actionItem.subMenuProps.items.concat(items)
-        }else
-        actionItem.subMenuProps = {
-         items
-        };
-        return actionItem;
-      }
-      return this.newItem(
-        item.key,
-        this.getProperty(properties, item.key, "title", item.title),
-        this.getProperty(properties, item.key, "icon", ""),
-        false
-      );
-    });
-  };
   // Data for CommandBar
   private getItems = (state: any) => {
     if (this.state.tree) {
-      return this.getTree(this.state.properties, this.state.tree, 0);
+      
+      return getTree(this.state.properties, this.state.tree, 0);
     }
 
-    //  const items =
-
-    var localNav = state && state.localNav ? state.localNav : [];
-
-    return [
-      {
-        key: "Insights",
-        name: "Insights",
-        cacheKey: "Insights", // changing this key will invalidate this items cache
-        iconProps: {
-          iconName: "PowerBILogo"
-        },
-        ariaLabel: "Insights",
-        subMenuProps: {
-          items: [
-            {
-              key: "Our Digital Workspace",
-              name: "Our Digital Workspace",
-              cacheKey: "Our Digital Workspace", // changing this key will invalidate this items cache
-              iconProps: {
-                iconName: "waffle"
-              },
-              ariaLabel: "Insights",
-              subMenuProps: {
-                items: [
-                  {
-                    key: "calendarEvent",
-                    name: "Overview",
-                    iconProps: {
-                      iconName: "Calendar"
-                    },
-                    onRender: this._onRender
-                  }
-                ]
-              }
-            },
-            {
-              key: "My Reports",
-              name: "My Reports",
-              cacheKey: "My Reports", // changing this key will invalidate this items cache
-              iconProps: {
-                iconName: "waffle"
-              },
-              ariaLabel: "My Reports",
-              subMenuProps: {
-                items: [
-                  {
-                    key: "calendarEvent",
-                    name: "Overview",
-                    iconProps: {
-                      iconName: "Calendar"
-                    },
-                    onRender: this._onRender2
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        key: "upload",
-        name: "Communicate",
-        iconProps: {
-          iconName: "Communications"
-        },
-        href: "https://office.com",
-        ["data-automation-id"]: "uploadButton",
-        subMenuProps: {
-          items: [
-            {
-              key: "emailMessage",
-              name: "Email message",
-              iconProps: {
-                iconName: "Mail"
-              },
-              ["data-automation-id"]: "newEmailButton"
-            },
-            {
-              key: "calendarEvent",
-              name: "Calendar event",
-              iconProps: {
-                iconName: "Calendar"
-              }
-            }
-          ]
-        }
-      },
-
-      {
-        key: "Find Documentation",
-        name: "Find Documentation",
-        cacheKey: "Find Documentation", // changing this key will invalidate this items cache
-        iconProps: {
-          iconName: "DocumentSearch"
-        },
-        ariaLabel: "New",
-        subMenuProps: {
-          items: [
-            {
-              key: "emailMessage",
-              name: "Email message",
-              iconProps: {
-                iconName: "Mail"
-              },
-              ["data-automation-id"]: "newEmailButton"
-            },
-            {
-              key: "calendarEvent",
-              name: "Calendar event",
-              iconProps: {
-                iconName: "Calendar"
-              }
-            }
-          ]
-        }
-      },
-      ,
-      {
-        key: "Share Documentation",
-        name: "Share Documentation",
-        cacheKey: "Share Documentation", // changing this key will invalidate this items cache
-        iconProps: {
-          iconName: "Share"
-        },
-        ariaLabel: "New",
-        subMenuProps: {
-          items: [
-            {
-              key: "emailMessage",
-              name: "Email message",
-              iconProps: {
-                iconName: "Share"
-              },
-              ["data-automation-id"]: "newEmailButton"
-            },
-            {
-              key: "calendarEvent",
-              name: "Calendar event",
-              iconProps: {
-                iconName: "Calendar"
-              }
-            }
-          ]
-        }
-      },
-      {
-        key: "newItem",
-        name: "Plan",
-        cacheKey: "myCacheKey", // changing this key will invalidate this items cache
-        iconProps: {
-          iconName: "PlannerLogo"
-        },
-        ariaLabel: "New",
-        subMenuProps: {
-          items: [
-            {
-              key: "emailMessage",
-              name: "Email message",
-              iconProps: {
-                iconName: "Mail"
-              },
-              ["data-automation-id"]: "newEmailButton"
-            },
-            {
-              key: "calendarEvent",
-              name: "Calendar event",
-              iconProps: {
-                iconName: "Calendar"
-              }
-            }
-          ]
-        }
-      },
-      {
-        key: "tile",
-        name: "Get Access",
-        ariaLabel: "Grid view",
-        iconProps: {
-          iconName: "NetworkTower"
-        },
-        iconOnly: false,
-        onClick: () => console.log("Tiles")
-      },
-      {
-        key: "info",
-        name: "Local navigation",
-        disabled: localNav.length === 0,
-        ariaLabel: "Info",
-        iconProps: {
-          iconName: "GlobalNavButton"
-        },
-        iconOnly: false,
-        onClick: () => console.log("Info"),
-        subMenuProps: {
-          items: localNav.map(item => {
-            return {
-              key: "local" + item.Title,
-              name: item.Title,
-              href: item.Link
-              // iconProps: {
-              //   iconName: "Calendar"
-              // }
-            };
-          })
-        }
-      }
-    ];
+    
   };
 
   private getOverlflowItems = () => {

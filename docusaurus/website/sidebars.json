@@ -3,7 +3,7 @@
     "Welcome": ["documentation-intro"],
     "Getting Started": [
       "getting-started",
-      "folder-structure",
+      "configuration",
       "available-scripts",
       "supported-browsers-features",
       "updating-to-new-releases"

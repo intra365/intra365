@@ -40,8 +40,21 @@ import "./root.css";
 
 const API = require("./services/Jumpto365API");
 
-//
-//const store = Jumpto365App.store()
+
+
+class Goto extends Component {
+  componentDidMount(){
+    debugger
+    navigate(this.props.link)
+  }
+  render() {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+}
 
 initializeIcons();
 
@@ -307,7 +320,12 @@ let EditorPage = Loadable({
   timeout: 10000,
   delay: 300
 });
-
+let ManifestsPage = Loadable({
+  loader: () => import("./components/_Pages/Manifests"),
+  loading: Loading,
+  timeout: 10000,
+  delay: 300
+});
 let Dash = () => <div>Dash</div>;
 let NotFound = () => <div>Not found</div>;
 
@@ -1101,7 +1119,9 @@ class AppV2 extends Component {
                         path="/scenario/:technology/:domain/:view/:language"
                         globalContext={globalContext}
                       />
-
+<ManifestsPage isMobile={this.state.isMobile}
+                        path="/manifests"
+                        context={globalContext}/>
                       <ContextPage
                         isMobile={this.state.isMobile}
                         path="/license/:license"
@@ -1115,6 +1135,20 @@ class AppV2 extends Component {
                         path="/toolbar/:domain/:tag"
                         language="en"
                         context={globalContext}
+                      />
+                      <ToolbarEditorPage
+                        isMobile={this.state.isMobile}
+                        width={this.state.bodyWidth}
+                        height={this.state.bodyHeight}
+                        path="/toolbar/:domain"
+                        language="en"
+                        context={globalContext}
+                      />
+                       <Goto
+                       
+                        link={"/toolbar/" + (globalContext && globalContext.me && globalContext.me.upn ? globalContext.me.upn : "") }
+                        path="/toolbar"
+                       
                       />
                       <TableEditorPage
                         isMobile={this.state.isMobile}

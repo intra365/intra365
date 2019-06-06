@@ -1,12 +1,7 @@
 ---
-id: getting-started
-title: Getting Started
+id: configuration
+title: Configuratoin "Intra365"
 ---
-
-# Get the "manifest" files
-Each integration component integrates your configuration into a unqiue manifest from your organisation.
-
-[Get Integration Manifest](https://pro.jumpto365.com/manifests)
 
 Configuration assets is shared on blob store in Microsoft azure.
 

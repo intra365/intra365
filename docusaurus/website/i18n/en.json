@@ -3,10 +3,13 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Set up a Intranet integrations  by running one command.",
+    "tagline": "Entrypoints to your digital workplace.",
     "docs": {
-      "developer/bootstrap": {
-        "title": "developer/bootstrap"
+      "configuration/configuration": {
+        "title": "Configuratoin \"Intra365\""
+      },
+      "developer/debugging-addins": {
+        "title": "Debugging Add-Ins"
       },
       "folder-structure": {
         "title": "Folder Structure"
@@ -30,7 +33,7 @@
     "links": {
       "Docs": "Docs",
       "Help": "Help",
-      "GitHub": "GitHub"
+      "Intra365": "Intra365"
     },
     "categories": {
       "Welcome": "Welcome",

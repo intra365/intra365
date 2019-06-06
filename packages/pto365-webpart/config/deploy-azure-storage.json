@@ -1,0 +1,7 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/deploy-azure-storage.schema.json",
+  "workingDir": "./temp/deploy/",
+  "account": "jumpto36500001",
+  "container": "webpart-jumpto365-v1",
+  "accessKey": "TrPnxiQXEsggqum029GKPzObvueh5e448OE4VqlS5DWOkd0uJoYi3H4YZtdZufSJH5DiJ9XJyECuqqqRUOONSg=="
+}

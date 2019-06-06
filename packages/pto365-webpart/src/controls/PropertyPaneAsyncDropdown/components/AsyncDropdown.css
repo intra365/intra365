@@ -1,0 +1,15 @@
+.TableItem {
+  padding:8px;
+  cursor: pointer;
+}
+
+.TableItem:hover{
+  background-color: #222222;
+  color:#ffffff
+}
+
+
+.editorLink{
+  padding:8px;
+  
+}

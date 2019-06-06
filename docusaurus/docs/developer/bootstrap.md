@@ -1,7 +1,10 @@
-
-
+---
+id: debugging-addins
+title: Debugging Add-Ins
+---
 [Debugging Add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/debug-office-add-ins-on-ipad-and-mac)
 
+## On a Mac
 ```bash
 defaults write com.microsoft.Word OfficeWebAddinDeveloperExtras -bool true
 

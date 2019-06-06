@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jumpto-365-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jumpto365/Jumpto365WebPart.js",
+          "manifest": "./src/webparts/jumpto365/Jumpto365WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Jumpto365WebPartStrings": "lib/webparts/jumpto365/loc/{locale}.js"
+  }
+}

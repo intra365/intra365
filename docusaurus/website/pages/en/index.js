@@ -107,7 +107,7 @@ const Features = props => (
   <Block layout="threeColumn" {...props}>
     {[
       {
-        title: 'Less to Learn',
+        title: 'Nothing to repeat',
         content:
           "You don't need to learn and configure many build tools. Instant reloads help you focus on development. When it's time to deploy, your bundles are optimized automatically.",
       },
@@ -119,7 +119,7 @@ const Features = props => (
       {
         title: 'No Lock-In',
         content:
-          'Under the hood, we use Webpack, Babel, ESLint, and other amazing projects to power your app. If you ever want an advanced configuration, you can ”eject” from Create React App and edit their config files directly.',
+          'You can at any point in time bail out ...',
       },
     ]}
   </Block>

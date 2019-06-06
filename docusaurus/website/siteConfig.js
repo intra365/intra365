@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: 'Intra365', // Title for your website.
-  tagline: 'Set up a Intranet integrations  by running one command.',
+  tagline: 'Entrypoints to your digital workplace.',
   url: 'https://intra365.github.io', // Your website URL
   // For github.io type URLs, you would set the url and baseUrl like:
   url: 'https://intra365.github.io',
@@ -18,8 +18,8 @@ const siteConfig = {
   editUrl: 'https://github.com/intra365/intra365/edit/master/docusaurus/docs/',
 
   // Used for publishing and more
-  projectName: 'intra365',
-  organizationName: 'intra365',
+  projectName: 'intra365 by jumpto365',
+  organizationName: 'jumpto365',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -29,20 +29,20 @@ const siteConfig = {
     { doc: 'getting-started', label: 'Docs' },
     { href: 'https://reactjs.org/community/support.html', label: 'Help' },
     {
-      href: 'https://www.github.com/intra365/intra365',
-      label: 'GitHub',
+      href: 'https://pro.jumpto365.com',
+      label: 'Intra365',
     },
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo.svg',
-  footerIcon: 'img/logo.svg',
+  headerIcon: 'img/logo-og.png',
+  footerIcon: 'img/logo-og.png',
   favicon: 'img/favicon/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#20232a',
-    secondaryColor: '#61dafb',
+    primaryColor: '#2B79F6',
+    secondaryColor: '#2B79F6',
   },
 
   /* Custom fonts for website */
@@ -60,7 +60,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} intra365 Inc.`,
+  copyright: `Copyright © ${new Date().getFullYear()} jumpto365 Inc.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
