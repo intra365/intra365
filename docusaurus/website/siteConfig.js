@@ -10,12 +10,12 @@
 
 const siteConfig = {
   title: 'Intra365', // Title for your website.
-  tagline: 'Entrypoints to your digital workplace.',
+  tagline: 'Entrypoints to your digital workplace. Share the same navigation across Office 365 tenants',
   url: 'https://intra365.github.io', // Your website URL
   // For github.io type URLs, you would set the url and baseUrl like:
   url: 'https://intra365.github.io',
   baseUrl: '/intra365/',
-  editUrl: 'https://github.com/intra365/intra365/edit/master/docusaurus/docs/',
+  //editUrl: 'https://github.com/intra365/intra365/edit/master/docusaurus/docs/',
 
   // Used for publishing and more
   projectName: 'intra365 by jumpto365',
@@ -27,10 +27,10 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'getting-started', label: 'Docs' },
-    { href: 'https://reactjs.org/community/support.html', label: 'Help' },
+    { href: 'https://jumpto365.zendesk.com/hc/en-us', label: 'Help' },
     {
       href: 'https://pro.jumpto365.com',
-      label: 'Intra365',
+      label: 'Admin',
     },
   ],
 
@@ -81,7 +81,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/intra365/intra365',
+  //repoUrl: 'https://github.com/intra365/intra365',
 
   // algolia: {
   //   apiKey: '3be60f4f8ffc24c75da84857d6323791',

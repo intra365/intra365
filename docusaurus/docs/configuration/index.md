@@ -1,19 +1,11 @@
 ---
 id: configuration
-title: Configuratoin "Intra365"
+title: Configuration "Intra365"
 ---
 
-Configuration assets is shared on blob store in Microsoft azure.
+### Global Configuration
 
-## Discovery
-
-### SharePoint Online Configurations
-
-Your SharePoint Online hostname is used for looking up configuration assets.
-
-The file is structured according to the following sample
-
-
+A reference to your configuration file is bundled into the integration component our your choice.  No requirements to jumpto365 server side components / API is used in day to day operations of the integrations, as everything is served through our CDN - currently delivered through CloudFlare's global network of edge server and backed by Microsoft Azure storages. 
 
 ```json
 {
@@ -24,7 +16,7 @@ The file is structured according to the following sample
   "rules": [
     
     {
-        // https://tetant.sharepoint.com/sites/templates/info  will match this on the path. But as the rules are sorted inreverse order based ont the length of the path, the 3rd rule will win,
+        // https://tenant.sharepoint.com/sites/templates/info  will match this on the path. But as the rules are sorted inreverse order based ont the length of the path, the 3rd rule will win,
       "path": "/sites",
       "navigation": "https://blob.jumpto365.com/toolbars/j/u/m/jumpto365.com/Root.json"
     },
@@ -33,7 +25,7 @@ The file is structured according to the following sample
       "navigation": "https://blob.jumpto365.com/toolbars/j/u/m/jumpto365.com/Root.json"
     },
     {
-    // https://tetant.sharepoint.com/sites/templates/info will match this and be the winner
+    // https://tenant.sharepoint.com/sites/templates/info will match this and be the winner
       "path":"/sites/templates",
       "navigation": "https://blob.jumpto365.com/toolbars/j/u/m/jumpto365.com/jumpto365 free version.json"
     }

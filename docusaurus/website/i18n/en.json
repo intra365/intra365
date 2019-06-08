@@ -3,16 +3,16 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Entrypoints to your digital workplace.",
+    "tagline": "Entrypoints to your digital workplace. Share the same navigation across Office 365 tenants",
     "docs": {
+      "sharepoint-app-catalog": {
+        "title": "Manage the App in SharePoint"
+      },
       "configuration/configuration": {
-        "title": "Configuratoin \"Intra365\""
+        "title": "Configuration \"Intra365\""
       },
       "developer/debugging-addins": {
         "title": "Debugging Add-Ins"
-      },
-      "folder-structure": {
-        "title": "Folder Structure"
       },
       "getting-started": {
         "title": "Getting Started"
@@ -20,6 +20,9 @@
       "setting-up-your-editor": {
         "title": "Setting Up Your Editor",
         "sidebar_label": "Editor Setup"
+      },
+      "sharepoint-graph-api-consent": {
+        "title": "SharePoint Global Toolbar API access"
       },
       "title-and-meta-tags": {
         "title": "Title and Meta Tags",
@@ -33,19 +36,11 @@
     "links": {
       "Docs": "Docs",
       "Help": "Help",
-      "Intra365": "Intra365"
+      "Admin": "Admin"
     },
     "categories": {
       "Welcome": "Welcome",
-      "Getting Started": "Getting Started",
-      "Development": "Development",
-      "Styles and Assets": "Styles and Assets",
-      "Building your App": "Building your App",
-      "Testing": "Testing",
-      "Back-End Integration": "Back-End Integration",
-      "Deployment": "Deployment",
-      "Advanced Usage": "Advanced Usage",
-      "Support": "Support"
+      "Getting Started": "Getting Started"
     }
   },
   "pages-strings": {
