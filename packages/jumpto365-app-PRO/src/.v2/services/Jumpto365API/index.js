@@ -479,6 +479,7 @@ export function getSubscription(subscriptionId) {
   return RestGet(`${HOST}/v1.0/subscription/${subscriptionId}` );
 }
 export function trackAnomyous(path,payload) {
+  return
   return axios.post(`${HOST}/v1.0/track`, {...payload,path}, {
     headers: {
       
@@ -489,7 +490,7 @@ export function trackAnomyous(path,payload) {
 
 }
 export function trackMe(path,payload) {
-
+return
   return RestPost(`${HOST}/v1.0/me/track`, {...payload,path});
 }
 export function authenticate(token) {

@@ -22,6 +22,7 @@
     "@microsoft/office-js-helpers": "^1.0.2",
     "@reach/router": "^1.1.1",
     "@uifabric/fluent-theme": "^0.12.0",
+    "@intra365/config":"^1.0.0",
     "Dante2": "^0.5.0-rc4",
     "adal-angular": "^1.0.16",
     "airbnb-js-shims": "^2.1.1",

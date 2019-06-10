@@ -12,6 +12,7 @@ import CellTypeSelector, {
 import { TileEditor } from "../../logic/TileEditors";
 import { GroupPropertiesEditor } from "../../logic/GroupEditor";
 import { ToolbarPropertiesEditor } from "../../logic/ToolbarEditors";
+import { MessageBarButton } from 'office-ui-fabric-react/lib/Button';
 import {
   MessageBar,
   MessageBarType
@@ -67,12 +68,28 @@ export default class ToolbarContainer extends React.PureComponent {
     }
   }
 
+     
+    
+
+
+
+
   componentDidMount() {
     
     if (this.props.tag){
       this.load(this.props.tag);
     }else{
-      this._setState({ onToolbarOpen: true });
+      
+      Jumpto365API.itemTables(ToolbarNAME).then(items => {
+        
+        if (items.length===0){
+          this._setState({ onNoExistingToolbar: true });
+        }else{
+          this._setState({ onToolbarOpen: true });
+        }
+        
+      });
+    ;
     }
     var context = this.props.context;
   }
@@ -917,7 +934,33 @@ export default class ToolbarContainer extends React.PureComponent {
   };
   render() {
     var ToolbarSettings = this.ToolbarGetSettings();
-
+if (this.state.onNoExistingToolbar){
+  return (
+    <div>
+  <MessageBar
+  
+              messageBarType={MessageBarType.info}
+              isMultiline={false}
+              actions={
+                <div>
+                  <MessageBarButton onClick={()=>{
+                    
+                    this._setState({onNoExistingToolbar:false})
+                    this.cmdToolbarSaveAs()}}>New Toolbar</MessageBarButton>
+                  
+                </div>
+              }
+              onDismiss={() => {
+                this._setState({onNoExistingToolbar:false})
+              }}
+              dismissButtonAriaLabel="Close"
+            >
+               You haven't created any toolbars yet
+            </MessageBar>
+     
+    </div>
+  )
+}
     return (
       <div
         style={{

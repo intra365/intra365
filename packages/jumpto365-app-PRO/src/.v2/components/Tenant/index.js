@@ -3,15 +3,18 @@ import { navigate } from "@reach/router";
 
 import ReactJson from "react-json-view";
 import { TenantProperties } from "./TenantProperties";
-import { PrimaryButton } from "office-ui-fabric-react";
+import {  TextField,PrimaryButton } from "office-ui-fabric-react";
 import {
   MessageBar,
   MessageBarType
 } from "office-ui-fabric-react/lib/MessageBar";
-import "./tenant.css"
+import "./tenant.css";
+import { Pivot, PivotItem } from "office-ui-fabric-react/lib/Pivot";
+
+var CONFIG = require("@intra365/config");
 const Jumpto365API = require("../../services/Jumpto365API");
 export default class Tenant extends Component {
-  state = {}
+  state = {};
 
   raiseError = message => {
     this.setState({ hasError: true, errorMessage: message });
@@ -20,6 +23,7 @@ export default class Tenant extends Component {
     this.setState({ hasError: false, errorMessage: null });
   };
   componentDidMount() {
+   
     Jumpto365API.getTenantUsers(this.props.tenantDomain)
       .then(users => {
         this.setState({ users });
@@ -28,6 +32,8 @@ export default class Tenant extends Component {
         this.raiseError(error.message);
       });
   }
+
+  
   render() {
     var users = this.state.users ? this.state.users : [];
     return (
@@ -47,32 +53,69 @@ export default class Tenant extends Component {
           </div>
         )}
 
-        <div style={{ display: "flex", margin: "16px" }}>
-          <div style={{ flexGrow: 3 }}>
-            {/* <h3>Published Tables</h3> */}
-            <h3>Active Users</h3>
-            {users.map((user, key) => {
-              return <div className="User" key={key} onClick={()=>{navigate(`/@/${user.UserName}`)}}>{user.UserName}</div>;
-            })}
-          </div>
-          <div style={{ flexGrow: 2 }}>
-            <h3>General Settings</h3>
-            <div>
-              <TenantProperties
+        <Pivot  style={{ marginLeft: "0px", marginRight: "0px" }}>
+          <PivotItem headerText="General Setting" itemKey="general">
+            <div style={{margin:"16px"}}>
+            <TenantProperties
               onSave={this.props.onSaveSettings}
               logoUrl={this.props.logoUrl}
               contactText={this.props.contactText}
               requireLogin={this.props.requireLogin}
-              />
+            /></div>
+          </PivotItem>
+          <PivotItem headerText="Global Toolbars" itemKey="toolbars">
+
+          <div style={{margin:"16px"}}>
+          <TextField
+          label="SharePoint Online site"
+          placeholder="URL of your SharePoint Online site https://xxx.sharepoint.com"
+          value={this.state.sharepointUrl}
+          onChange={(e, sharepointUrl) => {
+            CONFIG.readSharePointConfig(sharepointUrl).then(
+              config => {
+                this.setState({ config });
+              }
+            );
+            this.setState({sharepointUrl,config:{}})
+          }}
+        />
+            {this.state.config && this.state.config.rules && (
+              <div >
+                {this.state.config.rules.map((rule, index) => {
+                  return (
+                    <div style={{ display: "flex" }}>
+                      <div>{rule.path}</div>
+                      {/* <div>{rule.navigation}</div> */}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+             </div>
+          </PivotItem>
+          <PivotItem headerText="Active Users" itemKey="users">
+            <div style={{margin:"16px"}}>
+              {users.map((user, key) => {
+                return (
+                  <div
+                    className="User"
+                    key={key}
+                    onClick={() => {
+                      navigate(`/@/${user.UserName}`);
+                    }}
+                  >
+                    {user.UserName}
+                  </div>
+                );
+              })}
             </div>
-            
-            {/*       
-        <ReactJson
+          </PivotItem>
+        </Pivot>
+
+        {/* <ReactJson
           collapsed="2"
           src={{ state: this.state, props: this.props }}
         /> */}
-          </div>
-        </div>
       </div>
     );
   }

@@ -133,7 +133,10 @@ cmdLogout = canExecute =>{
   if (canExecute) return true;
   Jumpto365App.logout();
 }
-
+cmdToolbarEdit = canExecute =>{
+  if (canExecute) return true;
+  navigate("/toolbar")
+}
   dispatcher = (event, id) => {
     switch (event) {
       default:

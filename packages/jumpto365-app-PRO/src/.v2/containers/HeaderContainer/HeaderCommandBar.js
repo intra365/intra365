@@ -196,7 +196,15 @@ export default class HeaderCommandBar extends Component {
         onClick: this.emit
       });
     }
-
+    if (isDeveloper) {
+      loggedInMenu.push({
+        key: "cmdToolbarEdit",
+        name: `Toolbar Editor (preview)`,
+      
+        iconProps: { iconName: "ColumnRightTwoThirdsEdit" },
+        onClick: this.emit
+      });
+    }
     if (context.me) {
       loggedInMenu.push({
         key: "cmdLogout",
