@@ -1,0 +1,4 @@
+localStorage.setItem(
+"jumpto365." + stateProperty,
+JSON.stringify(value)
+);

@@ -6,7 +6,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "gulp start",
+    "start": "gulp serve",
     "build": "gulp bundle",
     "deploy": "gh-pages -b master -d build -r https://github.com/jumpto365/sharepoint-globalnavigation",
     "clean": "gulp clean",
@@ -22,13 +22,13 @@
     "@types/es6-promise": "0.0.33",
     "@types/webpack-env": "1.13.1",
     "@uifabric/fluent-theme": "^0.16.7",
-    "mammoth": "^1.4.8",
-    "marked": "^0.6.2",
+   
     "react-json-view": "^1.19.1",
     "@intra365/models":"1.0.0",
     "@intra365/navigation": "^1.0.0",
     "@intra365/config": "^1.0.0",
-    "@intra365/navigation-components":"1.0.0"
+    "@intra365/navigation-components":"1.0.0",
+    "@intra365/word":"1.0.0"
   },
   "devDependencies": {
     "@microsoft/microsoft-graph-types": "^1.8.0",

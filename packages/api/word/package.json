@@ -1,0 +1,19 @@
+{
+  "name": "@intra365/word",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "dependencies": {
+    "@intra365/models":"1.0.0",
+    "node-fetch":"^2.6.0",
+    "lodash":"^4.17.11",
+    "marked":"^0.6.2",
+    "mammoth":"^1.4.8"
+  },
+  "author": "",
+  "license": "ISC"
+}

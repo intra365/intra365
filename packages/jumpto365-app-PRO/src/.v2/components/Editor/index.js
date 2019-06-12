@@ -22,7 +22,20 @@ let Block = Quill.import("blots/block");
 let BlockEmbed = Quill.import("blots/block/embed");
 
 class Integrator extends Component {
+  state = {}
+  get isDirty(){
+    return this.state.isDirty
+  }
+  set isDirty(isDirty){
+   this.setState({isDirty})
+  }
+  componentDidMount(){
+    if (this.props.integrator){
+      this.props.integrator(this)
+    }
+  }
   onChange = (delta, oldDelta, source) => {
+    this.setState({isDirty:true})
     if (this.props.onChange) {
       this.props.onChange(delta, oldDelta, source);
     }
@@ -154,6 +167,11 @@ export default class MyEditor extends Component {
   get $height (){
     return this.props.height
   }
+
+  hasUnsavedChanges = () => {
+    return  this.state.integrator && this.state.integrator.isDirty  ? true :  false
+  }
+
   save = ()=>{
     
     return new Promise((resolve, reject) => {
@@ -165,7 +183,7 @@ export default class MyEditor extends Component {
        this.props.onSave("editor",".json",payLoad)
        .then(
          url=>{
-         
+         this.setState({isDirty:false})
          resolve(url)})
        .catch(error=>reject(error))
       
@@ -249,6 +267,7 @@ var toolbar = this.$editable ? [
       if (myEditor && myEditor.onChange) {
         if (source!=="api"){
         myEditor.onChange(delta, oldDelta, source);
+       
       }
       }
     });
@@ -367,7 +386,7 @@ var toolbar = this.$editable ? [
 
     return (
       <div>
-        <Integrator ref={this.myEditorRef} {...this.props} />
+        <Integrator ref={this.myEditorRef} {...this.props} register={(integrator)=>{this.setState({integrator})}}/>
        { false && <div><div id="tooltip-controls">
           <button id="bold-button">
             <i class="fa fa-bold" />

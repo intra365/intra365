@@ -125,7 +125,7 @@ export class TileProperties extends Component {
       gridState: null,
       state: "",
       area: null,
-      contentEdited:false
+      contentEdited: false
     });
 
     if (!this.state.imagesLoaded) {
@@ -147,7 +147,6 @@ export class TileProperties extends Component {
   };
   componentDidMount = () => {
     this._init();
-   
   };
   componentDidUpdate = (previousProps, previousState) => {
     if (previousProps !== this.props) {
@@ -211,6 +210,23 @@ export class TileProperties extends Component {
             )}
             <Pivot
               onLinkClick={(item, y, z) => {
+                
+                if (
+                  this.state.editorReference &&
+                  this.state.editorReference.hasUnsavedChanges
+                ) {
+                  var promise = this.state.editorReference.save();
+
+                  promise
+                    .then(contentRef => {
+                      this.setState({ contentRef });
+                    })
+
+                    .catch(error => {
+                      alert(error);
+                    });
+                }
+
                 this.setState({ selectedTab: item.props.itemKey });
                 return true;
               }}
@@ -381,41 +397,15 @@ export class TileProperties extends Component {
                 className="pivotItemEditor"
                 itemKey="Article"
               >
-                <div
-                  // style={{
-                  //   display: "flex",
-                  //   padding: "16px",
-                  //   borderBottom: "1px solid #cccccc",
-                  //   marginBottom: "8px"
-                  // }}
-                >
-                  {/* <div style={{ flexGrow: 1 }}>
-                    <TextField
-                      placeholder="Article reference"
-                      value={this.state.contentRef}
-                      ariaLabel="Article reference"
-                      onChange={(e, v) => {
-                        this.setState({ contentRef: v });
-                        if (this.props.onChange)
-                          this.props.onChange({ contentRef: v });
-                      }}
-                    />
-                  </div> */}
-                  {/* <div style={{width:"120px"}}>
-                    <DefaultButton text="Upload Document" onClick={()=>{this.setState({pickArticle:true})}}/>
-                  </div>  */}
-                </div>
                 <div className="pivotContent" style={{ padding: "16px" }}>
                   {this.state.selectedTab && (
                     <GetArticle
                       height="300px"
                       registerEditor={editorReference => {
-                        
-                        if (this.props.registerEditorReference){
-                          this.props.registerEditorReference(editorReference)
-                         
+                        this.setState({editorReference})
+                        if (this.props.registerEditorReference) {
+                          this.props.registerEditorReference(editorReference);
                         }
-                      
                       }}
                       onChange={(delta, oldDelta, source) => {
                         if (this.props.onChange)
@@ -435,6 +425,30 @@ export class TileProperties extends Component {
                       contentRef={this.state.contentRef}
                     />
                   )}
+                </div>
+                <div
+                // style={{
+                //   display: "flex",
+                //   padding: "16px",
+                //   borderBottom: "1px solid #cccccc",
+                //   marginBottom: "8px"
+                // }}
+                >
+                  {/* <div style={{ flexGrow: 1 }}>
+                    <TextField
+                      placeholder="Article reference"
+                      value={this.state.contentRef}
+                      ariaLabel="Article reference"
+                      onChange={(e, v) => {
+                        this.setState({ contentRef: v });
+                        if (this.props.onChange)
+                          this.props.onChange({ contentRef: v });
+                      }}
+                    />
+                  </div> */}
+                  {/* <div style={{width:"120px"}}>
+                    <DefaultButton text="Upload Document" onClick={()=>{this.setState({pickArticle:true})}}/>
+                  </div>   */}
                 </div>
               </PivotItem>
               <PivotItem headerText="Status" itemKey="Status">
@@ -787,11 +801,9 @@ export class TileEditor extends Component {
       this._init();
     }
   };
-  registerEditor = (editorReference) => {
-    
-        this.setState({editorReference})
-    
-    }
+  registerEditor = editorReference => {
+    this.setState({ editorReference });
+  };
   render() {
     var blankRecord = {
       key: null,
@@ -816,27 +828,27 @@ export class TileEditor extends Component {
           title={"Tile Builder "}
           onSelect={() => {
             if (this.props.value) {
-              
-              if (this.state.editorReference && this.state.value.contentEdited && this.props.onSelected){
-              
-                var promise = this.state.editorReference.save()
-                
-                promise.then(url=>{
-                  
-                  var value = this.state.value
-                  value.contentRef = url
-                  this.props.onSelected(value);
-                })
-                .catch(error=>{
-                  alert(error)
-                })
+              if (
+                this.state.editorReference &&
+                this.state.value.contentEdited &&
+                this.props.onSelected
+              ) {
+                var promise = this.state.editorReference.save();
+
+                promise
+                  .then(url => {
+                    var value = this.state.value;
+                    value.contentRef = url;
+                    this.props.onSelected(value);
+                  })
+                  .catch(error => {
+                    alert(error);
+                  });
+              } else {
+                if (this.props.onSelected) {
+                  this.props.onSelected(this.state.value);
+                }
               }
-              else
-              {
-              if (this.props.onSelected) {
-                this.props.onSelected(this.state.value);
-              }
-            }
               return;
             }
             if (this.props.tileState && this.props.tileState.editorClicked)
@@ -874,7 +886,7 @@ export class TileEditor extends Component {
           isSelect
         >
           <TileProperties
-          x="1"
+            x="1"
             selectedTab={this.props.selectedTab}
             celldata={this.state.celldata} // version 1
             value={this.state.value} // version 2

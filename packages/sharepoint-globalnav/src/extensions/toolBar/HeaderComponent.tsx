@@ -42,11 +42,10 @@ import {
   SelectableOptionMenuItemType
 } from "office-ui-fabric-react/lib/index";
 
-
-import {  readSharePointConfig} from "@intra365/config"
-import { newItem, getProperty,getTree } from "@intra365/navigation-components";
+import { readSharePointConfig } from "@intra365/config";
+import { newItem, getProperty, getTree } from "@intra365/navigation-components";
 // var mammoth: any = require("mammoth");
-// var WORD : any = require("../../api/word")
+var WORD: any = require("@intra365/word");
 
 export interface IHeaderProps {
   context: ApplicationCustomizerContext;
@@ -65,6 +64,7 @@ export interface IHeaderState {
   properties: any;
   errors: any;
   myIndexFile: any;
+  mytree: any;
 }
 
 // https://github.com/typescript-cheatsheets/react-typescript-cheatsheet
@@ -138,7 +138,40 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
         this.setState({ error: error.message });
       });
   }
+  private _readFile(url: string, stateProperty: string): any {
+    return new Promise((resolve, reject) => {
+      var that: any = this;
+      fetch(url)
+        .then(response => {
+          return response.arrayBuffer();
+        })
+        .then(async arrayBuffer => {
+          WORD.convertToMarkdown(arrayBuffer)
+            .then(markdown => {
+              try {
+                WORD.parseMarkdown(markdown.value)
+                  .then(mytree => {
+                    
+                    this.setState({ mytree :mytree && mytree.links ? mytree.links : null})})
+                  .catch(error => console.log("parseMarkdown error", error));
+              } catch (error) {
+                console.log("parseMarkdown error", error);
+              }
 
+              // localStorage.setItem(
+              //   "jumpto365." + stateProperty,
+              //   JSON.stringify(value)
+              // );
+            })
+            .catch(error => {
+              var errors = this.state.errors ? this.state.errors : {};
+              errors[stateProperty] = error;
+              this.setState({ errors });
+              return resolve({ error });
+            });
+        });
+    });
+  }
   private _readGraph(url: string, stateProperty: string): any {
     return new Promise((resolve, reject) => {
       this.props.context.msGraphClientFactory
@@ -405,7 +438,7 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
         }
       );
   }
-  
+
   private _read(url: string): any {
     return new Promise((resolve, reject) => {
       fetch(url)
@@ -424,20 +457,21 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
 
   async componentDidMount() {
     try {
-      
       var config = await readSharePointConfig(
         this.props.context.pageContext.site.absoluteUrl
       );
-      
+
       if (!config.error) {
         //config = config.result;
         var navigation = config.navigation;
         var match = false;
         var sitepath = this.props.context.pageContext.site.serverRelativeUrl.toUpperCase();
 
-        var rules:any[] = config.rules
-        rules.sort((a,b)=>{  return String(b.path).length - String(a.path).length})
-        
+        var rules: any[] = config.rules;
+        rules.sort((a, b) => {
+          return String(b.path).length - String(a.path).length;
+        });
+
         rules.forEach(rule => {
           var subpath = rule.path.toUpperCase();
           var matchPath = sitepath.substr(0, subpath.length);
@@ -448,7 +482,7 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
         });
 
         var file = await this._read(navigation);
-        
+
         if (!file.error) {
           file = file.result;
 
@@ -472,20 +506,21 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
           "me.drive.root"
         );
         this._readMemberships();
-        // if (!myDrive.error) {
-        //   var file = await this._readGraph(
-        //     "https://graph.microsoft.com/v1.0/me/drive/root:/jumpto365/index.docx:",
-        //     "my.index"
-        //   );
-        //   if (!file.error) {
-        //     this.setState({ myIndexFile: file.result.webUrl });
-        //     var indexFile = await this._readFile(
-        //       file.result["@microsoft.graph.downloadUrl"],
-        //       "index.file"
-        //     );
-        //   }
-        // }
-        //
+
+        if (!myDrive.error) {
+          var file = await this._readGraph(
+            "https://graph.microsoft.com/v1.0/me/drive/root:/jumpto365/index.docx:",
+            "my.index"
+          );
+          if (!file.error) {
+            this.setState({ myIndexFile: file.result.webUrl });
+
+            var indexFile = await this._readFile(
+              file.result["@microsoft.graph.downloadUrl"],
+              "index.file"
+            );
+          }
+        }
       } else {
         this.setState({ configError: config.error });
       }
@@ -507,16 +542,11 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
     );
   };
 
-  
-
   // Data for CommandBar
   private getItems = (state: any) => {
     if (this.state.tree) {
-      
       return getTree(this.state.properties, this.state.tree, 0);
     }
-
-    
   };
 
   private getOverlflowItems = () => {

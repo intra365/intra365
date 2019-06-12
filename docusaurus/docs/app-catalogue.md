@@ -12,7 +12,7 @@ This guide walks you through installing an extention in SharePoint Online.
 
 ## SharePoint admin center
 
-Navigate to your SharePoint admin center - currently locate in the "Classic SharePoint admin center" 
+Navigate to your SharePoint admin center - either  located in the "Classic SharePoint admin center" 
 
 ```text
 https://[yourtenant]-admin.sharepoint.com/_layouts/15/online/tenantadminapps.aspx
@@ -20,7 +20,12 @@ https://[yourtenant]-admin.sharepoint.com/_layouts/15/online/tenantadminapps.asp
 
 ![image-20190608105904480](assets/image-20190608105904480.png)
 
+Or in "Classic features"
+
+![image-20190612130234344](assets/image-20190612130234344.png)
+
 ### App Catalog
+
 If you haven't configured an App Catalog yet, check out this video to see how https://www.youtube.com/watch?v=xEc8X7VVtc8
 
 Click on (1)
