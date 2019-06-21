@@ -1,0 +1,324 @@
+{
+    "tree": [
+      {
+        "title": "26-label",
+        "key": "26-key"
+      },
+      {
+        "title": "1-label",
+        "key": "1-key",
+        "children": [
+          {
+            "title": "7-label",
+            "key": "7-key",
+            "children": [
+              {
+                "title": "32-label",
+                "key": "32-key",
+                "children": [
+                  {
+                    "title": "18-label",
+                    "key": "18-key",
+                    "children": [
+                      {
+                        "title": "10-label",
+                        "key": "10-key"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "17-label",
+                    "key": "17-key",
+                    "children": [
+                      {
+                        "title": "6-label",
+                        "key": "6-key",
+                        "children": [
+                          {
+                            "title": "11-label",
+                            "key": "11-key"
+                          },
+                          {
+                            "title": "12-label",
+                            "key": "12-key"
+                          },
+                          {
+                            "title": "13-label",
+                            "key": "13-key"
+                          },
+                          {
+                            "title": "14-label",
+                            "key": "14-key"
+                          },
+                          {
+                            "title": "15-label",
+                            "key": "15-key"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "8-label",
+                "key": "8-key",
+                "children": [
+                  {
+                    "title": "16-label",
+                    "key": "16-key",
+                    "children": [
+                      {
+                        "title": "9-label",
+                        "key": "9-key"
+                      },
+                      {
+                        "title": "20-label",
+                        "key": "20-key",
+                        "children": [
+                          {
+                            "title": "19-label",
+                            "key": "19-key"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2-label",
+        "key": "2-key",
+        "children": [
+          {
+            "title": "23-label",
+            "key": "23-key"
+          },
+          {
+            "title": "24-label",
+            "key": "24-key"
+          }
+        ]
+      },
+      {
+        "title": "3-label",
+        "key": "3-key"
+      },
+      {
+        "title": "4-label",
+        "key": "4-key"
+      },
+      {
+        "title": "5-label",
+        "key": "5-key",
+        "children": []
+      },
+      {
+        "title": "21-label",
+        "key": "21-key",
+        "children": [
+          {
+            "title": "27-label",
+            "key": "27-key"
+          },
+          {
+            "title": "28-label",
+            "key": "28-key"
+          },
+          {
+            "title": "29-label",
+            "key": "29-key"
+          },
+          {
+            "title": "30-label",
+            "key": "30-key"
+          }
+        ]
+      },
+      {
+        "title": "25-label",
+        "key": "25-key",
+        "children": []
+      },
+      {
+        "title": "22-label",
+        "key": "22-key",
+        "children": [
+          {
+            "title": "31-label",
+            "key": "31-key"
+          },
+          {
+            "title": "33-label",
+            "key": "33-key"
+          },
+          {
+            "title": "34-label",
+            "key": "34-key"
+          },
+          {
+            "title": "35-label",
+            "key": "35-key"
+          }
+        ]
+      }
+    ],
+    "properties": {
+      "3-key": {
+        "icon": "DocumentSearch",
+        "title": "Find Documentation"
+      },
+      "1-key": {
+        "title": "Insights",
+        "icon": "PowerBILogo",
+        "type": "heading",
+        "link": "https://powerbi.com"
+      },
+      "2-key": {
+        "title": "Communicate",
+        "icon": "Communications"
+      },
+      "4-key": {
+        "title": "Share Documentation",
+        "icon": "Share",
+        "type": "heading"
+      },
+      "5-key": {
+        "title": "Plan",
+        "icon": "PlannerLogo"
+      },
+      "21-key": {
+        "title": "Get Access",
+        "icon": "NetworkTower"
+      },
+      "25-key": {
+        "title": "Local Navigation",
+        "icon": "CollapseMenu"
+      },
+      "22-key": {
+        "title": "Options",
+        "link": "",
+        "icon": "Settings"
+      },
+      "31-key": {
+        "title": "Toolbar Language",
+        "icon": "LocaleLanguage"
+      },
+      "34-key": {
+        "icon": "Cake"
+      },
+      "33-key": {
+        "icon": "BusSolid"
+      },
+      "32-key": {
+        "icon": "Waffle",
+        "title": "Overview",
+        "type": "link"
+      },
+      "35-key": {
+        "icon": "Calculator"
+      },
+      "30-key": {
+        "icon": "BufferTimeAfter"
+      },
+      "29-key": {
+        "icon": "BufferTimeBefore"
+      },
+      "28-key": {
+        "icon": "BufferTimeBoth"
+      },
+      "26-key": {
+        "icon": "ImagePixel",
+        "href": "http://localhost:3000/static/media/Logo%20horizontal%20color%20-%20transparent%20background.194709db.png",
+        "type": "image",
+        "title": "Logo"
+      },
+      "27-key": {
+        "icon": "Brightness"
+      },
+      "24-key": {
+        "icon": "BranchMerge"
+      },
+      "23-key": {
+        "icon": "BranchPullRequest"
+      },
+      "10-key": {
+        "icon": "WaffleOffice365",
+        "type": "iframe",
+        "title": "ems.jumpto365.com",
+        "href": "https://ems.jumpto365.com/"
+      },
+      "9-key": {
+        "icon": "Dropdown",
+        "type": "dropdown",
+        "title": "Dropdown"
+      },
+      "8-key": {
+        "icon": "PictureTile",
+        "type": "tile",
+        "title": "Tile",
+        "table": "https://app.jumpto365.com/",
+        "tile": "outlook"
+      },
+      "7-key": {
+        "icon": "Waffle",
+        "type": "megamenu",
+        "title": "Periodic Table of Office 365",
+        "table": "Table Name",
+        "href": ""
+      },
+      "6-key": {
+        "icon": "Globe",
+        "title": "Azure",
+        "link": "https://link.to",
+        "href": "https://portal.azure.com"
+      },
+      "11-key": {
+        "icon": "AzureLogo",
+        "href": "https://portal.azure.com",
+        "title": "Portal",
+        "type": "link"
+      },
+      "12-key": {
+        "icon": "AdminALogo32"
+      },
+      "13-key": {
+        "icon": "AddBookmark"
+      },
+      "14-key": {
+        "icon": "AirTickets"
+      },
+      "15-key": {
+        "icon": "AirplaneSolid"
+      },
+      "16-key": {
+        "icon": "WaffleOffice365",
+        "title": "Megamenu",
+        "type": "megamenu"
+      },
+      "17-key": {
+        "href": "https://app.jumpto365.com/",
+        "type": "iframe",
+        "title": "app.jumpto365.com",
+        "icon": "WaffleOffice365"
+      },
+      "18-key": {
+        "icon": "Waffle",
+        "title": "Security & Compliance",
+        "type": "heading"
+      },
+      "19-key": {
+        "icon": "WaffleOffice365",
+        "type": "iframe",
+        "href": "https://ai.jumpto365.com/",
+        "title": "ai.jumpto365.com"
+      },
+      "20-key": {
+        "icon": "Waffle"
+      }
+    }
+  }

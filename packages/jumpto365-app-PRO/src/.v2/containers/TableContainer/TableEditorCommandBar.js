@@ -197,7 +197,7 @@ export default class TableEditorCommandBar extends Component {
     ],
     overflowItems: [],
     farItems: [
-      this.newItem("cmdViewPublishedVersions", "Published Versions", "FullHistory"),
+    //  this.newItem("cmdViewPublishedVersions", "Published Versions", "FullHistory"),
         
      
     ]

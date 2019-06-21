@@ -4,6 +4,7 @@
     "packages/*"
   ],
   "scripts": {
+    "bootstrap":"lerna bootstrap",
     "build": "cd packages/react-scripts && node bin/react-scripts.js build",
     "changelog": "lerna-changelog",
     "create-react-app": "node tasks/cra.js",

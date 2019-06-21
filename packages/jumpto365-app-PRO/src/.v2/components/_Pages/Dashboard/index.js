@@ -374,7 +374,11 @@ var blogArticles = this.state.blogArticles? this.state.blogArticles : []
               </div>
                 <div className="ms-font-xl WebPartHeader">Getting Started</div>
                 <div style={{ margin: "16px" }} >
-                <a target="_blank" href="https://jumpto365.zendesk.com/hc/en-us/sections/360003870492-Editing-and-Creating-Tables">Editing &amp; Creating Tables</a>
+                <a target="_blank" href="https://jumpto365.zendesk.com/hc/en-us/sections/360003870492-Editing-and-Creating-Tables">Written how-to guides</a>
+                
+                </div>
+                <div style={{ margin: "16px" }} >
+                <a target="_blank" href="http://jum.to/YouTube">Video guides</a>
                 
                 </div>
 {/*                 

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+
+    "deploy": "gh-pages -b master -d build -r https://github.com/jumpto365/cdn"
+  },
+  "devDependencies": {
+   
+    "gh-pages": "^2.0.1"
+  }
+}

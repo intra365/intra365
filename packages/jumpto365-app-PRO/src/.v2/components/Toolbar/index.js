@@ -694,9 +694,19 @@ export default class Toolbar extends Component {
           </div>)
        
         break;
-      case "IMAGE":
+        case "IMAGE":
        
-        break;
+            return (
+              <div style={{ marginTop: "14px", marginRight: "6px" }}>
+                <img
+                  src={itemProps.imageSrc}
+                  alt={itemProps.title}
+                  style={{ height: "16px", width: "auto" }}
+                />
+              </div>
+            );
+          
+          break;
       case "DROPDOWN":
         
         break;
