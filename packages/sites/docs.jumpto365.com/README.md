@@ -1,97 +1,70 @@
-# gatsby-gitbook-starter
+# reactjs.org
 
-Kick off your project with this starter to create a powerful/flexible docs/tutorial web apps.
+This repo contains the source code and documentation powering [reactjs.org](https://reactjs.org/).
 
-![gatsby-gitbook-starter](https://graphql-engine-cdn.hasura.io/learn-hasura/gatsby-gitbook-starter/assets/documentation_app_blog.png)
+## Getting started
 
-## Motivation
+### Prerequisites
 
-We wanted to create a [GraphQL tutorial](https://learn.hasura.io) series. The content would be written by developers for various languages/frameworks and what better than writing it in Markdown! And since this is a tutorial series we also needed rich embeds, syntax highlighting and more customisations.
+1. Git
+1. Node: any 8.x version starting with 8.4.0 or greater
+1. Yarn: See [Yarn website for installation instructions](https://yarnpkg.com/lang/en/docs/install/)
+1. A fork of the repo (for any contributions)
+1. A clone of the [reactjs.org repo](https://github.com/reactjs/reactjs.org) on your local machine
 
-We also wanted to serve these tutorials in sub paths of [learn.hasura.io](https://learn.hasura.io). To serve all these requirements, we decided to use Gatsby + MDX (Markdown + JSX) to extend markdown and used a neat consistent theme like the one at [GitBook](https://www.gitbook.com) and deployed as docker containers.
+### Installation
 
-## 🔥 Features
-- Write using Markdown / [MDX](https://github.com/mdx-js/mdx)
-- GitBook style theme
-- Syntax Highlighting using Prism [`Bonus`: Code diff highlighting]
-- Google Analytics Integration
-- Automatically generated sidebar navigation, table of contents, previous/next
-- Edit on Github
-- Fully customisable
-- Rich embeds and live code editor using MDX
-- Easy deployment: Deploy on Netlify / Now.sh / Docker
+1. `cd reactjs.org` to go into the project root
+1. `yarn` to install the website's npm dependencies
 
-## 🔗 Live Demo
+### Running locally
 
-Here's a [live demo](https://learn.hasura.io/graphql/react)
+1. `yarn dev` to start the hot-reloading development server (powered by [Gatsby](https://www.gatsbyjs.org))
+1. `open http://localhost:8000` to open the site in your favorite browser
 
-## 🚀 Quickstart
+## Contributing
 
-Get started by running the following commands:
+### Guidelines
 
-```
-$ git clone git@github.com:hasura/gatsby-gitbook-starter.git
-$ npm install
-$ npm start
-```
+The documentation is divided into several sections with a different tone and purpose. If you plan to write more than a few sentences, you might find it helpful to get familiar with the [contributing guidelines](https://github.com/reactjs/reactjs.org/blob/master/CONTRIBUTING.md#guidelines-for-text) for the appropriate sections.
 
-Visit `http://localhost:8000/` to view the app.
+### Create a branch
 
-## 🔧 Configure
+1. `git checkout master` from any folder in your local `reactjs.org` repository
+1. `git pull origin master` to ensure you have the latest main code
+1. `git checkout -b the-name-of-my-branch` (replacing `the-name-of-my-branch` with a suitable name) to create a branch
 
-Write markdown files in `content` folder.
+### Make the change
 
-Open `config.js` for templating variables. Broadly configuration is available for `gatsby`, `header`, `sidebar` and `siteMetadata`.
+1. Follow the "Running locally" instructions
+1. Save the files and check in the browser
+  1. Changes to React components in `src` will hot-reload
+  1. Changes to markdown files in `content` will hot-reload
+  1. If working with plugins, you may need to remove the `.cache` directory and restart the server
 
-- `gatsby` config for global configuration like 
-    - `pathPrefix` - Gatsby Path Prefix
-    - `siteUrl` - Gatsby Site URL
-    - `gaTrackingId` - Google Analytics Tracking ID
+### Test the change
 
-- `header` config for site header configuration like
-    - `title` - The title that appears on the top left
-    - `githubUrl` - The Github URL for the docs website
-    - `helpUrl` - Help URL for pointing to resources
-    - `tweetText` - Tweet text
-    - `links` - Links on the top right
+1. If possible, test any visual changes in all latest versions of common browsers, on both desktop and mobile.
+1. Run `yarn check-all` from the project root. (This will run Prettier, ESLint, and Flow.)
 
-- `sidebar` config for navigation links configuration
-    - `forcedNavOrder` for left sidebar navigation order. It should be in the format "/<filename>"
-    - `links` - Links on the bottom left of the sidebar
+### Push it
 
-- `siteMetadata` config for website related configuration
-    - `title` - Title of the website
-    - `description` - Description of the website
-    - `ogImage` - Social Media share og:image tag
-    - `docsLocation` - The Github URL for Edit on Github
+1. `git add -A && git commit -m "My message"` (replacing `My message` with a commit message, such as `Fix header logo on Android`) to stage and commit your changes
+1. `git push my-fork-name the-name-of-my-branch`
+1. Go to the [reactjs.org repo](https://github.com/reactjs/reactjs.org) and you should see recently pushed branches.
+1. Follow GitHub's instructions.
+1. If possible, include screenshots of visual changes. A Netlify build will also be automatically created once you make your PR so other people can see your change.
 
-- For sub nesting in left sidebar, create a folder with the same name as the top level `.md` filename and the sub navigation is auto-generated. Currently it supports only one level of nesting. The sub navigation is alphabetically ordered.
+## Translation
 
-## Live Code Editor
+If you are interested in translating `reactjs.org`, please see the current translation efforts at [isreacttranslatedyet.com](https://www.isreacttranslatedyet.com/).
 
-To render react components for live editing, add the `react-live=true` to the code section. For example:
 
-```javascript react-live=true
-<button>Edit my text</button>
-```
+If your language does not have a translation and you would like to create one, please follow the instructions at [reactjs.org Translations](https://github.com/reactjs/reactjs.org-translation#translating-reactjsorg).
 
-In the above code, just add `javascript react-live=true` after the triple quote ``` to start rendering react components that can be edited by users.
+## Troubleshooting
 
-## 🤖 SEO friendly
+- `yarn reset` to clear the local cache
 
-This is a static site and comes with all the SEO benefits. Configure meta tags like title and description for each markdown file using MDX Frontmatter
-
-```markdown
----
-title: "Title of the page"
-metaTitle: "Meta Title Tag for this page"
-metaDescription: "Meta Description Tag for this page"
----
-```
-
-Canonical URLs are generated automatically.
-
-## ☁️ Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hasura/gatsby-gitbook-starter)
-
+## License
+Content submitted to [reactjs.org](https://reactjs.org/) is CC-BY-4.0 licensed, as found in the [LICENSE-DOCS.md](https://github.com/open-source-explorer/reactjs.org/blob/master/LICENSE-DOCS.md) file.

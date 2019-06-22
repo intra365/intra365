@@ -1,7 +1,6 @@
-public
 .cache
+.DS_STORE
+.idea
 node_modules
-*DS_Store
-*.env
-
-.idea/
+public
+yarn-error.log
