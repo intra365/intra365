@@ -17,9 +17,7 @@ const config = {
 	"sidebar": {
 		"forcedNavOrder": [
 			"/introduction",
-			"/sharepoint",
-			"/office",
-			"/generic",
+			"/hosts",
     		"/configuration"
 		],
 		"links": [

@@ -1,6 +1,6 @@
 ---
-title: "Word"
-metaTitle: "This is the title tag of this page"
+title: "Hosts"
+metaTitle: "Hosting you navigation Experience"
 metaDescription: "This is the meta description"
 ---
 
@@ -14,24 +14,4 @@ You designing your links and tree structures globally in our editor. This is als
 
 # Hosts
 
-Heading 3 text
-
-### SharePoint Online
-### Generic Web
-### Microsoft Teams
-### SharePoint 2016
-### SharePoint 2013
-### SharePoint 2010 
-### SharePoint Online
-### Web apps
-### Word
-### OneNote
-### PowerPoint
-### Excel
-### OneNote
-### Windows 10 Desktop
-### Mac Desktop
-
-# Users link collections
-
-
+´
