@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+          title="Intra365 &ndash; A service for managing navigation in your Digital Workplace"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div css={{width: '100%'}}>
@@ -111,7 +111,7 @@ class Home extends Component {
                         fontSize: 60,
                       },
                     }}>
-                    React
+                    Intra365
                   </h1>
                   <p
                     css={{
@@ -133,7 +133,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    A service for managing navigation in your Digital Workplace
                   </p>
                   <Flex
                     valign="center"
@@ -149,7 +149,7 @@ class Home extends Component {
                     }}>
                     <CtaItem>
                       <ButtonLink
-                        to="/docs/getting-started.html"
+                        to="/docs/content/introduction.html"
                         type="primary">
                         Get Started
                       </ButtonLink>
@@ -256,7 +256,7 @@ class Home extends Component {
                   borderBottom: `1 solid ${colors.divider}`,
                 }}
               />
-              <section css={sectionStyles}>
+              {/* <section css={sectionStyles}>
                 <div id="examples">
                   {examples.edges.map(({node}, index) => {
                     const snippet = code[node.fileAbsolutePath];
@@ -273,7 +273,7 @@ class Home extends Component {
                     );
                   })}
                 </div>
-              </section>
+              </section> */}
             </div>
           </Container>
 
