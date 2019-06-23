@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="Intra365 &ndash; A service for managing navigation in your Digital Workplace"
+          title="Intra365 &ndash; Managing navigation in your Digital Workplace"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div css={{width: '100%'}}>
@@ -133,7 +133,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A service for managing navigation in your Digital Workplace
+                    Navigation for your MODERN WORKPLACE
                   </p>
                   <Flex
                     valign="center"
@@ -149,7 +149,7 @@ class Home extends Component {
                     }}>
                     <CtaItem>
                       <ButtonLink
-                        to="/docs/content/introduction.html"
+                        to="/docs/getting-started.html"
                         type="primary">
                         Get Started
                       </ButtonLink>
@@ -193,6 +193,7 @@ class Home extends Component {
                       whiteSpace: 'nowrap',
                     },
                   }}>
+                   
                   {marketing.edges.map(({node: column}, index) => (
                     <div
                       key={index}

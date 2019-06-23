@@ -14,7 +14,8 @@ import {version} from 'site-constants';
 import ExternalLinkSvg from 'templates/components/ExternalLinkSvg';
 import DocSearch from './DocSearch';
 
-import logoSvg from 'icons/logo.svg';
+//import logoSvg from 'icons/logo.svg';
+import logoSvg from 'icons/Logo square white - transparent background.png'
 
 const Header = ({location}: {location: Location}) => (
   <header
@@ -86,7 +87,7 @@ const Header = ({location}: {location: Location}) => (
                 border: 0,
               },
             }}>
-            React
+            jumpto365
           </span>
         </Link>
 
@@ -158,7 +159,7 @@ const Header = ({location}: {location: Location}) => (
             //width: 'calc(100% / 4)',
             //},
           }}>
-          <Link
+          {/* <Link
             css={{
               padding: '5px 10px',
               whiteSpace: 'nowrap',
@@ -211,8 +212,8 @@ const Header = ({location}: {location: Location}) => (
               }}>
               Languages
             </span>
-          </Link>
-          <a
+          </Link> */}
+          {/* <a
             css={{
               padding: '5px 10px',
               marginLeft: 10,
@@ -244,7 +245,7 @@ const Header = ({location}: {location: Location}) => (
                 color: colors.subtle,
               }}
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </Container>

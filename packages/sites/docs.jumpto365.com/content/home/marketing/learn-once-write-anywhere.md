@@ -1,8 +1,6 @@
 ---
-title: Learn Once, Write Anywhere
+title: Artificial Intelligence
 order: 2
 ---
 
-We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.
-
-React can also render on the server using Node and power mobile apps using [React Native](https://facebook.github.io/react-native/).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat mattis ullamcorper. Aenean et nisi vitae turpis maximus fringilla. Maecenas id urna sit amet mauris ultricies vestibulum. Donec dapibus justo pretium, semper nunc quis, sagittis ante. Nunc blandit augue nec nibh vulputate, in lobortis tellus egestas.

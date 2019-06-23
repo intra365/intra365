@@ -10,7 +10,7 @@ This guide walks you through installing an extention in SharePoint Online.
 - SharePoint administrator in the tenant where you like to get the SharePoint App (Add-In) implemented. 
 - Have the [app].SPPKG file to be installed
 
-## SharePoint admin center
+## SharePoint admin center {#adm-center}
 
 Navigate to your SharePoint admin center - either  located in the "Classic SharePoint admin center" 
 
@@ -24,7 +24,7 @@ Or in "Classic features"
 
 ![image-20190612130234344](assets/image-20190612130234344.png)
 
-### App Catalog
+### App Catalog {#app-catalog}
 
 If you haven't configured an App Catalog yet, check out this video to see how https://www.youtube.com/watch?v=xEc8X7VVtc8
 
@@ -56,7 +56,7 @@ Instead, read more about   [Tenant-scoped solution deployment for SharePoint Fra
 
 ![image-20190608123033464](assets/image-20190608123033464.png)
 
-### Check deployment status
+### Check deployment status {#deployment-status}
 
 If you did select "Make this solution available to all sites in the organization" the extention will be available to all site collections in your tenant and the value in column "Tenant Deployed" will be Yes
 
@@ -64,7 +64,7 @@ If you did select "Make this solution available to all sites in the organization
 
 If you have just created the app catalog, you might see that the deployment failed. Check this to learn what to do https://support.shortpoint.com/support/solutions/articles/1000269130-known-issue-shortpoint-spfx-app-deployment-error-deployment-failed-correlation-id-guid-
 
-## Install app in a specific site collection
+## Install app in a specific site collection {#site-install}
 
 If you did not select "Make this solution available to all sites in the organization" when you deployed the extention, you need to install the "App" individually on each site collection
 
@@ -82,7 +82,7 @@ Wait a few seconds
 
 Refresh the page and verify the "GlobalToolbar" is no longer greyed out
 
-## Remove app in a specific site collection
+## Remove app in a specific site collection {#app-remove}
 Navigate to site content and local the "GlobalToolbar"
 
 ![image-20190608124942900](assets/image-20190608124942900.png)

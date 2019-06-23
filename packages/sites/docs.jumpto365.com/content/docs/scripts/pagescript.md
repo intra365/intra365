@@ -1,7 +1,7 @@
 ---
-title: "Page Script"
-metaTitle: "Syntax Highlighting is the meta title tag for this page"
-metaDescription: "Page Script"
+id: page-scripts
+title: Page Script
+permalink: docs/page-scripts.html
 ---
 
 # Action Types

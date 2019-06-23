@@ -1,8 +1,5 @@
 ---
-title: Declarative
+title: Office 365
 order: 0
 ---
-
-React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
-
-Declarative views make your code more predictable and easier to debug.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat mattis ullamcorper. Aenean et nisi vitae turpis maximus fringilla. Maecenas id urna sit amet mauris ultricies vestibulum. Donec dapibus justo pretium, semper nunc quis, sagittis ante. Nunc blandit augue nec nibh vulputate, in lobortis tellus egestas.
