@@ -1,18 +1,11 @@
 ---
-title: "SharePoint Online Branding"
-metaTitle: "Configuring SharePoint Online"
-metaDescription: "This is the meta description"
+title: "Adding a background image to a section "
+
 ---
 
-# Branding SharePoint Online
+# Adding a background image to a section 
 
-SharePoint Online provides very little ability to let you comply to the Corporate Visual Identity of your company.
-
-
-## Hacks
-
-### Remove the standard masthead
-Removes the top navigation bar, the page header and the site header of a SharePoint Modern page
+Locates the section you have marked on the page and alter the Style of the section
 
 ```javascript
 

@@ -12,17 +12,20 @@ import Layout from 'components/Layout';
 import {createLinkDocs} from 'utils/createLink';
 import {sectionListDocs} from 'utils/sectionList';
 
-const Docs = ({data, location}) => (
-  <Layout location={location}>
-    <MarkdownPage
-      createLink={createLinkDocs}
-      location={location}
-      markdownRemark={data.markdownRemark}
-      sectionList={sectionListDocs}
-      titlePostfix=" &ndash; React"
-    />
-  </Layout>
-);
+const Docs = ({data, location}) => {
+  return (
+    <Layout location={location}>
+      <MarkdownPage
+        enableScrollSync
+        createLink={createLinkDocs}
+        location={location}
+        markdownRemark={data.markdownRemark}
+        sectionList={sectionListDocs}
+        titlePostfix=" &ndash; React"
+      />
+    </Layout>
+  );
+};
 
 Docs.propTypes = {
   data: PropTypes.object.isRequired,

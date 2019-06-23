@@ -3,15 +3,15 @@
     - id: getting-started
       title: Sign up for a trial
     - id: app-catalogue
-      title: Install SharePoint Global Toolbar  
+      title: SharePoint Global Toolbar  
       forceInternal: true
       subitems:
-          - id: app-catalogue
+          - id: adm-center
             title: SharePoint Admin Center
             href: /docs/app-catalogue.html#adm-center
             forceInternal: true
           - id: app-catalog
-            title: App Catalog
+            title: "App Catalog"
             href: /docs/app-catalogue.html#app-catalog
             forceInternal: true
           - id: deployment-status
@@ -22,6 +22,15 @@
             title: Install app in a specific site collection 
             href: /docs/app-catalogue.html#site-install
             forceInternal: true
+    - id: web-part
+      title: SharePoint Page Navigation Webpart  
+      forceInternal: true
+      subitems:
+          - id: web-part-1
+            title: SharePoint Admin Center
+            href: /docs/app-catalogue.html#adm-center
+            forceInternal: true
+         
 - title: Access Control
   items:
     - id: sharepoint-toolbar-configuration

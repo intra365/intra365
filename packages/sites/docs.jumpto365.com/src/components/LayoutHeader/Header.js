@@ -63,7 +63,7 @@ const Header = ({location}: {location: Location}) => (
             },
           }}
           to="/">
-          <img src={logoSvg} alt="" height="20" />
+          <img src={logoSvg} alt="" style={{marginTop:"6px"}} height="20" />
           <span
             css={{
               color: 'inherit',
@@ -87,7 +87,7 @@ const Header = ({location}: {location: Location}) => (
                 border: 0,
               },
             }}>
-            jumpto365
+            Intra365
           </span>
         </Link>
 
@@ -131,19 +131,19 @@ const Header = ({location}: {location: Location}) => (
             title="Tutorial"
             to="/tutorial/tutorial.html"
           />
-          <HeaderLink
+          {/* <HeaderLink
             isActive={location.pathname.includes('/blog')}
             title="Blog"
             to="/blog/"
-          />
-          <HeaderLink
+          /> */}
+          {/* <HeaderLink
             isActive={location.pathname.includes('/community/')}
             title="Community"
             to="/community/support.html"
-          />
+          /> */}
         </nav>
 
-        <DocSearch />
+        {/* <DocSearch /> */}
 
         <div
           css={{
@@ -213,7 +213,8 @@ const Header = ({location}: {location: Location}) => (
               Languages
             </span>
           </Link> */}
-          {/* <a
+
+<a
             css={{
               padding: '5px 10px',
               marginLeft: 10,
@@ -234,10 +235,10 @@ const Header = ({location}: {location: Location}) => (
                 display: 'none',
               },
             }}
-            href="https://github.com/facebook/react/"
+            href="https://medium.com/jumpto365"
             target="_blank"
             rel="noopener">
-            GitHub
+        Blog
             <ExternalLinkSvg
               cssProps={{
                 marginLeft: 5,
@@ -245,7 +246,40 @@ const Header = ({location}: {location: Location}) => (
                 color: colors.subtle,
               }}
             />
-          </a> */}
+          </a> 
+           <a
+            css={{
+              padding: '5px 10px',
+              marginLeft: 10,
+              whiteSpace: 'nowrap',
+              ...fonts.small,
+
+              ':hover': {
+                color: colors.brand,
+              },
+
+              ':focus': {
+                outline: 0,
+                backgroundColor: colors.lighter,
+                borderRadius: 15,
+              },
+
+              [media.lessThan('large')]: {
+                display: 'none',
+              },
+            }}
+            href="https://pro.jumpto365.com"
+            target="_blank"
+            rel="noopener">
+            Control Center
+            <ExternalLinkSvg
+              cssProps={{
+                marginLeft: 5,
+                verticalAlign: -2,
+                color: colors.subtle,
+              }}
+            />
+          </a> 
         </div>
       </div>
     </Container>
