@@ -1,6 +1,8 @@
 ---
-title: Microsoft Security & Compliance
+title: Component-Based
 order: 1
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat mattis ullamcorper. Aenean et nisi vitae turpis maximus fringilla. Maecenas id urna sit amet mauris ultricies vestibulum. Donec dapibus justo pretium, semper nunc quis, sagittis ante. Nunc blandit augue nec nibh vulputate, in lobortis tellus egestas.
+Build encapsulated components that manage their own state, then compose them to make complex UIs.
+
+Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.

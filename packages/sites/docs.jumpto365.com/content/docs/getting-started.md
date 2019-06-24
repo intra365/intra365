@@ -1,9 +1,11 @@
 ---
+id: getting-started
 title: Getting Started
+permalink: docs/getting-started.html
+next: add-react-to-a-website.html
+
 ---
 
-First of all you need to have a subscription with jumpto365 - try 14 days for free without registrating any creditcard
+This page is an overview of the "Navigate" documentation and related resources.
 
--   [Sign up - Try & Buy](https://pro.jumpto365.com/pricing)
--   [Sign in](https://pro.jumpto365.com/dashboard) and publish your first navigation
--   [Integrate](./sharepoint-app-catalog)
+**Navigate** is a collection of integration components and libraries for sharing navigation experience across platform. Learn what Navigate is all about on [our homepage](/) or [in the tutorial](/tutorial/tutorial.html).

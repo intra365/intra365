@@ -17,7 +17,8 @@ import {colors, media, sharedStyles} from 'theme';
 import loadScript from 'utils/loadScript';
 import createCanonicalUrl from 'utils/createCanonicalUrl';
 import {babelURL} from 'site-constants';
-import logoWhiteSvg from 'icons/logo-white.svg';
+import logoWhiteSvg from 'icons/Logo square white - transparent background.png'
+
 
 class Home extends Component {
   state = {
@@ -50,7 +51,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="Intra365 &ndash; Managing navigation in your Digital Workplace"
+          title="Navigate by jumpto365 &ndash; Managing navigation in your Digital Workplace"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div css={{width: '100%'}}>
@@ -111,7 +112,7 @@ class Home extends Component {
                         fontSize: 60,
                       },
                     }}>
-                    Intra365
+                    jumpto365 Navigate
                   </h1>
                   <p
                     css={{
@@ -133,7 +134,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    Navigation for your MODERN WORKPLACE
+                    Manage Navigation in your Digital Workplace
                   </p>
                   <Flex
                     valign="center"
@@ -193,7 +194,6 @@ class Home extends Component {
                       whiteSpace: 'nowrap',
                     },
                   }}>
-                   
                   {marketing.edges.map(({node: column}, index) => (
                     <div
                       key={index}
@@ -257,7 +257,7 @@ class Home extends Component {
                   borderBottom: `1 solid ${colors.divider}`,
                 }}
               />
-              {/* <section css={sectionStyles}>
+              <section css={sectionStyles}>
                 <div id="examples">
                   {examples.edges.map(({node}, index) => {
                     const snippet = code[node.fileAbsolutePath];
@@ -274,7 +274,7 @@ class Home extends Component {
                     );
                   })}
                 </div>
-              </section> */}
+              </section>
             </div>
           </Container>
 

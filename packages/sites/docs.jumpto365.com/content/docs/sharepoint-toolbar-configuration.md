@@ -1,5 +1,5 @@
 ---
-id: sharepoint-graph-api-consent
+id: sharepoint-toolbar-configuration
 title: SharePoint Global Toolbar API access
 ---
 

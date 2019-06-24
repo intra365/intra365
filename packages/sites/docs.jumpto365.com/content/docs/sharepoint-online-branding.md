@@ -1,18 +1,12 @@
 ---
-title: "SharePoint Online Branding"
-metaTitle: "Configuring SharePoint Online"
-metaDescription: "This is the meta description"
+title: SharePoint Online Branding
+id: sharepoint-online-branding
 ---
-
-# Branding SharePoint Online
-
-SharePoint Online provides very little ability to let you comply to the Corporate Visual Identity of your company.
-
 
 ## Hacks
 
 ### Remove the standard masthead
-Removes the top navigation bar, the page header and the site header of a SharePoint Modern page
+Removes the top navigation bar, the page header and the site sheader of a SharePoint Modern page
 
 ```javascript
 
@@ -33,3 +27,4 @@ if (siteHeader){
         
 ```
 
+done

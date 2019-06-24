@@ -98,65 +98,7 @@ module.exports = {
         trackingId: 'UA-41298772-1',
       },
     },
-    {
-      resolve: 'gatsby-plugin-feed',
-      options: {
-        query: `
-         {
-          site {
-            siteMetadata {
-              title: rssFeedTitle
-              description: rssFeedDescription
-              siteUrl
-              site_url: siteUrl
-            }
-          }
-        }`,
-        feeds: [
-          {
-            serialize: ({query: {site, allMarkdownRemark}}) => {
-              return allMarkdownRemark.edges.map(edge => {
-                return Object.assign(
-                  {},
-                  {
-                    title: edge.node.frontmatter.title,
-                    description: edge.node.html,
-                    date: require('moment')(edge.node.fields.date).format(
-                      'MMMM DD, YYYY, h:mm A',
-                    ),
-                    url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                    guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  },
-                );
-              });
-            },
-            query: `
-              {
-                  allMarkdownRemark
-                  (limit: 10,
-                  filter: {fileAbsolutePath: {regex: "/blog/"}},
-                  sort: {fields: [fields___date],
-                  order: DESC}) {
-                    edges {
-                      node {
-                        fields {
-                          date
-                          slug
-                        }
-                        frontmatter {
-                          title
-                        }
-                        html
-                      }
-                    }
-                  }
-                }
-            `,
-            output: '/feed.xml',
-          },
-        ],
-      },
-    },
+    
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
   ],

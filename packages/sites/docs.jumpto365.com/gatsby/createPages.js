@@ -67,8 +67,10 @@ module.exports = async ({graphql, actions}) => {
       let template;
       if (slug.includes('blog/')) {
         template = blogTemplate;
+        return
       } else if (slug.includes('community/')) {
         template = communityTemplate;
+        return
       } else if (
         slug.includes('contributing/') ||
         slug.includes('docs/') ||
@@ -124,34 +126,6 @@ module.exports = async ({graphql, actions}) => {
     }
   });
 
-  const newestBlogEntry = await graphql(
-    `
-      {
-        allMarkdownRemark(
-          limit: 1
-          filter: {fileAbsolutePath: {regex: "/blog/"}}
-          sort: {fields: [fields___date], order: DESC}
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-            }
-          }
-        }
-      }
-    `,
-  );
-
-  const newestBlogNode = newestBlogEntry.data.allMarkdownRemark.edges[0].node;
-
-  // Blog landing page should always show the most recent blog entry.
-  ['/blog/', '/blog'].map(slug => {
-    createRedirect({
-      fromPath: slug,
-      redirectInBrowser: true,
-      toPath: newestBlogNode.fields.slug,
-    });
-  });
+ 
+  
 };

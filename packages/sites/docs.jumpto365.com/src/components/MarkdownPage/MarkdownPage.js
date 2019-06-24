@@ -107,7 +107,7 @@ const MarkdownPage = ({
                   css={[sharedStyles.markdown]}
                   dangerouslySetInnerHTML={{__html: markdownRemark.html}}
                 />
-{/* 
+
                 {markdownRemark.fields.path && (
                   <div css={{marginTop: 80}}>
                     <a
@@ -118,7 +118,7 @@ const MarkdownPage = ({
                       Edit this page
                     </a>
                   </div>
-                )} */}
+                )}
               </div>
             </Flex>
 

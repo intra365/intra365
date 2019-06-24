@@ -1,8 +1,8 @@
----
-id: app-catalogue
+
+id: sharepoint-app-catalogue
 title: Manage the App in SharePoint
 audience: SharePoint Admin
-permalink: docs/app-catalogue.html
+
 ---
 
 This guide walks you through installing an extention in SharePoint Online.
