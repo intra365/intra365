@@ -7,10 +7,11 @@
 'use strict';
 
 module.exports = {
+  pathPrefix: `/navigate`,
   siteMetadata: {
-    title: 'React: A JavaScript library for building user interfaces',
-    siteUrl: 'https://reactjs.org',
-    rssFeedTitle: 'React',
+    title: 'jumpto365>Navigate',
+    siteUrl: 'https://docs.jumpto365.com/navigate',
+    rssFeedTitle: 'Navigate',
     rssFeedDescription: 'A JavaScript library for building user interfaces',
   },
   mapping: {

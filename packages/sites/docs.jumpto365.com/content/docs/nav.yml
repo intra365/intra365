@@ -46,7 +46,7 @@
             href: /docs/app-catalogue.html#site-install
             forceInternal: true
 
-- title: Build & Send to
+- title: Build & Publish
   id: navigation-studio
   items:
     - id: build
@@ -54,7 +54,7 @@
       href: /docs/navigation-studio.html#build
       forceInternal: true      
     - id: publish
-      title: Send To
+      title: Publish
       href: /docs/navigation-studio.html#publish
       forceInternal: true    
 - title: Main Concepts
@@ -152,15 +152,7 @@
         title: Perf 
       - id: sharepoint-toolbar-configuration
         title: Auditing 
-    - title: API Reference
-      subitems:
-        - id: react-api
-          title: React
-          subitems:
-            - id: react-component
-              title: React.Component    
-        - id: glossary
-          title: Glossary
+   
 
 
 # - title: FAQ

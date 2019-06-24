@@ -2,7 +2,6 @@
 id: navigation-providers
 title: "Navigation Providers"
 permalink: docs/navigation-providers.html
-
 ---
 
 

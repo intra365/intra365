@@ -74,50 +74,39 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
           </FooterNav>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
             <MetaTitle onDark={true}>Channels</MetaTitle>
-            <ExternalFooterLink
+            {/* <ExternalFooterLink
               href="https://github.com/facebook/react"
               target="_blank"
               rel="noopener">
               GitHub
-            </ExternalFooterLink>
+            </ExternalFooterLink> */}
             <ExternalFooterLink
-              href="https://stackoverflow.com/questions/tagged/reactjs"
+              href="https://jumpto365.zendesk.com/hc/en-us"
               target="_blank"
               rel="noopener">
-              Stack Overflow
+             Help &  Support
             </ExternalFooterLink>
-            <ExternalFooterLink
+            {/* <ExternalFooterLink
               href="https://discuss.reactjs.org"
               target="_blank"
               rel="noopener">
               Discussion Forum
-            </ExternalFooterLink>
+            </ExternalFooterLink> */}
+
             <ExternalFooterLink
-              href="https://discord.gg/0ZcbPKXt5bZjGY5n"
-              target="_blank"
-              rel="noopener">
-              Reactiflux Chat
-            </ExternalFooterLink>
-            <ExternalFooterLink
-              href="https://dev.to/t/react"
-              target="_blank"
-              rel="noopener">
-              DEV Community
-            </ExternalFooterLink>
-            <ExternalFooterLink
-              href="https://www.facebook.com/react"
+              href="https://www.facebook.com/jumpto365"
               target="_blank"
               rel="noopener">
               Facebook
             </ExternalFooterLink>
             <ExternalFooterLink
-              href="https://twitter.com/reactjs"
+              href="https://twitter.com/jumpto365"
               target="_blank"
               rel="noopener">
               Twitter
             </ExternalFooterLink>
           </FooterNav>
-          <FooterNav layoutHasSidebar={layoutHasSidebar}>
+          {/* <FooterNav layoutHasSidebar={layoutHasSidebar}>
             <MetaTitle onDark={true}>Community</MetaTitle>
             {sectionListCommunity.map(section => (
               <FooterLink
@@ -126,19 +115,21 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
                 {section.title}
               </FooterLink>
             ))}
-          </FooterNav>
+          </FooterNav> */}
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
             <MetaTitle onDark={true}>More</MetaTitle>
             <FooterLink to="/tutorial/tutorial.html">Tutorial</FooterLink>
-            <FooterLink to="/blog/">Blog</FooterLink>
+            {/* <FooterLink to="/blog/">Blog</FooterLink>
             <FooterLink to="/acknowledgements.html">
               Acknowledgements
-            </FooterLink>
+            </FooterLink> */}
+
+            
             <ExternalFooterLink
-              href="https://facebook.github.io/react-native/"
+              href="https://medium.com/jumpto365"
               target="_blank"
               rel="noopener">
-              React Native
+              Blog
             </ExternalFooterLink>
           </FooterNav>
         </div>
@@ -162,11 +153,11 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
             },
           }}>
           <a
-            href="https://code.facebook.com/projects/"
+            href="https://jumpto365.com/en"
             target="_blank"
             rel="noopener">
             <img
-              alt="Facebook Open Source"
+              alt="jumpto365"
               css={{
                 maxWidth: 160,
                 height: 'auto',
@@ -179,7 +170,7 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
               color: colors.subtleOnDark,
               paddingTop: 15,
             }}>
-            {`Copyright © ${new Date().getFullYear()} Facebook Inc.`}
+            {`Copyright © ${new Date().getFullYear()} jumpto365 Inc.`}
           </p>
         </section>
       </div>
