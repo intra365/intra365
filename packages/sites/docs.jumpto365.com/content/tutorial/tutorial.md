@@ -11,8 +11,11 @@ redirect_from:
   - "docs/tutorial-ko-KR.html"
   - "docs/tutorial-zh-CN.html"
 ---
+> ** EXAMPLE **
+> This page is kept for inspiration
 
-This tutorial doesn't assume any existing React knowledge.
+
+
 
 ## Before We Start the Tutorial {#before-we-start-the-tutorial}
 

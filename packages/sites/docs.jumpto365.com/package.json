@@ -90,7 +90,7 @@
     "prettier": "yarn format:source && yarn format:examples",
     "prettier:diff": "yarn nit:source && yarn nit:examples",
     "reset": "rimraf ./.cache",
-    "deploy": "gh-pages -b master -d public -r https://github.com/pto365/navigate"
+    "deploy": "gatsby build --prefix-paths && gh-pages -b master -d public -r https://github.com/pto365/navigate"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
