@@ -146,7 +146,7 @@ export default class ChargeBeePage extends React.PureComponent {
     this.messageRef = React.createRef();
   }
   state = { sku: "" };
-  init = { editors: "250", length: "Month", stage: OnboardingStages.Start };
+  init = { editors: "250", length: "Monthly", stage: OnboardingStages.Start };
 
   get $subscriptionId() {
     return this.props.subscriptionId;
@@ -195,9 +195,9 @@ export default class ChargeBeePage extends React.PureComponent {
   };
   recalc = (editors, length) => {
     var priceList = {
-      ProMonth250: {
+      ProMonthly: {
         lengthTxt: "1 month",
-        priceTxt: "$149",
+        priceTxt: "$99",
         priceLeftMargin: "20px"
       },
       ProMonth1000: { lengthTxt: "1 month", priceTxt: "   $299" },
@@ -205,19 +205,20 @@ export default class ChargeBeePage extends React.PureComponent {
       ProMonth20000: { lengthTxt: "1 month", priceTxt: "   $749" },
       ProMonth20000Plus: { lengthTxt: "1 month", priceTxt: "   $999" },
 
-      ProAnnual250: { lengthTxt: "1 year", priceTxt: " $1,499" },
+      ProAnnual: { lengthTxt: "1 year", priceTxt: " $999" },
       ProAnnual1000: { lengthTxt: "1 year", priceTxt: " $2,999" },
       ProAnnual5000: { lengthTxt: "1 year", priceTxt: " $4,999" },
       ProAnnual20000: { lengthTxt: "1 year", priceTxt: " $7,499" },
       ProAnnual20000Plus: { lengthTxt: "1 year", priceTxt: " $9,999" }
     };
 
-    var sku = "Pro" + length + editors;
+    var sku = "Pro" + length //+ editors;
+    
     var price = priceList[sku]
       ? priceList[sku]
       : { lengthTxt: "n.a.", priceText: "n.a." };
 
-    this.setState({ ...price, sku, trialSKU: sku + "trial" });
+    this.setState({ ...price, sku: sku + "NoTrial", trialSKU: sku + "WithTrial" });
   };
   _onChangeEditors = (e, value) => {
     this.setState({ editors: value.key });
@@ -333,12 +334,12 @@ export default class ChargeBeePage extends React.PureComponent {
                       </a>`;
   };
 
-  checkOutTrialCode = sku => {
+  checkOutTrialCode = skuTrial => {
     return `<div><div>
   <a 
                         href="javascript:void(0)"
                         data-cb-type="checkout"
-                        data-cb-plan-id="${sku}Trial"
+                        data-cb-plan-id="${skuTrial}"
                       >
                         <div class="actionButton Try"> Free trial</div>
                       </a></div><div class="nopayment">(No payment info required for trial)</div></div>`;
@@ -609,7 +610,7 @@ export default class ChargeBeePage extends React.PureComponent {
                             <div
                               style={{ flexGrow: 1 }}
                               className="configContainer"
-                            >
+                            >{/* 
                               <div className="configHeader">
                                 Number of employees in your organization
                               </div>
@@ -642,7 +643,7 @@ export default class ChargeBeePage extends React.PureComponent {
                                   onChange={this._onChangeEditors}
                                   required={true}
                                 />
-                              </div>
+                              </div> */}
                               <div className="configHeader">
                                 Billing schedule
                               </div>
@@ -652,7 +653,7 @@ export default class ChargeBeePage extends React.PureComponent {
                                   selectedKey={this.state.length}
                                   options={[
                                     {
-                                      key: "Month",
+                                      key: "Monthly",
                                       text: "Billed monthly"
                                     },
                                     {
@@ -697,7 +698,7 @@ export default class ChargeBeePage extends React.PureComponent {
                                       <div
                                         dangerouslySetInnerHTML={{
                                           __html: this.checkOutTrialCode(
-                                            this.state.sku
+                                            this.state.trialSKU
                                           )
                                         }}
                                       />
