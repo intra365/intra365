@@ -1,0 +1,209 @@
+
+- title: Signup & Install
+  items:
+    - id: getting-started
+      title: Sign up for a trial
+    - id: sharepoint-app-catalogue
+      title: Install SharePoint Extentions
+      href: /docs/sharepoint-app-catalogue.html
+      forceInternal: true
+      subitems:
+          - id: adm-center
+            title: SharePoint Admin Center
+            href: /docs/sharepoint-app-catalogue.html#adm-center
+            forceInternal: true
+          - id: app-catalog
+            title: Deploy to app catalogue
+            href: /docs/sharepoint-app-catalogue.html#app-catalog
+            forceInternal: true
+          - id: deployment-status
+            title: Check deployment status
+            href: /docs/sharepoint-app-catalogue.html#deployment-status
+            forceInternal: true
+          - id: site-install
+            title: Install in a specific site collection 
+            href: /docs/sharepoint-app-catalogue.html#site-install
+            forceInternal: true
+    # - id: web-components
+    #   title: SharePoint Page Navigation Webpart  
+    #   forceInternal: true
+    #   href: /docs/web-components.html
+    #   subitems:
+    #       - id: web-part-adm-center
+    #         title: SharePoint Admin Center
+    #         href: /docs/app-catalogue.html#adm-center
+    #         forceInternal: true
+    #       - id: web-part-app-catalog
+    #         title: Deploy to app catalogue
+    #         href: /docs/app-catalogue.html#app-catalog
+    #         forceInternal: true
+    #       - id: web-part-deployment-status
+    #         title: Check deployment status
+    #         href: /docs/app-catalogue.html#deployment-status
+    #         forceInternal: true
+    #       - id: web-part-site-install
+    #         title: Install in a specific site collection 
+    #         href: /docs/app-catalogue.html#site-install
+    #         forceInternal: true
+
+- title: Build & Distribute
+  id: navigation-studio
+  items:
+    - id: navigation-pads
+      title: Launch Pads
+      href: /docs/navigation-pads.html
+      forceInternal: true      
+      subitems:  
+        - id: tableof
+          title: Periodic Table of
+          href: /docs/navigation-pads.html#tableof
+          forceInternal: true      
+        - id: svg
+          title: SVG
+          href: /docs/navigation-pads.html#svg
+          forceInternal: true      
+    - id: navigation-elements
+      title: Navigation Elements
+      href: /docs/navigation-elements.html
+      forceInternal: true      
+      subitems:  
+        - id: flyout
+          title: Flyout
+          href: /docs/navigation-elements.html#flyout
+          forceInternal: true      
+        - id: mega
+          title: Mega menu
+          href: /docs/navigation-elements.html#mega
+          forceInternal: true      
+        - id: iframe
+          title: Embedded Page
+          href: /docs/navigation-elements.html#iframe
+          forceInternal: true                
+    - id: navigation-studio
+      title: Distribute
+      href: /docs/navigation-studio.html
+      forceInternal: true    
+      subitems:  
+        - id: build
+          title: Build
+          href: /docs/navigation-studio.html#build
+          forceInternal: true      
+        - id: publish
+          title: Publish
+          href: /docs/navigation-studio.html#publish
+          forceInternal: true      
+- title: Main Concepts
+  items:
+    - id: navigation-scopes
+      title: Navigation Scopes
+      forceInternal: true
+      href: /docs/navigation-scopes.html
+      subitems:
+        - id: universal
+          title: Universal      
+          href: /docs/navigation-scopes.html#universal
+          forceInternal: true
+        - id: global
+          title: Global
+          href: /docs/navigation-scopes.html#global
+          forceInternal: true
+        - id: local
+          title: Local
+          href: /docs/navigation-scopes.html#local
+          forceInternal: true 
+        - id: item
+          title: Item
+          href: /docs/navigation-scopes.html#item
+          forceInternal: true 
+    - id: navigation-providers
+      title: Navigation Providers
+      forceInternal: true
+      subitems:
+        - id: anonymous
+          title: Anonymous 
+          href: /docs/navigation-providers.html#anonymous
+          forceInternal: true
+        - id: trimmed
+          title: Security Trimmed 
+          href: /docs/navigation-providers.html#trimmed
+          forceInternal: true
+        - id: personal
+          title: Personal
+          href: /docs/navigation-providers.html#personal
+          forceInternal: true          
+    - id: navigation-hosts
+      title: Hosts
+      subitems:
+        - id: sharepoint
+          title: SharePoint
+          href: /docs/navigation-hosts.html#sharepoint
+          forceInternal: true      
+        - id: teams
+          title: Microsoft Teams 
+          href: /docs/navigation-hosts.html#teams
+          forceInternal: true      
+        - id: office
+          title: Office
+          href: /docs/navigation-hosts.html#office
+          forceInternal: true      
+        - id: windows
+          title: Windows Desktop
+          href: /docs/navigation-hosts.html#windows
+          forceInternal: true      
+        - id: mac
+          title: Mac Desktop
+          href: /docs/navigation-hosts.html#mac
+          forceInternal: true      
+        - id: ios
+          title: iOS device
+          href: /docs/navigation-hosts.html#ios
+          forceInternal: true      
+        - id: android
+          title: Android device
+          href: /docs/navigation-hosts.html#android
+          forceInternal: true      
+        - id: web
+          title: Generic Web 
+          href: /docs/navigation-hosts.html#web
+          forceInternal: true      
+
+    
+- title: Receipts
+  items:
+    - id: sharepoint-singlepage-site
+      title: SharePoint One Pager
+      href: /docs/sharepoint-singlepage-site.html
+      # subitems:
+      # - id: sharepoint-toolbar-configuration
+      #   title: Managing Consents
+      #   href: /docs/sharepoint-toolbar-configuration.html
+      # - id: sharepoint-toolbar-configuration
+      #   title: Perf 
+      # - id: sharepoint-toolbar-configuration
+      #   title: Auditing 
+   
+- title: Administration
+  items:
+    - id: sharepoint-toolbar-configuration
+      title: Managing Consents
+      href: /docs/sharepoint-toolbar-configuration.html
+   
+
+# - title: FAQ
+#   items:
+#     - id: faq-ajax
+#       title: AJAX and APIs
+#     - id: faq-build
+#       title: Babel, JSX, and Build Steps
+#     - id: faq-functions
+#       title: Passing Functions to Components
+#     - id: faq-state
+#       title: Component State
+#     - id: faq-styling
+#       title: Styling and CSS
+#     - id: faq-structure
+#       title: File Structure
+#     - id: faq-versioning
+#       title: Versioning Policy
+#     - id: faq-internals
+#       title: Virtual DOM and Internals

@@ -2,9 +2,11 @@
   "packages": [
     "packages/*",
     "packages/api/*",
-    "packages/components/*"
-  
+    "packages/components/*",
+    "packages/sites/*"
     
   ],
+  "npmClient": "yarn",
+  "useWorkspaces": false,
   "version": "0.0.0"
 }
