@@ -1,6 +1,6 @@
 ---
 id: sharepoint-singlepagesite
-title: "Receipt: Branded SharePoint Single Page site"
+title: "Receipt: SharePoint One Pager"
 
 ---
 

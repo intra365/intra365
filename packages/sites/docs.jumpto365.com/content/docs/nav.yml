@@ -46,17 +46,52 @@
     #         href: /docs/app-catalogue.html#site-install
     #         forceInternal: true
 
-- title: Build & Publish
+- title: Build & Distribute
   id: navigation-studio
   items:
-    - id: build
-      title: Build
-      href: /docs/navigation-studio.html#build
+    - id: navigation-pads
+      title: Launch Pads
+      href: /docs/navigation-pads.html
       forceInternal: true      
-    - id: publish
-      title: Publish
-      href: /docs/navigation-studio.html#publish
+      subitems:  
+        - id: tableof
+          title: Periodic Table of
+          href: /docs/navigation-pads.html#tableof
+          forceInternal: true      
+        - id: svg
+          title: SVG
+          href: /docs/navigation-pads.html#svg
+          forceInternal: true      
+    - id: navigation-elements
+      title: Navigation Elements
+      href: /docs/navigation-elements.html
+      forceInternal: true      
+      subitems:  
+        - id: flyout
+          title: Flyout
+          href: /docs/navigation-elements.html#flyout
+          forceInternal: true      
+        - id: mega
+          title: Mega menu
+          href: /docs/navigation-elements.html#mega
+          forceInternal: true      
+        - id: iframe
+          title: Embedded Page
+          href: /docs/navigation-elements.html#iframe
+          forceInternal: true                
+    - id: navigation-studio
+      title: Distribute
+      href: /docs/navigation-studio.html
       forceInternal: true    
+      subitems:  
+        - id: build
+          title: Build
+          href: /docs/navigation-studio.html#build
+          forceInternal: true      
+        - id: publish
+          title: Publish
+          href: /docs/navigation-studio.html#publish
+          forceInternal: true      
 - title: Main Concepts
   items:
     - id: navigation-scopes
@@ -136,20 +171,23 @@
 - title: Receipts
   items:
     - id: sharepoint-singlepage-site
-      title: SharePoint Single Page site
+      title: SharePoint One Pager
       href: /docs/sharepoint-singlepage-site.html
-    - id: accesscontrol
-      title: Access Control
-      subitems:
-      - id: sharepoint-toolbar-configuration
-        title: Managing Consents
-        href: /docs/sharepoint-toolbar-configuration.html
-      - id: sharepoint-toolbar-configuration
-        title: Perf 
-      - id: sharepoint-toolbar-configuration
-        title: Auditing 
+      # subitems:
+      # - id: sharepoint-toolbar-configuration
+      #   title: Managing Consents
+      #   href: /docs/sharepoint-toolbar-configuration.html
+      # - id: sharepoint-toolbar-configuration
+      #   title: Perf 
+      # - id: sharepoint-toolbar-configuration
+      #   title: Auditing 
    
-
+- title: Administration
+  items:
+    - id: sharepoint-toolbar-configuration
+      title: Managing Consents
+      href: /docs/sharepoint-toolbar-configuration.html
+   
 
 # - title: FAQ
 #   items:

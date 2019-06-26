@@ -9,7 +9,7 @@ import "react-app-polyfill/ie11"; // For IE 9-11 support
 import "office-ui-fabric-react/dist/css/fabric.min.css";
 import { initializeIcons } from "office-ui-fabric-react/lib/Icons";
 import ReactJson from "react-json-view";
-import "@intranets/css/toolbar.css";
+
 import { runInThisContext } from "vm";
 import _ from "lodash";
 export * from "./Developer"

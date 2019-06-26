@@ -2,8 +2,8 @@
   "packages": [
     "packages/*",
     "packages/api/*",
-    "packages/components/*",
-    "packages/sites/*"
+    "packages/components/*"
+  
     
   ],
   "version": "0.0.0"
