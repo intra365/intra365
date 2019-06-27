@@ -1,7 +1,7 @@
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2018-present, jumpto365, Inc.
  *
- * @emails react-core
+ * @emails jumpto365
  * @flow
  */
 
@@ -13,125 +13,137 @@ import {colors, fonts, media} from 'theme';
 import {version} from 'site-constants';
 import ExternalLinkSvg from 'templates/components/ExternalLinkSvg';
 import DocSearch from './DocSearch';
+import {readSharePointConfig} from '@intra365/config';
+import {newItem, getProperty, getTree} from '@intra365/navigation-components';
+import tree from "./navigation.json"
+//import { FluentCustomizations } from "@uifabric/fluent-theme";
+import {
+  Customizer,
+  CommandBar,
+  ContextualMenu,
+  GroupedList,
+  findElementRecursive,
+} from 'office-ui-fabric-react';
 
-import logoSvg from 'icons/Logo square white - transparent background.png'
+import logoSvg from 'icons/Logo square white - transparent background.png';
 
+const Header = ({location}: {location: Location}) => {
 
-const Header = ({location}: {location: Location}) => (
-  <header
-    css={{
-      backgroundColor: colors.darker,
-      color: colors.white,
-      position: 'fixed',
-      zIndex: 1,
-      width: '100%',
-      top: 0,
-      left: 0,
-    }}>
-    <Container>
-      <div
-        css={{
-          display: 'flex',
-          flexDirection: 'row',
-          alignItems: 'center',
-          height: 60,
-          [media.between('small', 'large')]: {
-            height: 50,
-          },
-          [media.lessThan('small')]: {
-            height: 40,
-          },
-        }}>
-        <Link
+  return (
+    <header
+      css={{
+        backgroundColor: colors.darker,
+        color: colors.white,
+        position: 'fixed',
+        zIndex: 1,
+        width: '100%',
+        top: 0,
+        left: 0,
+      }}>
+      <Container>
+        <div
           css={{
-            display: 'flex',
-            marginRight: 10,
-            height: '100%',
-            alignItems: 'center',
-            color: colors.brand,
-
-            ':focus': {
-              outline: 0,
-              color: colors.white,
-            },
-
-            [media.greaterThan('small')]: {
-              width: 'calc(100% / 6)',
-            },
-            [media.lessThan('small')]: {
-              flex: '0 0 auto',
-            },
-          }}
-          to="/">
-          <img src={logoSvg} alt="" height="20" style={{marginTop:"6px"}}  />
-          <span
-            css={{
-              color: 'inherit',
-              marginLeft: 10,
-              fontWeight: 700,
-              fontSize: 20,
-              lineHeight: '20px',
-              [media.lessThan('large')]: {
-                fontSize: 16,
-                marginTop: 1,
-              },
-              [media.lessThan('small')]: {
-                // Visually hidden
-                position: 'absolute',
-                overflow: 'hidden',
-                clip: 'rect(0 0 0 0)',
-                height: 1,
-                width: 1,
-                margin: -1,
-                padding: 0,
-                border: 0,
-              },
-            }}>
-            Navigate
-          </span>
-        </Link>
-
-        <nav
-          css={{
-            flex: '1',
             display: 'flex',
             flexDirection: 'row',
-            alignItems: 'stretch',
-            overflowX: 'auto',
-            overflowY: 'hidden',
-            WebkitOverflowScrolling: 'touch',
-            height: '100%',
-
-            // Hide horizontal scrollbar
-            scrollbarWidth: 'none',
-            msOverflowStyle: 'none',
-            '::-webkit-scrollbar': {
-              display: 'none',
-            },
-
-            [media.size('xsmall')]: {
-              flexGrow: '1',
-              width: 'auto',
-            },
-            [media.greaterThan('xlarge')]: {
-              width: null,
+            alignItems: 'center',
+            height: 60,
+            [media.between('small', 'large')]: {
+              height: 50,
             },
             [media.lessThan('small')]: {
-              maskImage:
-                'linear-gradient(to right, transparent, black 20px, black 90%, transparent)',
+              height: 40,
             },
           }}>
-          <HeaderLink
-            isActive={location.pathname.includes('/docs/')}
-            title="Docs"
-            to="/docs/getting-started.html"
-          />
-          <HeaderLink
-            isActive={location.pathname.includes('/tutorial/')}
-            title="Tutorial"
-            to="/tutorial/tutorial.html"
-          />
-          {/* <HeaderLink
+          <Link
+            css={{
+              display: 'flex',
+              marginRight: 10,
+              height: '100%',
+              alignItems: 'center',
+              color: colors.brand,
+
+              ':focus': {
+                outline: 0,
+                color: colors.white,
+              },
+
+              [media.greaterThan('small')]: {
+                width: 'calc(100% / 6)',
+              },
+              [media.lessThan('small')]: {
+                flex: '0 0 auto',
+              },
+            }}
+            to="/">
+            <img src={logoSvg} alt="" height="20" style={{marginTop: '6px'}} />
+            <span
+              css={{
+                color: 'inherit',
+                marginLeft: 10,
+                fontWeight: 700,
+                fontSize: 20,
+                lineHeight: '20px',
+                [media.lessThan('large')]: {
+                  fontSize: 16,
+                  marginTop: 1,
+                },
+                [media.lessThan('small')]: {
+                  // Visually hidden
+                  position: 'absolute',
+                  overflow: 'hidden',
+                  clip: 'rect(0 0 0 0)',
+                  height: 1,
+                  width: 1,
+                  margin: -1,
+                  padding: 0,
+                  border: 0,
+                },
+              }}>
+              Tables
+            </span>
+          </Link>
+
+          <nav
+            css={{
+              flex: '1',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'stretch',
+              overflowX: 'auto',
+              overflowY: 'hidden',
+              WebkitOverflowScrolling: 'touch',
+              height: '100%',
+
+              // Hide horizontal scrollbar
+              scrollbarWidth: 'none',
+              msOverflowStyle: 'none',
+              '::-webkit-scrollbar': {
+                display: 'none',
+              },
+
+              [media.size('xsmall')]: {
+                flexGrow: '1',
+                width: 'auto',
+              },
+              [media.greaterThan('xlarge')]: {
+                width: null,
+              },
+              [media.lessThan('small')]: {
+                maskImage:
+                  'linear-gradient(to right, transparent, black 20px, black 90%, transparent)',
+              },
+            }}>
+            <HeaderLink
+              isActive={location.pathname.includes('/docs/')}
+              title="Docs"
+              to="/docs/getting-started.html"
+            />
+            <HeaderLink
+              isActive={location.pathname.includes('/tutorial/')}
+              title="Tutorial"
+              to="/tutorial/tutorial.html"
+            />
+            {/* <HeaderLink
             isActive={location.pathname.includes('/blog')}
             title="Blog"
             to="/blog/"
@@ -141,25 +153,25 @@ const Header = ({location}: {location: Location}) => (
             title="Community"
             to="/community/support.html"
           /> */}
-        </nav>
+          </nav>
 
-        {/* <DocSearch /> */}
+          {/* <DocSearch /> */}
 
-        <div
-          css={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'flex-end',
-            width: 'auto',
+          <div
+            css={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'flex-end',
+              width: 'auto',
 
-            //[media.lessThan('medium')]: {
-            //width: 'auto',
-            //},
-            //[media.greaterThan('large')]: {
-            //width: 'calc(100% / 4)',
-            //},
-          }}>
-          {/* <Link
+              //[media.lessThan('medium')]: {
+              //width: 'auto',
+              //},
+              //[media.greaterThan('large')]: {
+              //width: 'calc(100% / 4)',
+              //},
+            }}>
+            {/* <Link
             css={{
               padding: '5px 10px',
               whiteSpace: 'nowrap',
@@ -182,7 +194,7 @@ const Header = ({location}: {location: Location}) => (
             to="/versions">
             v{version}
           </Link> */}
-          {/* <Link
+            {/* <Link
             css={{
               display: 'flex',
               alignItems: 'center',
@@ -213,77 +225,80 @@ const Header = ({location}: {location: Location}) => (
               Languages
             </span>
           </Link> */}
-           <a
-            css={{
-              padding: '5px 10px',
-              marginLeft: 10,
-              whiteSpace: 'nowrap',
-              ...fonts.small,
+            <a
+              css={{
+                padding: '5px 10px',
+                marginLeft: 10,
+                whiteSpace: 'nowrap',
+                ...fonts.small,
 
-              ':hover': {
-                color: colors.brand,
-              },
+                ':hover': {
+                  color: colors.brand,
+                },
 
-              ':focus': {
-                outline: 0,
-                backgroundColor: colors.lighter,
-                borderRadius: 15,
-              },
+                ':focus': {
+                  outline: 0,
+                  backgroundColor: colors.lighter,
+                  borderRadius: 15,
+                },
 
-              [media.lessThan('large')]: {
-                display: 'none',
-              },
-            }}
-            href="https://medium.com/jumpto365"
-            target="_blank"
-            rel="noopener">
-            Blog
-            <ExternalLinkSvg
-              cssProps={{
-                marginLeft: 5,
-                verticalAlign: -2,
-                color: colors.subtle,
+                [media.lessThan('large')]: {
+                  display: 'none',
+                },
               }}
-            />
-          </a>
-          <a
-            css={{
-              padding: '5px 10px',
-              marginLeft: 10,
-              whiteSpace: 'nowrap',
-              ...fonts.small,
+              href="https://medium.com/jumpto365"
+              target="_blank"
+              rel="noopener">
+              Blog
+              <ExternalLinkSvg
+                cssProps={{
+                  marginLeft: 5,
+                  verticalAlign: -2,
+                  color: colors.subtle,
+                }}
+              />
+            </a>
+            <a
+              css={{
+                padding: '5px 10px',
+                marginLeft: 10,
+                whiteSpace: 'nowrap',
+                ...fonts.small,
 
-              ':hover': {
-                color: colors.brand,
-              },
+                ':hover': {
+                  color: colors.brand,
+                },
 
-              ':focus': {
-                outline: 0,
-                backgroundColor: colors.lighter,
-                borderRadius: 15,
-              },
+                ':focus': {
+                  outline: 0,
+                  backgroundColor: colors.lighter,
+                  borderRadius: 15,
+                },
 
-              [media.lessThan('large')]: {
-                display: 'none',
-              },
-            }}
-            href="https://pro.jumpto365.com/"
-            target="_blank"
-            rel="noopener">
-            Control Center
-            <ExternalLinkSvg
-              cssProps={{
-                marginLeft: 5,
-                verticalAlign: -2,
-                color: colors.subtle,
+                [media.lessThan('large')]: {
+                  display: 'none',
+                },
               }}
-            />
-          </a>
-        </div>
-      </div>
-    </Container>
-  </header>
-);
+              href="https://pro.jumpto365.com/"
+              target="_blank"
+              rel="noopener">
+              Control Center
+              <ExternalLinkSvg
+                cssProps={{
+                  marginLeft: 5,
+                  verticalAlign: -2,
+                  color: colors.subtle,
+                }}
+              />
+            </a>
+          </div>
+        </div> 
+      </Container>
+      <CommandBar items={[{key:"1",name:"Hello"}]} />
+
+    </header>
+  );
+};
 
 const LanguagesIcon = () => (
   <svg

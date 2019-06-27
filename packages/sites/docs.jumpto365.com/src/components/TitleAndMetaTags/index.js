@@ -1,7 +1,7 @@
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2018-present, jumpto365, Inc.
  *
- * @emails react-core
+ * @emails jumpto365
  */
 
 import TitleAndMetaTags from './TitleAndMetaTags';

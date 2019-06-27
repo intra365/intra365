@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2018-present, jumpto365, Inc.
  *
  * @providesModule theme
  * @flow

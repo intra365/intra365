@@ -1,13 +1,20 @@
 {
-  "name": "react-website",
+  "name": "@intra365/app-jumpto365-com",
   "description": "React website",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "private": true,
   "homepage": "https://reactjs.org/",
   "bugs": {
     "url": "https://github.com/reactjs/reactjs.org"
   },
   "dependencies": {
+    "@intra365/navigation-components":"1.0.2",
+    "@intra365/models":"1.0.0",
+    "@intra365/navigation": "^1.0.0",
+    "@intra365/config": "^1.0.0",
+    "@uifabric/fluent-theme":"^7.0.2",
+    "office-ui-fabric-core": "^10.1.0",
+    "office-ui-fabric-react": "^7.5.2",
     "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
     "eslint-config-fbjs": "^2.0.0",

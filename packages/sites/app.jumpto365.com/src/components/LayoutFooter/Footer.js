@@ -1,7 +1,7 @@
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2018-present, jumpto365, Inc.
  *
- * @emails react-core
+ * @emails jumpto365
  * @flow
  */
 
@@ -15,7 +15,7 @@ import {colors, media} from 'theme';
 import {sectionListCommunity, sectionListDocs} from 'utils/sectionList';
 
 import ossLogoPng from 'images/oss_logo.png';
-
+const packageData = require("../../../package.json")
 const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
   <footer
     css={{
@@ -55,23 +55,11 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
               width: '100%',
             },
             [media.greaterThan('xlarge')]: {
-              width: 'calc(100% / 3 * 2)',
+              width: 'calc(100% /  2)',
               paddingLeft: 40,
             },
           }}>
-          <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>Docs</MetaTitle>
-            {sectionListDocs.map(section => {
-              const defaultItem = section.items[0];
-              return (
-                <FooterLink
-                  to={`/docs/${defaultItem.id}.html`}
-                  key={section.title}>
-                  {section.title}
-                </FooterLink>
-              );
-            })}
-          </FooterNav>
+
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
             <MetaTitle onDark={true}>Channels</MetaTitle>
             {/* <ExternalFooterLink
@@ -116,22 +104,7 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
               </FooterLink>
             ))}
           </FooterNav> */}
-          <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>More</MetaTitle>
-            <FooterLink to="/tutorial/tutorial.html">Tutorial</FooterLink>
-            {/* <FooterLink to="/blog/">Blog</FooterLink>
-            <FooterLink to="/acknowledgements.html">
-              Acknowledgements
-            </FooterLink> */}
-
-            
-            <ExternalFooterLink
-              href="https://medium.com/jumpto365"
-              target="_blank"
-              rel="noopener">
-              Blog
-            </ExternalFooterLink>
-          </FooterNav>
+   
         </div>
         <section
           css={{
@@ -139,12 +112,12 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
             display: 'block !important', // Override 'Installation' <style> specifics
 
             [media.greaterThan('xlarge')]: {
-              width: 'calc(100% / 3)',
+              width: 'calc(100% /2)',
               order: -1,
             },
             [media.greaterThan('large')]: {
               order: -1,
-              width: layoutHasSidebar ? null : 'calc(100% / 3)',
+              width: layoutHasSidebar ? null : 'calc(100% / 2)',
             },
             [media.lessThan('large')]: {
               textAlign: 'center',
@@ -170,7 +143,8 @@ const Footer = ({layoutHasSidebar = false}: {layoutHasSidebar: boolean}) => (
               color: colors.subtleOnDark,
               paddingTop: 15,
             }}>
-            {`Copyright © ${new Date().getFullYear()} jumpto365 Inc.`}
+            <div>{`Copyright © ${new Date().getFullYear()} jumpto365 Inc.`}</div>
+           <div> Version {packageData.version}</div>
           </p>
         </section>
       </div>

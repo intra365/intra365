@@ -1,7 +1,7 @@
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2018-present, jumpto365, Inc.
  *
- * @emails react-core
+ * @emails jumpto365
  * @flow
  */
 
@@ -20,10 +20,23 @@ type Props = {
 };
 
 class Template extends Component<Props> {
+  constructor(props) {
+    super(props);
+    this.state = {
+      innerHeight: 0,
+    };
+  }
+
+  _load = () => {};
+
+  componentDidMount() {}
+
+  componentWillUnmount() {}
+
   render() {
     const {children, location} = this.props;
 
-    // TODO - is there a better way to check if we need we have a sidebar?
+    // TODO - is there a better way to check if we need we have a sidebar? (-;
     let layoutHasSidebar = false;
     if (
       location.pathname.match(
